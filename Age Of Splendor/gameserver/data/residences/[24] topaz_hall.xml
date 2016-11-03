@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<residence id="24" name="Topaz Hall" impl="ClanHall" grade="30" rental_fee="500000" min_bid="5000000" deposit="500000">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="4" lease="11000"/>
+	<support level="14" lease="110000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<item_create level="1" npcId="35388" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35388" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35388" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="5" lease="3000"/>
+	<restore_exp level="15" lease="9000"/>
+	<restore_exp level="30" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="140" lease="1750"/>
+	<restore_hp level="200" lease="2500"/>
+	<restore_hp level="260" lease="4250"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="-14393 123671 -3144" name="1010024" price="0"/><!--Village Square-->
+		<target loc="-11817 123652 -3079" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="-16796 124108 -3127" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="-14207 126547 -3151" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="-14591 121024 -2990" name="1010025" price="0"/><!--North Gate Entrance-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="-14393 123671 -3144" name="1010024" price="0"/><!--Village Square-->
+		<target loc="-11817 123652 -3079" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="-16796 124108 -3127" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="-14207 126547 -3151" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="-14591 121024 -2990" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="-41248 122848 -2912" name="1010097" price="500"/><!--Ruins of Agony-->
+		<target loc="-19120 136816 -3762" name="1010101" price="500"/><!--Ruins of Despair-->
+		<target loc="-9959 176184 -4160" name="1010566" price="500"/><!--The Ant Nest-->
+		<target loc="-28327 155125 -3496" name="1010102" price="500"/><!--Windawood Manor-->
+	</teleport>
+	<banish_points>
+		<point x="-14192" y="125584" z="-3139"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="-13879" y="125413" z="-3128"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="-14192" y="125584" z="-3139"/>
+	</other_restart_points>
+	<chaos_restart_points>
+	</chaos_restart_points>
+</residence>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<config no_tax="true" type="CHANCED"/>	
+	<item>
+		<production id="4652" count="1"/>	<!-- Синий Кристалл Души - Уровень 1 -->
+		<ingredient id="49416" count="3"/>	<!-- Дух Клинка -->
+		<ingredient id="49417" count="3"/>	<!-- Энергия Духа -->		
+		<ingredient id="57" count="60000"/>	<!-- Адена -->
+	</item>	
+	<item>
+		<production id="4653" count="1"/>	<!-- Синий Кристалл Души - Уровень 2 -->		
+		<ingredient id="4652" count="2"/>	<!-- Синий Кристалл Души - Уровень 1 -->
+	</item>	
+	<item>
+		<production id="4654" count="1"/>	<!-- Синий Кристалл Души - Уровень 3 -->		
+		<ingredient id="4653" count="2"/>	<!-- Синий Кристалл Души - Уровень 2 -->
+	</item>	
+	<item>
+		<production id="4655" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 4 -->
+		<production id="4655" count="1" chance="30"/>	<!-- Синий Кристалл Души - Уровень 4 -->
+		<production id="4654" count="1" chance="60"/>	<!-- Синий Кристалл Души - Уровень 3 -->	
+		<ingredient id="4654" count="2"/>	<!-- Синий Кристалл Души - Уровень 3 -->	
+	</item>
+	<item>
+		<production id="4656" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 5 -->
+		<production id="4656" count="1" chance="30"/>	<!-- Синий Кристалл Души - Уровень 5 -->
+		<production id="4655" count="1" chance="60"/>	<!-- Синий Кристалл Души - Уровень 4 -->	
+		<ingredient id="4655" count="3"/>	<!-- Синий Кристалл Души - Уровень 4 -->
+	</item>
+	<item>
+		<production id="4657" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 6 -->
+		<production id="4657" count="1" chance="25"/>	<!-- Синий Кристалл Души - Уровень 6 -->
+		<production id="4656" count="1" chance="50"/>	<!-- Синий Кристалл Души - Уровень 5 -->	
+		<ingredient id="4656" count="4"/>	<!-- Синий Кристалл Души - Уровень 5 -->
+	</item>	
+	<item>
+		<production id="4658" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 7 -->
+		<production id="4658" count="1" chance="20"/>	<!-- Синий Кристалл Души - Уровень 7 -->
+		<production id="4657" count="1" chance="50"/>	<!-- Синий Кристалл Души - Уровень 6 -->	
+		<ingredient id="4657" count="4"/>	<!-- Синий Кристалл Души - Уровень 6 -->
+	</item>
+	<item>
+		<production id="4659" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 8 -->
+		<production id="4659" count="1" chance="15"/>	<!-- Синий Кристалл Души - Уровень 8 -->
+		<production id="4658" count="1" chance="50"/>	<!-- Синий Кристалл Души - Уровень 7 -->	
+		<ingredient id="4658" count="4"/>	<!-- Синий Кристалл Души - Уровень 7 -->
+	</item>
+	<item>
+		<production id="4660" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 9 -->
+		<production id="4660" count="1" chance="10"/>	<!-- Синий Кристалл Души - Уровень 9 -->
+		<production id="4659" count="1" chance="50"/>	<!-- Синий Кристалл Души - Уровень 8 -->	
+		<ingredient id="4659" count="4"/>	<!-- Синий Кристалл Души - Уровень 8 -->
+	</item>
+	<item>
+		<production id="4661" count="0" chance="0"/>	<!-- Синий Кристалл Души - Уровень 10 -->
+		<production id="4661" count="1" chance="1"/>	<!-- Синий Кристалл Души - Уровень 10 -->
+		<production id="4660" count="1" chance="50"/>	<!-- Синий Кристалл Души - Уровень 9 -->	
+		<ingredient id="4660" count="4"/>	<!-- Синий Кристалл Души - Уровень 9 -->
+	</item>
+</list>

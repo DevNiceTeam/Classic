@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="55051" levels="1" name="Бонус Опыта / SP">		
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.etc_potion_green_i00"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="isSaveable" value="true"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.3"/>
+				<add order="0x40" stat="sp_rate_multiplier" value="0.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="55053" levels="3" name="Бонус Опыта / SP - Средний Уровень">		
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.etc_potion_green_i00"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="isSaveable" value="true"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.4"/>
+				<add order="0x40" stat="sp_rate_multiplier" value="0.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="55061" levels="2" name="Свиток Опыта/SP Замка - Обычный">		
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.etc_potion_green_i00"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="isSaveable" value="true"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.35"/>
+				<add order="0x40" stat="sp_rate_multiplier" value="0.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="55062" levels="2" name="Свиток Опыта/SP Замка - Среднего Качества">		
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.etc_potion_green_i00"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="isSaveable" value="true"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.45"/>
+				<add order="0x40" stat="sp_rate_multiplier" value="0.45"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="55063" levels="1" name="Быстродействующее Зелье Исцеления Замка">
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="650"/>
+		</for>
+	</skill>
+	<skill id="55064" levels="1" name="Большое Быстродействующее Зелье Исцеления Замка">
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="1450"/>
+		</for>
+	</skill>
+	<skill id="55085" levels="1" name="Свиток Эффектов 1-й Профессии">			
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="hitTime" value="1080"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="isHandler" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" value="1.12"/>
+				<mul order="0x30" stat="pAtk" value="1.12"/>
+				<add order="0x40" stat="concentration" value="25"/>
+				<mul order="0x30" stat="baseMAtkSpd" value="1.15"/>
+				<add order="0x40" stat="runSpd" value="20"/>
+				<add order="0x40" stat="pCritRate" value="1.20"/>
+				<add order="0x40" stat="pEvasRate" value="2"/>
+				<mul order="0x30" stat="mAtk" value="1.55"/>
+			</effect>
+		</for>
+	</skill>	
+</list>

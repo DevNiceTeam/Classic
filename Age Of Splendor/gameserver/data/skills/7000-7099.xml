@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="7000" levels="1" name="NPC: Стандартный">
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7001" levels="1" name="Снять Положительный Эффект">
+		<set name="castRange" value="400"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="99"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_buff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7002" levels="1" name="Снять Отрицательный Эффект">
+		<set name="castRange" value="400"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="99"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7003" levels="1" name="Снять Все Эффекты">
+		<set name="castRange" value="400"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="99"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_buff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="20"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7004" levels="2" name="Снять Оцепенение">
+		<!--
+			Description: Cures petrification with the effect of 2 or less.
+		-->
+		<table name="#ride_state">NONE;STRIDER;WYVERN;WOLF</table>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="#ride_state"/>
+		<set name="magicLevel" value="60"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7005" levels="4" name="Великий Напев Вампира">
+		<!--
+			Description: Temporarily allows party members to partially restore HP using damage inflicted upon the enemy. Excludes damage from skill or range attack. Effect 4.
+		-->
+		<table name="#ride_state">NONE;STRIDER;WYVERN;WOLF</table>
+		<set name="reuseDelay" value="20000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="272"/>
+		<set name="ride_state" value="#ride_state"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7006" levels="13" name="Великое Сердце Паагрио">
+		<!--
+			Description: Greatly enhances alliance members' HP restoration.  Effect 6.
+		-->
+		<table name="#ride_state">NONE;STRIDER;WYVERN;WOLF</table>
+		<set name="reuseDelay" value="20000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="265"/>
+		<set name="ride_state" value="#ride_state"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="6"/>
+		<set name="abnormal_type" value="life_force_others"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7007" levels="4" name="Великая Печать Пламени">
+		<!--
+			Description: A protective ring of fire that continuously reduces HP of surrounding enemies and their alliance members. Effect 8.
+		-->
+		<table name="#ride_state">NONE;STRIDER;WYVERN;WOLF</table>
+		<set name="reuseDelay" value="20000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="153"/>
+		<set name="ride_state" value="#ride_state"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="8"/>
+		<set name="abnormal_type" value="dot_attr"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="levelModifier" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="saveVs" value="MEN"/>
+	</skill>
+	<skill id="7008" levels="1" name="Благословенное Перо">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="9"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.blessed_feather_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7009" levels="1" name="Не Используемый">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7010" levels="1" name="Не Используемый">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7011" levels="1" name="Не Используемый">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7012" levels="1" name="Не Используемый">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7013" levels="1" name="Не Используемый">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7014" levels="1" name="Тест - Процентное Повышение Крит. Урона">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7015" levels="1" name="Тест - Процентное Понижение Крит. Урона">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7016" levels="1" name="Тест - Числовое Повышение Крит. Урона">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7017" levels="1" name="Тест - Процентное Понижение Крит. Урона">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7018" levels="1" name="Тест - Повышение Вероятности Крит. удара">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7019" levels="1" name="Тест - Процентное Понижение Шанса Крит. удара">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7020" levels="1" name="Тест - Числовое Увеличение Шанса Крит. удара">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7021" levels="1" name="Тест - Числовое Понижение Шанса Крит. удара">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7022" levels="1" name="Тест - Найти Скрытую Дверь">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7023" levels="1" name="Не Использованный">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7024" levels="1" name="Не Использованный">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7025" levels="1" name="Не Использованный">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7026" levels="1" name="Не Использованный">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7027" levels="1" name="Не Использованный">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7028" levels="1" name="Стационарный NPC">
+		<set name="magicLevel" value="99"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+	</skill>
+	<skill id="7029" levels="4" name="Супер Ускорение">
+		<table name="#TabrunSpd">2 3 10 12.5</table>
+		<table name="#TabpAtk">1 1 1 50</table>
+		<table name="#TabmAtkSpd">2 3 3 10.2</table>
+		<table name="#TabpAtkSpd">2 3 3 10.4</table>
+		<table name="#TabmReuse">1 1 0.01 0.01</table>
+		<!--OFFLIKE:
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		-->
+		<set name="icon" value="icon.skill7029"/>
+		<set name="operateType" value="OP_TOGGLE"/>
+		<set name="isSaveable" value="false"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="runSpd" value="#TabrunSpd"/>
+				<mul order="0x30" stat="pAtk" value="#TabpAtk"/>
+				<mul order="0x30" stat="mAtkSpd" value="#TabmAtkSpd"/>
+				<mul order="0x30" stat="pAtkSpd" value="#TabpAtkSpd"/>
+				<mul order="0x30" stat="mReuse" value="#TabmReuse"/>
+				<mul order="0x30" stat="pCritDamage" value="32"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7030" levels="1" name="Призывает Короля Людоедов">
+		<set name="reuseDelay" value="4500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="3"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<!-- Summon-specific -->
+		<table name="#npcIds">20150</table>
+		<set name="npcId" value="#npcIds"/>
+		<set name="expPenalty" value="0.3"/>
+	</skill>
+	<skill id="7031" levels="1" name="Призывает Скелет Королевского Стражника">
+		<set name="reuseDelay" value="4500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="3"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<!-- Summon-specific -->
+		<table name="#npcIds">20622</table>
+		<set name="npcId" value="#npcIds"/>
+		<set name="expPenalty" value="0.3"/>
+	</skill>
+	<skill id="7032" levels="1" name="Призывает Охотничью Горгулью">
+		<set name="reuseDelay" value="4500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="3"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<!-- Summon-specific -->
+		<table name="#npcIds">20241</table>
+		<set name="npcId" value="#npcIds"/>
+		<set name="expPenalty" value="0.3"/>
+	</skill>
+	<skill id="7033" levels="1" name="Не Использованный">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7034" levels="1" name="Не Использованный">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7035" levels="1" name="Не Использованный">
+		<!--
+			Description:
+			This aerial attack inflicts damage on a target inside the Outer Castle.
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7036" levels="1" name="Не Использованный">
+		<!--
+			Description:
+			Valakas Use Skill
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7037" levels="1" name="Не Использованный">
+		<!--
+			Description:
+			Tyrannosaurus Use Skill
+		-->
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7038" levels="1" name="Не Использованный">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7039" levels="1" name="Не Использованный">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7040" levels="1" name="Не Использованный">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	</skill>
+	<skill id="7041" levels="1" name="Благословение Мастера - Фокусировка">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="critical_prob_up"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1077"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="pCritRate" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7042" levels="1" name="Благословение Мастера - Шепот Смерти">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="critical_dmg_up"/>
+		<set name="magicLevel" value="56"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1242"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pCritDamage" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7043" levels="1" name="Благословение Мастера - Ускорение">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1086"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" value="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7044" levels="1" name="Благословение Мастера - Наведение">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicLevel" value="56"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1240"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="pAccCombat" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7045" levels="1" name="Благословение Мастера - Благословение Тела">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="7"/>
+		<set name="abnormal_type" value="max_hp_up"/>
+		<set name="magicLevel" value="72"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1045"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7046" levels="1" name="Благословение Мастера - Благословение Духа">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="7"/>
+		<set name="abnormal_type" value="max_mp_up"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1048"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxMp" value="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7047" levels="1" name="Благословение Мастера - Проворство">
+		<table name="#TabpEvasRate">4</table>
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="avoid_up"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1087"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7048" levels="1" name="Благословение Мастера - Проницательность">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicLevel" value="48"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1085"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtkSpd" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7049" levels="1" name="Благословение Мастера - Легкость">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="decrease_weight_penalty"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1257"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="maxNoPenaltyLoad" value="9000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7050" levels="1" name="Благословение Мастера - Сила">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicLevel" value="40"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1068"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7051" levels="1" name="Благословение Мастера - Щит">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicLevel" value="44"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1040"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7052" levels="1" name="Благословение Мастера - Магический Барьер">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="md_up"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1036"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mDef" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7053" levels="1" name="Благословение Мастера - Гнев Вампира">
+		<table name="#TababsorbDam">9</table>
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicLevel" value="72"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1268"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="absorbDam" value="#TababsorbDam"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7054" levels="1" name="Благословение Мастера - Воодушевление">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="ma_up"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1059"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" value="1.75"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7055" levels="1" name="Благословение Мастера - Легкая Походка">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicLevel" value="30"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1204"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" value="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7056" levels="1" name="Благословение Мастера - Дух Берсерка">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="berserker"/>
+		<set name="magicLevel" value="52"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1062"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" value="1.16"/>
+				<mul order="0x30" stat="pAtk" value="1.08"/>
+				<mul order="0x30" stat="mDef" value="0.84"/>
+				<mul order="0x30" stat="pDef" value="0.92"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.08"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.08"/>
+				<add order="0x40" stat="runSpd" value="8"/>
+				<sub order="0x40" stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7057" levels="1" name="Благословение Мастера - Великое Могущество">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_pd_up"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1388"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" value="1.10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7058" levels="1" name="Благословение Мастера - Великий Щит">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_pd_up"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1389"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7059" levels="1" name="Благословение Мастера - Дикая Магия">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="magic_critical_up"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1303"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="baseMCritRate" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7060" levels="1" name="Благословение Мастера - Чистота">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="cheap_magic"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1397"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mpConsum" value="0.9"/>
+				<mul order="0x30" stat="mpConsumePhysical" value="0.8"/>
+				<mul order="0x30" stat="mpDanceConsume" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7061" levels="1" name="Благословение Мастера - Пророчество Воды">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicLevel" value="78"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1355"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="baseMCritRate" value="10"/>
+				<mul order="0x30" stat="regMp" value="1.2"/>
+				<mul order="0x30" stat="pAtk" value="1.1"/>
+				<mul order="0x30" stat="pDef" value="1.2"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.2"/>
+				<mul order="0x30" stat="mAtk" value="1.2"/>
+				<mul order="0x30" stat="mDef" value="1.2"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.2"/>
+				<add order="0x40" stat="debuffResist" value="10"/>
+				<mul order="0x30" stat="runSpd" value="0.8"/>
+				<mul order="0x30" stat="mpConsum" value="0.95"/>
+				<mul order="0x30" stat="mpConsumePhysical" value="0.95"/>
+				<mul order="0x30" stat="mpDanceConsume" value="0.95"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7062" levels="1" name="Благословение Мастера - Пророчество Огня">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicLevel" value="78"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1356"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxMp" value="1.2"/>
+				<mul order="0x30" stat="regHp" value="1.2"/>
+				<add order="0x40" stat="baseMCritRate" value="10"/>
+				<mul order="0x30" stat="pCritDamage" value="1.2"/>
+				<mul order="0x30" stat="pAtk" value="1.1"/>
+				<mul order="0x30" stat="pDef" value="1.2"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.2"/>
+				<mul order="0x30" stat="mAtk" value="1.2"/>
+				<mul order="0x30" stat="mDef" value="1.2"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.2"/>
+				<add order="0x40" stat="debuffResist" value="10"/>
+				<mul order="0x30" stat="runSpd" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7063" levels="1" name="Благословение Мастера - Пророчество Ветра">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicLevel" value="78"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1357"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.2"/>
+				<add order="0x40" stat="pCritRate" value="20"/>
+				<add order="0x40" stat="baseMCritRate" value="10"/>
+				<mul order="0x30" stat="pAtk" value="1.1"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.2"/>
+				<mul order="0x30" stat="mAtk" value="1.2"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.2"/>
+				<add order="0x40" stat="debuffResist" value="10"/>
+				<mul order="0x30" stat="runSpd" value="0.8"/>
+				<add order="0x40" stat="absorbDam" value="5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7064" levels="1" name="Благословение Мастера - Напев Победы">
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicLevel" value="78"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1363"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.2"/>
+				<add order="0x40" stat="baseMCritRate" value="10"/>
+				<add order="0x40" stat="pCritRate" value="20"/>
+				<mul order="0x30" stat="pAtk" value="1.1"/>
+				<mul order="0x30" stat="pDef" value="1.2"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.2"/>
+				<mul order="0x30" stat="mAtk" value="1.2"/>
+				<mul order="0x30" stat="mDef" value="1.2"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.2"/>
+				<add order="0x40" stat="debuffResist" value="10"/>
+				<add order="0x40" stat="pAccCombat" value="4"/>
+				<mul order="0x30" stat="runSpd" value="0.8"/>
+			</effect>
+			<effect instant="true" name="RestoreHP" value="20">
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7065" levels="1" name="Тест - Рывок">
+		<!--
+			Description: Charges into an enemy.
+		-->
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="800"/>
+		<set name="mp_consume" value="50"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="75"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<cond msgId="113">
+			<target min_distance="200"/>
+		</cond>
+	</skill>
+	<skill id="7066" levels="1" name="Тест Оглушающего Рывка">
+		<!--
+			Description: Charges into enemy and stuns.
+		-->
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="800"/>
+		<set name="mp_consume" value="50"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="9"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="75"/>
+		<set name="levelModifier" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="saveVs" value="CON"/>
+		<cond msgId="113">
+			<target min_distance="200"/>
+		</cond>
+	</skill>
+	<skill id="7067" levels="1" name="Тест Области Рывка">
+		<!--
+			Description: Charges into enemy and causes bleeding
+		-->
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="800"/>
+		<set name="mp_consume" value="50"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="75"/>
+		<set name="levelModifier" value="2"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="trait" value="BLEED"/>
+		<set name="saveVs" value="CON"/>
+		<cond msgId="113">
+			<target min_distance="200"/>
+		</cond>
+	</skill>
+	<skill id="7068" levels="1" name="Тест Похищения Наложенного Эффекта">
+		<!--
+			Description: Steals enemy's abnormal state.
+		-->
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="75"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<cond msgId="113">
+			<target min_distance="200"/>
+		</cond>
+	</skill>
+	<skill id="7069" levels="1" name="Тест Наложенных Направл. Эффектов">
+		<!--
+			Description: Inflicts damage according to the enemy's number of abnormal states.
+		-->
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="75"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<cond msgId="113">
+			<target min_distance="200"/>
+		</cond>
+	</skill>
+	<skill id="7070" levels="1" name="Тест - Пассивное Пожирание Душ">
+		<!--
+			Description: Absorbs soul.
+		-->
+		<set name="magicLevel" value="75"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<cond msgId="1509">
+			<player olympiad="false"/>
+		</cond>
+	</skill>
+	<skill id="7071" levels="1" name="Тест - Передача Души">
+		<!--
+			Description: Transfers soul to party member.
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="899"/>
+		<set name="hpConsume" value="20"/>
+		<set name="mp_consume" value="5"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="75"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7075" levels="1" name="Тест - Дистанция Направл.">
+		<!--
+			Description: DD damage changes by distance.
+		-->
+		<set name="reuseDelay" value="6000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="17"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7076" levels="1" name="Тест - Отложить Отрицательный Эффект">
+		<!--
+			Description: Bleeds for 20 seconds and stuns.
+		-->
+		<set name="coolTime" value="720"/>
+		<set name="hitTime" value="1080"/>
+		<set name="mp_consume" value="30"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="8"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="70"/>
+		<set name="levelModifier" value="2"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="trait" value="BLEED"/>
+		<set name="saveVs" value="CON"/>
+	</skill>
+	<skill id="7077" levels="1" name="Тест - Отложить Отрицательный Эффект - Зов">
+		<!--
+			Description: Currently stunned.
+		-->
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="70"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="trait" value="SHOCK"/>
+	</skill>
+	<skill id="7079" levels="1" name="Тест - Поглощение Повреждений Группы">
+		<!--
+			Description: Transfers party damage to tanker.
+		-->
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="100"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7080" levels="1" name="Тест - Запрет Основной Атаки">
+		<!--
+			Description: Cannot perform general attack.
+		-->
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="30"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="40"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="70"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="saveVs" value="CON"/>
+	</skill>
+	<skill id="7081" levels="1" name="Тестирование Эффекта - Выстрел в Землю">
+		<!--
+			Description: Shoots toward ground.
+		-->
+		<set name="reuseDelay" value="25000"/>
+		<set name="coolTime" value="800"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="3200"/>
+		<set name="mp_consume" value="30"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="75"/>
+		<set name="affectLimit" value="5;12"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7082" levels="1" name="Тестирование Эффекта - Цепь Молний">
+		<!--
+			Description: Chain Lightning
+		-->
+		<set name="reuseDelay" value="20000"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="5000"/>
+		<set name="mp_consume" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="75"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="affectLimit" value="5;12"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7083" levels="1" name="Тест - Умение Установки Ловушек">
+		<!--
+			Description: Trap Range Skill
+		-->
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="38"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="affectLimit" value="6;12"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7084" levels="1" name="Тест - Умение Установки Ловушек">
+		<!--
+			Description: Trap Range Skill
+		-->
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="38"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="affectLimit" value="6;12"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="hpEff" value="0"/>
+		</for>
+	</skill>
+	<skill id="7085" levels="1" name="Саморазрушительный Взрыв">
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="85"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<for>
+			<set order="0x40" stat="stunResist" value="200"/>
+			<set order="0x40" stat="rootResist" value="200"/>
+			<set order="0x40" stat="sleepResist" value="200"/>
+			<set order="0x40" stat="debuffResist" value="200"/>
+			<set order="0x40" stat="mentalResist" value="200"/>
+		</for>
+	</skill>
+	<skill id="7086" levels="1" name="Последний Оплот_тест">
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7087" levels="1" name="Магия Дьявола – Темный Взрыв_тест">
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="85"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7088" levels="1" name="Благословение Мастера - Совершенство в Бою">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: "The GM is always by your side. Combine P. Atk. increase and P. Def. increase to have more advanced combat power increase effect. For 40 minutes, increases P. Atk. by 15% and P. Def. by 15%."
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="improve_pa_pd_up"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1499"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="pa_up;pd_up"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pd_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7089" levels="1" name="Благословение Мастера - Совершенство в Магии">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: "The GM is always by your side. Combine magic power increase and magic resistance increase to have more advanced magic ability increase effect. For 40 minutes, increases M. Atk. by 75% and M. Def. by 30%."
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="improve_ma_md_up"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="ma_up;md_up"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="ma_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="md_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7090" levels="1" name="Благословение Мастера - Совершенство Состояния">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: "The GM is always by your side. Combine maximum HP increase and maximum MP increase to have more advanced mental and physical power. For 40 minutes, increases Max HP by 35% and Max MP by 35%."
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="improve_hp_mp_up"/>
+		<set name="magicLevel" value="72"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1501"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="max_hp_up;max_mp_up"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="max_hp_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="max_mp_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7091" levels="1" name="Благословение Мастера - Совершенная Критическая Атака">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: "The GM is always by your side. Combine critical rate increase and critical power increase to have more advanced critical increase effect. For 40 minutes, increases critical rate by 30% and critical power by 35%."
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="improve_crt_rate_dmg_up"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1502"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="critical_prob_up;critical_dmg_up"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="critical_prob_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="critical_dmg_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7092" levels="1" name="Благословение Мастера - Совершенное Владение Щитом">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: "The GM is always by your side. Combine shield Def. rate increase and shield P. Def. increase to have more advanced shield ability increase effect. For 40 minutes, increases shield defense rate by 30% and shield P. Def. by 50%."
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="improve_shield_rate_defence_up"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1503"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="shield_prob_up;shield_defence_up"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="shield_prob_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="shield_defence_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7093" levels="1" name="Благословение Мастера - Совершенство Движений">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: "The GM is always by your side. Combine Spd. increase and Evasion increase to have more advanced movement increase effect. For 40 minutes, increases moving speed by 33 and evasion by 4."
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="improve_speed_avoid_up"/>
+		<set name="magicLevel" value="72"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1504"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="speed_up;avoid_up"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="speed_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="avoid_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7094" levels="1" name="Благословение Мастера - Острое Лезвие">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: The GM is always by your side. Sharpens a bladed weapon to increase P. Atk. by 5% and critical rate by 20% for 10 minutes.
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="dwarf_attack_buff"/>
+		<set name="magicLevel" value="49"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill0825"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7095" levels="1" name="Благословение Мастера - Закалка">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: The GM is always by your side. Enhances the armor surface to increase P. Def. by 10% for 10 minutes.
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="dwarf_defence_buff"/>
+		<set name="magicLevel" value="46"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill0828"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7096" levels="1" name="Благословение Мастера - Благословение Дворянина">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+		      Description: The GM is always by your side. The target's buff/de-buff doesn't disappear at death but is maintained. But the Blessing of Noblesse and the Amulet of Luck disappear.
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 15-2-2010  12:29
+		-->
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="preserve_abnormal"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill1323"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7097" levels="1" name="Отмена Тени">
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill01702"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect instant="true" name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_shadow"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="7098" levels="1" name="Лечение Питомца Клана">
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="5"/>
+		<set name="icon" value="icon.skill1401"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="7099" levels="1" name="Ужас Питомца Клана">
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="5"/>
+		<set name="icon" value="icon.skill4108"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+</list>

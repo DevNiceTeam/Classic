@@ -1,0 +1,12 @@
+character_friends WHERE char_id NOT IN (SELECT obj_Id FROM characters);
+character_hennas WHERE char_obj_id NOT IN (SELECT obj_Id FROM characters);
+character_macroses WHERE char_obj_id NOT IN (SELECT obj_Id FROM characters);
+character_quests WHERE char_id NOT IN (SELECT obj_Id FROM characters);
+character_recipebook WHERE char_id NOT IN (SELECT obj_Id FROM characters);
+character_shortcuts WHERE char_obj_id NOT IN (SELECT obj_Id FROM characters);
+character_skills WHERE char_obj_id NOT IN (SELECT obj_Id FROM characters);
+character_skills_save WHERE char_obj_id NOT IN (SELECT obj_Id FROM characters);
+character_subclasses WHERE char_obj_id NOT IN (SELECT obj_Id FROM characters);
+clan_data WHERE leader_id NOT IN (SELECT obj_Id FROM characters);
+pets WHERE item_obj_id NOT IN (SELECT object_id FROM items);
+items WHERE owner_id NOT IN (SELECT obj_Id FROM characters) AND owner_id NOT IN (SELECT clan_id FROM clan_data) AND owner_id NOT IN (SELECT objId FROM pets) AND owner_id NOT IN (SELECT id FROM npc);

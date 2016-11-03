@@ -1,0 +1,1 @@
+ALTER TABLE `characters` ADD COLUMN `used_world_chat_points` INT NOT NULL DEFAULT '0' AFTER `bot_rating`;

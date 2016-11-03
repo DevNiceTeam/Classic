@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="19009" levels="1" name="Рождение Клана">
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="clan_advent"/>
+		<set name="magicLevel" value="89"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill19009"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="isSaveable" value="false"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" value="1.02"/>
+				<mul order="0x30" stat="mAtk" value="1.02"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19032" levels="1" name="Способности Света">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill19008"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<!-- <set name="chaotic" value="true"/> -->
+		<!-- <set name="min_pledge_rank" value="MARQUIS"/>  -->			
+		<for>
+			<add order="0x40" stat="maxCp" value="2000">
+				<player chaotic="false"/>
+			</add>
+			<!-- <mul order="0x30" stat="pvpPhysDmgBonus" value="1.1"/>
+			<mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.1"/> -->
+		</for>		
+	</skill>
+	<skill id="19033" levels="1" name="Способности Тьмы">
+		<set name="magicLevel" value="1"/>
+		<set name="icon" value="icon.skill19008"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+	<!-- 	<set name="min_pledge_rank" value="MARQUIS"/> -->
+		<for>
+			<add order="0x40" stat="maxCp" value="1000"/>
+			<!-- <mul order="0x30" stat="pvpPhysDmgBonus" value="1.1"/>
+			<mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.1"/> -->
+		</for>
+	</skill>
+	<skill id="19034" levels="1" name="Печать Света">
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="85"/>
+		<set name="hitTime" value="120000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="magicLevel" value="30"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill0246"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_HOLY"/>
+		<set name="skillType" value="TAKECASTLE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="castle_side" value="LIGHT"/>
+	</skill>
+	<skill id="19035" levels="1" name="Печать Тьмы">
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="85"/>
+		<set name="hitTime" value="120000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="magicLevel" value="30"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="icon" value="icon.skill0246"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_HOLY"/>
+		<set name="skillType" value="TAKECASTLE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="castle_side" value="DARK"/>
+	</skill>
+	<skill id="19036" levels="1" name="Благословение Света">
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_type" value="gerold_buff"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="magicType" value="MAGIC"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.03"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19041" levels="1" name="Возвращение в Замок">
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="castle" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="19042" levels="1" name="Благ. Свиток Возвращения в Замок">
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="castle" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+</list>

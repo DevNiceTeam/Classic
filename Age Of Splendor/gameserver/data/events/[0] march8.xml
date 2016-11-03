@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<event id="0" name="March 8" type="FUN_EVENT" impl="March8">
+		<parameter name="time" value="0 0 8 3 ****"/>
+		<on_start>
+			<spawn name="managers"/>
+		</on_start>
+		<on_stop>
+			<despawn name="managers"/>
+		</on_stop>
+		<on_time>
+			<on time="0"> <!--сразу в конкретной дате и запускаем евент-->
+				<start name="event"/>
+			</on>
+			<on time="604800"> <!--через неделю останавливаем-->
+				<stop name="event"/>
+			</on>
+		</on_time>
+	</event>
+</list>

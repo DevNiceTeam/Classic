@@ -1,0 +1,1 @@
+ALTER TABLE pets CHANGE `fed` `fed` INT UNSIGNED NOT NULL;

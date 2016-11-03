@@ -1,0 +1,17 @@
+<html><head>
+[Adjust Tax Rate]<br>
+Today's tax rate is <font color="00FFFF">%CurrentTax% %</font> and tomorrow's tax rate will be <font color="00FFFF">%CurrentTax% %</font>.<br>
+The tax rate may be set in the range of <font color="LEVEL">0% ~ 15%</font>. The tax rate entered will be applied from midnight of the same day.<br>
+Please note that the tax rate will be set to <font color="LEVEL">0%</font> if the "OK" button is pressed without any value being entered.<br>
+<center>
+<table width=170 height=27 bgcolor="CCCCCC">
+<tr>
+<td width=35 align=center>Enter</td>
+<td width=50 align=right><edit type=number var="tax_rate" width="30" length=2></td><td width=15 align=left>%</td>
+<td>
+<button value="OK" action="bypass -h npc_%objectId%_tax_set $tax_rate" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td></tr>
+</table><br>
+<button value="Cancel" action="bypass -h npc_%objectId%_default" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</center><br>
+</head></html>

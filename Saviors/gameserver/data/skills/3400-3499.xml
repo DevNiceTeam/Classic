@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="3498" levels="1" name="Особое Свойство: Легкость">
+		<!--
+			Description: Weight Gauge is increased.
+		-->
+		<set name="magicLevel" value="46"/>
+		<set name="icon" value="icon.skill0150"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxLoad" value="1.2"/>
+		</for>
+	</skill>
+</list>

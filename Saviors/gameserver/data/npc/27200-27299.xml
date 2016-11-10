@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<npc id="27200" name="Ящер Крудел" title="Квестовый Монстр">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="POLE"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseCON" value="43"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="809"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="94.1437"/>
+		<set name="baseMDef" value="102.86506"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="417"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="basePAtk" value="137.86467"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="140.57278"/>
+		<set name="baseRunSpd" value="130"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="43"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="36"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<faction names="elemental1_clan" range="300"/>
+		<equip>
+			<rhand item_id="291"/>	<!--Трезубец-->
+		</equip>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Гуманоиды-->
+		</skills>
+	</npc>
+	<npc id="27201" name="Вор Гноллов" title="">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.63"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="608"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="44.27187"/>
+		<set name="baseMDef" value="67.8031159084826"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="259"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="basePAtk" value="64.83203"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="101.83533"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="27;32"/>
+		<set name="collision_radius" value="14;16"/>
+		<set name="level" value="25"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<equip>
+			<rhand item_id="68"/>	<!--Фальшион-->
+			<lhand item_id="19"/>	<!--Маленький Щит-->
+		</equip>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Гуманоиды-->
+			<skill id="4410" level="10"/>	<!--Ослабленная Физ. Атк.-->
+			<skill id="4411" level="10"/>	<!--Ослабленная Маг. Атк.-->
+			<skill id="4412" level="12"/>	<!--Усиленная Физ. Защ.-->
+			<skill id="4413" level="12"/>	<!--Усиленная Маг. Защ.-->
+		</skills>		
+	</npc>
+	<npc id="27202" name="Командир Орков Турек" title="">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.76"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="849"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="63.26266"/>
+		<set name="baseMDef" value="78.8748547991048"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="329"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="basePAtk" value="92.64226"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="118.46427"/>
+		<set name="baseRunSpd" value="130"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="collision_height" value="35;27.60000038"/>
+		<set name="collision_radius" value="17;12"/>
+		<set name="level" value="30"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>		
+		<equip>
+			<rhand item_id="127"/>	<!--Багровый Меч-->
+		</equip>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Гуманоиды-->			
+		</skills>		
+	</npc>
+	<npc id="27203" name="Захватчик Орков Турек" title="">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="648"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="44.27187"/>
+		<set name="baseMDef" value="67.8031159084826"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="259"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="basePAtk" value="64.83203"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="101.83533"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="collision_height" value="33"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="25"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<equip>
+			<rhand item_id="3"/>	<!--Широкий Меч-->
+		</equip>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Гуманоиды-->
+		</skills>		
+	</npc>
+	<npc id="27204" name="Упи" title="">		
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.32"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>	<!--TODO: Проверить.-->
+		<set name="baseDEX" value="30"/>
+		<set name="baseHpMax" value="324"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMAtk" value="18.6058"/>
+		<set name="baseMDef" value="47.3270583783809"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseMpMax" value="140"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="basePAtk" value="27.24646"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="71.08179"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="20"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="collision_height" value="21.39999962"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="14"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<faction names="Upi_clan" range="300"/>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Гуманоиды-->
+		</skills>		
+	</npc>
+</list>

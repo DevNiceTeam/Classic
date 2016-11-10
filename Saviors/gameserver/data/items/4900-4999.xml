@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="4900" name="Посох Злых Духов" add_name="Маг. Фокусировка">
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="price" value="2018280"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="930"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<triggers>
+			<trigger id="1077" level="3" type="SUPPORT_MAGICAL_SKILL_USE" chance="20"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="4901" name="Посох Злых Духов" add_name="Благословение Тела">
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="price" value="2018280"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="930"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="4902" name="Посох Злых Духов" add_name="Отравление">
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1346"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="price" value="2018280"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="930"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<triggers>
+			<trigger id="1168" level="6" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="8"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<etcitem id="4906" name="Книга Заклинаний - Солнечная Вспышка">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="1250"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4907" name="Книга Заклинаний - Солнечное Сияние">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4908" name="Книга Заклинаний - Вспышка Теней">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="1250"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4909" name="Книга Заклинаний - Сияние Теней">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4910" name="Книга Заклинаний - Гнев Вампира">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="1800"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4911" name="Книга Заклинаний - Проклятие Болезни">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_black_i00"/>
+		<set name="price" value="6750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4912" name="Книга Заклинаний - Благословение">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_white_i00"/>
+		<set name="price" value="8700"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4913" name="Книга Заклинаний - Слово Страха">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="3850"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4914" name="Книга Заклинаний - Серенада Евы">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="3850"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4915" name="Чертеж: Призвать Стального Вепря">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plan_i00"/>
+		<set name="price" value="6750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4916" name="Книга Заклинаний - Энергетическая Стрела">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="800"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4917" name="Книга Заклинаний - Стрела Ауры">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4918" name="Книга Заклинаний - Призвать Кая">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4919" name="Книга Заклинаний - Призвать Мэрроу">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4920" name="Книга Заклинаний - Призвать Самаэля">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4921" name="Чертеж: Призвать Гулкий Рокот">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_plan_i00"/>
+		<set name="price" value="6750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4922" name="Книга Заклинаний - Призвать Связывающий Кубик">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4923" name="Книга Заклинаний - Призвать Водный Кубик">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4924" name="Книга Заклинаний - Призвать Искрящийся Кубик">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_summon_i00"/>
+		<set name="price" value="3200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4925" name="Амулет: Скорость Паагрио">
+		<set name="type" value="AMULET"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
+		<set name="price" value="6750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4926" name="Амулет: Защита Души">
+		<set name="type" value="AMULET"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
+		<set name="price" value="3850"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4927" name="Амулет: Напев Мщения">
+		<set name="type" value="AMULET"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
+		<set name="price" value="7700"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4928" name="Книга Заклинаний - Семя Огня">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4929" name="Книга Заклинаний - Семя Воды">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4930" name="Книга Заклинаний - Семя Ветра">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4931" name="Книга Заклинаний - Аура Симфонии">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4932" name="Книга Заклинаний - Инферно">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4933" name="Книга Заклинаний - Снежная Буря">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4934" name="Книга Заклинаний - Дьявольский Ветер">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4935" name="Книга Заклинаний - Стихийная Симфония">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="7200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="4936" name="Рецепт: Щит Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2180"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4937" name="Рецепт: Адамантитовая Серьга (70%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2424"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4938" name="Рецепт: Адамантитовое Кольцо (70%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="1616"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4939" name="Рецепт: Адамантитовое Ожерелье (70%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3232"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4940" name="Рецепт: Кираса Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="8320"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4941" name="Рецепт: Набедренники Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="5200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4942" name="Рецепт: Сапоги Безмолвия (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4943" name="Рецепт: Сапоги Стражника (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4944" name="Рецепт: Кираса Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="8320"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4945" name="Рецепт: Набедренники Авадона(60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="5200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4946" name="Рецепт: Кожаная Рубаха Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="6240"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4947" name="Рецепт: Кожаные Набедренники Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3892"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4948" name="Рецепт: Кожаный Доспех Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="9120"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4949" name="Рецепт: Туника Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="6240"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4950" name="Рецепт: Штаны Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3892"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4951" name="Рецепт: Мантия Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="9120"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4952" name="Рецепт: Диадема Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3112"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4953" name="Рецепт: Запечатанные Перчатки Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4954" name="Рецепт: Кольчужные Перчатки Безмолвия (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4955" name="Рецепт: Перчатки Стража (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4956" name="Рецепт: Перчатки Благословения (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4957" name="Рецепт: Сапоги Благословения (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4958" name="Рецепт: Запечатанные Сапоги Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4959" name="Рецепт: Запечатанные Сапоги Авадона (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4960" name="Рецепт: Запечатанные Рукавицы Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2076"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4961" name="Рецепт: Щит Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2180"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4962" name="Рецепт: Шлем Зубея (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3112"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4963" name="Рецепт: Большой Меч (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4964" name="Рецепт: Тяжелый Топор Войны (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4965" name="Рецепт: Посох Духа (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4966" name="Рецепт: Кешанберк (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4967" name="Рецепт: Меч Вальхаллы (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4968" name="Рецепт: Крис (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4969" name="Рецепт: Нож Ада (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4970" name="Рецепт: Коготь Артро (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4971" name="Рецепт: Длинный Лук Темных Эльфов (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4972" name="Рецепт: Двуручный Топор (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="34720"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4973" name="Рецепт: Черная Серьга (70%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3696"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4974" name="Рецепт: Черное Кольцо (70%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="2464"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4975" name="Рецепт: Черное Ожерелье (70%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="4920"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4976" name="Рецепт: Сапоги Имплозии (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4977" name="Рецепт: Сапоги Парадии (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4978" name="Рецепт: Сапоги Стихий (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4979" name="Рецепт: Сапоги Грации (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4980" name="Рецепт: Щит Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3380"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4981" name="Рецепт: Кираса Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="12880"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4982" name="Рецепт: Набедренники Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="8040"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4983" name="Рецепт: Латный Доспех Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="18840"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4984" name="Рецепт: Кожаный Доспех Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="14120"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4985" name="Рецепт: Кожаный Доспех Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="14120"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4986" name="Рецепт: Туника Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="9640"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4987" name="Рецепт: Туника Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="9640"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4988" name="Рецепт: Штаны Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="6040"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4989" name="Рецепт: Штаны Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="6040"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4990" name="Рецепт: Шлем Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="4840"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4991" name="Рецепт: Шлем Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="4840"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4992" name="Рецепт: Запечатанные Сапоги Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4993" name="Рецепт: Запечатанные Перчатки Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4994" name="Рецепт: Перчатки Стихий (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4995" name="Рецепт: Перчатки Грации (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4996" name="Рецепт: Рукавицы Имплозии (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4997" name="Рецепт: Перчатки Парадии (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4998" name="Рецепт: Запечатанные Перчатки Синего Волка (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+	<etcitem id="4999" name="Рецепт: Запечатанные Сапоги Рока (60%)">
+		<set name="type" value="RECIPE"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_recipe_red_i00"/>
+		<set name="price" value="3216"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="30"/>
+	</etcitem>
+</list>

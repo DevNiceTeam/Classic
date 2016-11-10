@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<template_data race="HUMAN" sex="MALE" type="MYSTIC">
+		<creation_data>
+			<start_equipments>
+				<equipment item_id="49031" count="1" equiped="true"/>	<!--Ring of Heir-->
+				<equipment item_id="20662" count="1" equiped="true"/>	<!--Agathion Uthanka-->
+				<equipment item_id="10250" count="1" equiped="true"/>	<!--Adventurer Hat-->
+				<equipment item_id="6" count="1" equiped="true"/>		<!--Apprentice's Wand-->
+				<equipment item_id="425" count="1" equiped="true"/>		<!--Apprentice's Tunic-->
+				<equipment item_id="461" count="1" equiped="true"/>		<!--Apprentice's Stockings-->
+				<equipment item_id="29634" count="1"/>					<!--Набор Новичка - Ур. 1-->
+			</start_equipments>
+			<start_points>
+				<point x="-88832" y="248256" z="-3570"/>
+				<point x="-88944" y="248208" z="-3570"/>
+				<point x="-89040" y="248128" z="-3570"/>
+				<point x="-89200" y="248000" z="-3570"/>
+				<point x="-91008" y="249248" z="-3570"/>
+				<point x="-90848" y="249360" z="-3570"/>
+				<point x="-90912" y="249312" z="-3570"/>
+				<point x="-89696" y="247664" z="-3570"/>
+				<point x="-89755" y="247606" z="-3570"/>
+				<point x="-89840" y="247536" z="-3570"/>
+				<point x="-90378" y="249698" z="-3570"/>
+				<point x="-90256" y="249792" z="-3570"/>
+				<point x="-89968" y="249936" z="-3570"/>
+				<point x="-90096" y="249856" z="-3570"/>
+			</start_points>
+		</creation_data>
+		<stats_data>
+			<min_attributes int="10" str="10" con="10" men="10" dex="10" wit="10"/>
+			<max_attributes int="70" str="70" con="70" men="70" dex="70" wit="70"/>
+			<base_attributes int="41" str="22" con="27" men="39" dex="21" wit="20"/>
+			<armor_defence chest="15" legs="8" helmet="12" boots="7" gloves="8" underwear="3" cloak="1"/>
+			<jewel_defence r_earring="9" l_earring="9" r_ring="5" l_ring="5" necklace="13"/>
+			<base_stats>
+				<!--collision box-->
+				<set name="collision_radius" value="7.5"/>
+				<set name="collision_height" value="22.8"/>
+				<!--other stats box-->
+				<set name="basePAtk" value="3"/>
+				<set name="baseMAtk" value="6"/>
+				<set name="baseAttackType" value="FIST"/>
+				<set name="basePCritRate" value="40"/>
+				<set name="baseMCritRate" value="50"/>
+				<set name="basePAtkSpd" value="300"/>
+				<set name="baseMAtkSpd" value="333"/>
+				<set name="baseAtkRange" value="20"/>
+				<set name="baseRandDam" value="10"/>
+				<set name="baseSafeFallHeight" value="200"/>
+				<set name="baseBreathBonus" value="100"/>
+				<!--<set name="jump" value="15"/>-->
+				<!--walk speed box-->
+				<set name="baseWalkSpd" value="78"/>
+				<set name="baseRunSpd" value="124"/>
+				<set name="baseWaterWalkSpd" value="50"/>
+				<set name="baseWaterRunSpd" value="50"/>
+				<set name="baseFlyWalkSpd" value="0"/>
+				<set name="baseFlyRunSpd" value="0"/>
+				<set name="baseRideWalkSpd" value="0"/>
+				<set name="baseRideRunSpd" value="0"/>
+				<!--damage range box-->
+				<!--<set name="damage_range_1" value="0"/>-->
+				<!--<set name="damage_range_2" value="0"/>-->
+				<!--<set name="damage_range_3" value="26"/>-->
+				<!--<set name="damage_range_4" value="120"/>-->
+				<regen_data>
+					<regen level="1-10" hp="2.0" mp="0.9" cp="2.0"/>
+					<regen level="11-20" hp="2.5" mp="1.2" cp="2.5"/>
+					<regen level="21-30" hp="3.5" mp="1.5" cp="3.5"/>
+					<regen level="31-40" hp="4.5" mp="1.8" cp="4.5"/>
+					<regen level="41-50" hp="5.5" mp="2.1" cp="5.5"/>
+					<regen level="51-60" hp="6.5" mp="2.4" cp="6.5"/>
+					<regen level="61-70" hp="7.5" mp="2.7" cp="7.5"/>
+					<regen level="71-80" hp="8.5" mp="3.0" cp="8.5"/>
+				</regen_data>
+			</base_stats>
+		</stats_data>
+	</template_data>
+</list>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<residence id="32" name="The Scarlet Barracks" impl="ClanHall" grade="30" rental_fee="500000" min_bid="5000000" deposit="500000">
+	<support level="1" lease="7000"/>
+	<support level="11" lease="70000"/>
+	<support level="2" lease="11000"/>
+	<support level="12" lease="110000"/>
+	<support level="4" lease="21000"/>
+	<support level="14" lease="210000"/>
+	<item_create level="1" npcId="35405" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35405" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35405" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="5" lease="3000"/>
+	<restore_exp level="15" lease="9000"/>
+	<restore_exp level="30" lease="18000"/>
+	<restore_hp level="40" lease="800"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="140" lease="1750"/>
+	<restore_hp level="160" lease="2000"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="25" lease="12000"/>
+	<teleport level="1" lease="1000">
+		<target loc="19025 145245 -3107" name="1010024" price="0"/><!--Village Square-->
+		<target loc="21511 145866 -3153" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="18891 142365 -3051" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="17394 147593 -3129" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="16582 144130 -2960" name="1010027" price="0"/><!--West Gate Entrance-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="19025 145245 -3107" name="1010024" price="0"/><!--Village Square-->
+		<target loc="21511 145866 -3153" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="18891 142365 -3051" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="17394 147593 -3129" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="16582 144130 -2960" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="5106 126916 -3664" name="1010614" price="500"/><!--Cruma Marshlands-->
+		<target loc="47382 111278 -2104" name="1010113" price="500"/><!--Fortress of Resistance-->
+		<target loc="630 179184 -3720" name="1010111" price="500"/><!--Plains of Dion-->
+		<target loc="17430 170103 -3506" name="1010036" price="500"/><!--Entrance to Floran Village-->
+	</teleport>
+	<banish_points>
+		<point x="18976" y="143360" z="-3033"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="18800" y="143248" z="-3010"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="18976" y="143360" z="-3033"/>
+	</other_restart_points>
+	<chaos_restart_points>
+	</chaos_restart_points>
+</residence>

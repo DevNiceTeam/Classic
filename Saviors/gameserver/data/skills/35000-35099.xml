@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="35000" levels="1" name="Благословение Огненого Дракона">
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1080"/>
+		<set name="mp_consume" value="69"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="preserve_abnormal"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>		
+		<set name="icon" value="icon.skill1323"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect name="BlessNoblesse"/>
+		</for>
+	</skill>
+	<skill id="35002" levels="1" name="Дыхание Дракона Земли">
+		<set name="reuseDelay" value="60000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="pd_down"/>
+		<set name="levelModifier" value="2"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="328"/>
+		<set name="activateRate" value="80"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="nextAction" value="none"/>
+		<set name="saveVs" value="MEN"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" value="0.7"/>
+				<mul order="0x30" stat="mAtkSpd" value="0.7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="35003" levels="1" name="Защита Дракона Земли">
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_effect" value="ULTIMATE_DEFENCE"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="pd_up_special"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="438"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="pDef" value="3600"/>
+				<add order="0x40" stat="mDef" value="3240"/>
+				<add order="0x40" stat="cancelResist" value="80"/>				
+			</effect>
+		</for>		
+	</skill>
+	<skill id="35004" levels="1" name="Основной Эффект Подвески Дракона Земли">
+		<set name="icon" value=""/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="mDef" value="9"/>			
+		</for>
+	</skill>
+	<skill id="35005" levels="10" name="Эффект Модификации Подвески Дракона Земли">
+		<table name="#mDef">10 12 13 14 15 16 17 18 20 21</table>
+		<table name="#HP">0 0 0 100 150 200 300 400 500 500</table>
+		<table name="#MP">0 0 0 40 50 60 90 120 150 150</table>
+		<table name="#CP">0 0 0 0 0 200 300 400 500 500</table>
+		<table name="#receive_p_damage_power">0 0 0 0 1.02 1.05 1.1 1.2 1.2 1.2</table>	
+		<table name="#runSpd">0 0 0 0 0 0 7 7 7 7</table>	
+		<set name="icon" value=""/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operateType" value="OP_PASSIVE"/>
+		<for>
+			<add order="0x60" stat="mDef" value="#mDef"/>
+			<add order="0x60" stat="maxHp" value="#HP"/>
+			<add order="0x60" stat="maxMp" value="#MP"/>	
+			<add order="0x60" stat="maxCp" value="#CP"/>	
+			<mul order="0x30" stat="receive_p_damage_power" value="#receive_p_damage_power"/>	
+			<add order="0x60" stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+</list>

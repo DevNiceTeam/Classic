@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--AUTHOR: Bonux-->
+<list>
+	<!-- path:
+		x,y,z - first cords in this path (town). Recommended: set cords near GK.
+		avail_next_pathes - available next pathes for teleport when arrived to GK. Set -1 for all. (-1 default) Example: 2;3;4;5
+		point:
+		x,y,z - point cordinates.
+		next_point_id - next point ID, set -1 for random. (-1 default)
+		min_delay - (15 sec default)
+		max_delay - (30 sec default)
+		sitting - (false default)
+		offeset - Dinstance offset (50 default)
+	-->
+	<path id="3" x="147803" y="-55331" z="-2736" avail_next_pathes="1;2">	<!--Goddard Town-->
+		<point id="1" x="148872" y="-58376" z="-2976"/>	<!--Pet Manager-->
+		<point id="2" x="148952" y="-58824" z="-2960"/>	<!--Weapon Shop-->
+		<point id="3" x="149272" y="-57384" z="-2976"/>	<!--Grocery Shop-->
+		<point id="4" x="146504" y="-58872" z="-2976"/>	<!--Blacksmith-->
+		<point id="5" x="146392" y="-57544" z="-2960"/>	<!--Warehouse-->
+		<point id="6" x="147736" y="-55880" z="-2752" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+		<point id="7" x="147720" y="-55496" z="-2736" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+	</path>
+</list>

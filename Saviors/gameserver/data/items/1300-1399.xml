@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<weapon id="1300" name="Жезл Ученика">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_apprentices_rod_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="80"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="22"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="1301" name="Большой Молот">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_big_hammer_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="300"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="22"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="1302" name="Бердыш">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_bech_de_corbin_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="750"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="22"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="1303" name="Пика">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_lancia_i00"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="750"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="30000"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="1304" name="Посох Заклинателя">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="15"/>
+			<add stat="mAtk" order="0x10" value="17"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="1305" name="Нож ">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_knife_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="120"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="30000"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="1306" name="Кованый Кинжал">
+		<set name="price" value="66600"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_knife_i00"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="22"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="1307" name="Лук">
+		<set name="price" value="3340000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="atk_reuse" value="10"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="9"/>
+		<set name="spiritshots" value="3"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="120"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<armor id="1308" name="Составная Чешуйчатая Броня">
+		<set name="price" value="247000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1400"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+		</for>
+	</armor>
+	<armor id="1309" name="Мифриловая Кираса">
+		<set name="price" value="247000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1000"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+		</for>
+	</armor>
+	<armor id="1310" name="Туника Магии">
+		<set name="price" value="48500"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+			<add stat="maxMp" order="0x60" value="96"/>
+		</for>
+	</armor>
+	<armor id="1311" name="Рубаха из Шкуры Пумы">
+		<set name="price" value="99900"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="300"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+		</for>
+	</armor>
+	<armor id="1312" name="Белая Туника">
+		<set name="price" value="138000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="51"/>
+			<add stat="maxMp" order="0x60" value="142"/>
+		</for>
+	</armor>
+	<armor id="1313" name="Составные Чешуйчатые Набедренники">
+		<set name="price" value="170000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1000"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="1314" name="Мифриловые Набедренники">
+		<set name="price" value="170000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="600"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="1315" name="Штаны Магии">
+		<set name="price" value="30300"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<add stat="maxMp" order="0x60" value="60"/>
+		</for>
+	</armor>
+	<armor id="1316" name="Набедренники из Кожи Пумы">
+		<set name="price" value="55800"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="400"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="1317" name="Темные Штаны">
+		<set name="price" value="62500"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_voodoo_doll_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+			<add stat="maxMp" order="0x60" value="79"/>
+		</for>
+	</armor>
+	<armor id="1318" name="Перчатки">
+		<set name="price" value="3270"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_gauntlet_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="80"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1319" name="Кожаные Перчатки">
+		<set name="price" value="7950"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_gauntlet_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="100"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1320" name="Перчатки Выделанной Кожи">
+		<set name="price" value="29800"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_gauntlet_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="100"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1321" name="Рваные Рукавицы ">
+		<set name="price" value="97800"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_gauntlet_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1322" name="Наручи">
+		<set name="price" value="16200"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_gauntlet_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="80"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1323" name="Кожаные Ботинки">
+		<set name="price" value="3270"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_iron_boots_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1324" name="Простые Сапоги">
+		<set name="price" value="7950"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_iron_boots_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1325" name="Кожаные Сапоги">
+		<set name="price" value="29800"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_iron_boots_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="250"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1326" name="Железные Сапоги">
+		<set name="price" value="74700"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_iron_boots_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="300"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="1327" name="Сапоги">
+		<set name="price" value="16200"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_iron_boots_i00"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="200"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<weapon id="1328" name="Щит Грации">
+		<set name="price" value="1090000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.shield_leather_shield_i00"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="300"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="71"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+		</for>
+	</weapon>
+	<weapon id="1329" name="Щит Победы">
+		<set name="price" value="1430000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.shield_small_shield_i00"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="350"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="71"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+		</for>
+	</weapon>
+	<weapon id="1330" name="Щит Зубея">
+		<set name="price" value="1850000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.shield_buckler_i00"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="500"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="71"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+		</for>
+	</weapon>
+	<weapon id="1331" name="Потусторонний Щит">
+		<set name="price" value="1430000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.shield_round_shield_i00"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="350"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="71"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+		</for>
+	</weapon>
+	<weapon id="1332" name="Щит Рыцаря">
+		<set name="price" value="321000"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.shield_tower_shield_i00"/>
+		<set name="rnd_dam" value="0"/>
+		<set name="soulshots" value="0"/>
+		<set name="spiritshots" value="0"/>
+		<set name="tradeable" value="false"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="500"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="sDef" order="0x10" value="71"/>
+			<add stat="rShld" order="0x10" value="20"/>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+		</for>
+	</weapon>
+	<weapon id="1333" name="Тренировочный Двуручный Меч">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_brandish_i00"/>
+		<set name="price" value="54100"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="2250"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="21"/>
+			<add stat="mAtk" order="0x10" value="12"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<etcitem id="1334" name="Клык Хищника">
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_claw_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1335" name="Дубина Гоблина">
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.weapon_club_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1336" name="Осколок Стекла">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crystal_ball_blue_i00"/>
+		<set name="price" value="200"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="80"/>
+	</etcitem>
+	<etcitem id="1337" name="Изумруд">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_jewel_green_i00"/>
+		<set name="price" value="10000"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="80"/>
+	</etcitem>
+	<etcitem id="1338" name="Синий Оникс">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_jewel_blue_i00"/>
+		<set name="price" value="1000"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="80"/>
+	</etcitem>
+	<etcitem id="1339" name="Оникс">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bead_red_i00"/>
+		<set name="price" value="600"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="80"/>
+	</etcitem>
+	<etcitem id="1340" name="Серебристый Лист">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_feather_white_i00"/>
+		<set name="price" value="20"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="3"/>
+	</etcitem>
+	<etcitem id="1341" name="Костяная Стрела">
+		<set name="type" value="ARROW"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.etc_bone_quiver_i00"/>
+		<set name="price" value="3"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+	</etcitem>
+	<etcitem id="1342" name="Стальная Стрела">
+		<set name="type" value="ARROW"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.etc_fine_steel_quiver_i00"/>
+		<set name="price" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="4"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+	</etcitem>
+	<etcitem id="1343" name="Серебряная Стрела">
+		<set name="type" value="ARROW"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.etc_silver_quiver_i00"/>
+		<set name="price" value="7"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="4"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+	</etcitem>
+	<etcitem id="1346" name="Каменное Сердце Голема">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_squares_gray_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1347" name="Мясо Монстроглаза">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_bark_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1348" name="Желудок Василиска">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1349" name="Учебник по Анатомии">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_spell_books_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1350" name="Голова Зомби">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_skull_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1351" name="Сердце Зомби">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_bodypart_heart_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1352" name="Печень Зомби">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_bodypart_liver_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1353" name="Череп">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_skull_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1354" name="Ребра">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_rib_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1355" name="Позвоночник">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_piece_bone_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1356" name="Предплечье">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_piece_bone_black_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1357" name="Бедренная кость">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_piece_bone_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1358" name="Целый Скелет">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_ashes_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1359" name="Знак Красного Креста">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_jewel_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1360" name="Знак Синего Креста">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_jewel_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1361" name="Знак Черного Креста">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_jewel_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1362" name="Щиток Паука">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.item_normal72"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1363" name="Шелк Паука">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.item_normal168"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1364" name="Ядовитая Железа Паука">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.item_canuse28"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1365" name="Разбитое Каменное Сердце">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_plate_glay_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1366" name="Хрусталик Монстроглаза">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_crystal_ball_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1367" name="Коготь Волка">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_claw_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1368" name="Кандалы Бесов">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.accessary_cerberuss_earing_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1369" name="Знак Черного Льва">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="durability" value="100"/>
+		<set name="icon" value="icon.etc_badge_black_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="1370" name="Книга Заклинаний - Водоворот">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1371" name="Книга Заклинаний - Смерч">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1372" name="Книга Заклинаний - Вспышка">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_element_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1373" name="Магический Камень">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_crystal_ball_white_i00"/>
+		<set name="price" value="600"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="80"/>
+	</etcitem>
+	<etcitem id="1374" name="Большое Зелье Ускорения">
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_lesser_potion_green_i00"/>
+		<set name="price" value="3000"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="20"/>
+		<skills>
+			<skill id="2034" level="1"/>
+		</skills>
+		<cond msgId="1508">
+			<player olympiad="false"/>
+		</cond>
+	</etcitem>
+	<etcitem id="1375" name="Большое Зелье Скор. Атк.">
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_lesser_potion_purple_i00"/>
+		<set name="price" value="3400"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="20"/>
+		<skills>
+			<skill id="2035" level="1"/>
+		</skills>
+		<cond msgId="1508">
+			<player olympiad="false"/>
+		</cond>
+	</etcitem>
+	<weapon id="1376" name="Копье Гвардейца">
+		<set name="crystal_count" value="743"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_guard_spear_i00"/>
+		<set name="price" value="409000"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="300"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="50"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="1377" name="Книга Заклинаний - Вывести Яд">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1378" name="Книга Заклинаний - Святое Лечение">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_hfighter_i00"/>
+		<set name="price" value="16883"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1379" name="Книга Заклинаний - Остановка Кровотечения">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
+		<set name="price" value="1150"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1380" name="Книга Заклинаний - Опутать">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
+		<set name="price" value="47865"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1381" name="Книга Заклинаний - Замораживающий Удар">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
+		<set name="price" value="39568"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1382" name="Книга Заклинаний - Сокрушение Мощи">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
+		<set name="price" value="32612"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1383" name="Книга Заклинаний - Отравление">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_defighter_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1384" name="Книга Заклинаний - Спринт">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_efighter_i00"/>
+		<set name="price" value="32612"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1385" name="Книга Заклинаний - Восстановление">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_white_i00"/>
+		<set name="price" value="21437"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1386" name="Книга Заклинаний - Разрушить Нежить">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_white_i00"/>
+		<set name="price" value="750"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1387" name="Книга Заклинаний - Сопротивление Яду">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="2450"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1388" name="Книга Заклинаний - Ментальный Щит">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="15048"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1389" name="Книга Заклинаний - Святое Оружие">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_white_i00"/>
+		<set name="price" value="1250"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1390" name="Книга Заклинаний - Регенерация">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="2450"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1391" name="Книга Заклинаний - Воодушевление">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="15048"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1392" name="Книга Заклинаний - Дух Берсерка">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="43681"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1393" name="Книга Заклинаний - Скорость">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_blue_i00"/>
+		<set name="price" value="1250"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1394" name="Книга Заклинаний - Усыпление">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="10603"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1397" name="Книга Заклинаний - Примирение">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="2450"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1398" name="Книга Заклинаний - Фокусировка">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="15048"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+	<etcitem id="1399" name="Книга Заклинаний - Концентрация">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+		<set name="price" value="7461"/>
+		<set name="stackable" value="true"/>
+		<set name="weight" value="120"/>
+	</etcitem>
+</list>

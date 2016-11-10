@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<residence id="46" name="Silver Manor" impl="ClanHall" grade="50" rental_fee="1000000" min_bid="10000000" deposit="1000000">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<support level="7" lease="37000"/>
+	<support level="17" lease="370000"/>
+	<support level="8" lease="52000"/>
+	<support level="18" lease="520000"/>
+	<item_create level="1" npcId="35459" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35459" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35459" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="15" lease="3000"/>
+	<restore_exp level="25" lease="9000"/>
+	<restore_exp level="35" lease="18000"/>
+	<restore_exp level="50" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="120" lease="1500"/>
+	<restore_hp level="180" lease="2250"/>
+	<restore_hp level="240" lease="3750"/>
+	<restore_hp level="300" lease="5166"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="81749 149171 -3464" name="1010024" price="0"/><!--Village Square-->
+		<target loc="81525 143821 -3528" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="88342 147329 -3400" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="81548 152633 -3528" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="77305 148636 -3592" name="1010027" price="0"/><!--West Gate Entrance-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="81749 149171 -3464" name="1010024" price="0"/><!--Village Square-->
+		<target loc="81525 143821 -3528" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="88342 147329 -3400" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="81548 152633 -3528" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="77305 148636 -3592" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="85546 131328 -3672" name="1010118" price="500"/><!--Breka's Stronghold-->
+		<target loc="73024 118485 -3720" name="1010067" price="500"/><!--Dragon Valley-->
+	</teleport>
+	<banish_points>
+		<point x="83409" y="148578" z="-3300"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="82064" y="151904" z="-3520"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="83409" y="148578" z="-3300"/>
+	</other_restart_points>
+	<chaos_restart_points>
+	</chaos_restart_points>
+</residence>

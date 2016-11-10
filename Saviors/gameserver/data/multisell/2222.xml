@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<config no_tax="true" type="CHANCED"/>	
+	<item>
+		<production id="4641" count="1"/>	<!-- Зленый Кристалл Души - Уровень 1 -->
+		<ingredient id="49416" count="3"/>	<!-- Дух Клинка -->
+		<ingredient id="49417" count="3"/>	<!-- Энергия Духа -->		
+		<ingredient id="57" count="60000"/>	<!-- Адена -->
+	</item>	
+	<item>
+		<production id="4642" count="1"/>	<!-- Зленый Кристалл Души - Уровень 2 -->		
+		<ingredient id="4641" count="2"/>	<!-- Зленый Кристалл Души - Уровень 1 -->
+	</item>	
+	<item>
+		<production id="4643" count="1"/>	<!-- Зленый Кристалл Души - Уровень 3 -->		
+		<ingredient id="4642" count="2"/>	<!-- Зленый Кристалл Души - Уровень 2 -->
+	</item>	
+	<item>
+		<production id="4644" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 4 -->
+		<production id="4644" count="1" chance="30"/>	<!-- Зленый Кристалл Души - Уровень 4 -->
+		<production id="4643" count="1" chance="60"/>	<!-- Зленый Кристалл Души - Уровень 3 -->	
+		<ingredient id="4643" count="2"/>	<!-- Зленый Кристалл Души - Уровень 3 -->	
+	</item>
+	<item>
+		<production id="4645" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 5 -->
+		<production id="4645" count="1" chance="30"/>	<!-- Зленый Кристалл Души - Уровень 5 -->
+		<production id="4644" count="1" chance="60"/>	<!-- Зленый Кристалл Души - Уровень 4 -->	
+		<ingredient id="4644" count="3"/>	<!-- Зленый Кристалл Души - Уровень 4 -->
+	</item>
+	<item>
+		<production id="4646" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 6 -->
+		<production id="4646" count="1" chance="25"/>	<!-- Зленый Кристалл Души - Уровень 6 -->
+		<production id="4645" count="1" chance="50"/>	<!-- Зленый Кристалл Души - Уровень 5 -->	
+		<ingredient id="4645" count="4"/>	<!-- Зленый Кристалл Души - Уровень 5 -->
+	</item>	
+	<item>
+		<production id="4647" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 7 -->
+		<production id="4647" count="1" chance="20"/>	<!-- Зленый Кристалл Души - Уровень 7 -->
+		<production id="4646" count="1" chance="50"/>	<!-- Зленый Кристалл Души - Уровень 6 -->	
+		<ingredient id="4646" count="4"/>	<!-- Зленый Кристалл Души - Уровень 6 -->
+	</item>
+	<item>
+		<production id="4648" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 8 -->
+		<production id="4648" count="1" chance="15"/>	<!-- Зленый Кристалл Души - Уровень 8 -->
+		<production id="4647" count="1" chance="50"/>	<!-- Зленый Кристалл Души - Уровень 7 -->	
+		<ingredient id="4647" count="4"/>	<!-- Зленый Кристалл Души - Уровень 7 -->
+	</item>
+	<item>
+		<production id="4649" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 9 -->
+		<production id="4649" count="1" chance="10"/>	<!-- Зленый Кристалл Души - Уровень 9 -->
+		<production id="4648" count="1" chance="50"/>	<!-- Зленый Кристалл Души - Уровень 8 -->	
+		<ingredient id="4648" count="4"/>	<!-- Зленый Кристалл Души - Уровень 8 -->
+	</item>
+	<item>
+		<production id="4650" count="0" chance="0"/>	<!-- Зленый Кристалл Души - Уровень 10 -->
+		<production id="4650" count="1" chance="1"/>	<!-- Зленый Кристалл Души - Уровень 10 -->
+		<production id="4649" count="1" chance="50"/>	<!-- Зленый Кристалл Души - Уровень 9 -->	
+		<ingredient id="4649" count="4"/>	<!-- Зленый Кристалл Души - Уровень 9 -->
+	</item>
+</list>

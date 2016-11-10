@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="1800" levels="1" name="Пират">
+	    <set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="1080"/>
+		<set name="abnormal_effect" value="TRANSFORM_ZAKEN_SET"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="itemConsumeId" value="49543"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="magicLevel" value="45"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="analog_skills" value="1801;1802"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.03"/>
+				<mul order="0x30" stat="maxMp" value="1.03"/>
+				<add order="0x40" stat="runSpd" value="3"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.02"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.02"/>
+				<add order="0x40" stat="pAccCombat" value="1"/>
+				<add order="0x40" stat="mAccCombat" value="1"/>
+				<add order="0x40" stat="mCritRate" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1801" levels="1" name="Темный Ассасин">
+	    <set name="reuseDelay" value="7200000"/>
+		<set name="hitTime" value="1080"/>
+		<set name="abnormal_effect" value="TRANSFORM_BLACK_ASS"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="itemConsumeId" value="49543"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="magicLevel" value="60"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="analog_skills" value="1800;1802"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.05"/>
+				<mul order="0x30" stat="maxMp" value="1.05"/>
+				<add order="0x40" stat="runSpd" value="4"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.03"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.03"/>
+				<add order="0x40" stat="pAccCombat" value="1"/>
+				<add order="0x40" stat="mAccCombat" value="1"/>
+				<add order="0x40" stat="mCritRate" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1802" levels="1" name="Светлый Ассасин">
+	    <set name="reuseDelay" value="10800000"/> 
+		<set name="hitTime" value="1080"/>
+		<set name="abnormal_effect" value="TRANSFORM_WHITE_ASS"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="itemConsumeId" value="49543"/>
+		<set name="itemConsumeCount" value="2"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="analog_skills" value="1800;1801"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.07"/>
+				<mul order="0x30" stat="maxMp" value="1.07"/>
+				<add order="0x40" stat="runSpd" value="5"/>
+				<mul order="0x30" stat="pAtkSpd" value="1.05"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.05"/>
+				<add order="0x40" stat="pAccCombat" value="2"/>
+				<add order="0x40" stat="mAccCombat" value="2"/>
+				<add order="0x40" stat="mCritRate" value="20"/>
+			</effect>
+		</for>
+	</skill>
+</list>

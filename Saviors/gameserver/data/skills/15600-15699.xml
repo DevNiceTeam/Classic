@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<skill id="15600" levels="1" name="Атака Линдвиора">
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="icon" value="icon.skill1275"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="power" value="1547"/>
+		<set name="skillRadius" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15601" levels="1" name="Атака Линдвиора">
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="icon" value="icon.skill1275"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="power" value="1547"/>
+		<set name="skillRadius" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15603" levels="1" name="Помеха Восстановления">
+		<set name="castRange" value="1800"/>
+		<set name="hitTime" value="3000"/>
+		<set name="icon" value="icon.skill14444"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15604" levels="1" name="Помеха Восстановления">
+		<set name="castRange" value="1800"/>
+		<set name="icon" value="icon.skill1042"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15605" levels="1" name="Возможность Восстановления">
+		<set name="hitTime" value="25000"/>
+		<set name="icon" value="icon.skill0005"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="abnormal_time" value="20"/>	<!--TODO: Check abnormal time and effects.-->
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15606" levels="1" name="Заряд">
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="10000"/>
+		<set name="icon" value="icon.skill14444"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="isSkillTimePermanent" value="true"/>
+	</skill>
+	<skill id="15607" levels="1" name="Изнеможение">
+		<set name="castRange" value="1800"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="icon" value="icon.skill1064"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15608" levels="7" name="Мощный Удар">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15609" levels="7" name="Снижение Физ. Защ.">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill1422"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15610" levels="7" name="Вихрь">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="6000"/>
+		<set name="icon" value="icon.skill0922"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15611" levels="7" name="Меч Торнадо">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="6000"/>
+		<set name="icon" value="icon.skill0922"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15612" levels="7" name="Грозовой Шторм">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15613" levels="7" name="Магия Дальнего Действия">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="4000"/>
+		<set name="icon" value="icon.skill1167"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15614" levels="7" name="Снижение Маг. Защ.">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill1422"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15615" levels="7" name="Увеличение Физ. Атк.">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15616" levels="7" name="Агрессия">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill10027"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15617" levels="7" name="Мощное Сокрушение">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15618" levels="7" name="Мощный Удар">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15620" levels="7" name="Мощный Выстрел">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0056"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15621" levels="7" name="Оглушающий Выстрел">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="icon" value="icon.skill0056"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15622" levels="7" name="Магия Дальнего Действия">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill1167"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15623" levels="7" name="Запуск">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="icon" value="icon.skill1042"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15624" levels="7" name="Лечение">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="15000"/>
+		<set name="icon" value="icon.skill1401"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15626" levels="1" name="Рейдовый Босс - Уровень 86">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15627" levels="1" name="Рейдовый Босс - Уровень 93">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15628" levels="1" name="Рейдовый Босс - Уровень 95">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15629" levels="1" name="Ментальный Удар Нербы">
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="70"/>
+		<set name="hitTime" value="1500"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15630" levels="1" name="Ловушка Оглушения">
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="800"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15632" levels="1" name="Восстановление Энергии">
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="10000"/>
+		<set name="icon" value="icon.skill14444"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15633" levels="1" name="Рейдовый Босс - Уровень 99">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15634" levels="1" name="Рейдовый Босс - Уровень 99">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15635" levels="1" name="Рейдовый Босс - Уровень 99">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15636" levels="1" name="Перемещение между Измерениями">
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3299"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15637" levels="1" name="Пространство Разлома">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15638" levels="1" name="Линдвиор">
+		<set name="icon" value="icon.skillboss"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15639" levels="1" name="Ужас Сомнений">
+		<set name="hitTime" value="1000"/>
+		<set name="icon" value="icon.skill1169"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15640" levels="1" name="Взрыв Ярости Антараса">
+		<set name="icon" value="icon.skill5086"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15641" levels="1" name="Взрыв Ярости Валакаса">
+		<set name="icon" value="icon.skill5086"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15654" levels="1" name="Благословение Мастера - Отвага ГМ">
+		<set name="hitTime" value="500"/>
+		<set name="icon" value="icon.skill5661"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15655" levels="1" name="Благословение Мастера - Защита ГМ">
+		<set name="hitTime" value="500"/>
+		<set name="icon" value="icon.skill5662"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15656" levels="1" name="Мощный Удар">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15657" levels="1" name="Снижение Физ. Защ.">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill1422"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15658" levels="1" name="Вихрь">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="6000"/>
+		<set name="icon" value="icon.skill0922"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15659" levels="1" name="Меч Торнадо">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="6000"/>
+		<set name="icon" value="icon.skill0922"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15660" levels="1" name="Грозовой Шторм">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15661" levels="1" name="Расчленитель Тьмы">
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1200"/>
+		<set name="hitTime" value="3000"/>
+		<set name="icon" value="icon.skill1167"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15662" levels="1" name="Снижение Маг. Защ.">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill1422"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15663" levels="1" name="Увеличение Физ. Атк.">
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15664" levels="1" name="Воздушный Запуск">
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="icon" value="icon.skill11050"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+	<skill id="15665" levels="1" name="Демонстрация - Анаким Лилит1">
+		<set name="castRange" value="600"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+	</skill>
+</list>

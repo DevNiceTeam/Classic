@@ -1,0 +1,1 @@
+DELETE FROM character_variables WHERE name = '@intro_god_video';

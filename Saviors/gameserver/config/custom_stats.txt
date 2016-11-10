@@ -1,0 +1,79 @@
+ENGLISH USERS LOOK BELOW THE RUSSIAN TEXT!
+По просьбе многих клиентов и из за отсутствия официальных данных многих мобов и самое главное РБ, принято было решение сделать систему управления характеристик монстров.
+Этот МАНУАЛ сделан для того что бы ПОНИМАЛИ что вы делаете и зачем, хуже монстров вы не сделаете но можете сделать их ОЧЕНЬ сильными, по этому читайте внимательно.
+Так-же ознакомимся с параметрами, и так начнем:
+
+Для удобства у нас есть 2 базовых параметра к которым относятся монстры:
+
+а. уровень монстров. (настройка может быть под любой уровня монстра/рб).
+б. если относится к РБ или к мобам (одно другого не касается и работает автономно).
+
+1. Включите конфиг enableCustomStats который находится в formulas.properties.
+2. Заходите в таблицу: custom_stats_addon в навикате.
+3. Наблюдаем за полями которые у нас перед глазами:
+3.1. level - уровень монстров/рб которых изменяем.
+3.2. mulHP - множитель ХП
+3.3. mulMP - множитель МП
+3.4 mulPAtkSpd - множитель скорости атаки
+3.5. mulMAtkSpd - множитель скорости магической атаки
+3.6. mulPAtk - множитель физической атаки
+3.7. mulMAtk - множитель магической атаки
+3.8. mulPDef - множитель физической защиты
+3.9 mulMDef - множитель магической защиты
+3.10. minAttrххххх: Этот параметр выставляется что бы понять с какими монстрами/Рб мы работаем, не все мобы/рб нуждаются на данном уровне наших правок, именно из за этого существует данный конфиг, в нем выставляем максимальные(!!) значение и только значения которые меньше них будут редактироваться, естественно если вы хотите всех глобально увеличить то ставите несколько миллионов.
+3.10.1. minAttrHPMP - минимальные атрибуты для ХП и МП
+3.10.2. minAttrPAtkMAtk - минимальные атрибуты для физической и магической атаки
+3.10.3. minAttrPatkMAtkSpd - минимальные атрибуты для физической/магической скорости атаки
+3.10.4. minAttrPDef - минимальные атрибуты для физической защиты
+3.10.5 minAttrMDef - минимальные атрибуты для магической защиты
+3.11 randomAddon: Этот параметр сделан для динамики, каждый монстр/рб может иметь немного другую характеристику, вкратце это добавление к существующим множителям(+), в случайном порядке с одного(1) до указанного параметра.
+3.11.1. randomAddonPatkMatkSpd - динамическое дополнение для скорости физической/магической атаки
+3.11.2. randomAddonPatkMAtk - динамическое дополнение для физической/магической атаки
+3.11.3. randomAddonPdef - динамическое дополнение для физической защиты
+3.11.4. randomAddonMdef - динамическое дополнение для скорости магической защиты
+3.12. forRaid: ставим "0" если дело идет о простых монстров или "1" если дело идет о РБ.
+
+ВНИМАНИЕ!
+Не забываем что конечный итог включает в себя пассивные навыки монстров/рб, если вы ставите множитель х2 то он может дойти до 2.3-2.6 из за пассивных/активных навыков.
+Хотя система предусмотрена от ошибок, старайтесь их не допускать, начните с низких параметров и идите в верх по ступенькам.
+Мы будем рады принять готовые решения серверов по данной таблице, данное действие будет отблагодарено в размере скидки на будущие покупки в студии.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+At the request of many customers, and because of the lack of official data from many mobs and most importantly, RB, was the decision made to make the system management features monsters.
+This tutorial is made to ensure that you understood what you are doing and why, you won't do monsters below that they are, but you can make them very strong so read carefully.
+Take a look at the options, and so here we go:
+
+For convenience, we have two basic parameters which include monsters:
+
+a. Monsters level. (Setting may be at any level of the monster / RB).
+b. if it concerns a RB or mobs (they work independed from each other!).
+
+1. Turn config enableCustomStats which is in formulas.properties.
+2. Go to the table: custom_stats_addon in Navicat.
+3. We see the fields that are in front of us:
+3.1. level - the level of monsters / RB that is changing.
+3.2. mulHP - multiplier HP
+3.3. mulMP - multiplier MP
+3.4 mulPAtkSpd - speed multiplier attack
+3.5. mulMAtkSpd - speed multiplier magic attack
+3.6. mulPAtk - factor of physical attack
+3.7. mulMAtk - multiplier magic attack
+3.8. mulPDef - physical protection factor
+3.9 mulMDef - magical protection factor
+3.10. minAttrhhhhh: This parameter is exposed to understand that with any monsters / RB we work, not all mobs / rb need at this level of our edits, it is because of this there is this config, it exhibited the maximum (!) value, and only the values that are less than They will be edited, of course if you want all the global increase that put a few million.
+3.10.1. minAttrHPMP - the minimum attributes for HP and MP
+3.10.2. minAttrPAtkMAtk - the minimum attributes for physical and magical attacks
+3.10.3. minAttrPatkMAtkSpd - the minimum attributes for physical / magical attack speed
+3.10.4. minAttrPDef - the minimum attributes for the physical protection
+3.10.5 minAttrMDef - the minimum attributes for magical protection
+3.11 randomAddon: This setting is made for speakers, each monster / RB may have a slightly different response, in a nutshell is the addition to the existing factors of the (+) in random order with one (1) to the specified parameter.
+3.11.1. randomAddonPatkMatkSpd - a dynamic addition to the speed of physical / magical attack
+3.11.2. randomAddonPatkMAtk - a dynamic addition to the physical / magical attack
+3.11.3. randomAddonPdef - a dynamic addition to physical protection
+3.11.4. randomAddonMdef - a dynamic addition to the speed of magic protection
+3.12. forRaid: put a "0" when it comes to simple monsters or "1" when it comes to RB.
+
+WARNING!
+Do not forget that the final result includes passive skills monsters / rb if you set x2 multiplier it could reach 2.3-2.6 because of the passive / active skills.
+Although the system is intended from bugs, try to avoid them, start with the lowest settings and go to the top of the stairs.
+We are happy to accept ready-made solutions for servers acc this table, this action will be thanked in the amount of discounts on future purchases in the studio.

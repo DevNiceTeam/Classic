@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--AUTHOR: Bonux-->
+<list>
+	<!-- path:
+		x,y,z - first cords in this path (town). Recommended: set cords near GK.
+		avail_next_pathes - available next pathes for teleport when arrived to GK. Set -1 for all. (-1 default) Example: 2;3;4;5
+		point:
+		x,y,z - point cordinates.
+		next_point_id - next point ID, set -1 for random. (-1 default)
+		min_delay - (15 sec default)
+		max_delay - (30 sec default)
+		sitting - (false default)
+		offeset - Dinstance offset (50 default)
+	-->
+	<path id="2" x="146827" y="25848" z="-2016" avail_next_pathes="1;3">	<!--Aden Town-->
+		<point id="1" x="147464" y="22616" z="-1984"/>	<!--Einhasad Temple-->
+		<point id="2" x="148200" y="26264" z="-2192"/>	<!--Warehouse-->
+		<point id="3" x="146744" y="26264" z="-2192"/>	<!--Weapon Trader-->
+		<point id="4" x="146056" y="27240" z="-2192"/>	<!--Armor Trader-->
+		<point id="5" x="146504" y="27816" z="-2272"/>	<!--Armor Trader-->
+		<point id="6" x="146056" y="28008" z="-2256"/>	<!--Grocery Trader-->
+		<point id="7" x="147240" y="28552" z="-2272"/>	<!--Item Broker-->
+		<point id="8" x="148856" y="28008" z="-2256"/>	<!--Jewel Trader-->
+		<point id="9" x="150600" y="28456" z="-2256"/>	<!--Blacksmith-->
+		<point id="10" x="147432" y="25784" z="-2016" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+		<point id="11" x="147944" y="27048" z="-2208" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+		<point id="12" x="146936" y="27160" z="-2208" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+		<point id="13" x="146904" y="28152" z="-2272" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+		<point id="14" x="148008" y="28088" z="-2272" min_delay="180" max_delay="600" sitting="true" offset="400"/>
+	</path>
+</list>

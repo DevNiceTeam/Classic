@@ -36,7 +36,7 @@ public class _375_WhisperOfDreams2 extends Quest
 			qs.setCond(1);
 		}
 		
-		return event;
+		return htmltext;
 	}
 
 	@Override

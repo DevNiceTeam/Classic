@@ -2,3 +2,6 @@
 # http://l2joy.ru/
 # First server in lineage 2 classic 2.0 is based on the Nice Team
 # http://l2joy.ru/
+
+
+# You can contact me via Skype:support_nice_team

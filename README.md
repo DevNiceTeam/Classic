@@ -1,3 +1,4 @@
-# Nice Team Classic 1.5 / 2.0
-# Classic 2.0 is available
-# You can contact me via Skype:support_nice_team
+# Первый сервер lineage 2 classic 2.0 базирующийся на основе Nice Team
+# http://l2joy.ru/
+# First server in lineage 2 classic 2.0 is based on the Nice Team
+# http://l2joy.ru/

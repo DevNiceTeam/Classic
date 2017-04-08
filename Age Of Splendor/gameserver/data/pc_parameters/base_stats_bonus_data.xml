@@ -1,105 +1,609 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!--AUTHOR: Bonux-->
 <list>
-	<base_stats_bonus>
-		<bonus value="1" str="-70" int="-45" con="-54" men="1" dex="-15" wit="-60"/>
-		<bonus value="2" str="-69" int="-44" con="-53" men="2" dex="-14" wit="-58"/>
-		<bonus value="3" str="-68" int="-43" con="-52" men="3" dex="-14" wit="-56"/>
-		<bonus value="4" str="-66" int="-42" con="-50" men="4" dex="-13" wit="-54"/>
-		<bonus value="5" str="-65" int="-41" con="-49" men="5" dex="-12" wit="-52"/>
-		<bonus value="6" str="-64" int="-39" con="-47" men="6" dex="-11" wit="-49"/>
-		<bonus value="7" str="-63" int="-38" con="-46" men="7" dex="-10" wit="-47"/>
-		<bonus value="8" str="-61" int="-37" con="-44" men="8" dex="-10" wit="-44"/>
-		<bonus value="9" str="-60" int="-36" con="-42" men="9" dex="-9" wit="-42"/>
-		<bonus value="10" str="-58" int="-35" con="-41" men="11" dex="-8" wit="-39"/>
-		<bonus value="11" str="-57" int="-33" con="-39" men="12" dex="-7" wit="-36"/>
-		<bonus value="12" str="-55" int="-32" con="-37" men="13" dex="-6" wit="-32"/>
-		<bonus value="13" str="-54" int="-31" con="-35" men="14" dex="-6" wit="-29"/>
-		<bonus value="14" str="-52" int="-29" con="-33" men="15" dex="-5" wit="-25"/>
-		<bonus value="15" str="-50" int="-28" con="-31" men="16" dex="-4" wit="-22"/>
-		<bonus value="16" str="-49" int="-26" con="-29" men="17" dex="-3" wit="-18"/>
-		<bonus value="17" str="-47" int="-25" con="-27" men="19" dex="-2" wit="-14"/>
-		<bonus value="18" str="-45" int="-23" con="-25" men="20" dex="-1" wit="-9"/>
-		<bonus value="19" str="-43" int="-22" con="-23" men="21" dex="0" wit="-5"/>
-		<bonus value="20" str="-41" int="-20" con="-20" men="22" dex="1" wit="0"/>
-		<bonus value="21" str="-39" int="-19" con="-18" men="23" dex="1" wit="5"/>
-		<bonus value="22" str="-37" int="-17" con="-15" men="25" dex="2" wit="10"/>
-		<bonus value="23" str="-34" int="-15" con="-13" men="26" dex="3" wit="16"/>
-		<bonus value="24" str="-32" int="-14" con="-10" men="27" dex="4" wit="22"/>
-		<bonus value="25" str="-29" int="-12" con="-7" men="28" dex="5" wit="28"/>
-		<bonus value="26" str="-27" int="-10" con="-5" men="30" dex="6" wit="34"/>
-		<bonus value="27" str="-24" int="-8" con="-2" men="31" dex="7" wit="41"/>
-		<bonus value="28" str="-22" int="-6" con="1" men="32" dex="8" wit="48"/>
-		<bonus value="29" str="-19" int="-5" con="4" men="34" dex="9" wit="55"/>
-		<bonus value="30" str="-16" int="-3" con="7" men="35" dex="10" wit="63"/>
-		<bonus value="31" str="-13" int="-1" con="10" men="36" dex="11" wit="71"/>
-		<bonus value="32" str="-10" int="1" con="14" men="38" dex="12" wit="80"/>
-		<bonus value="33" str="-6" int="3" con="17" men="39" dex="13" wit="89"/>
-		<bonus value="34" str="-3" int="5" con="21" men="40" dex="14" wit="98"/>
-		<bonus value="35" str="1" int="7" con="24" men="42" dex="15" wit="108"/>
-		<bonus value="36" str="4" int="10" con="28" men="43" dex="16" wit="118"/>
-		<bonus value="37" str="8" int="12" con="32" men="45" dex="17" wit="129"/>
-		<bonus value="38" str="12" int="14" con="36" men="46" dex="18" wit="141"/>
-		<bonus value="39" str="16" int="16" con="40" men="48" dex="19" wit="153"/>
-		<bonus value="40" str="20" int="19" con="44" men="49" dex="20" wit="165"/>
-		<bonus value="41" str="24" int="21" con="48" men="50" dex="21" wit="179"/>
-		<bonus value="42" str="29" int="23" con="53" men="52" dex="22" wit="193"/>
-		<bonus value="43" str="33" int="26" con="58" men="53" dex="24" wit="207"/>
-		<bonus value="44" str="38" int="28" con="62" men="55" dex="25" wit="223"/>
-		<bonus value="45" str="43" int="31" con="67" men="57" dex="26" wit="239"/>
-		<bonus value="46" str="48" int="34" con="72" men="58" dex="27" wit="256"/>
-		<bonus value="47" str="54" int="36" con="77" men="60" dex="28" wit="273"/>
-		<bonus value="48" str="59" int="39" con="83" men="61" dex="29" wit="292"/>
-		<bonus value="49" str="65" int="42" con="88" men="63" dex="30" wit="312"/>
-		<bonus value="50" str="71" int="45" con="94" men="65" dex="32" wit="332"/>
-		<bonus value="51" str="77" int="47" con="100" men="66" dex="33" wit="354"/>
-		<bonus value="52" str="83" int="50" con="106" men="68" dex="34" wit="376"/>
-		<bonus value="53" str="90" int="53" con="112" men="70" dex="35" wit="400"/>
-		<bonus value="54" str="97" int="57" con="118" men="71" dex="36" wit="425"/>
-		<bonus value="55" str="104" int="60" con="125" men="73" dex="38" wit="452"/>
-		<bonus value="56" str="111" int="63" con="131" men="75" dex="39" wit="479"/>
-		<bonus value="57" str="119" int="66" con="138" men="76" dex="40" wit="508"/>
-		<bonus value="58" str="127" int="69" con="145" men="78" dex="41" wit="539"/>
-		<bonus value="59" str="135" int="73" con="153" men="80" dex="43" wit="570"/>
-		<bonus value="60" str="143" int="76" con="160" men="82" dex="44" wit="604"/>
-		<bonus value="61" str="152" int="80" con="168" men="84" dex="45" wit="639"/>
-		<bonus value="62" str="161" int="83" con="176" men="85" dex="47" wit="676"/>
-		<bonus value="63" str="171" int="87" con="184" men="87" dex="48" wit="715"/>
-		<bonus value="64" str="180" int="91" con="193" men="89" dex="49" wit="756"/>
-		<bonus value="65" str="191" int="95" con="202" men="91" dex="51" wit="799"/>
-		<bonus value="66" str="201" int="99" con="211" men="93" dex="52" wit="843"/>
-		<bonus value="67" str="212" int="102" con="220" men="95" dex="53" wit="891"/>
-		<bonus value="68" str="223" int="107" con="230" men="97" dex="55" wit="940"/>
-		<bonus value="69" str="235" int="111" con="240" men="99" dex="56" wit="992"/>
-		<bonus value="70" str="247" int="115" con="250" men="101" dex="57" wit="1047"/>
-		<bonus value="71" str="259" int="119" con="260" men="103" dex="59" wit="1104"/>
-		<bonus value="72" str="272" int="124" con="271" men="105" dex="60" wit="1164"/>
-		<bonus value="73" str="286" int="128" con="282" men="107" dex="62" wit="1227"/>
-		<bonus value="74" str="299" int="133" con="294" men="109" dex="63" wit="1294"/>
-		<bonus value="75" str="314" int="137" con="306" men="111" dex="65" wit="1364"/>
-		<bonus value="76" str="329" int="142" con="318" men="113" dex="66" wit="1437"/>
-		<bonus value="77" str="344" int="147" con="330" men="115" dex="68" wit="1514"/>
-		<bonus value="78" str="360" int="152" con="343" men="117" dex="69" wit="1594"/>
-		<bonus value="79" str="377" int="157" con="356" men="120" dex="71" wit="1679"/>
-		<bonus value="80" str="394" int="162" con="370" men="122" dex="72" wit="1768"/>
-		<bonus value="81" str="412" int="167" con="384" men="124" dex="74" wit="1861"/>
-		<bonus value="82" str="430" int="173" con="399" men="126" dex="75" wit="1959"/>
-		<bonus value="83" str="449" int="178" con="414" men="129" dex="77" wit="2062"/>
-		<bonus value="84" str="469" int="184" con="429" men="131" dex="78" wit="2170"/>
-		<bonus value="85" str="489" int="189" con="445" men="133" dex="80" wit="2284"/>
-		<bonus value="86" str="511" int="195" con="461" men="135" dex="82" wit="2403"/>
-		<bonus value="87" str="533" int="201" con="478" men="138" dex="83" wit="2528"/>
-		<bonus value="88" str="555" int="207" con="496" men="140" dex="85" wit="2660"/>
-		<bonus value="89" str="579" int="213" con="513" men="143" dex="87" wit="2798"/>
-		<bonus value="90" str="603" int="219" con="532" men="145" dex="88" wit="2943"/>
-		<bonus value="91" str="629" int="226" con="551" men="147" dex="90" wit="3095"/>
-		<bonus value="92" str="655" int="232" con="570" men="150" dex="92" wit="3255"/>
-		<bonus value="93" str="682" int="239" con="590" men="152" dex="93" wit="3422"/>
-		<bonus value="94" str="710" int="246" con="611" men="155" dex="95" wit="3598"/>
-		<bonus value="95" str="739" int="253" con="633" men="158" dex="97" wit="3783"/>
-		<bonus value="96" str="770" int="260" con="654" men="160" dex="99" wit="3977"/>
-		<bonus value="97" str="801" int="267" con="677" men="163" dex="100" wit="4181"/>
-		<bonus value="98" str="833" int="274" con="700" men="165" dex="102" wit="4395"/>
-		<bonus value="99" str="867" int="282" con="724" men="168" dex="104" wit="4620"/>
-	</base_stats_bonus>
+	<str_bonus>
+		<set attribute="1" val="-70"/>
+		<set attribute="2" val="-69"/>
+		<set attribute="3" val="-68"/>
+		<set attribute="4" val="-66"/>
+		<set attribute="5" val="-65"/>
+		<set attribute="6" val="-64"/>
+		<set attribute="7" val="-63"/>
+		<set attribute="8" val="-61"/>
+		<set attribute="9" val="-60"/>
+		<set attribute="10" val="-58"/>
+		<set attribute="11" val="-57"/>
+		<set attribute="12" val="-55"/>
+		<set attribute="13" val="-54"/>
+		<set attribute="14" val="-52"/>
+		<set attribute="15" val="-50"/>
+		<set attribute="16" val="-49"/>
+		<set attribute="17" val="-47"/>
+		<set attribute="18" val="-45"/>
+		<set attribute="19" val="-43"/>
+		<set attribute="20" val="-41"/>
+		<set attribute="21" val="-39"/>
+		<set attribute="22" val="-37"/>
+		<set attribute="23" val="-34"/>
+		<set attribute="24" val="-32"/>
+		<set attribute="25" val="-29"/>
+		<set attribute="26" val="-27"/>
+		<set attribute="27" val="-24"/>
+		<set attribute="28" val="-22"/>
+		<set attribute="29" val="-19"/>
+		<set attribute="30" val="-16"/>
+		<set attribute="31" val="-13"/>
+		<set attribute="32" val="-10"/>
+		<set attribute="33" val="-6"/>
+		<set attribute="34" val="-3"/>
+		<set attribute="35" val="1"/>
+		<set attribute="36" val="4"/>
+		<set attribute="37" val="8"/>
+		<set attribute="38" val="12"/>
+		<set attribute="39" val="16"/>
+		<set attribute="40" val="20"/>
+		<set attribute="41" val="24"/>
+		<set attribute="42" val="29"/>
+		<set attribute="43" val="33"/>
+		<set attribute="44" val="38"/>
+		<set attribute="45" val="43"/>
+		<set attribute="46" val="48"/>
+		<set attribute="47" val="54"/>
+		<set attribute="48" val="59"/>
+		<set attribute="49" val="65"/>
+		<set attribute="50" val="71"/>
+		<set attribute="51" val="77"/>
+		<set attribute="52" val="83"/>
+		<set attribute="53" val="90"/>
+		<set attribute="54" val="97"/>
+		<set attribute="55" val="104"/>
+		<set attribute="56" val="111"/>
+		<set attribute="57" val="119"/>
+		<set attribute="58" val="127"/>
+		<set attribute="59" val="135"/>
+		<set attribute="60" val="143"/>
+		<set attribute="61" val="152"/>
+		<set attribute="62" val="161"/>
+		<set attribute="63" val="171"/>
+		<set attribute="64" val="180"/>
+		<set attribute="65" val="191"/>
+		<set attribute="66" val="201"/>
+		<set attribute="67" val="212"/>
+		<set attribute="68" val="223"/>
+		<set attribute="69" val="235"/>
+		<set attribute="70" val="247"/>
+		<set attribute="71" val="259"/>
+		<set attribute="72" val="272"/>
+		<set attribute="73" val="286"/>
+		<set attribute="74" val="299"/>
+		<set attribute="75" val="314"/>
+		<set attribute="76" val="329"/>
+		<set attribute="77" val="344"/>
+		<set attribute="78" val="360"/>
+		<set attribute="79" val="377"/>
+		<set attribute="80" val="394"/>
+		<set attribute="81" val="412"/>
+		<set attribute="82" val="430"/>
+		<set attribute="83" val="449"/>
+		<set attribute="84" val="469"/>
+		<set attribute="85" val="489"/>
+		<set attribute="86" val="511"/>
+		<set attribute="87" val="533"/>
+		<set attribute="88" val="555"/>
+		<set attribute="89" val="579"/>
+		<set attribute="90" val="603"/>
+		<set attribute="91" val="629"/>
+		<set attribute="92" val="655"/>
+		<set attribute="93" val="682"/>
+		<set attribute="94" val="710"/>
+		<set attribute="95" val="739"/>
+		<set attribute="96" val="770"/>
+		<set attribute="97" val="801"/>
+		<set attribute="98" val="833"/>
+		<set attribute="99" val="867"/>
+	</str_bonus>
+	<int_bonus>
+		<set attribute="1" val="-45"/>
+		<set attribute="2" val="-44"/>
+		<set attribute="3" val="-43"/>
+		<set attribute="4" val="-42"/>
+		<set attribute="5" val="-41"/>
+		<set attribute="6" val="-39"/>
+		<set attribute="7" val="-38"/>
+		<set attribute="8" val="-37"/>
+		<set attribute="9" val="-36"/>
+		<set attribute="10" val="-35"/>
+		<set attribute="11" val="-33"/>
+		<set attribute="12" val="-32"/>
+		<set attribute="13" val="-31"/>
+		<set attribute="14" val="-29"/>
+		<set attribute="15" val="-28"/>
+		<set attribute="16" val="-26"/>
+		<set attribute="17" val="-25"/>
+		<set attribute="18" val="-23"/>
+		<set attribute="19" val="-22"/>
+		<set attribute="20" val="-20"/>
+		<set attribute="21" val="-19"/>
+		<set attribute="22" val="-17"/>
+		<set attribute="23" val="-15"/>
+		<set attribute="24" val="-14"/>
+		<set attribute="25" val="-12"/>
+		<set attribute="26" val="-10"/>
+		<set attribute="27" val="-8"/>
+		<set attribute="28" val="-6"/>
+		<set attribute="29" val="-5"/>
+		<set attribute="30" val="-3"/>
+		<set attribute="31" val="-1"/>
+		<set attribute="32" val="1"/>
+		<set attribute="33" val="3"/>
+		<set attribute="34" val="5"/>
+		<set attribute="35" val="7"/>
+		<set attribute="36" val="10"/>
+		<set attribute="37" val="12"/>
+		<set attribute="38" val="14"/>
+		<set attribute="39" val="16"/>
+		<set attribute="40" val="19"/>
+		<set attribute="41" val="21"/>
+		<set attribute="42" val="23"/>
+		<set attribute="43" val="26"/>
+		<set attribute="44" val="28"/>
+		<set attribute="45" val="31"/>
+		<set attribute="46" val="34"/>
+		<set attribute="47" val="36"/>
+		<set attribute="48" val="39"/>
+		<set attribute="49" val="42"/>
+		<set attribute="50" val="45"/>
+		<set attribute="51" val="47"/>
+		<set attribute="52" val="50"/>
+		<set attribute="53" val="53"/>
+		<set attribute="54" val="57"/>
+		<set attribute="55" val="60"/>
+		<set attribute="56" val="63"/>
+		<set attribute="57" val="66"/>
+		<set attribute="58" val="69"/>
+		<set attribute="59" val="73"/>
+		<set attribute="60" val="76"/>
+		<set attribute="61" val="80"/>
+		<set attribute="62" val="83"/>
+		<set attribute="63" val="87"/>
+		<set attribute="64" val="91"/>
+		<set attribute="65" val="95"/>
+		<set attribute="66" val="99"/>
+		<set attribute="67" val="102"/>
+		<set attribute="68" val="107"/>
+		<set attribute="69" val="111"/>
+		<set attribute="70" val="115"/>
+		<set attribute="71" val="119"/>
+		<set attribute="72" val="124"/>
+		<set attribute="73" val="128"/>
+		<set attribute="74" val="133"/>
+		<set attribute="75" val="137"/>
+		<set attribute="76" val="142"/>
+		<set attribute="77" val="147"/>
+		<set attribute="78" val="152"/>
+		<set attribute="79" val="157"/>
+		<set attribute="80" val="162"/>
+		<set attribute="81" val="167"/>
+		<set attribute="82" val="173"/>
+		<set attribute="83" val="178"/>
+		<set attribute="84" val="184"/>
+		<set attribute="85" val="189"/>
+		<set attribute="86" val="195"/>
+		<set attribute="87" val="201"/>
+		<set attribute="88" val="207"/>
+		<set attribute="89" val="213"/>
+		<set attribute="90" val="219"/>
+		<set attribute="91" val="226"/>
+		<set attribute="92" val="232"/>
+		<set attribute="93" val="239"/>
+		<set attribute="94" val="246"/>
+		<set attribute="95" val="253"/>
+		<set attribute="96" val="260"/>
+		<set attribute="97" val="267"/>
+		<set attribute="98" val="274"/>
+		<set attribute="99" val="282"/>
+	</int_bonus>
+	<con_bonus>
+		<set attribute="1" val="-54"/>
+		<set attribute="2" val="-53"/>
+		<set attribute="3" val="-52"/>
+		<set attribute="4" val="-50"/>
+		<set attribute="5" val="-49"/>
+		<set attribute="6" val="-47"/>
+		<set attribute="7" val="-46"/>
+		<set attribute="8" val="-44"/>
+		<set attribute="9" val="-42"/>
+		<set attribute="10" val="-41"/>
+		<set attribute="11" val="-39"/>
+		<set attribute="12" val="-37"/>
+		<set attribute="13" val="-35"/>
+		<set attribute="14" val="-33"/>
+		<set attribute="15" val="-31"/>
+		<set attribute="16" val="-29"/>
+		<set attribute="17" val="-27"/>
+		<set attribute="18" val="-25"/>
+		<set attribute="19" val="-23"/>
+		<set attribute="20" val="-20"/>
+		<set attribute="21" val="-18"/>
+		<set attribute="22" val="-15"/>
+		<set attribute="23" val="-13"/>
+		<set attribute="24" val="-10"/>
+		<set attribute="25" val="-7"/>
+		<set attribute="26" val="-5"/>
+		<set attribute="27" val="-2"/>
+		<set attribute="28" val="1"/>
+		<set attribute="29" val="4"/>
+		<set attribute="30" val="7"/>
+		<set attribute="31" val="10"/>
+		<set attribute="32" val="14"/>
+		<set attribute="33" val="17"/>
+		<set attribute="34" val="21"/>
+		<set attribute="35" val="24"/>
+		<set attribute="36" val="28"/>
+		<set attribute="37" val="32"/>
+		<set attribute="38" val="36"/>
+		<set attribute="39" val="40"/>
+		<set attribute="40" val="44"/>
+		<set attribute="41" val="48"/>
+		<set attribute="42" val="53"/>
+		<set attribute="43" val="58"/>
+		<set attribute="44" val="62"/>
+		<set attribute="45" val="67"/>
+		<set attribute="46" val="72"/>
+		<set attribute="47" val="77"/>
+		<set attribute="48" val="83"/>
+		<set attribute="49" val="88"/>
+		<set attribute="50" val="94"/>
+		<set attribute="51" val="100"/>
+		<set attribute="52" val="106"/>
+		<set attribute="53" val="112"/>
+		<set attribute="54" val="118"/>
+		<set attribute="55" val="125"/>
+		<set attribute="56" val="131"/>
+		<set attribute="57" val="138"/>
+		<set attribute="58" val="145"/>
+		<set attribute="59" val="153"/>
+		<set attribute="60" val="160"/>
+		<set attribute="61" val="168"/>
+		<set attribute="62" val="176"/>
+		<set attribute="63" val="184"/>
+		<set attribute="64" val="193"/>
+		<set attribute="65" val="202"/>
+		<set attribute="66" val="211"/>
+		<set attribute="67" val="220"/>
+		<set attribute="68" val="230"/>
+		<set attribute="69" val="240"/>
+		<set attribute="70" val="250"/>
+		<set attribute="71" val="260"/>
+		<set attribute="72" val="271"/>
+		<set attribute="73" val="282"/>
+		<set attribute="74" val="294"/>
+		<set attribute="75" val="306"/>
+		<set attribute="76" val="318"/>
+		<set attribute="77" val="330"/>
+		<set attribute="78" val="343"/>
+		<set attribute="79" val="356"/>
+		<set attribute="80" val="370"/>
+		<set attribute="81" val="384"/>
+		<set attribute="82" val="399"/>
+		<set attribute="83" val="414"/>
+		<set attribute="84" val="429"/>
+		<set attribute="85" val="445"/>
+		<set attribute="86" val="461"/>
+		<set attribute="87" val="478"/>
+		<set attribute="88" val="496"/>
+		<set attribute="89" val="513"/>
+		<set attribute="90" val="532"/>
+		<set attribute="91" val="551"/>
+		<set attribute="92" val="570"/>
+		<set attribute="93" val="590"/>
+		<set attribute="94" val="611"/>
+		<set attribute="95" val="633"/>
+		<set attribute="96" val="654"/>
+		<set attribute="97" val="677"/>
+		<set attribute="98" val="700"/>
+		<set attribute="99" val="724"/>
+	</con_bonus>   
+	<men_bonus>
+		<set attribute="1" val="1"/>
+		<set attribute="2" val="2"/>
+		<set attribute="3" val="3"/>
+		<set attribute="4" val="4"/>
+		<set attribute="5" val="5"/>
+		<set attribute="6" val="6"/>
+		<set attribute="7" val="7"/>
+		<set attribute="8" val="8"/>
+		<set attribute="9" val="9"/>
+		<set attribute="10" val="11"/>
+		<set attribute="11" val="12"/>
+		<set attribute="12" val="13"/>
+		<set attribute="13" val="14"/>
+		<set attribute="14" val="15"/>
+		<set attribute="15" val="16"/>
+		<set attribute="16" val="17"/>
+		<set attribute="17" val="19"/>
+		<set attribute="18" val="20"/>
+		<set attribute="19" val="21"/>
+		<set attribute="20" val="22"/>
+		<set attribute="21" val="23"/>
+		<set attribute="22" val="25"/>
+		<set attribute="23" val="26"/>
+		<set attribute="24" val="27"/>
+		<set attribute="25" val="28"/>
+		<set attribute="26" val="30"/>
+		<set attribute="27" val="31"/>
+		<set attribute="28" val="32"/>
+		<set attribute="29" val="34"/>
+		<set attribute="30" val="35"/>
+		<set attribute="31" val="36"/>
+		<set attribute="32" val="38"/>
+		<set attribute="33" val="39"/>
+		<set attribute="34" val="40"/>
+		<set attribute="35" val="42"/>
+		<set attribute="36" val="43"/>
+		<set attribute="37" val="45"/>
+		<set attribute="38" val="46"/>
+		<set attribute="39" val="48"/>
+		<set attribute="40" val="49"/>
+		<set attribute="41" val="50"/>
+		<set attribute="42" val="52"/>
+		<set attribute="43" val="53"/>
+		<set attribute="44" val="55"/>
+		<set attribute="45" val="57"/>
+		<set attribute="46" val="58"/>
+		<set attribute="47" val="60"/>
+		<set attribute="48" val="61"/>
+		<set attribute="49" val="63"/>
+		<set attribute="50" val="65"/>
+		<set attribute="51" val="66"/>
+		<set attribute="52" val="68"/>
+		<set attribute="53" val="70"/>
+		<set attribute="54" val="71"/>
+		<set attribute="55" val="73"/>
+		<set attribute="56" val="75"/>
+		<set attribute="57" val="76"/>
+		<set attribute="58" val="78"/>
+		<set attribute="59" val="80"/>
+		<set attribute="60" val="82"/>
+		<set attribute="61" val="84"/>
+		<set attribute="62" val="85"/>
+		<set attribute="63" val="87"/>
+		<set attribute="64" val="89"/>
+		<set attribute="65" val="91"/>
+		<set attribute="66" val="93"/>
+		<set attribute="67" val="95"/>
+		<set attribute="68" val="97"/>
+		<set attribute="69" val="99"/>
+		<set attribute="70" val="101"/>
+		<set attribute="71" val="103"/>
+		<set attribute="72" val="105"/>
+		<set attribute="73" val="107"/>
+		<set attribute="74" val="109"/>
+		<set attribute="75" val="111"/>
+		<set attribute="76" val="113"/>
+		<set attribute="77" val="115"/>
+		<set attribute="78" val="117"/>
+		<set attribute="79" val="120"/>
+		<set attribute="80" val="122"/>
+		<set attribute="81" val="124"/>
+		<set attribute="82" val="126"/>
+		<set attribute="83" val="129"/>
+		<set attribute="84" val="131"/>
+		<set attribute="85" val="133"/>
+		<set attribute="86" val="135"/>
+		<set attribute="87" val="138"/>
+		<set attribute="88" val="140"/>
+		<set attribute="89" val="143"/>
+		<set attribute="90" val="145"/>
+		<set attribute="91" val="147"/>
+		<set attribute="92" val="150"/>
+		<set attribute="93" val="152"/>
+		<set attribute="94" val="155"/>
+		<set attribute="95" val="158"/>
+		<set attribute="96" val="160"/>
+		<set attribute="97" val="163"/>
+		<set attribute="98" val="165"/>
+		<set attribute="99" val="168"/>
+	</men_bonus>
+	<dex_bonus>
+		<set attribute="1" val="-15"/>
+		<set attribute="2" val="-14"/>
+		<set attribute="3" val="-14"/>
+		<set attribute="4" val="-13"/>
+		<set attribute="5" val="-12"/>
+		<set attribute="6" val="-11"/>
+		<set attribute="7" val="-10"/>
+		<set attribute="8" val="-10"/>
+		<set attribute="9" val="-9"/>
+		<set attribute="10" val="-8"/>
+		<set attribute="11" val="-7"/>
+		<set attribute="12" val="-6"/>
+		<set attribute="13" val="-6"/>
+		<set attribute="14" val="-5"/>
+		<set attribute="15" val="-4"/>
+		<set attribute="16" val="-3"/>
+		<set attribute="17" val="-2"/>
+		<set attribute="18" val="-1"/>
+		<set attribute="19" val="0"/>
+		<set attribute="20" val="1"/>
+		<set attribute="21" val="1"/>
+		<set attribute="22" val="2"/>
+		<set attribute="23" val="3"/>
+		<set attribute="24" val="4"/>
+		<set attribute="25" val="5"/>
+		<set attribute="26" val="6"/>
+		<set attribute="27" val="7"/>
+		<set attribute="28" val="8"/>
+		<set attribute="29" val="9"/>
+		<set attribute="30" val="10"/>
+		<set attribute="31" val="11"/>
+		<set attribute="32" val="12"/>
+		<set attribute="33" val="13"/>
+		<set attribute="34" val="14"/>
+		<set attribute="35" val="15"/>
+		<set attribute="36" val="16"/>
+		<set attribute="37" val="17"/>
+		<set attribute="38" val="18"/>
+		<set attribute="39" val="19"/>
+		<set attribute="40" val="20"/>
+		<set attribute="41" val="21"/>
+		<set attribute="42" val="22"/>
+		<set attribute="43" val="24"/>
+		<set attribute="44" val="25"/>
+		<set attribute="45" val="26"/>
+		<set attribute="46" val="27"/>
+		<set attribute="47" val="28"/>
+		<set attribute="48" val="29"/>
+		<set attribute="49" val="30"/>
+		<set attribute="50" val="32"/>
+		<set attribute="51" val="33"/>
+		<set attribute="52" val="34"/>
+		<set attribute="53" val="35"/>
+		<set attribute="54" val="36"/>
+		<set attribute="55" val="38"/>
+		<set attribute="56" val="39"/>
+		<set attribute="57" val="40"/>
+		<set attribute="58" val="41"/>
+		<set attribute="59" val="43"/>
+		<set attribute="60" val="44"/>
+		<set attribute="61" val="45"/>
+		<set attribute="62" val="47"/>
+		<set attribute="63" val="48"/>
+		<set attribute="64" val="49"/>
+		<set attribute="65" val="51"/>
+		<set attribute="66" val="52"/>
+		<set attribute="67" val="53"/>
+		<set attribute="68" val="55"/>
+		<set attribute="69" val="56"/>
+		<set attribute="70" val="57"/>
+		<set attribute="71" val="59"/>
+		<set attribute="72" val="60"/>
+		<set attribute="73" val="62"/>
+		<set attribute="74" val="63"/>
+		<set attribute="75" val="65"/>
+		<set attribute="76" val="66"/>
+		<set attribute="77" val="68"/>
+		<set attribute="78" val="69"/>
+		<set attribute="79" val="71"/>
+		<set attribute="80" val="72"/>
+		<set attribute="81" val="74"/>
+		<set attribute="82" val="75"/>
+		<set attribute="83" val="77"/>
+		<set attribute="84" val="78"/>
+		<set attribute="85" val="80"/>
+		<set attribute="86" val="82"/>
+		<set attribute="87" val="83"/>
+		<set attribute="88" val="85"/>
+		<set attribute="89" val="87"/>
+		<set attribute="90" val="88"/>
+		<set attribute="91" val="90"/>
+		<set attribute="92" val="92"/>
+		<set attribute="93" val="93"/>
+		<set attribute="94" val="95"/>
+		<set attribute="95" val="97"/>
+		<set attribute="96" val="99"/>
+		<set attribute="97" val="100"/>
+		<set attribute="98" val="102"/>
+		<set attribute="99" val="104"/>
+	</dex_bonus>
+	<wit_bonus>
+		<set attribute="1" val="-60"/>
+		<set attribute="2" val="-58"/>
+		<set attribute="3" val="-56"/>
+		<set attribute="4" val="-54"/>
+		<set attribute="5" val="-52"/>
+		<set attribute="6" val="-49"/>
+		<set attribute="7" val="-47"/>
+		<set attribute="8" val="-44"/>
+		<set attribute="9" val="-42"/>
+		<set attribute="10" val="-39"/>
+		<set attribute="11" val="-36"/>
+		<set attribute="12" val="-32"/>
+		<set attribute="13" val="-29"/>
+		<set attribute="14" val="-25"/>
+		<set attribute="15" val="-22"/>
+		<set attribute="16" val="-18"/>
+		<set attribute="17" val="-14"/>
+		<set attribute="18" val="-9"/>
+		<set attribute="19" val="-5"/>
+		<set attribute="20" val="0"/>
+		<set attribute="21" val="5"/>
+		<set attribute="22" val="10"/>
+		<set attribute="23" val="16"/>
+		<set attribute="24" val="22"/>
+		<set attribute="25" val="28"/>
+		<set attribute="26" val="34"/>
+		<set attribute="27" val="41"/>
+		<set attribute="28" val="48"/>
+		<set attribute="29" val="55"/>
+		<set attribute="30" val="63"/>
+		<set attribute="31" val="71"/>
+		<set attribute="32" val="80"/>
+		<set attribute="33" val="89"/>
+		<set attribute="34" val="98"/>
+		<set attribute="35" val="108"/>
+		<set attribute="36" val="118"/>
+		<set attribute="37" val="129"/>
+		<set attribute="38" val="141"/>
+		<set attribute="39" val="153"/>
+		<set attribute="40" val="165"/>
+		<set attribute="41" val="179"/>
+		<set attribute="42" val="193"/>
+		<set attribute="43" val="207"/>
+		<set attribute="44" val="223"/>
+		<set attribute="45" val="239"/>
+		<set attribute="46" val="256"/>
+		<set attribute="47" val="273"/>
+		<set attribute="48" val="292"/>
+		<set attribute="49" val="312"/>
+		<set attribute="50" val="332"/>
+		<set attribute="51" val="354"/>
+		<set attribute="52" val="376"/>
+		<set attribute="53" val="400"/>
+		<set attribute="54" val="425"/>
+		<set attribute="55" val="452"/>
+		<set attribute="56" val="479"/>
+		<set attribute="57" val="508"/>
+		<set attribute="58" val="539"/>
+		<set attribute="59" val="570"/>
+		<set attribute="60" val="604"/>
+		<set attribute="61" val="639"/>
+		<set attribute="62" val="676"/>
+		<set attribute="63" val="715"/>
+		<set attribute="64" val="756"/>
+		<set attribute="65" val="799"/>
+		<set attribute="66" val="843"/>
+		<set attribute="67" val="891"/>
+		<set attribute="68" val="940"/>
+		<set attribute="69" val="992"/>
+		<set attribute="70" val="1047"/>
+		<set attribute="71" val="1104"/>
+		<set attribute="72" val="1164"/>
+		<set attribute="73" val="1227"/>
+		<set attribute="74" val="1294"/>
+		<set attribute="75" val="1364"/>
+		<set attribute="76" val="1437"/>
+		<set attribute="77" val="1514"/>
+		<set attribute="78" val="1594"/>
+		<set attribute="79" val="1679"/>
+		<set attribute="80" val="1768"/>
+		<set attribute="81" val="1861"/>
+		<set attribute="82" val="1959"/>
+		<set attribute="83" val="2062"/>
+		<set attribute="84" val="2170"/>
+		<set attribute="85" val="2284"/>
+		<set attribute="86" val="2403"/>
+		<set attribute="87" val="2528"/>
+		<set attribute="88" val="2660"/>
+		<set attribute="89" val="2798"/>
+		<set attribute="90" val="2943"/>
+		<set attribute="91" val="3095"/>
+		<set attribute="92" val="3255"/>
+		<set attribute="93" val="3422"/>
+		<set attribute="94" val="3598"/>
+		<set attribute="95" val="3783"/>
+		<set attribute="96" val="3977"/>
+		<set attribute="97" val="4181"/>
+		<set attribute="98" val="4395"/>
+		<set attribute="99" val="4620"/>
+	</wit_bonus>
 </list>

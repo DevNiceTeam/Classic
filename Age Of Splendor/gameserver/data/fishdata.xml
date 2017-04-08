@@ -1,56 +1,81 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
-	<distribution id="1">
-		<for_lure type="NORMAL">
-		   <chance type="EASY_WIDE" value="35"/>
-		   <chance type="WIDE" value="25"/>
-			<chance type="HARD_WIDE" value="10"/>
-		   <chance type="BOX" value="15"/>
-		</for_lure>
-		<for_lure type="NIGHT">
-		   <chance type="EASY_WIDE" value="25"/>
-			<chance type="WIDE" value="15"/>
-			<chance type="HARD_WIDE" value="10"/>
-		   <chance type="BOX" value="35"/>
-		</for_lure>
-	</distribution>
-	<distribution id="2">
-		<for_lure type="NORMAL">
-		   <chance type="EASY_WIDE" value="30"/>
-		   <chance type="WIDE" value="25"/>
-		   <chance type="HARD_WIDE" value="20"/>
-		   <chance type="BOX" value="15"/>
-		</for_lure>
-		<for_lure type="NIGHT">
-		   <chance type="EASY_WIDE" value="25"/>
-		   <chance type="WIDE" value="20"/>
-		   <chance type="HARD_WIDE" value="35"/>
-		   <chance type="BOX" value="10"/>
-		</for_lure>
-	</distribution>
-	<lure item_id="45495" revision_number="1.5" length_bonus="0" rate_bonus="0.0" type="NORMAL">
-		   <chance type="EASY_WIDE" value="141"/>
-		   <chance type="WIDE" value="121"/>
-		   <chance type="BOX" value="131"/>
+	<config only_premium_accounts="false" fish_drop_count_rate="1"/>
+	<lure id="45495" fail_chance="20.2" fail_duration="105">	<!--Обычная Наживка-->
+		<fish id="45473" chance="12.6" duration="105" reward_type="1"/>	<!--Свежая Скумбрия-->
+		<fish id="45474" chance="13.4" duration="105" reward_type="1"/>	<!--Свежий Гольян-->
+		<fish id="45480" chance="5" duration="105" reward_type="2"/>	<!--Свежий Угорь-->
+		<fish id="45476" chance="15.8" duration="105" reward_type="2"/>	<!--Свежий Ерш-->
+		<fish id="45475" chance="14.2" duration="105" reward_type="2"/>	<!--Свежая Камбала--> 
+		<fish id="45477" chance="4.2" duration="105" reward_type="3"/>	<!--Свежая Песчанка-->
+		<fish id="45478" chance="5.2" duration="105" reward_type="3"/>	<!--Свежий Карась-->
+		<fish id="45479" chance="3.4" duration="105" reward_type="4"/>	<!--Свежий Лосось-->
+		<fish id="45486" chance="6" duration="105" reward_type="0"/>	<!--Деревянный Сундук с Сокровищами-->
 	</lure>
-	<lure item_id="45496" revision_number="1.5" length_bonus="0" rate_bonus="0.0" type="NORMAL">
-		   <chance type="HARD_WIDE" value="167"/>
-		   <chance type="BOX" value="127"/>
+	<lure id="45496" fail_chance="22.0" fail_duration="105">	<!--Особая Наживка-->
+		<!--TODO: Check rewards.-->
+		<fish id="45481" chance="17.6" duration="105" reward_type="4"/>	<!--Сверкающий Марлин-->
+		<fish id="45482" chance="16.2" duration="105" reward_type="3"/>	<!--Сверкающий Сом-->
+		<fish id="45483" chance="21.6" duration="105" reward_type="4"/>	<!--Сверкающий Тунец-->
+		<fish id="45484" chance="16.2" duration="105" reward_type="4"/>	<!--Сверкающий Карп-->
+		<fish id="45485" chance="4.5" duration="105" reward_type="4"/>	<!--Сверкающий Кит-->
+		<fish id="45487" chance="1.5" duration="105" reward_type="0"/>	<!--Серебряный Сундук с Сокровищами-->
+		<fish id="45488" chance="0.3" duration="105" reward_type="0"/>	<!--Золотой Сундук с Сокровищами-->
 	</lure>
-	<fish item_id="45473" group="EASY_WIDE" level="1" bite_rate="100.0" guts="50.4" hp="150" max_length="30000" length_rate="10.0" hp_regen="4.0" start_combat_time="20" combat_duration="31" guts_check_time="5" guts_check_probability="50.4" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45474" group="EASY_WIDE" level="2" bite_rate="100.0" guts="51.6" hp="300" max_length="30000" length_rate="10.0" hp_regen="6.0" start_combat_time="20" combat_duration="31" guts_check_time="5" guts_check_probability="51.6" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45475" group="EASY_WIDE" level="3" bite_rate="100.0" guts="52.8" hp="450" max_length="30000" length_rate="10.0" hp_regen="8.0" start_combat_time="20" combat_duration="32" guts_check_time="5" guts_check_probability="52.8" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45476" group="EASY_WIDE" level="4" bite_rate="100.0" guts="54.0" hp="600" max_length="30000" length_rate="10.0" hp_regen="10.0" start_combat_time="20" combat_duration="32" guts_check_time="5" guts_check_probability="54.0" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45477" group="WIDE" level="5" bite_rate="100.0" guts="55.2" hp="750" max_length="30000" length_rate="10.0" hp_regen="11.0" start_combat_time="20" combat_duration="32" guts_check_time="4" guts_check_probability="55.2" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45478" group="WIDE" level="6" bite_rate="100.0" guts="56.4" hp="900" max_length="30000" length_rate="10.0" hp_regen="12.0" start_combat_time="20" combat_duration="32" guts_check_time="4" guts_check_probability="56.4" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45479" group="WIDE" level="7" bite_rate="100.0" guts="57.6" hp="1050" max_length="30000" length_rate="10.0" hp_regen="13.0" start_combat_time="20" combat_duration="32" guts_check_time="4" guts_check_probability="57.6" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45480" group="WIDE" level="8" bite_rate="100.0" guts="58.8" hp="1200" max_length="30000" length_rate="10.0" hp_regen="14.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="58.8" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45481" group="HARD_WIDE" level="9" bite_rate="100.0" guts="60.0" hp="1350" max_length="30000" length_rate="10.0" hp_regen="17.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="60.0" cheating_prob="0.0" grade="NORMAL"/>
-	<fish item_id="45482" group="HARD_WIDE" level="10" bite_rate="100.0" guts="61.2" hp="1500" max_length="30000" length_rate="10.0" hp_regen="18.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="61.2" cheating_prob="0.0" grade="NORMAL"/>
-	<fish item_id="45483" group="HARD_WIDE" level="11" bite_rate="100.0" guts="62.4" hp="1650" max_length="30000" length_rate="10.0" hp_regen="19.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="62.4" cheating_prob="0.0" grade="NORMAL"/>
-	<fish item_id="45484" group="HARD_WIDE" level="12" bite_rate="100.0" guts="63.6" hp="1800" max_length="30000" length_rate="10.0" hp_regen="20.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="63.6" cheating_prob="0.0" grade="NORMAL"/>
-	<fish item_id="45485" group="HARD_WIDE" level="13" bite_rate="100.0" guts="64.8" hp="1950" max_length="30000" length_rate="10.0" hp_regen="21.0" start_combat_time="20" combat_duration="32" guts_check_time="3" guts_check_probability="64.8" cheating_prob="0.0" grade="HARD"/>
-	<fish item_id="45486" group="BOX" level="8" bite_rate="100.0" guts="58.8" hp="1200" max_length="0" length_rate="0.0" hp_regen="14.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="58.8" cheating_prob="0.0" grade="EASY"/>
-	<fish item_id="45487" group="BOX" level="9" bite_rate="100.0" guts="60.0" hp="1350" max_length="0" length_rate="0.0" hp_regen="17.0" start_combat_time="20" combat_duration="31" guts_check_time="4" guts_check_probability="60.0" cheating_prob="0.0" grade="NORMAL"/>
-	<fish item_id="45488" group="BOX" level="13" bite_rate="100.0" guts="64.8" hp="1950" max_length="0" length_rate="0.0" hp_regen="21.0" start_combat_time="20" combat_duration="32" guts_check_time="3" guts_check_probability="64.8" cheating_prob="0.0" grade="HARD"/>
+	<lure id="46084" fail_chance="22.0" fail_duration="105">	<!--Особая Наживка-->
+		<fish id="46085" chance="15" duration="135" reward_type="5"/>	<!--1-й Обрывок Карты Сокровищ-->
+		<fish id="46086" chance="25" duration="135" reward_type="5"/>	<!--2-й Обрывок Карты Сокровищ-->
+		<fish id="46087" chance="20" duration="135" reward_type="5"/>	<!--3-й Обрывок Карты Сокровищ-->
+		<fish id="46088" chance="15" duration="135" reward_type="5"/>	<!--4-й Обрывок Карты Сокровищ-->
+		<fish id="46089" chance="3" duration="135" reward_type="5"/>	<!--5-й Обрывок Карты Сокровищ-->
+	</lure>
+	<rewards type="0">
+		<reward min_level="1" exp="0" sp="0"/>
+	</rewards>
+	<rewards type="1">
+		<reward min_level="61" max_level="84" exp="96607" sp="23"/>	<!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="1403153" sp="336"/>
+		<reward min_level="88" max_level="89" exp="1514417" sp="363"/>
+		<reward min_level="90" max_level="90" exp="1591172" sp="372"/>
+		<reward min_level="91" max_level="92" exp="1630327" sp="391"/>
+		<reward min_level="93" exp="1514417" sp="363"/>	<!--TODO: Check rewards for 92-99 levels.-->
+	</rewards>
+	<rewards type="2">
+		<reward min_level="61" max_level="84" exp="144905" sp="34"/>	<!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="2104643" sp="505"/>
+		<reward min_level="88" max_level="89" exp="2271531" sp="545"/>
+		<reward min_level="90" max_level="90" exp="2386658" sp="572"/>
+		<reward min_level="91" max_level="92" exp="2445388" sp="586"/>
+		<reward min_level="93" exp="2271531" sp="545"/>	<!--TODO: Check rewards for 92-99 levels.-->
+	</rewards>
+	<rewards type="3">
+		<reward min_level="61" max_level="84" exp="205286" sp="49"/>	<!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="2981636" sp="715"/>
+		<reward min_level="88" max_level="89" exp="3218065" sp="772"/>
+		<reward min_level="90" max_level="90" exp="3381166" sp="811"/>
+		<reward min_level="91" max_level="92" exp="3464368" sp="831"/>
+		<reward min_level="93" exp="3218065" sp="772"/>	<!--TODO: Check rewards for 92-99 levels.-->
+	</rewards>
+	<rewards type="4">
+		<reward min_level="61" max_level="84" exp="289822" sp="69"/>	<!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="4209461" sp="1010"/>
+		<reward min_level="88" max_level="89" exp="4543251" sp="1090"/>
+		<reward min_level="90" max_level="90" exp="4773516" sp="1145"/>
+		<reward min_level="91" max_level="92" exp="4890981" sp="1173"/>
+		<reward min_level="93" exp="4543251" sp="1090"/>	<!--TODO: Check rewards for 92-99 levels.-->
+	</rewards>	
+	<rewards type="5">
+		<reward min_level="61" max_level="84" exp="309822" sp="72"/>	<!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="89" exp="2839603" sp="681"/>
+		<reward min_level="90" max_level="90" exp="2983522" sp="715"/>
+		<reward min_level="91" max_level="92" exp="3056939" sp="733"/>
+		<reward min_level="93" exp="2839603" sp="681"/>	<!--TODO: Check rewards for 92-99 levels.-->
+	</rewards>	
+	<rod id="27632" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>	<!--Элитная Удочка-->
+	<rod id="27633" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>	<!--Элитная Удочка-->
+	<rod id="27635" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>	<!--Элитная Удочка-->
+	<rod id="27637" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>	<!--Элитная Удочка-->
+	<rod id="45494" duration_modifier="1" reward_modifier="1" shot_consume_count="1"/>	<!--Крепкая Удочка-->
+	<rod id="46286" duration_modifier="1" reward_modifier="1" shot_consume_count="1"/>	<!--Новогодняя Удочка-->
+	<rod id="45492" duration_modifier="1" reward_modifier="1" shot_consume_count="1"/>	<!--Обычная Удочка-->
 </list>

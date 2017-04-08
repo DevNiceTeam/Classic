@@ -330,7 +330,7 @@ public class heart extends Functions implements OnInitScriptListener
 
 	private void unSpawnEventManagers()
 	{
-		deSpawnNPCs(_spawns);
+		deSpawnNPC(_spawns);
 	}
 
 	private class DeathListener implements OnDeathListener

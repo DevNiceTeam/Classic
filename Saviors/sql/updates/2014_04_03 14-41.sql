@@ -1,1 +1,0 @@
-ALTER TABLE character_subclasses ADD COLUMN `abilities_points` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `used_vitality_potions`;

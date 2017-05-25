@@ -1,1 +1,0 @@
-ALTER TABLE characters ADD COLUMN `hide_head_accessories` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `used_world_chat_points`;

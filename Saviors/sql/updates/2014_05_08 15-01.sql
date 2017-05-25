@@ -1,1 +1,0 @@
-ALTER TABLE custom_heroes CHANGE `time` `time` int(11) NOT NULL;

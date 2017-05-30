@@ -1,0 +1,52 @@
+<list>
+    <skill id="14826" levels="9" name="Интенсивное рассечение">
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="150"/>
+        <table name="#power">831 8287 400 831 1532 2575 4430 6656 8287</table>
+    </skill>
+    <skill id="14828" levels="9" name="Взрыв Чистоты">
+        <set name="castRange" value="500"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_AREA"/>
+        <set name="skillRadius" value="200"/>
+        <table name="#power">50 120 139 50 66 82 94 108 120</table>
+    </skill>
+    <skill id="14830" levels="9" name="Серый Взрыв">
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="150"/>
+        <table name="#power">985 9861 473 985 1814 3048 5269 7904 9861</table>
+    </skill>
+    <skill id="14832" levels="9" name="Платоническая Буря">
+        <set name="castRange" value="500"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_AREA"/>
+        <set name="skillRadius" value="200"/>
+        <table name="#power">55 133 43 55 72 91 104 120 133</table>
+    </skill>
+</list>

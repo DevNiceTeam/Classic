@@ -1,0 +1,35 @@
+<list>
+    <skill id="39101" levels="1" name="Погоня">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="multi_buff1"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0998"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="runSpd" value="66"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39102" levels="1" name="Внимательность">
+        <set name="abnormal_effect" value="STEALTH"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="hide"/>
+        <set name="icon" value="icon.skill10518"/>
+        <set name="mp_consume" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect cancel_on_action="true" name="Invisible"/>
+        </for>
+    </skill>
+</list>

@@ -1,0 +1,794 @@
+13.05 00:32:23 ERROR Unable to get soft information
+File name '/home/developer/dev/lineage-2-classic-2.0-wizarddev/auth/build/classes/main' isn't a valid jar
+java.io.FileNotFoundException: /home/developer/dev/lineage-2-classic-2.0-wizarddev/auth/build/classes/main (Это каталог)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at studio.lineage2.commons.versioning.Version.<init>(Version.java:33)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:93)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:272)
+13.05 00:32:23 INFO  =================================================
+13.05 00:32:23 INFO  Project Name: ........ Nice Team
+13.05 00:32:23 INFO  Project Revision: ........ [20651] Open Compile
+13.05 00:32:23 INFO  Update: .................. Classic 2.0
+13.05 00:32:23 INFO  Build date: .............. 
+13.05 00:32:23 INFO  Compiler version: ........ 
+13.05 00:32:23 INFO  Contact Info: ........ Skype:support_nice_team
+13.05 00:32:23 INFO  =================================================
+13.05 00:32:23 INFO  =================================================
+13.05 00:32:23 INFO  Authserver host info: IP[217.25.225.213], PORT[9014]
+13.05 00:32:23 INFO  =================================================
+13.05 00:32:23 INFO  Gameserver host info:
+13.05 00:32:23 INFO  ID[1], IP[217.25.225.213], INNER_IP[217.25.225.213], PORT[7777]
+13.05 00:32:23 INFO  =================================================
+13.05 00:32:23 INFO  Abuse: Loaded 18 abuse words.
+13.05 00:32:23 INFO  HikariPool-1 - Started.
+13.05 00:32:24 INFO  IdFactory: Clear characters online status.
+13.05 00:32:24 INFO  IdFactory: Cleaned 0 elements from database in 0sec.
+13.05 00:32:24 INFO  IdFactory: Extracted total 0 used id's.
+13.05 00:32:24 INFO  IdFactory: 102912 id's available.
+13.05 00:32:24 INFO  Hidden items loaded size: 0
+13.05 00:32:24 INFO  CustomHeroDAO: loaded 0 custom heroes.
+13.05 00:32:24 INFO  Scripts: Loading...
+13.05 00:32:26 INFO  Scripts: Loaded 358 classes.
+13.05 00:32:26 INFO  Loaded 418 translit entries.
+13.05 00:32:26 INFO  GameTimeController: initialized. Current time is 9:14 in the day.
+13.05 00:32:26 INFO  World: Creating regions: [256][272][32].
+13.05 00:32:26 INFO  HtmCache: disabled.
+13.05 00:32:26 INFO  StringsHolder: load strings: 677 for lang: RUSSIAN
+13.05 00:32:26 INFO  StringsHolder: load strings: 677 for lang: ENGLISH
+13.05 00:32:26 INFO  SkillEnchantInfoHolder: loaded 30 skill enchant info(s) count.
+13.05 00:32:28 INFO  SkillHolder: loaded 29519 skill(s) count.
+13.05 00:32:29 INFO  OptionDataHolder: loaded 5774 option data(s) count.
+13.05 00:32:29 INFO  VariationDataHolder: loaded 35 variation data(s) count.
+13.05 00:32:29 INFO  ItemHolder: loaded 8541 item(s) count.
+13.05 00:32:29 INFO  EnsoulHolder: loaded 320 ensoul(s) count.
+13.05 00:32:29 INFO  RecipeHolder: loaded 623 recipe(s) count.
+13.05 00:32:29 INFO  CrystallizationDataHolder: loaded 1 crystallization data(s) count.
+13.05 00:32:29 INFO  SynthesisDataHolder: loaded 132 synthesis data(s) count.
+13.05 00:32:29 INFO  BaseStatsBonusHolder: loaded 80 base stats bonus(s) count.
+13.05 00:32:29 INFO  LevelBonusHolder: loaded 80 level bonus(s) count.
+13.05 00:32:29 INFO  KarmaIncreaseDataHolder: loaded 80 karma increase data(s) count.
+13.05 00:32:29 INFO  HitCondBonusHolder: loaded 7 hit cond bonus(s) count.
+13.05 00:32:29 INFO  PlayerTemplateHolder: loaded 18 player template(s) count.
+13.05 00:32:29 INFO  ClassDataHolder: loaded 89 class data(s) count.
+13.05 00:32:29 INFO  TransformTemplateHolder: loaded 26 transform template(s) count.
+13.05 00:32:29 INFO  NpcModificationHolder: loaded 1 npc modification(s) count.
+13.05 00:32:30 INFO  NpcHolder: loaded 4620 npc(s) count.
+13.05 00:32:30 INFO  ChampionHolder: loaded 1 champion(s) count.
+13.05 00:32:30 INFO  PetDataHolder: loaded 55 pet data(s) count.
+13.05 00:32:30 INFO  MapRegionManager: loaded 272 map region manager(s) count.
+13.05 00:32:30 INFO  MapRegionManager: loaded 272 map region manager(s) count.
+13.05 00:32:30 INFO  StaticObjectHolder: loaded 145 static object(s) count.
+13.05 00:32:30 INFO  DoorHolder: loaded 1304 door(s) count.
+13.05 00:32:30 INFO  ZoneHolder: loaded 1091 zone(s) count.
+13.05 00:32:31 INFO  SpawnHolder: loaded 12441 spawn(s) count.
+13.05 00:32:31 INFO  InstantZoneHolder: loaded 8 instant zone(s) count.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 34201 normal learns for 89 classes.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 0 transfer learns for 3 classes.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 89 general skills learns for 89 classes.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 6 transformation learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 0 custom transformation learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 0 fishing learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 0 collection learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 45 pledge learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 0 sub unit learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 6 noblesse skills learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 5 hero skills learns.
+13.05 00:32:31 INFO  SkillAcquireHolder: load 1 GM skills learns.
+13.05 00:32:31 INFO  ResidenceHolder: total size: 79
+13.05 00:32:31 INFO  ResidenceHolder:  - load 20 fortress(s).
+13.05 00:32:31 INFO  ResidenceHolder:  - load 54 clanhall(s).
+13.05 00:32:31 INFO  ResidenceHolder:  - load 5 castle(s).
+13.05 00:32:31 INFO  ShuttleTemplateHolder: loaded 1 shuttle template(s) count.
+13.05 00:32:31 INFO  RaidBossSpawnManager: Loaded 0 Statuses
+13.05 00:32:31 WARN  SpawnExObject: not found spawn group: aden_castle_siege_artefact
+13.05 00:32:31 WARN  SpawnExObject: not found spawn group: aden_castle_siege
+13.05 00:32:31 WARN  SpawnExObject: not found spawn group: aden_castle_mass_gatekeeper
+13.05 00:32:31 INFO  EventParser: Not found impl class: ClanHallTeamBattle; File: [63] wild_beast_reserve.xml
+13.05 00:32:31 INFO  EventHolder: loaded 57 event(s) count.
+13.05 00:32:31 INFO  CubicHolder: loaded 205 cubic(s) count.
+13.05 00:32:31 INFO  BuyListHolder: loaded 193 buy list(s) count.
+13.05 00:32:31 INFO  MultiSellHolder: loaded 14 multi sell(s) count.
+13.05 00:32:31 INFO  ProductDataHolder: loaded 241 product data(s) count.
+13.05 00:32:31 INFO  HennaHolder: loaded 180 henna(s) count.
+13.05 00:32:31 INFO  JumpTracksHolder: loaded 1 jump tracks(s) count.
+13.05 00:32:31 INFO  EnchantItemHolder: loaded 251 enchant item(s) count.
+13.05 00:32:31 INFO  EnchantStoneHolder: loaded 98 enchant stone(s) count.
+13.05 00:32:31 INFO  AppearanceStoneHolder: loaded 813 appearance stone(s) count.
+13.05 00:32:31 INFO  ArmorSetsHolder: loaded 521 armor sets(s) count.
+13.05 00:32:31 INFO  FishDataHolder: load 3 lure(s).
+13.05 00:32:31 INFO  FishDataHolder: load 7 lure reward(s).
+13.05 00:32:31 INFO  FishDataHolder: load 7 rod(s).
+13.05 00:32:31 INFO  LevelUpRewardHolder: loaded 48 level up reward(s) count.
+13.05 00:32:31 INFO  LuckyGameHolder: loaded 2 lucky game(s) count.
+13.05 00:32:31 INFO  PremiumAccountHolder: loaded 1 premium account(s) count.
+13.05 00:32:31 INFO  PetitionGroupHolder: loaded 1 petition group(s) count.
+13.05 00:32:31 INFO  DailyMissionsHolder: loaded 58 daily missions(s) count.
+13.05 00:32:32 INFO  RewardHolder: loaded 788 reward(s) count.
+13.05 00:32:32 INFO  FactionHolder: loaded 1 faction(s) count.
+13.05 00:32:32 INFO  MonsterBookHolder: loaded 1 monster book(s) count.
+13.05 00:32:32 INFO  CommunityTeleportPointsHolder: loaded 309 community teleport points(s) count.
+13.05 00:32:32 INFO  CrestCache: Loaded 0 crests
+13.05 00:32:32 INFO  ImagesCache: Loading images...
+13.05 00:32:32 INFO  ImagesCache: Loaded 0 images
+13.05 00:32:32 INFO  Daily Quests Disable Managed: Loaded 2 quests in total (4).
+13.05 00:32:32 INFO  SubClassTable: Loaded 31 sub-classes variations.
+13.05 00:32:32 INFO  EnchantHPBonusTable: Loaded bonuses for 5 grades.
+13.05 00:32:32 INFO  Initializing ItemAuctionManager
+13.05 00:32:32 INFO  SpawnManager: spawned 3000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 5000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 6000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 7000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 8000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 9000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 10000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 11000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 12000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 16000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 18000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 19000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 20000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 21000 npc for group: NONE
+13.05 00:32:32 INFO  SpawnManager: spawned 21816 npc; spawns: 11116; group: NONE
+13.05 00:32:32 INFO  StaticObjectHolder: spawned: 145 static object(s).
+13.05 00:32:33 INFO  AntharasManager: State of Antharas is NOTSPAWN.
+13.05 00:32:33 INFO  AntharasManager: Next spawn date of Antharas is 03:00 01.01.1970.
+13.05 00:32:33 INFO  BaiumManager: State of Baium is NOTSPAWN.
+13.05 00:32:33 INFO  BaiumManager: Next spawn date: 03:00 01.01.1970
+13.05 00:32:33 INFO  ValakasManager: State of Valakas is NOTSPAWN.
+13.05 00:32:33 INFO  ValakasManager: Next spawn date of Valakas is 03:00 01.01.1970.
+13.05 00:32:33 INFO  CommunityBoard: service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Clan Community service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Manage Favorites service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Manage Friends service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Private Mail service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Manage Memo service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Region service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Buffer Community service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Manage Career service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Stats service loaded.
+13.05 00:32:33 INFO  CommunityBoard: Teleport Community service loaded.
+13.05 00:32:33 INFO  Olympiad System: Loading Olympiad System....
+13.05 00:32:33 INFO  Olympiad System: Currently in Olympiad Period
+13.05 00:32:33 INFO  Olympiad System: Period Ends....
+13.05 00:32:33 INFO  Olympiad System: In 18 days, 23 hours and 27 mins.
+13.05 00:32:33 INFO  Olympiad System: Next Weekly Change is in....
+13.05 00:32:33 INFO  Olympiad System: In 6 days, 23 hours and 50 mins.
+13.05 00:32:33 INFO  Olympiad System: Loaded 0 Membersses
+13.05 00:32:33 INFO  Olympiad System: Competition Period Starts in 0 days, 17 hours and 27 mins.
+13.05 00:32:33 INFO  Olympiad System: Event starts/started: Sat May 13 18:00:33 MSK 2017
+13.05 00:32:33 INFO  Hero System: Loaded 0 Heroes.
+13.05 00:32:33 INFO  Hero System: Loaded 0 all time Heroes.
+13.05 00:32:33 INFO  Initializing PetitionManager
+13.05 00:32:33 INFO  AdminCommandHandler: loaded 337 admin command handler(s) count.
+13.05 00:32:33 INFO  UserCommandHandler: loaded 16 user command handler(s) count.
+13.05 00:32:33 INFO  VoicedCommandHandler: loaded 23 voiced command handler(s) count.
+13.05 00:32:33 INFO  BypassHolder: loaded 20 bypass(s) count.
+13.05 00:32:33 INFO  OnShiftActionHolder: loaded 6 on shift action(s) count.
+13.05 00:32:33 INFO  ServerPacketOpCodeManager: Loaded 494 active server packet opcodes.
+13.05 00:32:33 INFO  =[Events]=========================================
+13.05 00:32:33 INFO  CastleSiegeEvent: Gludio Castle time - 20:00 14.05.2017
+13.05 00:32:33 INFO  CastleSiegeEvent: Dion Castle time - 20:00 14.05.2017
+13.05 00:32:33 INFO  CastleSiegeEvent: Giran Castle time - 20:00 14.05.2017
+13.05 00:32:33 INFO  CastleSiegeEvent: Oren Castle time - 20:00 14.05.2017
+13.05 00:32:33 INFO  CastleSiegeEvent: Aden Castle time - 20:00 14.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Topaz Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Ruby Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Crystal Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Atramental Barracks time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Scarlet Barracks time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Viridian Barracks time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Golden Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Silver Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Mithril Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Silver Manor time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Gold Manor time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Bronze Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Golden Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Silver Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Mithril Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: The Bronze Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Silver Manor time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Mont Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Astaire Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Aria Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Yiana Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Roien Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Luna Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Traban Chamber time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Eisen Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Heavy Metal Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Molten Ore Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Titan Hall time - 15:00 13.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Crystal Hall time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Aquamarine Hall time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Blue Barracks time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Brown Barracks time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Yellow Barracks time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: White Barracks time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Black Barracks time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ClanHallAuctionEvent: Green Barracks time - 15:00 08.05.2017
+13.05 00:32:33 INFO  ==================================================
+13.05 00:32:33 INFO  BoatHolder: loaded 1 boat(s) count.
+13.05 00:32:33 INFO  BoatHolder: Spawning: CrumaTower_Shuttle
+13.05 00:32:33 INFO  Manor System: Initializing...
+13.05 00:32:33 INFO  IdFactory: Free ObjectID's remaining: 1879024828
+13.05 00:32:33 INFO  Naia Tower Manager: Loaded 12 rooms
+13.05 00:32:33 INFO  Naia Core Manager: Loaded
+13.05 00:32:33 INFO  Seed of Destruction Manager: Loaded
+13.05 00:32:33 INFO  Seed of Infinity Manager: Loaded. Current stage is: 1
+13.05 00:32:33 INFO  Seed of Hellfire Manager: Loaded.
+13.05 00:32:33 INFO  CommissionManager: Loaded 0 items in commission.
+13.05 00:32:33 INFO  ClanSearchManager: Loading clan search data...
+13.05 00:32:33 INFO  ClanSearchManager: Loaded 0 registered clans.
+13.05 00:32:33 INFO  ClanSearchManager: Loaded 0 registered players.
+13.05 00:32:33 INFO  ClanRewardManager: Check new day.
+13.05 00:32:33 INFO  Parnasus Manager: Loaded
+13.05 00:32:33 INFO  Scheduled server restart in 5h 27m 27s.
+13.05 00:32:33 INFO  GameServer Started
+13.05 00:32:33 INFO  Maximum Numbers of Connected Players: 3000
+13.05 00:32:33 INFO  =================================================
+13.05 00:32:35 INFO  Connecting to authserver on 217.25.225.213:9014
+13.05 00:32:35 INFO  AllowedMemory: ........... 3728384 KB
+13.05 00:32:35 INFO       Allocated: .......... 1122304 KB (30.1016%)
+13.05 00:32:35 INFO       Non-Allocated: ...... 2606080 KB (69.8984%)
+13.05 00:32:35 INFO  AllocatedMemory: ......... 1122304 KB
+13.05 00:32:35 INFO       Used: ............... 419194 KB (11.2433%)
+13.05 00:32:35 INFO       Unused (cached): .... 703109 KB (18.8583%)
+13.05 00:32:35 INFO  UseableMemory: ........... 3309189 KB (88.7567%)
+13.05 00:32:35 INFO  =================================================
+13.05 00:32:35 INFO  Restoring offline traders...
+13.05 00:32:35 INFO  Restored 0 offline traders.
+13.05 00:32:35 INFO  Registered on authserver as 1 [Bartz]
+13.05 00:43:39 ERROR Client: IN_GAME IP: 93.100.240.31 Account: test1 Player : Hekp[268460589] - Failed writing: [S] ItemListPacket
+java.nio.BufferOverflowException: null
+	at java.nio.Buffer.nextPutIndex(Buffer.java:527)
+	at java.nio.HeapByteBuffer.putLong(HeapByteBuffer.java:423)
+	at studio.lineage2.commons.net.nio.SendablePacket.writeQ(SendablePacket.java:32)
+	at studio.lineage2.gameserver.network.l2.s2c.L2GameServerPacket.writeItemInfo(L2GameServerPacket.java:233)
+	at studio.lineage2.gameserver.network.l2.s2c.L2GameServerPacket.writeItemInfo(L2GameServerPacket.java:187)
+	at studio.lineage2.gameserver.network.l2.s2c.ItemListPacket.writeImpl(ItemListPacket.java:40)
+	at studio.lineage2.gameserver.network.l2.s2c.L2GameServerPacket.write(L2GameServerPacket.java:61)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.putPacketIntoWriteBuffer(SelectorThread.java:581)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.prepareWriteBuffer(SelectorThread.java:547)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.writePacket(SelectorThread.java:459)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.run(SelectorThread.java:193)
+13.05 00:44:16 ERROR Client: IN_GAME IP: 93.100.240.31 Account: test1 Player : Hekp[268460589] - Failed writing: [S] ItemListPacket
+java.nio.BufferOverflowException: null
+	at java.nio.Buffer.nextPutIndex(Buffer.java:527)
+	at java.nio.HeapByteBuffer.putLong(HeapByteBuffer.java:423)
+	at studio.lineage2.commons.net.nio.SendablePacket.writeQ(SendablePacket.java:32)
+	at studio.lineage2.gameserver.network.l2.s2c.L2GameServerPacket.writeItemInfo(L2GameServerPacket.java:233)
+	at studio.lineage2.gameserver.network.l2.s2c.L2GameServerPacket.writeItemInfo(L2GameServerPacket.java:187)
+	at studio.lineage2.gameserver.network.l2.s2c.ItemListPacket.writeImpl(ItemListPacket.java:40)
+	at studio.lineage2.gameserver.network.l2.s2c.L2GameServerPacket.write(L2GameServerPacket.java:61)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.putPacketIntoWriteBuffer(SelectorThread.java:581)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.prepareWriteBuffer(SelectorThread.java:547)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.writePacket(SelectorThread.java:459)
+	at studio.lineage2.commons.net.nio.impl.SelectorThread.run(SelectorThread.java:193)
+13.05 00:48:28 WARN  Dialog: data/html/ru/scripts/services/community/pages/draw.htm not found.
+13.05 00:59:07 WARN  Dialog: data/html/ru/scripts/services/community/pages/draw.htm not found.
+13.05 00:59:19 WARN  Dialog: data/html/ru/scripts/services/community/pages/draw.htm not found.
+13.05 00:59:49 ERROR Error while handling bypass: _bbsgotopoint:home:11;
+java.lang.NullPointerException: null
+	at services.community.custom.CommunityTeleport.ShowHtml(CommunityTeleport.java:271)
+	at services.community.custom.CommunityTeleport.onBypassCommand(CommunityTeleport.java:145)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:282)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 01:00:24 ERROR Error while handling bypass: _bbsgotopoint:home:233;
+java.lang.NullPointerException: null
+	at services.community.custom.CommunityTeleport.ShowHtml(CommunityTeleport.java:271)
+	at services.community.custom.CommunityTeleport.onBypassCommand(CommunityTeleport.java:145)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:282)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 02:59:45 WARN  HikariPool-1 - Connection com.mysql.jdbc.JDBC4Connection@46778e0c marked as broken because of SQLSTATE(08S01), ErrorCode(1053)
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Server shutdown in progress
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:241)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 02:59:45 ERROR ClanSearchTask: Failed to update database for clan search system.
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Server shutdown in progress
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:241)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 02:59:45 ERROR Error while saving item : 47 Шлем (1)[268485597]
+java.sql.SQLException: Could not retrieve transation read-only status server
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:963)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:877)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:873)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3603)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3572)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1117)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:172)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:988)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3452)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3893)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1369)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3597)
+	... 21 common frames omitted
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3004)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	... 29 common frames omitted
+13.05 02:59:45 ERROR ClanSearchTask: Failed to update database for clan search system.
+java.sql.SQLException: Connection is closed
+	at com.zaxxer.hikari.pool.ProxyConnection$ClosedConnection$1.invoke(ProxyConnection.java:472)
+	at com.sun.proxy.$Proxy2.prepareStatement(Unknown Source)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:313)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:254)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 02:59:45 ERROR ClanSearchTask: Failed to update database for clan search system.
+java.sql.SQLException: Connection is closed
+	at com.zaxxer.hikari.pool.ProxyConnection$ClosedConnection$1.invoke(ProxyConnection.java:472)
+	at com.sun.proxy.$Proxy2.prepareStatement(Unknown Source)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:313)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:268)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 02:59:46 WARN  HikariPool-1 - Connection com.mysql.jdbc.JDBC4Connection@53365cef marked as broken because of SQLSTATE(08003), ErrorCode(0)
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1246)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1241)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4102)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4071)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:313)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at studio.lineage2.gameserver.dao.OlympiadMemberDAO.replace(OlympiadMemberDAO.java:83)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:231)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:238)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:258)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:988)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3452)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3893)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1369)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3597)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3572)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1117)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:172)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3004)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	... 29 common frames omitted
+13.05 02:59:46 ERROR OlympiadMemberDAO: replace(int): 268468550
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1246)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1241)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4102)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4071)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:313)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at studio.lineage2.gameserver.dao.OlympiadMemberDAO.replace(OlympiadMemberDAO.java:83)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:231)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:238)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:258)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:988)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3452)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3893)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1369)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3597)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3572)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1117)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:172)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3004)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	... 29 common frames omitted
+13.05 02:59:46 ERROR Error while saving item : 47 Шлем (1)[268485598]
+java.sql.SQLException: Could not retrieve transation read-only status server
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:963)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:877)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:873)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3603)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3572)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1117)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:172)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 0 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:988)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3452)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3893)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1369)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3597)
+	... 21 common frames omitted
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3004)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	... 29 common frames omitted
+13.05 02:59:46 WARN  HikariPool-1 - Connection com.mysql.jdbc.JDBC4Connection@57c0f69d marked as broken because of SQLSTATE(08003), ErrorCode(0)
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1246)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1241)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4102)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4071)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:313)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at studio.lineage2.gameserver.dao.OlympiadMemberDAO.replace(OlympiadMemberDAO.java:83)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:231)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:238)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:258)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 0 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:988)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3452)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3893)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1369)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3597)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3572)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1117)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:172)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3004)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	... 29 common frames omitted
+13.05 02:59:46 ERROR OlympiadMemberDAO: replace(int): 268460589
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1246)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1241)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4102)
+	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4071)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:313)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at studio.lineage2.gameserver.dao.OlympiadMemberDAO.replace(OlympiadMemberDAO.java:83)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:231)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.saveMemberData(OlympiadDatabase.java:238)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:258)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 0 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:988)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3552)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3452)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3893)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1369)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3597)
+	at com.mysql.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:3572)
+	at com.mysql.jdbc.PreparedStatement.checkReadOnlySafeStatement(PreparedStatement.java:1117)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:172)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3004)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3462)
+	... 29 common frames omitted
+13.05 03:00:36 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.SaveToDB(ServerVariables.java:70)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.set(ServerVariables.java:145)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:259)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+13.05 03:00:37 ERROR AdminCommandHandler: 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.ItemsDAO.save0(ItemsDAO.java:170)
+	at studio.lineage2.gameserver.dao.ItemsDAO.save(ItemsDAO.java:313)
+	at studio.lineage2.gameserver.model.items.ItemInstance.save(ItemInstance.java:1242)
+	at studio.lineage2.gameserver.model.items.Inventory.onAddItem(Inventory.java:166)
+	at studio.lineage2.gameserver.model.items.PcInventory.onAddItem(PcInventory.java:324)
+	at studio.lineage2.gameserver.model.items.ItemContainer.addItem(ItemContainer.java:299)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.createItem(AdminCreateItem.java:195)
+	at studio.lineage2.gameserver.handler.admincommands.impl.AdminCreateItem.useAdminCommand(AdminCreateItem.java:48)
+	at studio.lineage2.gameserver.handler.admincommands.AdminCommandHandler.useAdminCommandHandler(AdminCommandHandler.java:115)
+	at studio.lineage2.gameserver.network.l2.c2s.RequestBypassToServer.runImpl(RequestBypassToServer.java:77)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 03:00:44 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.taskmanager.DelayedItemsManager.get_last_payment_id(DelayedItemsManager.java:91)
+	at studio.lineage2.gameserver.taskmanager.DelayedItemsManager.runImpl(DelayedItemsManager.java:119)
+	at studio.lineage2.commons.threading.RunnableImpl.run(RunnableImpl.java:20)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

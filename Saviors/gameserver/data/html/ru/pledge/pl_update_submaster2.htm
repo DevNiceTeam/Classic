@@ -1,0 +1,34 @@
+<html>
+  <body>Введите название 1-го Одена Рыцарей, который Вы хотите изменить:
+    <br>
+    <edit var="master_name1" width=110>
+      <br>
+      <br>
+      <button value="Ввод" action="bypass -h npc_%objectId%_change_leader 1001 $master_name1" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+      </button>
+      <br>
+      <br>Введите название 2-го Одена Рыцарей, который Вы хотите изменить:
+      <br>
+      <edit var="master_name2" width=110>
+        <br>
+        <br>
+        <button value="Ввод" action="bypass -h npc_%objectId%_change_leader 1002 $master_name2" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </button>
+        <br>
+        <br>Введите название 3-го Одена Рыцарей, который Вы хотите изменить:
+        <br>
+        <edit var="master_name3" width=110>
+          <br>
+          <br>
+          <button value="Ввод" action="bypass -h npc_%objectId%_change_leader 2001 $master_name3" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+          </button>
+          <br>
+          <br>Введите название 4-го Одена Рыцарей, который Вы хотите изменить:
+          <br>
+          <edit var="master_name4" width=110>
+            <br>
+            <br>
+            <button value="Ввод" action="bypass -h npc_%objectId%_change_leader 2002 $master_name4" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+              <button value="Отмена" action="bypass -h npc_%objectId%_Link pledge/pl001.htm" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+  </body>
+</html>

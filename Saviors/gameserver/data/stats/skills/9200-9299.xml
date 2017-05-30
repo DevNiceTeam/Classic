@@ -1,0 +1,158 @@
+<list>
+    <skill id="9206" levels="1" name="Быстрый Бег">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="special_ride"/>
+        <set name="alt_use" value="true"/>
+        <set name="icon" value="icon.skill9206"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="45000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="useSS" value="false"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect>
+                <add order="0x60" stat="runSpd" value="95"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9210" levels="1" name="Слезть с животного">
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill9210"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="useSS" value="false"/>
+        <cond msgId="113">
+            <player can_untransform="true"/>
+        </cond>
+        <for>
+            <effect instant="true" name="Transformation"/>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="transform"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="special_ride"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9244" levels="1" name="Свиток Гигантов: Модифицировать Оружие (D)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9245" levels="1" name="Свиток Гигантов: Модифицировать Доспех (D)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9246" levels="1" name="Свиток Гигантов: Модифицировать Оружие (C)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9247" levels="1" name="Свиток Гигантов: Модифицировать Доспех (C)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9248" levels="1" name="Свиток Гигантов: Модифицировать Оружие (B)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9249" levels="1" name="Свиток Гигантов: Модифицировать Доспех (B)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9250" levels="1" name="Свиток Гигантов: Модифицировать Оружие (A)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9251" levels="1" name="Свиток Гигантов: Модифицировать Доспех (A)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9257" levels="1" name="Свиток Наставника: Модифицировать Оружие (D)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9259" levels="1" name="Свиток Наставника: Модифицировать Оружие (C)">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9279" levels="1" name="ПА Поддержка Развития">
+        <set name="icon" value="icon.etc_pccafe_exp_i00"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9293" levels="1" name="ПА Заряд Души: без Ранга">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9294" levels="1" name="ПА Заряд Души: Ранг D">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9295" levels="1" name="ПА Заряд Души: Ранг C">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="9297" levels="1" name="ПА Заряд Души: Ранг A">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+</list>

@@ -1,0 +1,19 @@
+<html><head>
+Граман:<br>
+Я специалист по Питомцам на Говорящем Острове. Меня зовут Граман. В последнее время это место просто переполнено энергией. Похоже, это сказывается и на животных. Что я могу сделать для Вас?<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link petmanager/pet_help.htm">Узнать способ выращивания Питомцев</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 1">Купить предмет для Питомца</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 212">Обменять снаряжение Питомца на лучшее</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 221">Обменять снаряжение Дракона/Дракончика</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link petmanager/pet_evolution.htm">Развитие Питомца</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link petmanager/pet_manager_trade_ticket.htm">Использовать Купон Обмена Питомца</button>
+#if ($SERVICES_CHANGE_PET_NAME_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showErasePetName">Обнулить имя питомца.</button>
+#end
+#if ($SERVICES_EXCHANGE_BABY_PET_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showBabyPetExchange">Обменять Улучшенного Детеныша питомца.</button>
+#end
+#if ($SERVICES_RIDE_HIRE_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link scripts/services/ride-prices.htm">Взять на прокат ездовое животное.</button>
+#end
+</body></html>

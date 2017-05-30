@@ -1,0 +1,202 @@
+<html noscrollbar>
+<!--Заголовок окна-->
+<title>Баффер</title>
+<body><br>
+<table width=755>
+<tr>
+<td>
+<!--Основной блок с задним фоном-->
+<table border=0 cellpadding=0 cellspacing=0 width=769 height=492 background="l2ui_ct1.Windows_DF_TooltipBG">
+<tr>
+<td valign="top" align="center"><br>
+<table width=755 height=459>
+<tr>
+<td width=760>
+<!--Блок заголовок-->
+<table border=0 cellspacing=0 cellpadding=0 width=755>
+<tr>
+<td WIDTH=755 align=center valign=top>
+<font name="hs12">Баффер</font>
+</td>
+</tr>
+</table><br><br>
+<table width=750>
+<tr>
+<td><center>Цель <font color="32cd32">*</font></center></td>
+<td width=477>
+<center>Введите в поле название для шаблона <font color="FF0000">*</font></center>
+</td>
+</tr>
+<tr>
+<td valign="top" align="center" width=132>
+<button value="%aim%" action="bypass _bbsbaim:index;" width=132 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td>
+<td valign="top" align="center" width=450>
+<edit var="name" type="text" width=477 length=25 height=12><br>
+</td>
+<td valign="top" align="center" width=132>
+<button value="Создать" action="bypass _bbsbsave:index: $name" width=132 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td>
+</tr>
+</table>
+<table width=720 height=15>
+<tr>
+<td width=575>
+<table border=0 cellspacing=0 cellpadding=2 width=550>
+<tr>
+<td FIXWIDTH=500 align=left valign=top>
+<font color="FFFF00">Описание баффера:</font>&nbsp;›&nbsp; Цена за 1 баф:&nbsp;100&nbsp;&#57;.&nbsp;›&nbsp;Время:&nbsp;50&nbsp;мин.<br1>
+<font color="AAAAAA">
+<br1>Данный баффер уникален своей функциональностью, к примеру вы можете создавать шаблоны<br1>
+бафов с нуля под своего персонажа и стиль игры. <br1>
+Бесплатные функции восстановления и снятия эффектов с персонажа.<br1>
+Если у вас имеется питомец, вы сможете обеспечить его бафами из готового шаблона.
+</font>						
+</td>
+</tr>
+</table><br>
+<table border=0 cellspacing=0 cellpadding=2 width=385>
+<tr>
+<td FIXWIDTH=500 align=left valign=top></td>
+</tr>
+</table>
+<center>
+<table width=500 border=0 cellspacing=1 cellpadding=1>
+<tr>
+<td width=1>
+<img src="l2ui.squaregray" width="500" height="1">
+</td>
+</tr>
+</table>
+<table width=500>
+<tr>
+<td WIDTH=500 align=center valign=top>
+<table border=0 cellspacing=4 cellpadding=3>
+<tr>
+<td FIXWIDTH=40 align=right valign=top>
+<img src="icon.skill6288" width=32 height=32>
+</td>
+<td FIXWIDTH=340 align=left valign=top>
+<font color="CCFF33">Стандартные баффы.</font><br1>
+<font color="AAAAAA">Список скилов позволит вам создать персональные схемы.</font>
+</td>
+<td FIXWIDTH=90 align=center valign=top><button value="Открыть" action="bypass _bbsbuff:2" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=500 border=0 cellspacing=1 cellpadding=1>
+<tr>
+<td width=1>
+<img src="l2ui.squaregray" width="500" height="1">
+</td>
+</tr>
+</table>
+<table width=500>
+<tr>
+<td WIDTH=500 align=center valign=top>
+<table border=0 cellspacing=4 cellpadding=3>
+<tr>
+<td FIXWIDTH=40 align=right valign=top>
+<img src="icon.skill6885" width=32 height=32>
+</td>
+<td FIXWIDTH=340 align=left valign=top>
+<font color="FF6600">Восстановить HP/MP/CP.</font> <font color="AAAAAA">*</font><br1>
+<font color="AAAAAA">Функция регенерации всех параметров.</font><font color="32cd32">*</font>
+</td>
+<td FIXWIDTH=90 align=center valign=top>
+<button value="Восстановить" action="bypass _bbsbregen:index" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=500 border=0 cellspacing=1 cellpadding=1>
+<tr>
+<td width=1>
+<img src="l2ui.squaregray" width="500" height="1">
+</td>
+</tr>
+</table>
+<table width=500>
+<tr>
+<td WIDTH=500 align=center valign=top>
+<table border=0 cellspacing=4 cellpadding=3>
+<tr>
+<td FIXWIDTH=40 align=right valign=top>
+<img src="icon.skill1056" width=32 height=32>
+</td>
+<td FIXWIDTH=340 align=left valign=top>
+<font color="0099FF">Снять все бафы.</font> <font color="AAAAAA">*</font><br1>
+<font color="AAAAAA">Функция отмены всех наложенных эффектов.</font><font color="32cd32">*</font>
+</td>
+<td FIXWIDTH=90 align=center valign=top><button value="Использовать" action="bypass _bbsbcansel:index" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width=500 border=0 cellspacing=1 cellpadding=1>
+<tr>
+<td width=1>
+<img src="l2ui.squaregray" width="500" height="1">
+</td>
+</tr>
+</table>
+</center>
+<table width=500 height=60>
+<tr>
+<td width=500>
+</td>
+</tr>
+<tr>
+<td width=500>
+<font color="FF0000">*</font> » Название для вашей схемы бафов.<br1>
+<font color="32cd32">*</font> » Функции выполняемые над целью.<br1>
+<font color="AAAAAA">*</font> » Бесплатные функции.<br1>
+</td>
+</tr>
+</table>
+</td>
+<td>
+<table width=180>
+<tr>
+<td width=200><center><font color="CCFF33">«</font> Стандартные схемы <font color="CCFF33">»</font></center></td>
+</tr>
+<tr>
+<td width=200 align=center valign=top>
+<center><button value="Магический" action="bypass _bbsblist:mage:index" width=130 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></center>
+<center><button value="Физический" action="bypass _bbsblist:fighter:index" width=130 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></center></center>
+</td>
+</tr>
+</table>
+<table width=180>
+<tr>
+<td width=200><center><font color="CCFF33">«</font> Ваши персональные схемы <font color="CCFF33">»</font></center></td>
+</tr>
+<tr>
+<td width=200><center>%list_sheme%</center></td>
+</tr>
+</table>
+</td>
+</tr>
+</table><br><br><br>
+<table align=center>
+<tr>
+<td>
+<button action="bypass _bbshome" value="На главную" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_Back_Down" fore="L2UI_CT1.OlympiadWnd_DF_Back">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body></html>

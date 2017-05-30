@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="64" name="Fortress of the Dead" impl="ClanHall">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<support level="7" lease="37000"/>
+	<support level="17" lease="370000"/>
+	<support level="8" lease="52000"/>
+	<support level="18" lease="520000"/>
+	<item_create level="1" npcId="35640" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35640" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35640" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="15" lease="3000"/>
+	<restore_exp level="25" lease="9000"/>
+	<restore_exp level="35" lease="18000"/>
+	<restore_exp level="50" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="120" lease="1500"/>
+	<restore_hp level="180" lease="2250"/>
+	<restore_hp level="240" lease="3750"/>
+	<restore_hp level="300" lease="5166"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="52107 -54328 -3158" name="1010592" price="500"/><!--Forest of the Dead-->
+		<target loc="43805 -88010 -2780" name="1010537" price="500"/><!--Wild Beast Pastures-->
+		<target loc="62084 -40935 -2802" name="1010539" price="500"/><!--Cursed Village-->
+		<target loc="43835 -47749 -792" name="1010200" price="500"/><!--Rune Township-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="52107 -54328 -3158" name="1010592" price="500"/><!--Forest of the Dead-->
+		<target loc="43805 -88010 -2780" name="1010537" price="500"/><!--Wild Beast Pastures-->
+		<target loc="62084 -40935 -2802" name="1010539" price="500"/><!--Cursed Village-->
+		<target loc="65307 -71445 -3696" name="1010600" price="500"/><!--Valley of Saints-->
+		<target loc="69340 -50203 -3314" name="1010565" price="500"/><!--Swamp of Screams-->
+		<target loc="106414 -87799 -2949" name="1010575" price="500"/><!--Monastery of Silence-->
+		<target loc="148024 -55281 -2728" name="1010199" price="500"/><!--Town of Goddard-->
+		<target loc="43835 -47749 -792" name="1010200" price="500"/><!--Rune Township-->
+		<target loc="144635 26664 -2220" name="1010023" price="500"/><!--Town of Aden-->
+		<target loc="76911 -55295 -5824" name="1010706" price="500"/><!--Shyeed's Cavern-->
+	</teleport>
+	<banish_points>
+		<point x="58048" y="-32160" z="298"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="57932" y="-26064" z="595"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="38096" y="-46976" z="899"/>
+		<point x="38608" y="-47168" z="899"/>
+		<point x="38752" y="-47792" z="899"/>
+		<point x="38848" y="-48640" z="899"/>
+		<point x="38272" y="-49008" z="899"/>
+		<point x="38112" y="-49792" z="899"/>
+		<point x="43408" y="-51120" z="-800"/>
+		<point x="43536" y="-50416" z="-800"/>
+		<point x="44368" y="-50592" z="-800"/>
+		<point x="44000" y="-49952" z="-800"/>
+		<point x="45072" y="-49936" z="-800"/>
+		<point x="45824" y="-49056" z="-800"/>
+		<point x="45632" y="-47968" z="-800"/>
+		<point x="44864" y="-47824" z="-800"/>
+		<point x="43744" y="-47920" z="-800"/>
+		<point x="43792" y="-48928" z="-800"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="42640" y="-54496" z="-2310"/>
+		<point x="38304" y="-55440" z="-1136"/>
+		<point x="40192" y="-57600" z="-2343"/>
+		<point x="38400" y="-56832" z="-992"/>
+		<point x="35632" y="-54800" z="-1744"/>
+		<point x="37152" y="-56272" z="-272"/>
+		<point x="43936" y="-56480" z="-3627"/>
+		<point x="39440" y="-60080" z="-2870"/>
+		<point x="41376" y="-55376" z="-1488"/>
+		<point x="41920" y="-57760" z="-2392"/>
+		<point x="42496" y="-58192" z="-3264"/>
+		<point x="40784" y="-59888" z="-2600"/>
+	</chaos_restart_points>
+</residence>

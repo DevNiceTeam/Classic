@@ -1,0 +1,104 @@
+<html><head>
+
+<title>Специальный Аукцион</title>
+	<body>
+		<table border=0 cellspacing=0 cellpadding=0 height=285>
+			<tr>
+				<td>
+					<table border=0>
+						<tr><td fixWIDTH=100>Осталось времени</td></tr>
+						<tr>
+							<td>
+								<table border=0 fixWIDTH=270 height=25 align=center bgcolor=000000>
+									<tr>
+										<td fixWIDTH=80 align=center><?HH?> ч.</td>
+										<td fixWIDTH=10 align=center>:</td>
+										<td fixWIDTH=80 align=center><?MM?> м.</td>
+										<td fixWIDTH=10 align=center>:</td>
+										<td fixWIDTH=80 align=center><?SS?> с.</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table border=0>
+						<tr><td fixWIDTH=100>Текущая ставка</td></tr>
+						<tr>
+							<td>
+								<table border=0 fixWIDTH=270 height=25 align=center bgcolor=000000>
+									<tr><td fixWIDTH=270 align=center><?BID_COUNT?> <?BID_ITEM_NAME?></td></tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table border=0>
+						<tr>
+							<td fixWIDTH=170>Предмет</td>
+							<td fixWIDTH=95>Ставка</td>
+						</tr>
+						<tr>
+							<td>
+								<table border=0 fixWIDTH=170 align=center bgcolor=000000>
+									<tr>
+										<td fixWIDTH=170 height=150>
+											<table border=0 fixWIDTH=170>
+												<tr>
+													<td fixWIDTH=35 height=150><img src="<?AUCTION_ITEM_ICON?>" width=32 height=32></td>
+													<td fixWIDTH=130 height=150><?AUCTION_ITEM_NAME?> - <?AUCTION_ITEM_COUNT?>шт.</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table border=0 fixWIDTH=95 align=center>
+									<tr>
+										<td fixWIDTH=95 height=150>
+											<table border=0 fixWIDTH=95>
+												<tr><td align=center fixWIDTH=95 height=25><button value="Удвоить ставку" action="bypass -h npc_%objectId%_auction bid 1" width=95 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+												<tr><td align=center fixWIDTH=95 height=25><button value="Увеличить (50%)" action="bypass -h npc_%objectId%_auction bid 2" width=95 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+												<tr><td align=center fixWIDTH=95 height=25><button value="Увеличить (10%)" action="bypass -h npc_%objectId%_auction bid 3" width=95 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+												<tr><td align=center fixWIDTH=95 height=25><button value="Увеличить (5%)" action="bypass -h npc_%objectId%_auction bid 4" width=95 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+												<tr><td align=center fixWIDTH=95 height=25><edit var=\"bid\" width=84></td></tr>
+												<tr><td align=center fixWIDTH=95 height=25><button value="Прямой ввод" action="bypass -h npc_%objectId%_auction bid 5 $bid" width=95 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table border=0>
+			<tr><td></td></tr>
+			<tr>
+				<td>
+					<table border=0 fixWIDTH=270 height=25 align=center bgcolor=000000>
+						<tr>
+							<td fixWIDTH=140><?BID_ITEM_NAME?></td>
+							<td fixWIDTH=130>
+								<table border=0 fixWIDTH=130 height=19 bgcolor=333333>
+									<tr><td align=right fixWIDTH=130><?HAVE_BID_ITEM_COUNT?></td></tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<table border=0 fixWIDTH=270 align=center>
+			<tr>
+				<td align=center fixWIDTH=40></td>
+				<td align=center fixWIDTH=95><button value="Закрыть" action="bypass -h" width=80 height=30 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td align=center fixWIDTH=95><button value="Обновить" action="bypass -h npc_%objectId%_auction show" width=80 height=30 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td align=center fixWIDTH=40></td>
+			</tr>
+		</table>
+	</body>
+</html>

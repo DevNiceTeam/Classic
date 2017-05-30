@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="119" name="Aaru Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="73205 183893 -2584" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="72822 188128 -2584" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="111455 219400 -3546" name="1010686" price="0"/><!--Heine Town Square-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="73205 183893 -2584" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="72822 188128 -2584" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="111455 219400 -3546" name="1010686" price="0"/><!--Heine Town Square-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+		<target loc="82693 242220 -6712" name="1010526" price="500"/><!--Inside the Garden of Eva-->
+		<target loc="113708 178387 -3232" name="1010606" price="500"/><!--The Center of Alligator Island-->
+		<target loc="73024 118485 -3720" name="1010067" price="500"/><!--Dragon Valley-->
+		<target loc="60374 164301 -2856" name="1010115" price="500"/><!--Tanor Canyon-->
+	</teleport>
+	<skills>
+		<skill id="19103" level="1"/> <!--Война Обители-->
+	</skills>
+	<banish_points>
+		<point x="70783" y="190894" z="-2888"/>
+		<point x="70426" y="190887" z="-2920"/>
+		<point x="71497" y="180580" z="-3168"/>
+		<point x="71446" y="180657" z="-3168"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="73441" y="186346" z="-2256"/>
+		<point x="73430" y="186183" z="-2256"/>
+		<point x="73585" y="186076" z="-2256"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="107568" y="218256" z="-3624"/>
+		<point x="107920" y="218240" z="-3624"/>
+		<point x="107808" y="217856" z="-3624"/>
+		<point x="108032" y="218048" z="-3624"/>
+		<point x="107552" y="218000" z="-3624"/>
+		<point x="110912" y="219584" z="-3624"/>
+		<point x="110768" y="219824" z="-3624"/>
+		<point x="110688" y="220576" z="-3624"/>
+		<point x="110896" y="220768" z="-3624"/>
+		<point x="111856" y="220752" z="-3624"/>
+		<point x="112112" y="220576" z="-3624"/>
+		<point x="112064" y="219792" z="-3624"/>
+		<point x="111888" y="219584" z="-3624"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="117872" y="225536" z="-3200"/>
+		<point x="118064" y="225648" z="-3200"/>
+		<point x="101696" y="221808" z="-3520"/>
+		<point x="101552" y="221568" z="-3520"/>
+		<point x="100784" y="218272" z="-3420"/>
+		<point x="100928" y="218560" z="-3420"/>
+	</chaos_restart_points>
+</residence>

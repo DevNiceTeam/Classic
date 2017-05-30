@@ -1,0 +1,2398 @@
+<list>
+    <npc id="34274" name="Наковальня Джероса" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="21657" name="Змей" title="Хранитель Земли">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1248"/>
+        <set name="baseMpMax" value="610"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="70.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="10"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="13"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="14"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="14"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="13"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="8"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Высший Уровень-->
+            <skill id="4789" level="9"/>
+        </client_skills>
+    </npc>
+    <npc id="30023" name="Мелодис" title="Глашатай Настроения">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="140.0"/>
+        <set name="baseRunSpd" value="50.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="13479" name="Розовая Роза" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1764"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34275" name="Джерис" title="Кузнец зачарования">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30016" name="Байкал" title="Исследователь Вод">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34269" name="Тавоз" title="Пивовар">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="20.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9006" name="Тетрарх Орков Турек" title="Невероятно Сильный Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="518257"/>
+        <set name="baseMpMax" value="387"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="45.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="13525" name="Черный Медведь" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30024" name="Кошка Удачи" title="Желаю Удачи!">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="20.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9013" name="Шкроул" title="Лорд Зомби">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="28588"/>
+        <set name="baseMpMax" value="259"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="190.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="13480" name="Фиолетовая Роза" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1764"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9015" name="Риана" title="Празднующая Победу">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1"/>
+        <set name="baseMpMax" value="1"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9011" name="" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="1.0"/>
+        <set name="baseRunSpd" value="1.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9010" name="" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="1.0"/>
+        <set name="baseRunSpd" value="1.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="36788" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9008" name="" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="1.0"/>
+        <set name="baseRunSpd" value="1.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30013" name="Пьер" title="Специалист по Рыбалке">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9001" name="Диана" title="Участница Конкурса">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="21638" name="Блуждающий Мертвец Тюрьмы" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="42"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="2116"/>
+        <set name="sp" value="63"/>
+        <set name="baseHpMax" value="1108"/>
+        <set name="baseMpMax" value="531"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="DAGGER"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="22.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="4"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="9"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="12"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="12"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="10"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="10"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </client_skills>
+        <skills>
+            <!--Мощный Замах-->
+            <skill id="4032" level="3"/>
+        </skills>
+    </npc>
+    <npc id="13521" name="Златогривый Лев" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="43.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30015" name="Ферма" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30012" name="Член Гильдии Рыболовов" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+	<npc id="21639" name="Блуждающий Дух Тюрьмы" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="43"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="2218"/>
+        <set name="sp" value="66"/>
+        <set name="baseHpMax" value="1154"/>
+        <set name="baseMpMax" value="557"/>
+        <set name="baseAtkRange" value="1100"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="137.86467"/>
+        <set name="baseMAtk" value="94.1437"/>
+        <set name="basePDef" value="140.57278"/>
+        <set name="baseMDef" value="102.86506"/>
+        <set name="basePCritRate" value="80"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="0.5"/>
+        <set name="baseHpReg" value="4.5"/>
+        <set name="baseMpReg" value="1.8"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="1500"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="38.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="0"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="9"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="10"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="10"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="12"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="12"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="9"/>
+            <!--Высокая Устойчивость к Лукам / Арбалетам-->
+            <skill id="4444" level="2"/>
+            <!--Устойчивость к Кинжалам и Рапирам-->
+            <skill id="4273" level="3"/>
+            <!--Уязвимость к Дробящему Оружию-->
+            <skill id="4274" level="1"/>
+        </client_skills>        
+        <skills>
+            <!--Атака Копьем-->
+            <skill id="4124" level="3"/>
+        </skills>
+    </npc>
+    <npc id="13522" name="Пегас" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="21653" name="Икедит" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="75"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="6750"/>
+        <set name="sp" value="202"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="80.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="12"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="12"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="14"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="14"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="8"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="8"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Высокая Устойчивость к Кровопускающим Атакам-->
+            <skill id="4437" level="4"/>
+            <!--Уязвимость к Дробящему Оружию-->
+            <skill id="4274" level="1"/>
+            <!--Высший Уровень-->
+            <skill id="4789" level="6"/>
+        </client_skills>
+    </npc>
+    <npc id="31777" name="Розамми" title="Гонитель Душ">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="36.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="16"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="36785" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9007" name="Торфе" title="Невероятно Сильный Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="723726"/>
+        <set name="baseMpMax" value="720"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34272" name="Михай" title="Ученица Тобальда">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9004" name="Старший Бес Руин" title="Невероятно Сильный Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="256190"/>
+        <set name="baseMpMax" value="205"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="150.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="36789" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9003" name="Воин Людоедов Тумран" title="Невероятно Сильный Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="306149"/>
+        <set name="baseMpMax" value="245"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="31775" name="Ингрит" title="Гонитель Душ">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="14"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="31778" name="Торес" title="Офицер Тюрьмы Бездны">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="16"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="21656" name="Голем" title="Хранитель Земли">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="740"/>
+        <set name="baseMpMax" value="372"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="23.0"/>
+        <set name="baseRunSpd" value="23.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="13"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="14"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="14"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="16"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="8"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Высший Уровень-->
+            <skill id="4789" level="8"/>
+        </client_skills>
+    </npc>
+    <npc id="9000" name="Розалия" title="Коллекционер Букв">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="21654" name="Дрэко" title="Хранитель Земли">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="815"/>
+        <set name="baseMpMax" value="402"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="80.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="12"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="14"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="14"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="8"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Высший Уровень-->
+            <skill id="4789" level="7"/>
+        </client_skills>
+    </npc>
+    <npc id="21659" name="Солдат" title="Хранитель Земли">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2313"/>
+        <set name="baseMpMax" value="1188"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="1"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="11"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="18"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="7"/>
+        </client_skills>
+        <skills>
+            <!--Порыв-->
+            <skill id="4067" level="3"/>
+        </skills>
+    </npc>
+    <npc id="9012" name="" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="1.0"/>
+        <set name="baseRunSpd" value="1.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34268" name="Рифкен" title="Гурман">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="36790" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="36784" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="36786" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="36791" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34271" name="Ру-ру" title="Торговец Информацией">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="13524" name="Кукуру" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="41.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34273" name="Джерос" title="Кузнец зачарования">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30018" name="Мисфети" title="Искуссный Мастер">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="50.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34270" name="Брум" title="Торговец Информацией">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="13481" name="Синяя Роза" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1764"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="30021" name="Бекинс Деко" title="">
+        <set name="type" value="Merchant"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="60.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+            <set name="targetable" value="false"/>
+            <set name="show_name" value="false"/>
+		</ai_params>
+    </npc>
+    <npc id="9014" name="Риана" title="Управляющий Ивентами">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1"/>
+        <set name="baseMpMax" value="1"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9005" name="Новобранец Гноллов" title="Невероятно Сильный Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="198715"/>
+        <set name="baseMpMax" value="166"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="150.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="21652" name="Пламенный Ифрит" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="75"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="6750"/>
+        <set name="sp" value="202"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="38.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="6"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="12"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="14"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="14"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="16"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="8"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="7"/>
+            <!--Высший Уровень-->
+            <skill id="4789" level="6"/>
+        </client_skills>
+    </npc>
+    <npc id="36783" name="Рыцарь" title="Королевская стража">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14625"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="9002" name="Поющий Кот" title="Великий Солист">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="40.0"/>
+        <set name="baseRunSpd" value="1.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="31776" name="Айрис" title="Гонитель Душ">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="160.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="14"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="9009" name="" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="4234"/>
+        <set name="baseMpMax" value="1846"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="1.0"/>
+        <set name="baseRunSpd" value="1.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="13523" name="Клык Кугуара" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+		<!-- <set name="collision_height" value="12.25"/> -->
+        <!-- <set name="collision_radius" value="19.0"/> -->
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="34276" name="Наковальня Джериса" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+    <npc id="21641" name="Блуждающее Коварство Тюрьмы" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="43"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="2218"/>
+        <set name="sp" value="66"/>
+        <set name="baseHpMax" value="1154"/>
+        <set name="baseMpMax" value="557"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="80.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="11"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="9"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="10"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="10"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="12"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="12"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="6"/>
+            <!--Высокая Устойчивость к Лукам / Арбалетам-->
+            <skill id="4444" level="2"/>
+            <!--Устойчивость к Кинжалам и Рапирам-->
+            <skill id="4273" level="3"/>
+            <!--Уязвимость к Дробящему Оружию-->
+            <skill id="4274" level="1"/>
+        </client_skills>
+        <skills>
+            <!--Снизить Скорость-->
+            <skill id="4599" level="3"/>
+            <!--Дух Пумы-->
+            <skill id="4092" level="1"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="3"/>
+        </skills>
+    </npc>
+    <npc id="21660" name="Фалибати" title="Хранитель Земли">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="2313"/>
+        <set name="baseMpMax" value="1188"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="70.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="1"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="11"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="8"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="8"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="20"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="14"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="7"/>
+        </client_skills>
+        <skills>
+            <!--Рана-->
+            <skill id="4579" level="3"/>
+        </skills>
+    </npc>
+    <npc id="21655" name="Рейдо" title="Хранитель Земли">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="1019"/>
+        <set name="baseMpMax" value="478"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="43.0"/>
+        <set name="baseRunSpd" value="174.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="12"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="14"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="14"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="8"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="8"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="4"/>
+            <!--Высший Уровень-->
+            <skill id="4789" level="7"/>
+        </client_skills>
+    </npc>
+    <npc id="36787" name="Щит" title="Глудио">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="105"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="baseHpMax" value="14629"/>
+        <set name="baseMpMax" value="2932"/>
+        <set name="baseAtkRange" value="80"/>
+        <set name="baseAttackType" value="POLE"/>
+        <set name="basePAtk" value="6685"/>
+        <set name="baseMAtk" value="862"/>
+        <set name="basePDef" value="344"/>
+        <set name="baseMDef" value="1"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="aggroRange" value="400"/>
+    </npc>
+</list>

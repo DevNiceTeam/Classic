@@ -1,0 +1,121 @@
+<list>
+    <skill id="7100" levels="1" name="Оглушение Питомца Клана">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="3"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="50"/>
+        <set name="castRange" value="900"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill5168"/>
+        <set name="mp_consume" value="5"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+    </skill>
+    <skill id="7101" levels="1" name="Воздушные Оковы Питомца Клана">
+        <set name="abnormal_effect" value="AIRBIND"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="3"/>
+        <set name="abnormal_type" value="airbind"/>
+        <set name="activateRate" value="100"/>
+        <set name="castRange" value="900"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill11276"/>
+        <set name="mp_consume" value="5"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="FlyUp"/>
+        </for>
+    </skill>
+    <skill id="7102" levels="1" name="Призыв Питомца Клана">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="7103" levels="1" name="Дерева Помощи: Зона восстановления CP">
+        <set name="hitTime" value="300"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="1000"/>
+        <for>
+            <effect instant="true" name="RestoreCP" value="250"/>
+        </for>
+    </skill>
+    <skill id="7104" levels="1" name="Длань Паагрио">
+        <set name="castRange" value="100"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill11775"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="7105" levels="1" name="Забота о Драко">
+        <set name="castRange" value="100"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="7106" levels="1" name="Оптимальная Температура">
+        <set name="coolTime" value="800"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="7107" levels="1" name="Удачная Забота о Драко">
+        <set name="coolTime" value="800"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="7108" levels="1" name="Неудачная Забота о Драко">
+        <set name="coolTime" value="800"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="7113" levels="1" name="Эффект Неуязвимости Питомца">
+        <set name="hitTime" value="500"/>
+        <set name="icon" value="icon.skill0442"/>
+        <set name="mp_consume" value="78"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="7115" levels="1" name="Энергия Хаоса">
+        <set name="abnormal_effect" value="D_TALI_DECO_G"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="apply_effects_on_pet" value="false"/>
+        <set name="apply_effects_on_summon" value="false"/>
+        <set name="hitTime" value="500"/>
+        <set name="icon" value="icon.skill0810"/>
+        <set name="isSelfDispellable" value="false"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect/>
+        </for>
+    </skill>
+</list>

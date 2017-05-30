@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="103" name="Hive Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="15383 186025 -2920" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="18046 190017 -2920" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="19025 145245 -3107" name="1010669" price="0"/><!--Dion Town Square-->
+		<target loc="19888 153395 -3144" name="1010670" price="0"/><!--Front of the Dion Castle Gate-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="15383 186025 -2920" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="18046 190017 -2920" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="19025 145245 -3107" name="1010669" price="0"/><!--Dion Town Square-->
+		<target loc="19888 153395 -3144" name="1010670" price="0"/><!--Front of the Dion Castle Gate-->
+		<target loc="5106 126916 -3664" name="1010614" price="500"/><!--Cruma Marshlands-->
+		<target loc="47382 111278 -2104" name="1010113" price="500"/><!--Fortress of Resistance-->
+		<target loc="630 179184 -3720" name="1010111" price="500"/><!--Plains of Dion-->
+		<target loc="60374 164301 -2856" name="1010115" price="500"/><!--Tanor Canyon-->
+	</teleport>
+	<skills>
+		<skill id="19105" level="1"/> <!--Преимущество Обители-->
+	</skills>
+	<banish_points>
+		<point x="20126" y="188254" z="-3392"/>
+		<point x="20109" y="188012" z="-3408"/>
+		<point x="15324" y="182643" z="-3600"/>
+		<point x="15641" y="182598" z="-3608"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="16973" y="187783" z="-2592"/>
+		<point x="16849" y="187782" z="-2592"/>
+		<point x="16876" y="187619" z="-2592"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="19025" y="145245" z="-3107"/>
+		<point x="18576" y="145136" z="-3104"/>
+		<point x="18717" y="145711" z="-3097"/>
+		<point x="18512" y="145536" z="-3100"/>
+		<point x="18954" y="144428" z="-3000"/>
+		<point x="19150" y="143941" z="-3020"/>
+		<point x="19134" y="144847" z="-3020"/>
+		<point x="19613" y="145607" z="-3020"/>
+		<point x="18078" y="145925" z="-3020"/>
+		<point x="17398" y="145456" z="-3000"/>
+		<point x="17144" y="145055" z="-3000"/>
+		<point x="19012" y="145140" z="-3020"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="17555" y="170393" z="-3400"/>
+		<point x="17699" y="170153" z="-3400"/>
+		<point x="17315" y="170041" z="-3400"/>
+		<point x="17283" y="170329" z="-3400"/>
+		<point x="17536" y="170505" z="-3400"/>
+		<point x="17299" y="170341" z="-3400"/>
+		<point x="17085" y="170170" z="-3400"/>
+		<point x="17421" y="169993" z="-3400"/>
+		<point x="17820" y="170054" z="-3400"/>
+		<point x="18054" y="170263" z="-3400"/>
+		<point x="17931" y="170381" z="-3400"/>
+	</chaos_restart_points>
+</residence>

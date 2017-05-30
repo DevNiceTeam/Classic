@@ -1,0 +1,14 @@
+<html><head>
+Хранитель Портала Ипподрома:<br>
+Приветствую Вас на Ипподроме!<br>
+Его хозяин - щедрая душа с большими связями, поэтому для удобства горожан работает настоящий Хранитель Портала прямо на Гоночной Трассе! Конечно, меры безопасности здесь беспрецедентные, да и пришлось ввести цензуру для успокоения особо впечатлительных. <br>
+Но раз Вы прибыли сюда, обязательно изучите все предложения нашего Ипподрома! Желаю приятного отдыха!<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_mdt_to" msg="811;Ипподром">Переместиться на Арену и Ипподром (Бесплатно)</button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Парнассус">Переместиться в Парнассус (зона без налогов) - ${SERVICES_PARNASSUS_PRICE} Аден]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Гавань Гирана">Переместиться в Гавань Гирана (зона без налогов) - Бесплатно]</button>
+#end
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Квест</button>
+</body></html>

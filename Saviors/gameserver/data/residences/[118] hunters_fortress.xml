@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="118" name="Hunters Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="124180 93249 -2144" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="126155 97124 -2144" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="147450 28081 -2294" name="1010678" price="0"/><!--Aden Town Square-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="124180 93249 -2144" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="126155 97124 -2144" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="147450 28081 -2294" name="1010678" price="0"/><!--Aden Town Square-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+		<target loc="104426 33746 -3825" name="1010619" price="500"/><!--Enchanted Valley, Northern Region-->
+		<target loc="155310 -16339 -3320" name="1010060" price="500"/><!--Blazing Swamp-->
+		<target loc="73024 118485 -3720" name="1010067" price="500"/><!--Dragon Valley-->
+		<target loc="60374 164301 -2856" name="1010115" price="500"/><!--Tanor Canyon-->
+		<target loc="183985 61424 -3992" name="1010702" price="500"/><!--The Giant's Cave Upper Layer-->
+		<target loc="191754 56760 -7624" name="1010703" price="500"/><!--The Giant's Cave Lower Layer-->
+	</teleport>
+	<skills>
+		<skill id="19104" level="2"/> <!--Война Обители-->
+	</skills>
+	<banish_points>
+		<point x="125617" y="100853" z="-2872"/>
+		<point x="125512" y="101092" z="-2944"/>
+		<point x="118588" y="90558" z="-3656"/>
+		<point x="118662" y="90968" z="-3576"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="125698" y="95192" z="-1808"/>
+		<point x="125625" y="95066" z="-1808"/>
+		<point x="125703" y="94924" z="-1808"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="116127" y="76015" z="-2729"/>
+		<point x="115683" y="77610" z="-2650"/>
+		<point x="117304" y="76318" z="-2670"/>
+		<point x="119862" y="76603" z="-2220"/>
+		<point x="117671" y="78998" z="-2210"/>
+		<point x="117189" y="78952" z="-2210"/>
+		<point x="115861" y="75200" z="-2550"/>
+		<point x="118275" y="74859" z="-2557"/>
+		<point x="118229" y="74677" z="-2450"/>
+		<point x="115685" y="75072" z="-2550"/>
+		<point x="116704" y="75695" z="-2680"/>
+		<point x="116737" y="76738" z="-2650"/>
+		<point x="115193" y="77594" z="-2670"/>
+		<point x="116158" y="77443" z="-2660"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="122098" y="70373" z="-2864"/>
+		<point x="118674" y="71218" z="-2743"/>
+		<point x="118040" y="67175" z="-2905"/>
+		<point x="119300" y="70660" z="-2850"/>
+		<point x="118851" y="70566" z="-2800"/>
+		<point x="112655" y="70976" z="-3122"/>
+		<point x="119712" y="66376" z="-2960"/>
+		<point x="107511" y="82890" z="-2515"/>
+		<point x="105702" y="82773" z="-2803"/>
+		<point x="104257" y="82194" z="-2581"/>
+		<point x="104474" y="81109" z="-2651"/>
+	</chaos_restart_points>
+</residence>

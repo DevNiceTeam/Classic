@@ -1,0 +1,1585 @@
+<list>
+	<chance_variations>
+		<!-- Оружие ОФФ вариант -->
+		<variation id="1">
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4" base_chance="66.67"/>
+			<enchant level="5" base_chance="33.34"/>
+			<enchant level="6" base_chance="25.0"/>
+			<enchant level="7" base_chance="20.0"/>
+			<enchant level="8" base_chance="16.67" success_visual_effect="true"/>
+			<enchant level="9" base_chance="14.29"/>
+			<enchant level="10" base_chance="12.5"/>
+			<enchant level="11" base_chance="11.12"/>
+			<enchant level="12" base_chance="10.0"/>
+			<enchant level="13" base_chance="9.10"/>
+			<enchant level="14" base_chance="8.34"/>
+			<enchant level="15" base_chance="7.70"/>
+			<enchant level="16" base_chance="7.15"/>
+			<enchant level="17" base_chance="6.67"/>
+			<enchant level="18" base_chance="6.25"/>
+			<enchant level="19" base_chance="5.89"/>
+			<enchant level="20" base_chance="5.56"/>
+		</variation>
+		<!-- Армор ОФФ вариант -->
+		<variation id="2">
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4" base_chance="66.67" full_body_armor_chance="100.0"/>
+			<enchant level="5" base_chance="33.34"/>
+			<enchant level="6" base_chance="25.0"/>
+			<enchant level="7" base_chance="20.0"/>
+			<enchant level="8" base_chance="16.67" success_visual_effect="true"/>
+			<enchant level="9" base_chance="14.29"/>
+			<enchant level="10" base_chance="12.5"/>
+			<enchant level="11" base_chance="11.12"/>
+			<enchant level="12" base_chance="10.0"/>
+			<enchant level="13" base_chance="9.10"/>
+			<enchant level="14" base_chance="8.34"/>
+			<enchant level="15" base_chance="7.70"/>
+			<enchant level="16" base_chance="7.15"/>
+			<enchant level="17" base_chance="6.67"/>
+			<enchant level="18" base_chance="6.25"/>
+			<enchant level="19" base_chance="5.89"/>
+			<enchant level="20" base_chance="5.56"/>
+		</variation>
+		<variation id="5"><!--divine_weapon_scroll-->
+			<enchant level="1-20" base_chance="100.0"/>
+		</variation>
+		<variation id="6"><!--divine_armor_scroll-->
+			<enchant level="1-20" base_chance="100.0"/>
+		</variation>
+		<variation id="7"><!--master_yogi_scroll-->
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4" base_chance="66.0" success_visual_effect="true"/>
+		</variation>
+		<variation id="14"><!--hair_accessory_scroll-->
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4" base_chance="66.67"/>
+			<enchant level="5" base_chance="33.34"/>
+			<enchant level="6" base_chance="25.0"/>
+			<enchant level="7" base_chance="20.0"/>
+			<enchant level="8" base_chance="16.67"/>
+			<enchant level="9" base_chance="14.29"/>
+			<enchant level="10" base_chance="12.5"/>
+			<enchant level="11" base_chance="11.12"/>
+			<enchant level="12" base_chance="10.0"/>
+			<enchant level="13" base_chance="9.10"/>
+			<enchant level="14" base_chance="8.34"/>
+			<enchant level="15" base_chance="7.70"/>
+			<enchant level="16" base_chance="7.15"/>
+			<enchant level="17" base_chance="6.67"/>
+			<enchant level="18" base_chance="6.25"/>
+			<enchant level="19" base_chance="5.89"/>
+			<enchant level="20" base_chance="5.56"/>
+		</variation>
+		<variation id="15"><!-- Свиток: Модифицировать Оружие Тени -->
+			<enchant level="1-3" base_chance="100.0" magic_weapon_chance="100.0"/>
+			<enchant level="4" base_chance="66.0" magic_weapon_chance="66.0"/>
+			<enchant level="5" base_chance="59.0" magic_weapon_chance="59.0"/>
+			<enchant level="6" base_chance="58.0" magic_weapon_chance="58.0"/>
+			<enchant level="7" base_chance="31.0" magic_weapon_chance="31.0"/>
+			<enchant level="8" base_chance="30.0" magic_weapon_chance="30.0"/>
+			<enchant level="9" base_chance="30.0" magic_weapon_chance="30.0"/>
+			<enchant level="10" base_chance="15.0" magic_weapon_chance="15.0"/>
+		</variation> <!-- https://4gameforum.com/threads/512456/ -->
+		<variation id="16"><!--shirt-->
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4-8" base_chance="75.0"/>
+			<enchant level="9-10" base_chance="30.0"/>
+		</variation>
+
+		<!-- Оружие ОФФ вариант - Древние свитки -->
+		<variation id="17">
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4" base_chance="76.67"/>
+			<enchant level="5" base_chance="43.34"/>
+			<enchant level="6" base_chance="35.0"/>
+			<enchant level="7" base_chance="30.0"/>
+			<enchant level="8" base_chance="26.67" success_visual_effect="true"/>
+			<enchant level="9" base_chance="24.29"/>
+			<enchant level="10" base_chance="22.5"/>
+			<enchant level="11" base_chance="21.12"/>
+			<enchant level="12" base_chance="20.0"/>
+			<enchant level="13" base_chance="19.10"/>
+			<enchant level="14" base_chance="18.34"/>
+			<enchant level="15" base_chance="17.70"/>
+			<enchant level="16" base_chance="17.15"/>
+			<enchant level="17" base_chance="16.67"/>
+			<enchant level="18" base_chance="16.25"/>
+			<enchant level="19" base_chance="15.89"/>
+			<enchant level="20" base_chance="15.56"/>
+		</variation>
+		<!-- Армор ОФФ вариант - Древние свитки -->
+		<variation id="18">
+			<enchant level="1-3" base_chance="100.0"/>
+			<enchant level="4" base_chance="76.67" full_body_armor_chance="100.0"/>
+			<enchant level="5" base_chance="43.34"/>
+			<enchant level="6" base_chance="35.0"/>
+			<enchant level="7" base_chance="30.0"/>
+			<enchant level="8" base_chance="26.67" success_visual_effect="true"/>
+			<enchant level="9" base_chance="24.29"/>
+			<enchant level="10" base_chance="22.5"/>
+			<enchant level="11" base_chance="21.12"/>
+			<enchant level="12" base_chance="20.0"/>
+			<enchant level="13" base_chance="19.10"/>
+			<enchant level="14" base_chance="18.34"/>
+			<enchant level="15" base_chance="17.70"/>
+			<enchant level="16" base_chance="17.15"/>
+			<enchant level="17" base_chance="16.67"/>
+			<enchant level="18" base_chance="16.25"/>
+			<enchant level="19" base_chance="15.89"/>
+			<enchant level="20" base_chance="15.56"/>
+		</variation>
+
+	</chance_variations>
+
+	<!--Стандартные настройки для енчанта, -1 в макс , означает нелимитирова-->
+	<default max_enchant="20" show_fail_effect="false"/>
+
+	<!--Common Enchant Scrolls-->
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="955" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="956" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="951" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="952" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="947" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="948" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="729" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="730" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="959" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="960" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="22344" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="22345" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="22342" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="22343" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="22321" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="22323" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22320" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22322" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="17526" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="17527" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="22425" on_fail="CRYSTALS" type="WEAPON" variation="17" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="22428" on_fail="CRYSTALS" type="ARMOR" variation="18" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade) Campain -->
+	<enchant_scroll id="33519" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade) Campain-->
+	<enchant_scroll id="33520" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="22627" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="22628" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="34076" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="34077" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="23415" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="23421" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="23414" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="23420" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="23413" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="23419" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="23412" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="23418" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="23411" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="23417" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23410" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23416" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Crystal Enchant Scrolls-->
+	<!--Crystal Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="957" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Crystal Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="958" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Crystal Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="953" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Crystal Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="954" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Crystal Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="949" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Crystal Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="950" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Crystal Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="731" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Crystal Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="732" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Crystal Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="961" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Crystal Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="962" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Blessed Enchant Scrolls-->
+	<!--Blessed Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="6575" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Blessed Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="6576" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Blessed Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="6573" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Blessed Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="6574" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Blessed Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="6571" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="6572" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="6569" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="6570" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="6577" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="6578" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="22317" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="22319" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22316" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22318" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="22314" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="22315" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="19447" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="19448" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="22647" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="22648" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="23427" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Blessed Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="23433" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Blessed Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="23426" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Blessed Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="23432" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Blessed Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="23425" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="23431" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="23424" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="23430" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="23423" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="23429" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23422" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23428" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Item-Mall Enchant Scrolls-->
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="22006" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="22010" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="22007" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="22011" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="22008" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="22012" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22009" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22013" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="20517" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="20518" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Ancient Enchant Scrolls-->
+	<!--Ancient Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="22014" on_fail="NOTHING" type="WEAPON" variation="17" grade="B" max_enchant="16"/>
+
+	<!--Ancient Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="22016" on_fail="NOTHING" type="ARMOR" variation="18" grade="B" max_enchant="16"/>
+
+	<!--Ancient Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22015" on_fail="NOTHING" type="WEAPON" variation="17" grade="A" max_enchant="16"/>
+
+	<!--Ancient Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22017" on_fail="NOTHING" type="ARMOR" variation="18" grade="A" max_enchant="16"/>
+
+	<!--Ancient Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="20519" on_fail="NOTHING" type="WEAPON" variation="17" grade="S;S80;S84" max_enchant="16"/>
+
+	<!--Ancient Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="20520" on_fail="NOTHING" type="ARMOR" variation="18" grade="S;S80;S84" max_enchant="16"/>
+
+	<!--Ancient Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="22426" on_fail="NOTHING" type="WEAPON" variation="17" grade="R;R95;R99" max_enchant="20"/>
+
+	<!--Ancient Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23342" on_fail="NOTHING" type="WEAPON" variation="17" grade="R;R95;R99" max_enchant="20"/>
+	
+	<!--Ancient Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="22429" on_fail="NOTHING" type="ARMOR" variation="18" grade="R;R95;R99" max_enchant="20"/>
+	
+	<!--Ancient Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23344" on_fail="NOTHING" type="ARMOR" variation="18" grade="R;R95;R99" max_enchant="20"/>
+
+
+	<!--Divine Enchant Scrolls-->
+	<!--Divine Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="22018" on_fail="NOTHING" type="WEAPON" variation="5" grade="B"/>
+
+	<!--Divine Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="22020" on_fail="NOTHING" type="ARMOR" variation="6" grade="B"/>
+
+	<!--Divine Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22019" on_fail="NOTHING" type="WEAPON" variation="5" grade="A"/>
+
+	<!--Divine Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22021" on_fail="NOTHING" type="ARMOR" variation="6" grade="A"/>
+
+	<!--Divine Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="20521" on_fail="NOTHING" type="WEAPON" variation="5" grade="S;S80;S84"/>
+
+	<!--Divine Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="20522" on_fail="NOTHING" type="ARMOR" variation="6" grade="S;S80;S84"/>
+
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="22427" on_fail="NOTHING" type="WEAPON" variation="5" grade="R;R95;R99" max_enchant="12"/>
+	
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23343" on_fail="NOTHING" type="WEAPON" variation="5" grade="R;R95;R99" max_enchant="12"/>
+
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23731" on_fail="NOTHING" type="WEAPON" variation="5" grade="A" max_enchant="4"/>
+	
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23732" on_fail="NOTHING" type="WEAPON" variation="5" grade="S;S80;S84" max_enchant="4"/>
+
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23733" on_fail="NOTHING" type="WEAPON" variation="5" grade="R;R95;R99" max_enchant="4"/>
+
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23737" on_fail="NOTHING" type="WEAPON" variation="5" grade="A" max_enchant="4"/>
+	
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23738" on_fail="NOTHING" type="WEAPON" variation="5" grade="S;S80;S84" max_enchant="4"/>
+
+	<!--Divine Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23739" on_fail="NOTHING" type="WEAPON" variation="5" grade="R;R95;R99" max_enchant="4"/>
+
+
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="22430" on_fail="NOTHING" type="ARMOR" variation="6" grade="R;R95;R99"/>
+	
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23345" on_fail="NOTHING" type="ARMOR" variation="6" grade="R;R95;R99"/>
+
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23734" on_fail="NOTHING" type="ARMOR" variation="6" grade="A" max_enchant="4"/>
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23735" on_fail="NOTHING" type="ARMOR" variation="6" grade="S;S80;S84" max_enchant="4"/>
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23736" on_fail="NOTHING" type="ARMOR" variation="6" grade="R;R95;R99" max_enchant="4"/>
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23740" on_fail="NOTHING" type="ARMOR" variation="6" grade="A" max_enchant="4"/>
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23741" on_fail="NOTHING" type="ARMOR" variation="6" grade="S;S80;S84" max_enchant="4"/>
+	<!--Divine Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23742" on_fail="NOTHING" type="ARMOR" variation="6" grade="R;R95;R99" max_enchant="4"/>
+
+	<!--Enchant Scrolls of Destruction-->
+	<!--Scroll: Enchant Weapon of Destruction (D-Grade)-->
+	<enchant_scroll id="22229" on_fail="NOTHING" type="WEAPON" variation="1" grade="D" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (D-Grade)-->
+	<enchant_scroll id="22230" on_fail="NOTHING" type="ARMOR" variation="2" grade="D" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (C-Grade)-->
+	<enchant_scroll id="22227" on_fail="NOTHING" type="WEAPON" variation="1" grade="C" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (C-Grade)-->
+	<enchant_scroll id="22228" on_fail="NOTHING" type="ARMOR" variation="2" grade="C" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (B-Grade)-->
+	<enchant_scroll id="22225" on_fail="NOTHING" type="WEAPON" variation="1" grade="B" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (B-Grade)-->
+	<enchant_scroll id="22226" on_fail="NOTHING" type="ARMOR" variation="2" grade="B" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (A-Grade)-->
+	<enchant_scroll id="22223" on_fail="NOTHING" type="WEAPON" variation="1" grade="A" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (A-Grade)-->
+	<enchant_scroll id="22224" on_fail="NOTHING" type="ARMOR" variation="2" grade="A" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (S-Grade)-->
+	<enchant_scroll id="22221" on_fail="NOTHING" type="WEAPON" variation="1" grade="S;S80;S84" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (S-Grade)-->
+	<enchant_scroll id="22222" on_fail="NOTHING" type="ARMOR" variation="2" grade="S;S80;S84" max_enchant="6"/>
+
+	<!--Special Enchant Scrolls-->
+	<!--Master Yogi's Scroll: Enchant Weapon-->
+	<enchant_scroll id="13540" on_fail="CRYSTALS" variation="7" max_enchant="28" show_fail_effect="true">
+		<item_list>
+			<item id="13539"/>  <!--Staff of Master Yogi-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Olf's T-shirt Enchant Scroll-->
+	<enchant_scroll id="21581" on_fail="CRYSTALS" variation="16" max_enchant="10">
+		<item_list>
+			<item id="21580"/> <!--Olf's T-shirt-->
+			<item id="21706"/> <!--Olf's T-shirt-->
+			<item id="34732"/> <!--Olf's T-shirt-->
+			<item id="23085"/> <!--Olf's T-shirt-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Blessed Olf's T-shirt Enchant Scroll-->
+	<enchant_scroll id="21582" on_fail="DROP_ENCHANT" variation="16" max_enchant="10">
+		<item_list>
+			<item id="21580"/> <!--Olf's T-shirt-->
+			<item id="21706"/> <!--Olf's T-shirt-->
+			<item id="34732"/> <!--Olf's T-shirt-->
+			<item id="23085"/> <!--Olf's T-shirt-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Olf's T-shirt Enchant Scroll-->
+	<enchant_scroll id="22904" on_fail="CRYSTALS" variation="16" max_enchant="10">
+		<item_list>
+			<item id="21580"/> <!--Olf's T-shirt-->
+			<item id="21706"/> <!--Olf's T-shirt-->
+			<item id="34732"/> <!--Olf's T-shirt-->
+			<item id="23085"/> <!--Olf's T-shirt-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Blessed Olf's T-shirt Enchant Scroll-->
+	<enchant_scroll id="22905" on_fail="DROP_ENCHANT" variation="16" max_enchant="10">
+		<item_list>
+			<item id="21580"/> <!--Olf's T-shirt-->
+			<item id="21706"/> <!--Olf's T-shirt-->
+			<item id="34732"/> <!--Olf's T-shirt-->
+			<item id="23085"/> <!--Olf's T-shirt-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Blessed Olf's T-shirt Enchant Scroll Evemt-->
+	<enchant_scroll id="21707" on_fail="DROP_ENCHANT" variation="16" max_enchant="10">
+		<item_list>
+			<item id="21580"/> <!--Olf's T-shirt-->
+			<item id="21706"/> <!--Olf's T-shirt-->
+			<item id="34732"/> <!--Olf's T-shirt-->
+			<item id="23085"/> <!--Olf's T-shirt-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Свиток Эйнхасад: Модифицировать Фктболку-->
+	<enchant_scroll id="34627" on_fail="CRYSTALS" variation="16" max_enchant="10">
+		<item_list>
+			<item id="34623"/> <!--Футболка Паагрио-->
+			<item id="34624"/> <!--Футболка Сайхи-->
+			<item id="34625"/> <!--Футболка Евы-->
+			<item id="34626"/> <!--Футболка Мафр-->
+			<item id="34770"/> <!--Футболка Паагрио	Ивент-->
+			<item id="34771"/> <!--Футболка Сайхи	Ивент-->
+			<item id="34772"/> <!--Футболка Евы	Ивент-->
+			<item id="34773"/> <!--Футболка Мафр	Ивент-->
+			<item id="23240"/> <!--Футболка Паагрио-->
+			<item id="23301"/> <!--Футболка Сайхи-->
+			<item id="23304"/> <!--Футболка Евы-->
+			<item id="23307"/> <!--Футболка Мафр-->
+			<item id="37718"/> <!--Сияющая Футболка Эйнхасад-->
+			<item id="46193"/> <!--Футболка Отражения Атаки-->
+			<item id="46194"/> <!--Футболка Отражения Магии-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Свиток Эйнхасад: Модифицировать Футболку-->
+	<enchant_scroll id="25792" on_fail="CRYSTALS" variation="16" max_enchant="10">
+		<item_list>
+			<item id="34623"/> <!--Футболка Паагрио-->
+			<item id="34624"/> <!--Футболка Сайхи-->
+			<item id="34625"/> <!--Футболка Евы-->
+			<item id="34626"/> <!--Футболка Мафр-->
+			<item id="34770"/> <!--Футболка Паагрио	Ивент-->
+			<item id="34771"/> <!--Футболка Сайхи	Ивент-->
+			<item id="34772"/> <!--Футболка Евы	Ивент-->
+			<item id="34773"/> <!--Футболка Мафр	Ивент-->
+			<item id="23240"/> <!--Футболка Паагрио-->
+			<item id="23301"/> <!--Футболка Сайхи-->
+			<item id="23304"/> <!--Футболка Евы-->
+			<item id="23307"/> <!--Футболка Мафр-->
+			<item id="37718"/> <!--Сияющая Футболка Эйнхасад-->
+			<item id="46193"/> <!--Футболка Отражения Атаки-->
+			<item id="46194"/> <!--Футболка Отражения Магии-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Благ. Свиток Эйнхасад: Модифицировать Фктболку-->
+	<enchant_scroll id="25793" on_fail="DROP_ENCHANT" variation="16" max_enchant="10">
+		<item_list>
+			<item id="34623"/> <!--Футболка Паагрио-->
+			<item id="34624"/> <!--Футболка Сайхи-->
+			<item id="34625"/> <!--Футболка Евы-->
+			<item id="34626"/> <!--Футболка Мафр-->
+			<item id="34770"/> <!--Футболка Паагрио	Ивент-->
+			<item id="34771"/> <!--Футболка Сайхи	Ивент-->
+			<item id="34772"/> <!--Футболка Евы	Ивент-->
+			<item id="34773"/> <!--Футболка Мафр	Ивент-->
+			<item id="23240"/> <!--Футболка Паагрио-->
+			<item id="23301"/> <!--Футболка Сайхи-->
+			<item id="23304"/> <!--Футболка Евы-->
+			<item id="23307"/> <!--Футболка Мафр-->
+			<item id="37718"/> <!--Сияющая Футболка Эйнхасад-->
+			<item id="46193"/> <!--Футболка Отражения Атаки-->
+			<item id="46194"/> <!--Футболка Отражения Магии-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Event - Herdsman's Love Scroll-->
+	<enchant_scroll id="15381" on_fail="CRYSTALS" variation="2" max_enchant="50">
+		<item_list>
+			<item id="15383"/> <!--Weaver's Multi-colored Clothes 7 day-->
+			<item id="15384"/> <!--Weaver's Multi-colored Clothes 30 day-->
+			<item id="15385"/> <!--Weaver's Multi-colored Clothes 60 day-->
+			<item id="15386"/> <!--Weaver's Multi-colored Clothes 90 day-->
+			<item id="15387"/> <!--Weaver's Multi-colored Clothes Permanent-->
+			<item id="15388"/> <!--Weaver's Multi-colored Clothes (Event) 7 day-->
+			<item id="15389"/> <!--Weaver's Multi-colored Clothes (Event) 30 day-->
+			<item id="15390"/> <!--Weaver's Multi-colored Clothes (Event) 60 day-->
+			<item id="15391"/> <!--Weaver's Multi-colored Clothes (Event) 90 day-->
+			<item id="15392"/> <!--Weaver's Multi-colored Clothes (Event) Permanent-->
+		</item_list>
+	</enchant_scroll>
+
+	<!-- event enchant scrolls -->
+	<!-- Event-Blessed Enchant Scrolls-->
+	<!--Blessed Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="17262" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Blessed Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="17261" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Blessed Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="17259" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Blessed Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="17260" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Blessed Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="17257" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="17258" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Blessed Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="17255" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="17256" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="17263" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="17264" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="23596" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="23597" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="34788" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="34786" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Blessed Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="34789" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="34787" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="36283" on_fail="DROP_ENCHANT" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Blessed Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="36284" on_fail="DROP_ENCHANT" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!-- Agathion Auxiliary Stone-->
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="14702" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="14707" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="14703" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="14708" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="14704" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="14709" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="14705" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="14710" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="14706" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="14711" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!-- Event common enchant scrolls -->
+	<!-- Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22307" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!-- Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22309" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!-- Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="22306" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!-- Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="22308" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="22556" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="22557" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="22554" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="22555" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="22552" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="22553" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="22550" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="22551" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="22558" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="22559" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="22560" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="22561" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="34784" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="34782" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="34785" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="34783" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="34072" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D"/>
+
+	<!--Scroll: Enchant Armor (D-Grade)-->
+	<enchant_scroll id="34073" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D"/>
+
+	<!--Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="34070" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C"/>
+
+	<!--Scroll: Enchant Armor (C-Grade)-->
+	<enchant_scroll id="34071" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C"/>
+
+	<!--Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="34068" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B"/>
+
+	<!--Scroll: Enchant Armor (B-Grade)-->
+	<enchant_scroll id="34069" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B"/>
+
+	<!--Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="34066" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A"/>
+
+	<!--Scroll: Enchant Armor (A-Grade)-->
+	<enchant_scroll id="34067" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A"/>
+
+	<!--Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="34074" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Armor (S-Grade)-->
+	<enchant_scroll id="34075" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84"/>
+
+	<!--Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="34076" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99"/>
+
+	<!--Scroll: Enchant Armor (R-Grade)-->
+	<enchant_scroll id="34077" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99"/>
+
+	<!--Enchant Scrolls of Destruction Event-->
+	<!--Scroll: Enchant Weapon of Destruction (D-Grade)-->
+	<enchant_scroll id="33840" on_fail="NOTHING" type="WEAPON" variation="1" grade="D" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (D-Grade)-->
+	<enchant_scroll id="33846" on_fail="NOTHING" type="ARMOR" variation="2" grade="D" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (C-Grade)-->
+	<enchant_scroll id="33841" on_fail="NOTHING" type="WEAPON" variation="1" grade="C" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (C-Grade)-->
+	<enchant_scroll id="33847" on_fail="NOTHING" type="ARMOR" variation="2" grade="C" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (B-Grade)-->
+	<enchant_scroll id="33842" on_fail="NOTHING" type="WEAPON" variation="1" grade="B" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (B-Grade)-->
+	<enchant_scroll id="33848" on_fail="NOTHING" type="ARMOR" variation="2" grade="B" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (A-Grade)-->
+	<enchant_scroll id="33843" on_fail="NOTHING" type="WEAPON" variation="1" grade="A" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (A-Grade)-->
+	<enchant_scroll id="33849" on_fail="NOTHING" type="ARMOR" variation="2" grade="A" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (S-Grade)-->
+	<enchant_scroll id="33844" on_fail="NOTHING" type="WEAPON" variation="1" grade="S;S80;S84" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (S-Grade)-->
+	<enchant_scroll id="33850" on_fail="NOTHING" type="ARMOR" variation="2" grade="S;S80;S84" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (S-Grade)-->
+	<enchant_scroll id="33845" on_fail="NOTHING" type="WEAPON" variation="1" grade="R;R95;R99" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (S-Grade)-->
+	<enchant_scroll id="33851" on_fail="NOTHING" type="ARMOR" variation="2" grade="R;R95;R99" max_enchant="6"/>
+
+	<!--Scroll: Enchant Weapon of Destruction (R-Grade)-->
+	<enchant_scroll id="33478" on_fail="NOTHING" type="WEAPON" variation="1" grade="R;R95;R99" max_enchant="15"/>
+
+	<!--Scroll: Enchant Armor of Destruction (R-Grade)-->
+	<enchant_scroll id="33479" on_fail="NOTHING" type="ARMOR" variation="2" grade="R;R95;R99" max_enchant="6"/>
+
+	<!--Player Commendation common scrolls-->
+	<!--Player Commendation - Scroll: Enchant Weapon (D-Grade)-->
+	<enchant_scroll id="34578" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D">
+		<item_list>
+			<item id="34083"/>    <!--Player Commendation - Grand Épée (Earth)-->
+			<item id="34084"/>    <!--Player Commendation - Grand Épée (Water)-->
+			<item id="34085"/>    <!--Player Commendation - Grand Épée (Wind)-->
+			<item id="34086"/>    <!--Player Commendation - Grand Épée (Fire)-->
+			<item id="34087"/>    <!--Player Commendation - Grand Épée (Holy)-->
+			<item id="34088"/>    <!--Player Commendation - Grand Épée (Dark)-->
+			<item id="34089"/>    <!--Player Commendation - Glaive (Earth)-->
+			<item id="34090"/>    <!--Player Commendation - Glaive (Water)-->
+			<item id="34091"/>    <!--Player Commendation - Glaive (Wind)-->
+			<item id="34092"/>    <!--Player Commendation - Glaive (Fire)-->
+			<item id="34093"/>    <!--Player Commendation - Glaive (Holy)-->
+			<item id="34094"/>    <!--Player Commendation - Glaive (Dark)-->
+			<item id="34095"/>    <!--Player Commendation - Mithril Dagger (Earth)-->
+			<item id="34096"/>    <!--Player Commendation - Mithril Dagger (Water)-->
+			<item id="34097"/>    <!--Player Commendation - Mithril Dagger (Wind)-->
+			<item id="34098"/>    <!--Player Commendation - Mithril Dagger (Fire)-->
+			<item id="34099"/>    <!--Player Commendation - Mithril Dagger (Holy)-->
+			<item id="34100"/>    <!--Player Commendation - Mithril Dagger (Dark)-->
+			<item id="34101"/>    <!--Player Commendation - Bastard Sword*Crimson Sword (Earth)-->
+			<item id="34102"/>    <!--Player Commendation - Bastard Sword*Crimson Sword (Water)-->
+			<item id="34103"/>    <!--Player Commendation - Bastard Sword*Crimson Sword (Wind)-->
+			<item id="34104"/>    <!--Player Commendation - Bastard Sword*Crimson Sword (Fire)-->
+			<item id="34105"/>    <!--Player Commendation - Bastard Sword*Crimson Sword (Holy)-->
+			<item id="34106"/>    <!--Player Commendation - Bastard Sword*Crimson Sword (Dark)-->
+			<item id="34107"/>    <!--Player Commendation - Bonebreaker (Earth)-->
+			<item id="34108"/>    <!--Player Commendation - Bonebreaker (Water)-->
+			<item id="34109"/>    <!--Player Commendation - Bonebreaker (Wind)-->
+			<item id="34110"/>    <!--Player Commendation - Bonebreaker (Fire)-->
+			<item id="34111"/>    <!--Player Commendation - Bonebreaker (Holy)-->
+			<item id="34112"/>    <!--Player Commendation - Bonebreaker (Dark)-->
+			<item id="34113"/>    <!--Player Commendation - Light Crossbow (Earth)-->
+			<item id="34114"/>    <!--Player Commendation - Light Crossbow (Water)-->
+			<item id="34115"/>    <!--Player Commendation - Light Crossbow (Wind)-->
+			<item id="34116"/>    <!--Player Commendation - Light Crossbow (Fire)-->
+			<item id="34117"/>    <!--Player Commendation - Light Crossbow (Holy)-->
+			<item id="34118"/>    <!--Player Commendation - Light Crossbow (Dark)-->
+			<item id="34119"/>    <!--Player Commendation - Staff of Life (Earth)-->
+			<item id="34120"/>    <!--Player Commendation - Staff of Life (Water)-->
+			<item id="34121"/>    <!--Player Commendation - Staff of Life (Wind)-->
+			<item id="34122"/>    <!--Player Commendation - Staff of Life (Fire)-->
+			<item id="34123"/>    <!--Player Commendation - Staff of Life (Holy)-->
+			<item id="34124"/>    <!--Player Commendation - Staff of Life (Dark)-->
+			<item id="34125"/>    <!--Player Commendation - Scallop Jamadhr (Earth)-->
+			<item id="34126"/>    <!--Player Commendation - Scallop Jamadhr (Water)-->
+			<item id="34127"/>    <!--Player Commendation - Scallop Jamadhr (Wind)-->
+			<item id="34128"/>    <!--Player Commendation - Scallop Jamadhr (Fire)-->
+			<item id="34129"/>    <!--Player Commendation - Scallop Jamadhr (Holy)-->
+			<item id="34130"/>    <!--Player Commendation - Scallop Jamadhr (Dark)-->
+			<item id="34131"/>    <!--Player Commendation - Atuba Hammer (Earth)-->
+			<item id="34132"/>    <!--Player Commendation - Atuba Hammer (Water)-->
+			<item id="34133"/>    <!--Player Commendation - Atuba Hammer (Wind)-->
+			<item id="34134"/>    <!--Player Commendation - Atuba Hammer (Fire)-->
+			<item id="34135"/>    <!--Player Commendation - Atuba Hammer (Holy)-->
+			<item id="34136"/>    <!--Player Commendation - Atuba Hammer (Dark)-->
+			<item id="34137"/>    <!--Player Commendation - Elven Long Sword (Earth)-->
+			<item id="34138"/>    <!--Player Commendation - Elven Long Sword (Water)-->
+			<item id="34139"/>    <!--Player Commendation - Elven Long Sword (Wind)-->
+			<item id="34140"/>    <!--Player Commendation - Elven Long Sword (Fire)-->
+			<item id="34141"/>    <!--Player Commendation - Elven Long Sword (Holy)-->
+			<item id="34142"/>    <!--Player Commendation - Elven Long Sword (Dark)-->
+			<item id="34143"/>    <!--Player Commendation - General's Katzbalger (Earth)-->
+			<item id="34144"/>    <!--Player Commendation - General's Katzbalger (Water)-->
+			<item id="34145"/>    <!--Player Commendation - General's Katzbalger (Wind)-->
+			<item id="34146"/>    <!--Player Commendation - General's Katzbalger (Fire)-->
+			<item id="34147"/>    <!--Player Commendation - General's Katzbalger (Holy)-->
+			<item id="34148"/>    <!--Player Commendation - General's Katzbalger (Dark)-->
+			<item id="34149"/>    <!--Player Commendation - Cranequin (Earth)-->
+			<item id="34150"/>    <!--Player Commendation - Cranequin (Water)-->
+			<item id="34151"/>    <!--Player Commendation - Cranequin (Wind)-->
+			<item id="34152"/>    <!--Player Commendation - Cranequin (Fire)-->
+			<item id="34153"/>    <!--Player Commendation - Cranequin (Holy)-->
+			<item id="34154"/>    <!--Player Commendation - Cranequin (Dark)-->
+			<item id="34155"/>    <!--Player Commendation - Claymore (Earth)-->
+			<item id="34156"/>    <!--Player Commendation - Claymore (Water)-->
+			<item id="34157"/>    <!--Player Commendation - Claymore (Wind)-->
+			<item id="34158"/>    <!--Player Commendation - Claymore (Fire)-->
+			<item id="34159"/>    <!--Player Commendation - Claymore (Holy)-->
+			<item id="34160"/>    <!--Player Commendation - Claymore (Dark)-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Player Commendation - Scroll: Enchant Weapon (C-Grade)-->
+	<enchant_scroll id="34577" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C">
+		<item_list>
+			<item id="34161"/>    <!--Player Commendation - Great Pata (Earth)-->
+			<item id="34162"/>    <!--Player Commendation - Great Pata (Water)-->
+			<item id="34163"/>    <!--Player Commendation - Great Pata (Wind)-->
+			<item id="34164"/>    <!--Player Commendation - Great Pata (Fire)-->
+			<item id="34165"/>    <!--Player Commendation - Great Pata (Holy)-->
+			<item id="34166"/>    <!--Player Commendation - Great Pata (Dark)-->
+			<item id="34167"/>    <!--Player Commendation - Deadman's Staff (Earth)-->
+			<item id="34168"/>    <!--Player Commendation - Deadman's Staff (Water)-->
+			<item id="34169"/>    <!--Player Commendation - Deadman's Staff (Wind)-->
+			<item id="34170"/>    <!--Player Commendation - Deadman's Staff (Fire)-->
+			<item id="34171"/>    <!--Player Commendation - Deadman's Staff (Holy)-->
+			<item id="34172"/>    <!--Player Commendation - Deadman's Staff (Dark)-->
+			<item id="34173"/>    <!--Player Commendation - Berserker Blade (Earth)-->
+			<item id="34174"/>    <!--Player Commendation - Berserker Blade (Water)-->
+			<item id="34175"/>    <!--Player Commendation - Berserker Blade (Wind)-->
+			<item id="34176"/>    <!--Player Commendation - Berserker Blade (Fire)-->
+			<item id="34177"/>    <!--Player Commendation - Berserker Blade (Holy)-->
+			<item id="34178"/>    <!--Player Commendation - Berserker Blade (Dark)-->
+			<item id="34179"/>    <!--Player Commendation - Sharpshooter (Earth)-->
+			<item id="34180"/>    <!--Player Commendation - Sharpshooter (Water)-->
+			<item id="34181"/>    <!--Player Commendation - Sharpshooter (Wind)-->
+			<item id="34182"/>    <!--Player Commendation - Sharpshooter (Fire)-->
+			<item id="34183"/>    <!--Player Commendation - Sharpshooter (Holy)-->
+			<item id="34184"/>    <!--Player Commendation - Sharpshooter (Dark)-->
+			<item id="34185"/>    <!--Player Commendation - Shamshir*Shamshir (Earth)-->
+			<item id="34186"/>    <!--Player Commendation - Shamshir*Shamshir (Water)-->
+			<item id="34187"/>    <!--Player Commendation - Shamshir*Shamshir (Wind)-->
+			<item id="34188"/>    <!--Player Commendation - Shamshir*Shamshir (Fire)-->
+			<item id="34189"/>    <!--Player Commendation - Shamshir*Shamshir (Holy)-->
+			<item id="34190"/>    <!--Player Commendation - Shamshir*Shamshir (Dark)-->
+			<item id="34191"/>    <!--Player Commendation - Saber Tooth (Earth)-->
+			<item id="34192"/>    <!--Player Commendation - Saber Tooth (Water)-->
+			<item id="34193"/>    <!--Player Commendation - Saber Tooth (Wind)-->
+			<item id="34194"/>    <!--Player Commendation - Saber Tooth (Fire)-->
+			<item id="34195"/>    <!--Player Commendation - Saber Tooth (Holy)-->
+			<item id="34196"/>    <!--Player Commendation - Saber Tooth (Dark)-->
+			<item id="34197"/>    <!--Player Commendation - Samurai Long Sword (Earth)-->
+			<item id="34198"/>    <!--Player Commendation - Samurai Long Sword (Water)-->
+			<item id="34199"/>    <!--Player Commendation - Samurai Long Sword (Wind)-->
+			<item id="34200"/>    <!--Player Commendation - Samurai Long Sword (Fire)-->
+			<item id="34201"/>    <!--Player Commendation - Samurai Long Sword (Holy)-->
+			<item id="34202"/>    <!--Player Commendation - Samurai Long Sword (Dark)-->
+			<item id="34203"/>    <!--Player Commendation - Admiral's Estoc (Earth)-->
+			<item id="34204"/>    <!--Player Commendation - Admiral's Estoc (Water)-->
+			<item id="34205"/>    <!--Player Commendation - Admiral's Estoc (Wind)-->
+			<item id="34206"/>    <!--Player Commendation - Admiral's Estoc (Fire)-->
+			<item id="34207"/>    <!--Player Commendation - Admiral's Estoc (Holy)-->
+			<item id="34208"/>    <!--Player Commendation - Admiral's Estoc (Dark)-->
+			<item id="34209"/>    <!--Player Commendation - Yaksa Mace (Earth)-->
+			<item id="34210"/>    <!--Player Commendation - Yaksa Mace (Water)-->
+			<item id="34211"/>    <!--Player Commendation - Yaksa Mace (Wind)-->
+			<item id="34212"/>    <!--Player Commendation - Yaksa Mace (Fire)-->
+			<item id="34213"/>    <!--Player Commendation - Yaksa Mace (Holy)-->
+			<item id="34214"/>    <!--Player Commendation - Yaksa Mace (Dark)-->
+			<item id="34215"/>    <!--Player Commendation - Eminence Bow (Earth)-->
+			<item id="34216"/>    <!--Player Commendation - Eminence Bow (Water)-->
+			<item id="34217"/>    <!--Player Commendation - Eminence Bow (Wind)-->
+			<item id="34218"/>    <!--Player Commendation - Eminence Bow (Fire)-->
+			<item id="34219"/>    <!--Player Commendation - Eminence Bow (Holy)-->
+			<item id="34220"/>    <!--Player Commendation - Eminence Bow (Dark)-->
+			<item id="34221"/>    <!--Player Commendation - Orcish Poleaxe (Earth)-->
+			<item id="34222"/>    <!--Player Commendation - Orcish Poleaxe (Water)-->
+			<item id="34223"/>    <!--Player Commendation - Orcish Poleaxe (Wind)-->
+			<item id="34224"/>    <!--Player Commendation - Orcish Poleaxe (Fire)-->
+			<item id="34225"/>    <!--Player Commendation - Orcish Poleaxe (Holy)-->
+			<item id="34226"/>    <!--Player Commendation - Orcish Poleaxe (Dark)-->
+			<item id="34227"/>    <!--Player Commendation - Ecliptic Axe (Earth)-->
+			<item id="34228"/>    <!--Player Commendation - Ecliptic Axe (Water)-->
+			<item id="34229"/>    <!--Player Commendation - Ecliptic Axe (Wind)-->
+			<item id="34230"/>    <!--Player Commendation - Ecliptic Axe (Fire)-->
+			<item id="34231"/>    <!--Player Commendation - Ecliptic Axe (Holy)-->
+			<item id="34232"/>    <!--Player Commendation - Ecliptic Axe (Dark)-->
+			<item id="34233"/>    <!--Player Commendation - Crystal Dagger (Earth)-->
+			<item id="34234"/>    <!--Player Commendation - Crystal Dagger (Water)-->
+			<item id="34235"/>    <!--Player Commendation - Crystal Dagger (Wind)-->
+			<item id="34236"/>    <!--Player Commendation - Crystal Dagger (Fire)-->
+			<item id="34237"/>    <!--Player Commendation - Crystal Dagger (Holy)-->
+			<item id="34238"/>    <!--Player Commendation - Crystal Dagger (Dark)-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Player Commendation - Scroll: Enchant Weapon (B-Grade)-->
+	<enchant_scroll id="34576" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B">
+		<item_list>
+			<item id="34239"/>    <!--Player Commendation - Guardian's Sword (Earth)-->
+			<item id="34240"/>    <!--Player Commendation - Guardian's Sword (Water)-->
+			<item id="34241"/>    <!--Player Commendation - Guardian's Sword (Wind)-->
+			<item id="34242"/>    <!--Player Commendation - Guardian's Sword (Fire)-->
+			<item id="34243"/>    <!--Player Commendation - Guardian's Sword (Holy)-->
+			<item id="34244"/>    <!--Player Commendation - Guardian's Sword (Dark)-->
+			<item id="34245"/>    <!--Player Commendation - Damascus Sword (Earth)-->
+			<item id="34246"/>    <!--Player Commendation - Damascus Sword (Water)-->
+			<item id="34247"/>    <!--Player Commendation - Damascus Sword (Wind)-->
+			<item id="34248"/>    <!--Player Commendation - Damascus Sword (Fire)-->
+			<item id="34249"/>    <!--Player Commendation - Damascus Sword (Holy)-->
+			<item id="34250"/>    <!--Player Commendation - Damascus Sword (Dark)-->
+			<item id="34251"/>    <!--Player Commendation - Dismantler (Earth)-->
+			<item id="34252"/>    <!--Player Commendation - Dismantler (Water)-->
+			<item id="34253"/>    <!--Player Commendation - Dismantler (Wind)-->
+			<item id="34254"/>    <!--Player Commendation - Dismantler (Fire)-->
+			<item id="34255"/>    <!--Player Commendation - Dismantler (Holy)-->
+			<item id="34256"/>    <!--Player Commendation - Dismantler (Dark)-->
+			<item id="34257"/>    <!--Player Commendation - Lance (Earth)-->
+			<item id="34258"/>    <!--Player Commendation - Lance (Water)-->
+			<item id="34259"/>    <!--Player Commendation - Lance (Wind)-->
+			<item id="34260"/>    <!--Player Commendation - Lance (Fire)-->
+			<item id="34261"/>    <!--Player Commendation - Lance (Holy)-->
+			<item id="34262"/>    <!--Player Commendation - Lance (Dark)-->
+			<item id="34263"/>    <!--Player Commendation - Bellion Cestus (Earth)-->
+			<item id="34264"/>    <!--Player Commendation - Bellion Cestus (Water)-->
+			<item id="34265"/>    <!--Player Commendation - Bellion Cestus (Wind)-->
+			<item id="34266"/>    <!--Player Commendation - Bellion Cestus (Fire)-->
+			<item id="34267"/>    <!--Player Commendation - Bellion Cestus (Holy)-->
+			<item id="34268"/>    <!--Player Commendation - Bellion Cestus (Dark)-->
+			<item id="34269"/>    <!--Player Commendation - Staff of Evil Spirits (Earth)-->
+			<item id="34270"/>    <!--Player Commendation - Staff of Evil Spirits (Water)-->
+			<item id="34271"/>    <!--Player Commendation - Staff of Evil Spirits (Wind)-->
+			<item id="34272"/>    <!--Player Commendation - Staff of Evil Spirits (Fire)-->
+			<item id="34273"/>    <!--Player Commendation - Staff of Evil Spirits (Holy)-->
+			<item id="34274"/>    <!--Player Commendation - Staff of Evil Spirits (Dark)-->
+			<item id="34275"/>    <!--Player Commendation - Deadman's Glory (Earth)-->
+			<item id="34276"/>    <!--Player Commendation - Deadman's Glory (Water)-->
+			<item id="34277"/>    <!--Player Commendation - Deadman's Glory (Wind)-->
+			<item id="34278"/>    <!--Player Commendation - Deadman's Glory (Fire)-->
+			<item id="34279"/>    <!--Player Commendation - Deadman's Glory (Holy)-->
+			<item id="34280"/>    <!--Player Commendation - Deadman's Glory (Dark)-->
+			<item id="34281"/>    <!--Player Commendation - Samurai Long Sword*Samurai Long Sword (Earth)-->
+			<item id="34282"/>    <!--Player Commendation - Samurai Long Sword*Samurai Long Sword (Water)-->
+			<item id="34283"/>    <!--Player Commendation - Samurai Long Sword*Samurai Long Sword (Wind)-->
+			<item id="34284"/>    <!--Player Commendation - Samurai Long Sword*Samurai Long Sword (Fire)-->
+			<item id="34285"/>    <!--Player Commendation - Samurai Long Sword*Samurai Long Sword (Holy)-->
+			<item id="34286"/>    <!--Player Commendation - Samurai Long Sword*Samurai Long Sword (Dark)-->
+			<item id="34287"/>    <!--Player Commendation - Demon's Dagger (Earth)-->
+			<item id="34288"/>    <!--Player Commendation - Demon's Dagger (Water)-->
+			<item id="34289"/>    <!--Player Commendation - Demon's Dagger (Wind)-->
+			<item id="34290"/>    <!--Player Commendation - Demon's Dagger (Fire)-->
+			<item id="34291"/>    <!--Player Commendation - Demon's Dagger (Holy)-->
+			<item id="34292"/>    <!--Player Commendation - Demon's Dagger (Dark)-->
+			<item id="34293"/>    <!--Player Commendation - Kaim Vanul's Bones (Earth)-->
+			<item id="34294"/>    <!--Player Commendation - Kaim Vanul's Bones (Water)-->
+			<item id="34295"/>    <!--Player Commendation - Kaim Vanul's Bones (Wind)-->
+			<item id="34296"/>    <!--Player Commendation - Kaim Vanul's Bones (Fire)-->
+			<item id="34297"/>    <!--Player Commendation - Kaim Vanul's Bones (Holy)-->
+			<item id="34298"/>    <!--Player Commendation - Kaim Vanul's Bones (Dark)-->
+			<item id="34299"/>    <!--Player Commendation - Colichemarde (Earth)-->
+			<item id="34300"/>    <!--Player Commendation - Colichemarde (Water)-->
+			<item id="34301"/>    <!--Player Commendation - Colichemarde (Wind)-->
+			<item id="34302"/>    <!--Player Commendation - Colichemarde (Fire)-->
+			<item id="34303"/>    <!--Player Commendation - Colichemarde (Holy)-->
+			<item id="34304"/>    <!--Player Commendation - Colichemarde (Dark)-->
+			<item id="34305"/>    <!--Player Commendation - Wizard's Tear (Earth)-->
+			<item id="34306"/>    <!--Player Commendation - Wizard's Tear (Water)-->
+			<item id="34307"/>    <!--Player Commendation - Wizard's Tear (Wind)-->
+			<item id="34308"/>    <!--Player Commendation - Wizard's Tear (Fire)-->
+			<item id="34309"/>    <!--Player Commendation - Wizard's Tear (Holy)-->
+			<item id="34310"/>    <!--Player Commendation - Wizard's Tear (Dark)-->
+			<item id="34311"/>    <!--Player Commendation - Bow of Peril (Earth)-->
+			<item id="34312"/>    <!--Player Commendation - Bow of Peril (Water)-->
+			<item id="34313"/>    <!--Player Commendation - Bow of Peril (Wind)-->
+			<item id="34314"/>    <!--Player Commendation - Bow of Peril (Fire)-->
+			<item id="34315"/>    <!--Player Commendation - Bow of Peril (Holy)-->
+			<item id="34316"/>    <!--Player Commendation - Bow of Peril (Dark)-->
+			<item id="34317"/>    <!--Player Commendation - Hell Hound (Earth)-->
+			<item id="34318"/>    <!--Player Commendation - Hell Hound (Water)-->
+			<item id="34319"/>    <!--Player Commendation - Hell Hound (Wind)-->
+			<item id="34320"/>    <!--Player Commendation - Hell Hound (Fire)-->
+			<item id="34321"/>    <!--Player Commendation - Hell Hound (Holy)-->
+			<item id="34322"/>    <!--Player Commendation - Hell Hound (Dark)-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Player Commendation - Scroll: Enchant Weapon (A-Grade)-->
+	<enchant_scroll id="34575" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A">
+		<item_list>
+			<item id="34323"/>    <!--Player Commendation - Naga Storm (Earth)-->
+			<item id="34324"/>    <!--Player Commendation - Naga Storm (Water)-->
+			<item id="34325"/>    <!--Player Commendation - Naga Storm (Wind)-->
+			<item id="34326"/>    <!--Player Commendation - Naga Storm (Fire)-->
+			<item id="34327"/>    <!--Player Commendation - Naga Storm (Holy)-->
+			<item id="34328"/>    <!--Player Commendation - Naga Storm (Dark)-->
+			<item id="34329"/>    <!--Player Commendation - Daimon Crystal (Earth)-->
+			<item id="34330"/>    <!--Player Commendation - Daimon Crystal (Water)-->
+			<item id="34331"/>    <!--Player Commendation - Daimon Crystal (Wind)-->
+			<item id="34332"/>    <!--Player Commendation - Daimon Crystal (Fire)-->
+			<item id="34333"/>    <!--Player Commendation - Daimon Crystal (Holy)-->
+			<item id="34334"/>    <!--Player Commendation - Daimon Crystal (Dark)-->
+			<item id="34335"/>    <!--Player Commendation - Barakiel's Axe (Earth)-->
+			<item id="34336"/>    <!--Player Commendation - Barakiel's Axe (Water)-->
+			<item id="34337"/>    <!--Player Commendation - Barakiel's Axe (Wind)-->
+			<item id="34338"/>    <!--Player Commendation - Barakiel's Axe (Fire)-->
+			<item id="34339"/>    <!--Player Commendation - Barakiel's Axe (Holy)-->
+			<item id="34340"/>    <!--Player Commendation - Barakiel's Axe (Dark)-->
+			<item id="34341"/>    <!--Player Commendation - Screaming Vengeance (Earth)-->
+			<item id="34342"/>    <!--Player Commendation - Screaming Vengeance (Water)-->
+			<item id="34343"/>    <!--Player Commendation - Screaming Vengeance (Wind)-->
+			<item id="34344"/>    <!--Player Commendation - Screaming Vengeance (Fire)-->
+			<item id="34345"/>    <!--Player Commendation - Screaming Vengeance (Holy)-->
+			<item id="34346"/>    <!--Player Commendation - Screaming Vengeance (Dark)-->
+			<item id="34347"/>    <!--Player Commendation - Durendal (Earth)-->
+			<item id="34348"/>    <!--Player Commendation - Durendal (Water)-->
+			<item id="34349"/>    <!--Player Commendation - Durendal (Wind)-->
+			<item id="34350"/>    <!--Player Commendation - Durendal (Fire)-->
+			<item id="34351"/>    <!--Player Commendation - Durendal (Holy)-->
+			<item id="34352"/>    <!--Player Commendation - Durendal (Dark)-->
+			<item id="34353"/>    <!--Player Commendation - Behemoth' Tuning Fork (Earth)-->
+			<item id="34354"/>    <!--Player Commendation - Behemoth' Tuning Fork (Water)-->
+			<item id="34355"/>    <!--Player Commendation - Behemoth' Tuning Fork (Wind)-->
+			<item id="34356"/>    <!--Player Commendation - Behemoth' Tuning Fork (Fire)-->
+			<item id="34357"/>    <!--Player Commendation - Behemoth' Tuning Fork (Holy)-->
+			<item id="34358"/>    <!--Player Commendation - Behemoth' Tuning Fork (Dark)-->
+			<item id="34359"/>    <!--Player Commendation - Shyeed's Bow (Earth)-->
+			<item id="34360"/>    <!--Player Commendation - Shyeed's Bow (Water)-->
+			<item id="34361"/>    <!--Player Commendation - Shyeed's Bow (Wind)-->
+			<item id="34362"/>    <!--Player Commendation - Shyeed's Bow (Fire)-->
+			<item id="34363"/>    <!--Player Commendation - Shyeed's Bow (Holy)-->
+			<item id="34364"/>    <!--Player Commendation - Shyeed's Bow (Dark)-->
+			<item id="34365"/>    <!--Player Commendation - Sword of Ipos (Earth)-->
+			<item id="34366"/>    <!--Player Commendation - Sword of Ipos (Water)-->
+			<item id="34367"/>    <!--Player Commendation - Sword of Ipos (Wind)-->
+			<item id="34368"/>    <!--Player Commendation - Sword of Ipos (Fire)-->
+			<item id="34369"/>    <!--Player Commendation - Sword of Ipos (Holy)-->
+			<item id="34370"/>    <!--Player Commendation - Sword of Ipos (Dark)-->
+			<item id="34371"/>    <!--Player Commendation - Sobekk's Hurricane (Earth)-->
+			<item id="34372"/>    <!--Player Commendation - Sobekk's Hurricane (Water)-->
+			<item id="34373"/>    <!--Player Commendation - Sobekk's Hurricane (Wind)-->
+			<item id="34374"/>    <!--Player Commendation - Sobekk's Hurricane (Fire)-->
+			<item id="34375"/>    <!--Player Commendation - Sobekk's Hurricane (Holy)-->
+			<item id="34376"/>    <!--Player Commendation - Sobekk's Hurricane (Dark)-->
+			<item id="34377"/>    <!--Player Commendation - Sirra's Blade (Earth)-->
+			<item id="34378"/>    <!--Player Commendation - Sirra's Blade (Water)-->
+			<item id="34379"/>    <!--Player Commendation - Sirra's Blade (Wind)-->
+			<item id="34380"/>    <!--Player Commendation - Sirra's Blade (Fire)-->
+			<item id="34381"/>    <!--Player Commendation - Sirra's Blade (Holy)-->
+			<item id="34382"/>    <!--Player Commendation - Sirra's Blade (Dark)-->
+			<item id="34383"/>    <!--Player Commendation - Éclair Bijou (Earth)-->
+			<item id="34384"/>    <!--Player Commendation - Éclair Bijou (Water)-->
+			<item id="34385"/>    <!--Player Commendation - Éclair Bijou (Wind)-->
+			<item id="34386"/>    <!--Player Commendation - Éclair Bijou (Fire)-->
+			<item id="34387"/>    <!--Player Commendation - Éclair Bijou (Holy)-->
+			<item id="34388"/>    <!--Player Commendation - Éclair Bijou (Dark)-->
+			<item id="34389"/>    <!--Player Commendation - Tiphon's Spear (Earth)-->
+			<item id="34390"/>    <!--Player Commendation - Tiphon's Spear (Water)-->
+			<item id="34391"/>    <!--Player Commendation - Tiphon's Spear (Wind)-->
+			<item id="34392"/>    <!--Player Commendation - Tiphon's Spear (Fire)-->
+			<item id="34393"/>    <!--Player Commendation - Tiphon's Spear (Holy)-->
+			<item id="34394"/>    <!--Player Commendation - Tiphon's Spear (Dark)-->
+			<item id="34395"/>    <!--Player Commendation - Tallum Blade*Damascus (Earth)-->
+			<item id="34396"/>    <!--Player Commendation - Tallum Blade*Damascus (Water)-->
+			<item id="34397"/>    <!--Player Commendation - Tallum Blade*Damascus (Wind)-->
+			<item id="34398"/>    <!--Player Commendation - Tallum Blade*Damascus (Fire)-->
+			<item id="34399"/>    <!--Player Commendation - Tallum Blade*Damascus (Holy)-->
+			<item id="34400"/>    <!--Player Commendation - Tallum Blade*Damascus (Dark)-->
+			<item id="34401"/>    <!--Player Commendation - Themis' Tongue (Earth)-->
+			<item id="34402"/>    <!--Player Commendation - Themis' Tongue (Water)-->
+			<item id="34403"/>    <!--Player Commendation - Themis' Tongue (Wind)-->
+			<item id="34404"/>    <!--Player Commendation - Themis' Tongue (Fire)-->
+			<item id="34405"/>    <!--Player Commendation - Themis' Tongue (Holy)-->
+			<item id="34406"/>    <!--Player Commendation - Themis' Tongue (Dark)-->
+			<item id="34407"/>    <!--Player Commendation - Cabrio's Hand (Earth)-->
+			<item id="34408"/>    <!--Player Commendation - Cabrio's Hand (Water)-->
+			<item id="34409"/>    <!--Player Commendation - Cabrio's Hand (Wind)-->
+			<item id="34410"/>    <!--Player Commendation - Cabrio's Hand (Fire)-->
+			<item id="34411"/>    <!--Player Commendation - Cabrio's Hand (Holy)-->
+			<item id="34412"/>    <!--Player Commendation - Cabrio's Hand (Dark)-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Player Commendation - Scroll: Enchant Weapon (S-Grade)-->
+	<enchant_scroll id="34580" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84">
+		<item_list>
+			<item id="34413"/>    <!--Player Commendation - Vesper Nagan (Earth)-->
+			<item id="34414"/>    <!--Player Commendation - Vesper Nagan (Water)-->
+			<item id="34415"/>    <!--Player Commendation - Vesper Nagan (Wind)-->
+			<item id="34416"/>    <!--Player Commendation - Vesper Nagan (Fire)-->
+			<item id="34417"/>    <!--Player Commendation - Vesper Nagan (Holy)-->
+			<item id="34418"/>    <!--Player Commendation - Vesper Nagan (Dark)-->
+			<item id="34419"/>    <!--Player Commendation - Vesper Dual Daggers (Earth)-->
+			<item id="34420"/>    <!--Player Commendation - Vesper Dual Daggers (Water)-->
+			<item id="34421"/>    <!--Player Commendation - Vesper Dual Daggers (Wind)-->
+			<item id="34422"/>    <!--Player Commendation - Vesper Dual Daggers (Fire)-->
+			<item id="34423"/>    <!--Player Commendation - Vesper Dual Daggers (Holy)-->
+			<item id="34424"/>    <!--Player Commendation - Vesper Dual Daggers (Dark)-->
+			<item id="34425"/>    <!--Player Commendation - Vesper Dualsword (Earth)-->
+			<item id="34426"/>    <!--Player Commendation - Vesper Dualsword (Water)-->
+			<item id="34427"/>    <!--Player Commendation - Vesper Dualsword (Wind)-->
+			<item id="34428"/>    <!--Player Commendation - Vesper Dualsword (Fire)-->
+			<item id="34429"/>    <!--Player Commendation - Vesper Dualsword (Holy)-->
+			<item id="34430"/>    <!--Player Commendation - Vesper Dualsword (Dark)-->
+			<item id="34431"/>    <!--Player Commendation - Vesper Retributer (Earth)-->
+			<item id="34432"/>    <!--Player Commendation - Vesper Retributer (Water)-->
+			<item id="34433"/>    <!--Player Commendation - Vesper Retributer (Wind)-->
+			<item id="34434"/>    <!--Player Commendation - Vesper Retributer (Fire)-->
+			<item id="34435"/>    <!--Player Commendation - Vesper Retributer (Holy)-->
+			<item id="34436"/>    <!--Player Commendation - Vesper Retributer (Dark)-->
+			<item id="34437"/>    <!--Player Commendation - Vesper Buster (Earth)-->
+			<item id="34438"/>    <!--Player Commendation - Vesper Buster (Water)-->
+			<item id="34439"/>    <!--Player Commendation - Vesper Buster (Wind)-->
+			<item id="34440"/>    <!--Player Commendation - Vesper Buster (Fire)-->
+			<item id="34441"/>    <!--Player Commendation - Vesper Buster (Holy)-->
+			<item id="34442"/>    <!--Player Commendation - Vesper Buster (Dark)-->
+			<item id="34443"/>    <!--Player Commendation - Vesper Shaper (Earth)-->
+			<item id="34444"/>    <!--Player Commendation - Vesper Shaper (Water)-->
+			<item id="34445"/>    <!--Player Commendation - Vesper Shaper (Wind)-->
+			<item id="34446"/>    <!--Player Commendation - Vesper Shaper (Fire)-->
+			<item id="34447"/>    <!--Player Commendation - Vesper Shaper (Holy)-->
+			<item id="34448"/>    <!--Player Commendation - Vesper Shaper (Dark)-->
+			<item id="34449"/>    <!--Player Commendation - Vesper Shooter (Earth)-->
+			<item id="34450"/>    <!--Player Commendation - Vesper Shooter (Water)-->
+			<item id="34451"/>    <!--Player Commendation - Vesper Shooter (Wind)-->
+			<item id="34452"/>    <!--Player Commendation - Vesper Shooter (Fire)-->
+			<item id="34453"/>    <!--Player Commendation - Vesper Shooter (Holy)-->
+			<item id="34454"/>    <!--Player Commendation - Vesper Shooter (Dark)-->
+			<item id="34455"/>    <!--Player Commendation - Vesper Thrower (Earth)-->
+			<item id="34456"/>    <!--Player Commendation - Vesper Thrower (Water)-->
+			<item id="34457"/>    <!--Player Commendation - Vesper Thrower (Wind)-->
+			<item id="34458"/>    <!--Player Commendation - Vesper Thrower (Fire)-->
+			<item id="34459"/>    <!--Player Commendation - Vesper Thrower (Holy)-->
+			<item id="34460"/>    <!--Player Commendation - Vesper Thrower (Dark)-->
+			<item id="34461"/>    <!--Player Commendation - Vesper Stormer (Earth)-->
+			<item id="34462"/>    <!--Player Commendation - Vesper Stormer (Water)-->
+			<item id="34463"/>    <!--Player Commendation - Vesper Stormer (Wind)-->
+			<item id="34464"/>    <!--Player Commendation - Vesper Stormer (Fire)-->
+			<item id="34465"/>    <!--Player Commendation - Vesper Stormer (Holy)-->
+			<item id="34466"/>    <!--Player Commendation - Vesper Stormer (Dark)-->
+			<item id="34467"/>    <!--Player Commendation - Vesper Slasher (Earth)-->
+			<item id="34468"/>    <!--Player Commendation - Vesper Slasher (Water)-->
+			<item id="34469"/>    <!--Player Commendation - Vesper Slasher (Wind)-->
+			<item id="34470"/>    <!--Player Commendation - Vesper Slasher (Fire)-->
+			<item id="34471"/>    <!--Player Commendation - Vesper Slasher (Holy)-->
+			<item id="34472"/>    <!--Player Commendation - Vesper Slasher (Dark)-->
+			<item id="34473"/>    <!--Player Commendation - Vesper Singer (Earth)-->
+			<item id="34474"/>    <!--Player Commendation - Vesper Singer (Water)-->
+			<item id="34475"/>    <!--Player Commendation - Vesper Singer (Wind)-->
+			<item id="34476"/>    <!--Player Commendation - Vesper Singer (Fire)-->
+			<item id="34477"/>    <!--Player Commendation - Vesper Singer (Holy)-->
+			<item id="34478"/>    <!--Player Commendation - Vesper Singer (Dark)-->
+			<item id="34479"/>    <!--Player Commendation - Vesper Avenger (Earth)-->
+			<item id="34480"/>    <!--Player Commendation - Vesper Avenger (Water)-->
+			<item id="34481"/>    <!--Player Commendation - Vesper Avenger (Wind)-->
+			<item id="34482"/>    <!--Player Commendation - Vesper Avenger (Fire)-->
+			<item id="34483"/>    <!--Player Commendation - Vesper Avenger (Holy)-->
+			<item id="34484"/>    <!--Player Commendation - Vesper Avenger (Dark)-->
+			<item id="34485"/>    <!--Player Commendation - Vesper Caster (Earth)-->
+			<item id="34486"/>    <!--Player Commendation - Vesper Caster (Water)-->
+			<item id="34487"/>    <!--Player Commendation - Vesper Caster (Wind)-->
+			<item id="34488"/>    <!--Player Commendation - Vesper Caster (Fire)-->
+			<item id="34489"/>    <!--Player Commendation - Vesper Caster (Holy)-->
+			<item id="34490"/>    <!--Player Commendation - Vesper Caster (Dark)-->
+			<item id="34491"/>    <!--Player Commendation - Vesper Cutter (Earth)-->
+			<item id="34492"/>    <!--Player Commendation - Vesper Cutter (Water)-->
+			<item id="34493"/>    <!--Player Commendation - Vesper Cutter (Wind)-->
+			<item id="34494"/>    <!--Player Commendation - Vesper Cutter (Fire)-->
+			<item id="34495"/>    <!--Player Commendation - Vesper Cutter (Holy)-->
+			<item id="34496"/>    <!--Player Commendation - Vesper Cutter (Dark)-->
+			<item id="34497"/>    <!--Player Commendation - Vesper Fighter (Earth)-->
+			<item id="34498"/>    <!--Player Commendation - Vesper Fighter (Water)-->
+			<item id="34499"/>    <!--Player Commendation - Vesper Fighter (Wind)-->
+			<item id="34500"/>    <!--Player Commendation - Vesper Fighter (Fire)-->
+			<item id="34501"/>    <!--Player Commendation - Vesper Fighter (Holy)-->
+			<item id="34502"/>    <!--Player Commendation - Vesper Fighter (Dark)-->
+			<item id="34503"/>    <!--Player Commendation - Vesper Pincer (Earth)-->
+			<item id="34504"/>    <!--Player Commendation - Vesper Pincer (Water)-->
+			<item id="34505"/>    <!--Player Commendation - Vesper Pincer (Wind)-->
+			<item id="34506"/>    <!--Player Commendation - Vesper Pincer (Fire)-->
+			<item id="34507"/>    <!--Player Commendation - Vesper Pincer (Holy)-->
+			<item id="34508"/>    <!--Player Commendation - Vesper Pincer (Dark)-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Player Commendation - Scroll: Enchant Weapon (R-Grade)-->
+	<enchant_scroll id="34579" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99">
+		<item_list>
+			<item id="34509"/>    <!--Player Commendation - Apocalypse Retributer (Earth)-->
+			<item id="34510"/>    <!--Player Commendation - Apocalypse Retributer (Water)-->
+			<item id="34511"/>    <!--Player Commendation - Apocalypse Retributer (Wind)-->
+			<item id="34512"/>    <!--Player Commendation - Apocalypse Retributer (Fire)-->
+			<item id="34513"/>    <!--Player Commendation - Apocalypse Retributer (Holy)-->
+			<item id="34514"/>    <!--Player Commendation - Apocalypse Retributer (Dark)-->
+			<item id="34515"/>    <!--Player Commendation - Apocalypse Buster (Earth)-->
+			<item id="34516"/>    <!--Player Commendation - Apocalypse Buster (Water)-->
+			<item id="34517"/>    <!--Player Commendation - Apocalypse Buster (Wind)-->
+			<item id="34518"/>    <!--Player Commendation - Apocalypse Buster (Fire)-->
+			<item id="34519"/>    <!--Player Commendation - Apocalypse Buster (Holy)-->
+			<item id="34520"/>    <!--Player Commendation - Apocalypse Buster (Dark)-->
+			<item id="34521"/>    <!--Player Commendation - Apocalypse Shaper (Earth)-->
+			<item id="34522"/>    <!--Player Commendation - Apocalypse Shaper (Water)-->
+			<item id="34523"/>    <!--Player Commendation - Apocalypse Shaper (Wind)-->
+			<item id="34524"/>    <!--Player Commendation - Apocalypse Shaper (Fire)-->
+			<item id="34525"/>    <!--Player Commendation - Apocalypse Shaper (Holy)-->
+			<item id="34526"/>    <!--Player Commendation - Apocalypse Shaper (Dark)-->
+			<item id="34527"/>    <!--Player Commendation - Apocalypse Shooter (Earth)-->
+			<item id="34528"/>    <!--Player Commendation - Apocalypse Shooter (Water)-->
+			<item id="34529"/>    <!--Player Commendation - Apocalypse Shooter (Wind)-->
+			<item id="34530"/>    <!--Player Commendation - Apocalypse Shooter (Fire)-->
+			<item id="34531"/>    <!--Player Commendation - Apocalypse Shooter (Holy)-->
+			<item id="34532"/>    <!--Player Commendation - Apocalypse Shooter (Dark)-->
+			<item id="34533"/>    <!--Player Commendation - Apocalypse Thrower (Earth)-->
+			<item id="34534"/>    <!--Player Commendation - Apocalypse Thrower (Water)-->
+			<item id="34535"/>    <!--Player Commendation - Apocalypse Thrower (Wind)-->
+			<item id="34536"/>    <!--Player Commendation - Apocalypse Thrower (Fire)-->
+			<item id="34537"/>    <!--Player Commendation - Apocalypse Thrower (Holy)-->
+			<item id="34538"/>    <!--Player Commendation - Apocalypse Thrower (Dark)-->
+			<item id="34539"/>    <!--Player Commendation - Apocalypse Stormer (Earth)-->
+			<item id="34540"/>    <!--Player Commendation - Apocalypse Stormer (Water)-->
+			<item id="34541"/>    <!--Player Commendation - Apocalypse Stormer (Wind)-->
+			<item id="34542"/>    <!--Player Commendation - Apocalypse Stormer (Fire)-->
+			<item id="34543"/>    <!--Player Commendation - Apocalypse Stormer (Holy)-->
+			<item id="34544"/>    <!--Player Commendation - Apocalypse Stormer (Dark)-->
+			<item id="34545"/>    <!--Player Commendation - Apocalypse Slasher (Earth)-->
+			<item id="34546"/>    <!--Player Commendation - Apocalypse Slasher (Water)-->
+			<item id="34547"/>    <!--Player Commendation - Apocalypse Slasher (Wind)-->
+			<item id="34548"/>    <!--Player Commendation - Apocalypse Slasher (Fire)-->
+			<item id="34549"/>    <!--Player Commendation - Apocalypse Slasher (Holy)-->
+			<item id="34550"/>    <!--Player Commendation - Apocalypse Slasher (Dark)-->
+			<item id="34551"/>    <!--Player Commendation - Apocalypse Avenger (Earth)-->
+			<item id="34552"/>    <!--Player Commendation - Apocalypse Avenger (Water)-->
+			<item id="34553"/>    <!--Player Commendation - Apocalypse Avenger (Wind)-->
+			<item id="34554"/>    <!--Player Commendation - Apocalypse Avenger (Fire)-->
+			<item id="34555"/>    <!--Player Commendation - Apocalypse Avenger (Holy)-->
+			<item id="34556"/>    <!--Player Commendation - Apocalypse Avenger (Dark)-->
+			<item id="34557"/>    <!--Player Commendation - Apocalypse Caster (Earth)-->
+			<item id="34558"/>    <!--Player Commendation - Apocalypse Caster (Water)-->
+			<item id="34559"/>    <!--Player Commendation - Apocalypse Caster (Wind)-->
+			<item id="34560"/>    <!--Player Commendation - Apocalypse Caster (Fire)-->
+			<item id="34561"/>    <!--Player Commendation - Apocalypse Caster (Holy)-->
+			<item id="34562"/>    <!--Player Commendation - Apocalypse Caster (Dark)-->
+			<item id="34563"/>    <!--Player Commendation - Apocalypse Cutter (Earth)-->
+			<item id="34564"/>    <!--Player Commendation - Apocalypse Cutter (Water)-->
+			<item id="34565"/>    <!--Player Commendation - Apocalypse Cutter (Wind)-->
+			<item id="34566"/>    <!--Player Commendation - Apocalypse Cutter (Fire)-->
+			<item id="34567"/>    <!--Player Commendation - Apocalypse Cutter (Holy)-->
+			<item id="34568"/>    <!--Player Commendation - Apocalypse Cutter (Dark)-->
+			<item id="34569"/>    <!--Player Commendation - Apocalypse Fighter (Earth)-->
+			<item id="34570"/>    <!--Player Commendation - Apocalypse Fighter (Water)-->
+			<item id="34571"/>    <!--Player Commendation - Apocalypse Fighter (Wind)-->
+			<item id="34572"/>    <!--Player Commendation - Apocalypse Fighter (Fire)-->
+			<item id="34573"/>    <!--Player Commendation - Apocalypse Fighter (Holy)-->
+			<item id="34574"/>    <!--Player Commendation - Apocalypse Fighter (Dark)-->
+			<item id="34719"/>    <!--Player Commendation - Apocalypse Dualsword (Earth)-->
+			<item id="34720"/>    <!--Player Commendation - Apocalypse Dualsword (Water)-->
+			<item id="34721"/>    <!--Player Commendation - Apocalypse Dualsword (Wind)-->
+			<item id="34722"/>    <!--Player Commendation - Apocalypse Dualsword (Fire)-->
+			<item id="34723"/>    <!--Player Commendation - Apocalypse Dualsword (Holy)-->
+			<item id="34724"/>    <!--Player Commendation - Apocalypse Dualsword (Dark)-->
+			<item id="34725"/>    <!--Player Commendation - Apocalypse Dual Dagger (Earth)-->
+			<item id="34726"/>    <!--Player Commendation - Apocalypse Dual Dagger (Water)-->
+			<item id="34727"/>    <!--Player Commendation - Apocalypse Dual Dagger (Wind)-->
+			<item id="34728"/>    <!--Player Commendation - Apocalypse Dual Dagger (Fire)-->
+			<item id="34729"/>    <!--Player Commendation - Apocalypse Dual Dagger (Holy)-->
+			<item id="34730"/>    <!--Player Commendation - Apocalypse Dual Dagger (Dark)-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Giant's Enchant Scrolls-->
+	<!--Giant's Scroll: Enchant Weapon (D-Grade) Event-->
+	<enchant_scroll id="33806" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="D" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (D-Grade) Event-->
+	<enchant_scroll id="33812" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="D" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (C-Grade) Event-->
+	<enchant_scroll id="33807" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="C" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (C-Grade) Event-->
+	<enchant_scroll id="33813" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="C" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (B-Grade) Event-->
+	<enchant_scroll id="33808" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="B" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (B-Grade) Event-->
+	<enchant_scroll id="33814" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="B" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (A-Grade) Event-->
+	<enchant_scroll id="33809" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (A-Grade) Event-->
+	<enchant_scroll id="33815" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (A-Grade) Event-->
+	<enchant_scroll id="36388" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="A" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (A-Grade) Event-->
+	<enchant_scroll id="36391" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="A" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (S-Grade) Event-->
+	<enchant_scroll id="33810" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (S-Grade) Event-->
+	<enchant_scroll id="33816" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (S-Grade) Event-->
+	<enchant_scroll id="36387" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="S;S80;S84" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (S-Grade) Event-->
+	<enchant_scroll id="36390" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="S;S80;S84" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (R-Grade) Event-->
+	<enchant_scroll id="33811" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (R-Grade) Event-->
+	<enchant_scroll id="33817" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (R-Grade) Event-->
+	<enchant_scroll id="36386" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (R-Grade) Event-->
+	<enchant_scroll id="36389" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Weapon (R-Grade) Event-->
+	<enchant_scroll id="36163" on_fail="CRYSTALS" type="WEAPON" variation="1" grade="R;R95;R99" max_enchant_step="3"/>
+
+	<!--Giant's Scroll: Enchant Armor (R-Grade) Event-->
+	<enchant_scroll id="36164" on_fail="CRYSTALS" type="ARMOR" variation="2" grade="R;R95;R99" max_enchant_step="3"/>
+
+	<!--Hair Accessory Scrolls-->
+	<!--Scroll: Enchant Hair Accessory	Event-->
+	<enchant_scroll id="33818" on_fail="CRYSTALS" type="HAIR_ACCESSORY" variation="14"/>
+
+	<!--Scroll: Enchant Hair Accessory	Event-->
+	<enchant_scroll id="34940" on_fail="CRYSTALS" type="HAIR_ACCESSORY" variation="14"/>
+
+	<!--Scroll: Enchant Hair Accessory-->
+	<enchant_scroll id="36978" on_fail="CRYSTALS" type="HAIR_ACCESSORY" variation="14"/>
+
+	<enchant_scroll id="33838" on_fail="NOTHING" type="WEAPON" variation="1" grade="D" max_enchant="15"/>
+	<enchant_scroll id="33839" on_fail="NOTHING" type="WEAPON" variation="1" grade="C" max_enchant="15"/>
+	<enchant_scroll id="33840" on_fail="NOTHING" type="WEAPON" variation="1" grade="B" max_enchant="15"/>
+	<enchant_scroll id="33841" on_fail="NOTHING" type="WEAPON" variation="1" grade="A" max_enchant="15"/>
+	<enchant_scroll id="33842" on_fail="NOTHING" type="WEAPON" variation="1" grade="S;S80;S84" max_enchant="15"/>
+	<enchant_scroll id="33843" on_fail="NOTHING" type="WEAPON" variation="1" grade="R;R95;R99" max_enchant="15"/>
+
+	<enchant_scroll id="33844" on_fail="NOTHING" type="ARMOR" variation="2" grade="D" max_enchant="15"/>
+	<enchant_scroll id="33845" on_fail="NOTHING" type="ARMOR" variation="2" grade="C" max_enchant="15"/>
+	<enchant_scroll id="33846" on_fail="NOTHING" type="ARMOR" variation="2" grade="B" max_enchant="15"/>
+	<enchant_scroll id="33847" on_fail="NOTHING" type="ARMOR" variation="2" grade="A" max_enchant="15"/>
+	<enchant_scroll id="33848" on_fail="NOTHING" type="ARMOR" variation="2" grade="S;S80;S84" max_enchant="15"/>
+	<enchant_scroll id="33849" on_fail="NOTHING" type="ARMOR" variation="2" grade="R;R95;R99" max_enchant="15"/>
+
+	<!--Благ. Свиток Эйнхасад: Модифицировать Футболку-->
+	<enchant_scroll id="23241" on_fail="DROP_ENCHANT" variation="16" max_enchant="10">
+		<item_list>
+			<item id="34623"/> <!--Футболка Паагрио-->
+			<item id="34624"/> <!--Футболка Сайхи-->
+			<item id="34625"/> <!--Футболка Евы-->
+			<item id="34626"/> <!--Футболка Мафр-->
+			<item id="34770"/> <!--Футболка Паагрио	Ивент-->
+			<item id="34771"/> <!--Футболка Сайхи	Ивент-->
+			<item id="34772"/> <!--Футболка Евы	Ивент-->
+			<item id="34773"/> <!--Футболка Мафр	Ивент-->
+			<item id="23240"/> <!--Футболка Паагрио-->
+			<item id="23301"/> <!--Футболка Сайхи-->
+			<item id="23304"/> <!--Футболка Евы-->
+			<item id="23307"/> <!--Футболка Мафр-->
+			<item id="37718"/> <!--Сияющая Футболка Эйнхасад-->
+		</item_list>
+	</enchant_scroll>
+
+	<!--Оружие Тени-->
+	<enchant_scroll id="46337" on_fail="CRYSTALS" variation="15" max_enchant="10"> <!-- DROP_ENCHANT -->
+		<item_list>
+			<item id="46317"/>
+			<item id="46318"/>
+			<item id="46319"/>
+			<item id="46320"/>
+			<item id="46321"/>
+			<item id="46322"/>
+			<item id="46323"/>
+			<item id="46324"/>
+			<item id="46325"/>
+			<item id="46326"/>
+		</item_list>
+	</enchant_scroll>
+
+    <!-- Полировка для подвески -->
+    <enchant_scroll id="49469" on_fail="NOTHING" variation="2" max_enchant="10">
+        <item_list>
+            <item id="49467"/> <!-- Подвеска Огненного Дракона -->
+            <item id="49468"/> <!-- Подвеска Дракона Земли -->
+        </item_list>
+    </enchant_scroll>
+
+    <!-- Блестящая Полировка для подвески -->
+    <enchant_scroll id="49470" on_fail="NOTHING" variation="2" max_enchant="8">
+        <item_list>
+            <item id="49467"/> <!-- Подвеска Огненного Дракона -->
+            <item id="49468"/> <!-- Подвеска Дракона Земли -->
+        </item_list>
+    </enchant_scroll>
+</list>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="109" name="Borderland Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="157017 -68977 -2864" name="1010656" price="0"/><!--Fortress West Gate-->
+		<target loc="161618 -72057 -2864" name="1010657" price="0"/><!--Fortress East Gate-->
+		<target loc="147728 -56331 -2776" name="1010661" price="0"/><!--Goddard Town Square-->
+		<target loc="153996 -50182 -2992" name="1010662" price="0"/><!--Front of the Goddard Castle Gate-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="157017 -68977 -2864" name="1010656" price="0"/><!--Fortress West Gate-->
+		<target loc="161618 -72057 -2864" name="1010657" price="0"/><!--Fortress East Gate-->
+		<target loc="147728 -56331 -2776" name="1010661" price="0"/><!--Goddard Town Square-->
+		<target loc="153996 -50182 -2992" name="1010662" price="0"/><!--Front of the Goddard Castle Gate-->
+		<target loc="125740 -40864 -3736" name="1010491" price="500"/><!--Varka Silenos Stronghold-->
+		<target loc="146990 -67128 -3640" name="1010492" price="500"/><!--Ketra Orc Outpost-->
+		<target loc="169018 -116303 -2432" name="1010530" price="500"/><!--Entrance to the Forge of the Gods-->
+		<target loc="165054 -47861 -3560" name="1010568" price="500"/><!--Wall of Argos-->
+	</teleport>
+	<skills>
+		<skill id="19107" level="1"/> <!--Рубеж Обители-->
+	</skills>
+	<banish_points>
+		<point x="153460" y="-70055" z="-3312"/>
+		<point x="153404" y="-70207" z="-3320"/>
+		<point x="159400" y="-77923" z="-3672"/>
+		<point x="159529" y="-77699" z="-3616"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="159361" y="-69939" z="-2536"/>
+		<point x="159476" y="-70058" z="-2536"/>
+		<point x="159591" y="-70079" z="-2536"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="148560" y="-55904" z="-2779"/>
+		<point x="150704" y="-55744" z="-2979"/>
+		<point x="150400" y="-56752" z="-2979"/>
+		<point x="149872" y="-57424" z="-2979"/>
+		<point x="149088" y="-56256" z="-2779"/>
+		<point x="147664" y="-56464" z="-2779"/>
+		<point x="147680" y="-56928" z="-2779"/>
+		<point x="146832" y="-55904" z="-2779"/>
+		<point x="146368" y="-56256" z="-2779"/>
+		<point x="149120" y="-58064" z="-2979"/>
+		<point x="148288" y="-58304" z="-2979"/>
+		<point x="147680" y="-58208" z="-2979"/>
+		<point x="147232" y="-58480" z="-2979"/>
+		<point x="146272" y="-58176" z="-2979"/>
+		<point x="145696" y="-57696" z="-2979"/>
+		<point x="145264" y="-57680" z="-2979"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="142656" y="-55008" z="-3024"/>
+		<point x="142832" y="-55680" z="-3462"/>
+		<point x="143152" y="-56368" z="-3456"/>
+		<point x="145344" y="-59472" z="-3344"/>
+		<point x="145872" y="-59744" z="-3328"/>
+		<point x="150304" y="-59800" z="-3504"/>
+		<point x="145248" y="-60064" z="-3440"/>
+		<point x="144368" y="-59616" z="-3512"/>
+		<point x="149680" y="-59600" z="-3440"/>
+		<point x="149360" y="-60576" z="-3520"/>
+		<point x="152114" y="-57296" z="-3451"/>
+		<point x="150492" y="-59719" z="-3611"/>
+		<point x="148791" y="-60361" z="-3537"/>
+		<point x="146499" y="-60242" z="-3455"/>
+		<point x="143052" y="-56418" z="-3490"/>
+	</chaos_restart_points>
+
+</residence>

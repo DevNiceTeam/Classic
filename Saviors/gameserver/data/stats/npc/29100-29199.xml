@@ -1,0 +1,85 @@
+<list>
+    <npc id="29190" name="Дракон Тараска" title="">
+        <set name="type" value="SpecialMinion"/>
+        <set name="ai_type" value="freya.AntharasMinion"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="164"/>
+        <set name="baseDEX" value="48"/>
+        <set name="baseCON" value="111"/>
+        <set name="baseINT" value="188"/>
+        <set name="baseMEN" value="149"/>
+        <set name="baseWIT" value="71"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="292335"/>
+        <set name="baseMpMax" value="22800"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="14312"/>
+        <set name="baseMAtk" value="3509"/>
+        <set name="basePDef" value="3537"/>
+        <set name="baseMDef" value="2031"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="180.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="30"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="54.0"/>
+        <set name="collision_radius" value="63.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="MaxPursueRange" value="10000"/>
+        </ai_params>
+        <attributes>
+            <attack attribute="earth" value="280"/>
+            <defence attribute="fire" value="200"/>
+            <defence attribute="water" value="200"/>
+            <defence attribute="wind" value="150"/>
+            <defence attribute="earth" value="200"/>
+            <defence attribute="holy" value="200"/>
+            <defence attribute="unholy" value="200"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="10"/>
+            <!--Сопротивление Вампиризму-->
+            <skill id="14765" level="4"/>
+            <!--Свойство Земли-->
+            <skill id="5465" level="1"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+            <!--Панцирь Тараски-->
+            <skill id="6655" level="1"/>
+        </client_skills>
+        <skills>
+            <!--Антарас: Удар-->
+            <skill id="5095" level="1"/>
+            <!--Антарас: Мощный Выстрел-->
+            <skill id="5096" level="1"/>
+        </skills>
+    </npc>
+</list>

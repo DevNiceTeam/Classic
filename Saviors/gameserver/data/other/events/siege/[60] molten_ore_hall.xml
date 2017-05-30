@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<event id="60" name="Molten Ore Hall" impl="ClanHallAuction">
+		<on_init>
+			<spawn name="clan_hall_npcs"/>
+		</on_init>
+		<objects name="clan_hall_npcs">
+			<spawn name="molten_ore_hall_60"/>
+		</objects>
+	</event>
+</list>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="101" name="Shanty Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="-55240 157193 -2048" name="1010656" price="0"/><!--Fortress West Gate-->
+		<target loc="-50296 155793 -2056" name="1010657" price="0"/><!--Fortress East Gate-->
+		<target loc="-14393 123671 -3144" name="1010663" price="0"/><!--Gludio Town Square-->
+		<target loc="-15043 116596 -3208" name="1010664" price="0"/><!--Front of the Gludio Castle Gate-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="-55240 157193 -2048" name="1010656" price="0"/><!--Fortress West Gate-->
+		<target loc="-50296 155793 -2056" name="1010657" price="0"/><!--Fortress East Gate-->
+		<target loc="-14393 123671 -3144" name="1010663" price="0"/><!--Gludio Town Square-->
+		<target loc="-15043 116596 -3208" name="1010664" price="0"/><!--Front of the Gludio Castle Gate-->
+		<target loc="-41248 122848 -2912" name="1010097" price="500"/><!--Ruins of Agony-->
+		<target loc="-19120 136816 -3762" name="1010101" price="500"/><!--Ruins of Despair-->
+		<target loc="-9959 176184 -4160" name="1010566" price="500"/><!--The Ant Nest-->
+		<target loc="-28327 155125 -3496" name="1010102" price="500"/><!--Windawood Manor-->
+	</teleport>
+	<skills>
+		<skill id="19105" level="1"/> <!--Преимущество Обители-->
+	</skills>
+	<banish_points>
+		<point x="-58761" y="154663" z="-2701"/>
+		<point x="-58487" y="154962" z="-2696"/>
+		<point x="-50272" y="152355" z="-2720"/>
+		<point x="-50488" y="152155" z="-2752"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="-52713" y="156914" z="-1728"/>
+		<point x="-52584" y="156931" z="-1728"/>
+		<point x="-52488" y="156858" z="-1728"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="-81447" y="152760" z="-3170"/>
+		<point x="-81447" y="152880" z="-3170"/>
+		<point x="-81447" y="152640" z="-3170"/>
+		<point x="-82186" y="152760" z="-3170"/>
+		<point x="-82186" y="152880" z="-3170"/>
+		<point x="-82186" y="152640" z="-3170"/>
+		<point x="-81780" y="152760" z="-3170"/>
+		<point x="-81780" y="152880" z="-3170"/>
+		<point x="-81780" y="152640" z="-3170"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="-81616" y="157104" z="-3150"/>
+		<point x="-80688" y="157216" z="-3150"/>
+		<point x="-79568" y="156960" z="-3150"/>
+		<point x="-78800" y="157744" z="-3150"/>
+		<point x="-80448" y="157968" z="-3130"/>
+		<point x="-81712" y="159536" z="-3230"/>
+		<point x="-79744" y="160592" z="-3330"/>
+		<point x="-79584" y="159408" z="-3180"/>
+		<point x="-74016" y="150656" z="-2800"/>
+		<point x="-72720" y="149632" z="-2780"/>
+		<point x="-75904" y="162000" z="-3300"/>
+		<point x="-75488" y="161472" z="-3250"/>
+		<point x="-74688" y="160736" z="-3200"/>
+		<point x="-74352" y="161488" z="-3250"/>
+		<point x="-76656" y="160768" z="-3280"/>
+		<point x="-77472" y="160960" z="-3470"/>
+		<point x="-77776" y="158752" z="-3270"/>
+		<point x="-80448" y="161488" z="-3420"/>
+		<point x="-75440" y="162672" z="-3350"/>
+		<point x="-81760" y="161248" z="-3200"/>
+	</chaos_restart_points>
+</residence>

@@ -1,0 +1,106 @@
+<list>
+    <skill id="17608" levels="1" name="Энергия Грез">
+        <set name="icon" value="icon.etc_dragons_blood_i03"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="17613" levels="1" name="Снятие Печати Агатиона: Овен">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="npcId" value="13411"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="summonType" value="agathion"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="17619" levels="1" name="Снятие Печати Агатиона: Рыбы">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="npcId" value="13407"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="summonType" value="agathion"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="17621" levels="1" name="Снятие Печати Агатиона: Рак">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="npcId" value="13409"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="summonType" value="agathion"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="17625" levels="1" name="Трюк Агатиона - Овен">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="55"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="2292">
+            <and>
+                <or>
+                    <player agathion="13411"/>
+                    <player agathion="8583"/>
+                    <player agathion="8595"/>
+                    <player agathion="8607"/>
+                </or>
+            </and>
+        </cond>
+    </skill>
+    <skill id="17685" levels="1" name="Подарок Кошки Лары">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="17686" levels="4" name="Ужасно Положительный Эффект Ульди">
+        <set name="castRange" value="#castRange"/>
+        <set name="icon" value="BranchSys.icon.br_sevenlove_girlpresent_i00"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+        <table name="#castRange">900 -1 -1 -1</table>
+    </skill>
+    <skill id="17689" levels="1" name="Втайне Подготовленный Кошкой Ларой Ценный Подарок">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="17695" levels="1" name="Призыв Тыквы">
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill17695"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="17696" levels="1" name="Призыв Большой Тыквы">
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill17696"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+</list>

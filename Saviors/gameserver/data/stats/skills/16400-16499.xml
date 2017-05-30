@@ -1,0 +1,504 @@
+<list>
+    <skill id="16400" levels="1" name="Подпитка Эфиры">
+        <set name="castRange" value="600"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill11760"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect instant="true" name="RestoreMP" value="16">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="16401" levels="1" name="Пространственная Оболочка Смерти">
+        <set name="hitTime" value="2400"/>
+        <set name="icon" value="icon.skill0340"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="dmg_shield"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="1"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="reflectDam" value="50"/>
+                <add order="0x40" stat="reflectBowDam" value="50"/>
+                <add order="0x40" stat="reflectPSkillDam" value="50"/>
+                <add order="0x40" stat="reflectMSkillDam" value="50"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="16402" levels="1" name="Пространственный Ужас">
+        <set name="hitTime" value="2400"/>
+        <set name="icon" value="icon.skill1169"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="abnormal_effect" value="TURN_FLEE"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="turn_flee"/>
+        <set name="mp_consume" value="1"/>
+        <set name="activateRate" value="80"/>
+        <set name="affectLimit" value="10;10"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="99"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="300"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Fear"/>
+        </for>
+    </skill>
+    <skill id="16403" levels="1" name="Пространственное Правосудие">
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="296"/>
+        <set name="effectPoint" value="1000"/>
+        <set name="magicLevel" value="99"/>
+        <set name="mp_consume" value="1"/>
+        <set name="nextAction" value="attack"/>
+        <set name="castRange" value="40"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="150000"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="16404" levels="1" name="Пространственное Безжалостное Правосудие">
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="296"/>
+        <set name="effectPoint" value="1000"/>
+        <set name="castRange" value="40"/>
+        <set name="magicLevel" value="99"/>
+        <set name="mp_consume" value="1"/>
+        <set name="nextAction" value="attack"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="150000"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="skillRadius" value="300"/>
+        <set name="target" value="TARGET_MULTIFACE_AURA"/>
+    </skill>
+    <skill id="16405" levels="1" name="Массовое Пространственное Правосудие">
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="296"/>
+        <set name="effectPoint" value="1000"/>
+        <set name="magicLevel" value="99"/>
+        <set name="mp_consume" value="1"/>
+        <set name="nextAction" value="attack"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="150000"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="skillRadius" value="300"/>
+        <set name="target" value="TARGET_AURA"/>
+    </skill>
+    <skill id="16406" levels="1" name="Пространственный Страх">
+        <set name="abnormal_effect" value="TURN_FLEE"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="turn_flee"/>
+        <set name="castRange" value="600"/>
+        <set name="hitTime" value="2400"/>
+        <set name="icon" value="icon.skill1169"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="296"/>
+        <set name="effectPoint" value="1000"/>
+        <set name="magicLevel" value="99"/>
+        <set name="mp_consume" value="1"/>
+        <set name="nextAction" value="attack"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="150000"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Fear"/>
+        </for>
+    </skill>
+    <skill id="16407" levels="1" name="Пространственные Объятия Смерти">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="castRange" value="600"/>
+        <set name="cancelable" value="false"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill_resurrection"/>
+        <set name="isPreservedOnDeath" value="true"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="500"/>
+        <set name="nextAction" value="attack"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <set order="0x100" stat="blockResurect" value="1"/>
+            </effect>
+            <effect instant="true" name="i_p_attack" value="30000"/>
+        </for>
+    </skill>
+    <skill id="16408" levels="3" name="Коварная Ловушка">
+        <set name="icon" value="icon.skill1381"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="abnormal_effect" value="DANCE_ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="heal_effect_down stun"/>
+        <set name="activateRate" value="50"/>
+        <set name="magicLevel" value="99"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect enabled="true" name="Stun"/>
+        </for>
+    </skill>
+    <skill id="16409" levels="3" name="Коварное Обездвиживание">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="100"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="500"/>
+        <set name="icon" value="icon.skill4047"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="ROOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect name="Root"/>
+        </for>
+        <table name="#abnormal_time">1 2 3</table>
+        <table name="#abnormal_level">1 2 3</table>
+        <table name="#activateRate">60 70 80</table>
+    </skill>
+    <skill id="16410" levels="3" name="Коварные Воздушные Оковы">
+        <set name="abnormal_effect" value="AIRBIND"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="airbind"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="100"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill11050"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="renewal" value="false"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="AIRJOKE"/>
+        <for>
+            <effect name="FlyUp"/>
+        </for>
+        <table name="#abnormal_time">2 3 5</table>
+        <table name="#abnormal_level">1 2 3</table>
+        <table name="#activateRate">35 40 50</table>
+        <table name="#mp_consume">94 100 106</table>
+    </skill>
+    <skill id="16411" levels="3" name="Коварное Оглушение">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="100"/>
+        <set name="coolTime" value="300"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="200"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="levelModifier" value="2"/>
+        <set name="mp_consume" value="38"/>
+        <set name="nextAction" value="attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+        <table name="#abnormal_time">1 3 5</table>
+        <table name="#abnormal_level">1 2 3</table>
+    </skill>
+    <skill id="16412" levels="3" name="Коварное Окаменение">
+        <set name="abnormal_effect" value="FLESH_STONE"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="turn_stone"/>
+        <set name="castRange" value="100"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill4111"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="155"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="PARALYZE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="Invulnerable"/>
+            <effect name="Petrification">
+                <set order="0x80" stat="regHp" value="0"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">1 3 5</table>
+        <table name="#abnormal_level">1 2 3</table>
+    </skill>
+    <skill id="16413" levels="3" name="Коварное Отравление">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="10"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="castRange" value="100"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill4035"/>
+        <set name="levelModifier" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillRadius" value="300"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="1" name="t_hp" value="-1000"/>
+        </for>
+    </skill>
+    <skill id="16414" levels="1" name="Мирная Зона - Восстановление">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="healpr"/>
+        <set name="castRange" value="100"/>
+        <set name="coolTime" value="200"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillRadius" value="100"/>
+        <for>
+            <effect instant="true" name="RestoreHP" value="10">
+                <def name="percent" value="true"/>
+            </effect>
+            <effect instant="true" name="RestoreMP" value="30">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="16415" levels="4" name="Пространственные Темные Силы">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1800"/>
+        <set name="cancelable" value="false"/>
+        <set name="icon" value="icon.skill1298"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="hitTime" value="1200"/>
+        <set name="magicLevel" value="99"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="mp_consume" value="1"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="#Atk"/>
+                <mul order="0x30" stat="mAtk" value="#Atk"/>
+                <mul order="0x30" stat="pCritRate" value="#CritRate"/>
+                <mul order="0x30" stat="mCritRate" value="#CritRate"/>
+            </effect>
+        </for>
+        <table name="#Atk">0.9 0.85 0.80 0.75</table>
+        <table name="#CritRate">0.7 0.6 0.5 0.4</table>
+    </skill>
+    <skill id="16416" levels="10" name="Сопротивление Обманному Маневру">
+        <set name="icon" value="icon.skill0358"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="16417" levels="10" name="Сопротивление Оглушению Ветра">
+        <set name="icon" value="icon.skill4011"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="16418" levels="10" name="Сопротивление Очарованию">
+        <set name="icon" value="icon.skill5934"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+    </skill>
+    <skill id="16425" levels="1" name="Перевоплощение в Деда Мороза">
+        <set name="abnormal_effect" value="SANTA_SUIT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="hitTime" value="100"/>
+        <set name="icon" value="BranchSys.icon.br_xmas_present_fun_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect/>
+        </for>
+    </skill>
+    <skill id="16426" levels="1" name="Плащ Авелиуса - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16427" levels="1" name="Плащ Сафироса - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16428" levels="1" name="Плащ Кайшунаги - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16429" levels="1" name="Плащ Кронвиста - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16430" levels="1" name="Плащ Сольткрига - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16431" levels="1" name="Плащ Набиаропа - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16432" levels="1" name="Плащ Райстера - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16433" levels="1" name="Плащ Лакисиса - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16434" levels="1" name="Плащ Сайхи - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="16435" levels="1" name="Плащ Сайхи - 20 дн.">
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+</list>

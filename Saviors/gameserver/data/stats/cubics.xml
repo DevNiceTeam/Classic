@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Created by VISTALL--><!--
+1. Storm Cubic - DONE
+2. Vampiric Cubic - DONE
+3. Life Cubic - DONE
+4. Viper Cubic - DONE
+5. Phantom Cubic - DONE
+6. Binding Cubic - DONE
+7. Aqua Cubic - DONE
+8. Spark Cubic - DONE
+9. Attractive Cubic - DONE
+10. Smart Cubic - DONE
+11. Smart Cubic - DONE
+12. Smart Cubic - DONE
+13. Smart Cubic - DONE
+14. Smart Cubic - DONE
+
+Инструкция:
+
+cubic id="1" level="1" delay="10"
+id и level используется для нужной индефикации кубика
+delay - тик кубика
+
+У каждого скила есть групы скилов skills
+chance="100" - шанс для вхождения в групу, подальшеии групы не обрабатыватся
+
+Скилы skill id="4049" level="1"  для поиска нужного скила
+action_type - тип действия
+ - ATTACK - аттака
+ - DEBUFF - дебафф
+ - HEAL - хил один из пати у кого ХП ниже 100%
+ - CANCEL - кенсел дебафов
+chance - шанс прохождения скила
+can_attack_door - может ли кубик бить дверь
+-->
+<list>
+	<!--Штормовой Кубик\Storm Cubics-->
+	<cubic id="1" level="1" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="1" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="2" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="2" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="3" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="3" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="4" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="4" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="5" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="5" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="6" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="6" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="7" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="7" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="8" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="8" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="101" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="9" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="102" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="10" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="103" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="11" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="104" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="12" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="105" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="13" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="106" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="14" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="107" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="15" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="1" level="108" duration="900" delay="10">
+		<skills chance="100">
+			<skill id="4049" level="16" action_type="ATTACK" chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<!--Вампирический Кубик\Vampiric Cubics-->
+	<cubic id="2" level="1" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="1" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="2" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="2" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="3" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="3" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="4" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="4" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="5" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="5" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="6" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="6" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="7" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="7" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="101" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="9" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="102" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="10" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="103" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="11" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="104" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="12" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="105" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="13" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="106" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="14" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="107" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="15" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="2" level="108" duration="900" delay="15">
+		<skills chance="100">
+			<skill id="4050" level="16" action_type="ATTACK" chance="8" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<!--Оживляющий Кубик\Life Cubics-->
+	<cubic id="3" level="1" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="1" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="2" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="2" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="3" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="3" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="4" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="4" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="5" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="5" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="6" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="6" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="7" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="7" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="20" duration="3600" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="20" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="101" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="9" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="102" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="10" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="103" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="11" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="104" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="12" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="105" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="13" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="106" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="14" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="107" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="15" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="3" level="108" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="4051" level="16" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<!--Змеиный Кубик\Viper Cubics-->
+	<cubic id="4" level="1" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="1" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="2" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="2" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="3" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="3" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="4" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="4" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="5" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="5" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="6" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="6" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="101" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="8" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="102" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="9" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="103" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="10" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="104" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="11" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="105" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="12" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="106" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="13" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="107" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="14" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<cubic id="4" level="108" duration="900" delay="20">
+		<skills chance="100">
+			<skill id="4052" level="15" action_type="DEBUFF" chance="20" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+	</cubic>
+	<!--Призвать Призрачный Кубик\Phantom Cubics-->
+	<cubic id="5" level="1" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="1" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="1" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="1" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="2" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="2" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="2" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="2" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="3" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="3" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="3" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="3" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="4" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="4" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="4" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="4" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="5" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="5" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="5" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="5" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="6" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="6" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="6" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="6" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="7" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="7" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="7" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="7" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="8" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="8" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="8" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="8" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="101" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="9" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="9" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="9" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="102" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="10" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="10" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="10" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="103" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="11" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="11" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="11" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="104" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="12" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="12" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="12" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="105" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="13" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="13" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="13" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="106" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="14" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="14" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="14" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="107" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="15" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="15" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="15" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<cubic id="5" level="108" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="4053" level="16" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4054" level="16" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Def.-->
+		</skills>
+		<skills chance="33">
+			<skill id="4055" level="16" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease Atk. Spd.-->
+		</skills>
+	</cubic>
+	<!--Связывающий Кубик\Binding Cubics-->
+	<cubic id="6" level="1" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="1" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="2" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="2" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="3" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="3" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="4" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="4" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="5" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="5" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="6" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="6" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="7" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="7" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="8" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="8" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="9" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="9" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="101" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="11" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="102" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="12" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="103" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="13" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="104" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="14" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="105" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="15" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="106" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="16" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="107" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="17" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<cubic id="6" level="108" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4164" level="18" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Paralysis-->
+		</skills>
+	</cubic>
+	<!--Водный Кубик\Aqua Cubics-->
+	<cubic id="7" level="1" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="1" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="2" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="2" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="3" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="3" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="4" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="4" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="5" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="5" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="6" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="6" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="7" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="7" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="8" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="8" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="9" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="9" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="101" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="10" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="102" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="11" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="103" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="12" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="104" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="13" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="105" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="14" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="106" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="15" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="107" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="16" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<cubic id="7" level="108" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4165" level="16" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+	</cubic>
+	<!--Искрящийся Кубик\Spark Cubics-->
+	<cubic id="8" level="1" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="1" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="2" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="2" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="3" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="3" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="4" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="4" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="5" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="5" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="6" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="6" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="7" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="7" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="8" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="8" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="9" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="9" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="101" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="10" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="102" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="11" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="103" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="12" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="104" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="13" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="105" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="14" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="106" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="15" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="107" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="16" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<cubic id="8" level="108" duration="900" delay="30">
+		<skills chance="100">
+			<skill id="4166" level="16" action_type="DEBUFF" chance="12" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+	</cubic>
+	<!--Штормовой Кубик\Attractive Cubics-->
+	<cubic id="9" level="1" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="1" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="1" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="1" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="2" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="2" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="2" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="2" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="3" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="3" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="3" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="3" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="4" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="4" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="4" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="4" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="101" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="5" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="5" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="5" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="102" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="6" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="6" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="6" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="103" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="7" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="7" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="7" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="104" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="8" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="8" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="8" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="105" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="9" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="9" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="9" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="106" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="10" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="10" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="10" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="107" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="11" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="11" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="11" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<cubic id="9" level="108" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="5115" level="12" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5115" level="12" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="33">
+			<skill id="5116" level="12" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Cubic Hold-->
+		</skills>
+	</cubic>
+	<!--Smart Cubics-->
+	<cubic id="10" level="1" duration="900" delay="10">
+		<skills chance="25">
+			<skill id="4165" level="9" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+		<skills chance="25">
+			<skill id="4053" level="8" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Decrease P. Atk.-->
+		</skills>
+		<skills chance="50">
+			<skill id="5579" level="1" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cure-->
+		</skills>
+	</cubic>
+	<cubic id="11" level="1" duration="900" delay="10">
+		<skills chance="40">
+			<skill id="5115" level="4" action_type="DEBUFF" chance="84" can_attack_door="false"/>  <!--Cubic Hate-->
+		</skills>
+		<skills chance="15">
+			<skill id="4049" level="8" action_type="ATTACK" chance="40" can_attack_door="true"/>  <!--Cubic Drain-->
+		</skills>
+		<skills chance="45">
+			<skill id="5579" level="1" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cure-->
+		</skills>
+	</cubic>
+	<cubic id="12" level="1" duration="900" delay="13">
+		<skills chance="20">
+			<skill id="4165" level="9" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Icy Air-->
+		</skills>
+		<skills chance="30">
+			<skill id="4051" level="1" action_type="HEAL" can_attack_door="false">  <!--Cubic Heal-->
+				<chance min="80" max="100" value="30"/>
+			</skill>
+		</skills>
+		<skills chance="50">
+			<skill id="5579" level="1" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cure-->
+		</skills>
+	</cubic>
+	<cubic id="13" level="1" duration="900" delay="13">
+		<skills chance="25">
+			<skill id="4049" level="8" action_type="ATTACK" chance="30" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+		<skills chance="25">
+			<skill id="4166" level="9" action_type="DEBUFF" chance="30" can_attack_door="false"/>  <!--Stun-->
+		</skills>
+		<skills chance="50">
+			<skill id="5579" level="1" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cure-->
+		</skills>
+	</cubic>
+	<cubic id="14" level="1" duration="900" delay="13">
+		<skills chance="30">
+			<skill id="4049" level="8" action_type="ATTACK" chance="33" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+		<skills chance="20">
+			<skill id="4052" level="6" action_type="DEBUFF" chance="45" can_attack_door="false"/>  <!--Poison-->
+		</skills>
+		<skills chance="50">
+			<skill id="5579" level="1" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cure-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="1" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="1" action_type="CANCEL" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="2" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="2" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="3" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="3" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="4" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="4" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="5" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="5" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="6" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="6" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="7" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="7" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="15" level="8" duration="900" delay="10">
+		<skills chance="50">
+			<skill id="10056" level="8" action_type="BUFF" chance="50" can_attack_door="false"/>  <!--Cubic Drain-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="1" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="1" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="1" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="1" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="2" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="2" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="2" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="2" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="3" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="3" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="3" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="3" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="4" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="4" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="4" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="4" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="5" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="5" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="5" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="5" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="6" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="6" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="6" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="6" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="7" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="7" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="7" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="7" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="8" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="8" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="8" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="8" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="9" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="8" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="8" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="9" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="10" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="8" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="8" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="10" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="16" level="11" duration="900" delay="15">
+		<skills chance="50">
+			<skill id="11292" level="8" action_type="CANCEL" chance="99" can_attack_door="false"/>  <!--Cubic Cleanse-->
+		</skills>
+		<skills chance="50">
+			<skill id="11293" level="8" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Cancellation-->
+		</skills>
+		<skills chance="50">
+			<skill id="11294" level="11" action_type="DEBUFF" chance="99" can_attack_door="false"/>  <!--Cubic Root-->
+		</skills>
+	</cubic>
+	<cubic id="17" level="1" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="1" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="2" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="2" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="3" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="3" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="4" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="4" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="5" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="5" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="101" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="101" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="102" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="102" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="103" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="103" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="104" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="104" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="105" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="105" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="106" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="106" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="107" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="107" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="108" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="108" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="109" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="109" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="17" level="110" duration="60" delay="5">
+		<skills chance="50">
+			<skill id="11807" level="110" action_type="HEAL" can_attack_door="false">  <!--Cubic Cure-->
+				<chance min="0" max="100" value="100"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="18" level="1" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="10082" level="1" action_type="HEAL" can_attack_door="false">  <!--Кубик - Мощное Исцеление-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+			</skill>
+			<skill id="10083" level="1" action_type="HEAL" can_attack_door="false">  <!--Кубик - Базовое Исцеление-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+			<skill id="10084" level="1" action_type="MANA" can_attack_door="false"> <!--Кубик - Базовый Разум-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="18" level="2" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="10082" level="2" action_type="HEAL" can_attack_door="false">  <!--Кубик - Мощное Исцеление-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+			</skill>
+			<skill id="10083" level="2" action_type="HEAL" can_attack_door="false">  <!--Кубик - Базовое Исцеление-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+			<skill id="10084" level="2" action_type="MANA" can_attack_door="false"> <!--Кубик - Базовый Разум-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="18" level="3" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="10082" level="3" action_type="HEAL" can_attack_door="false">  <!--Кубик - Мощное Исцеление-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+			</skill>
+			<skill id="10083" level="3" action_type="HEAL" can_attack_door="false">  <!--Кубик - Базовое Исцеление-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+			<skill id="10084" level="3" action_type="MANA" can_attack_door="false"> <!--Кубик - Базовый Разум-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="18" level="4" duration="900" delay="13">
+		<skills chance="100">
+			<skill id="10082" level="4" action_type="HEAL" can_attack_door="false">  <!--Кубик - Мощное Исцеление-->
+				<chance min="0" max="29" value="53"/>
+				<chance min="30" max="59" value="30"/>
+			</skill>
+			<skill id="10083" level="4" action_type="HEAL" can_attack_door="false">  <!--Кубик - Базовое Исцеление-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+			<skill id="10084" level="4" action_type="MANA" can_attack_door="false"> <!--Кубик - Базовый Разум-->
+				<chance min="60" max="100" value="13"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="19" level="1" duration="900" delay="16">
+		<skills chance="100">
+			<skill id="10084" level="1" action_type="MANA" can_attack_door="false">  <!--Кубик - Базовый Разум-->
+				<chance min="60" max="80" value="53"/>
+				<chance min="81" max="90" value="30"/>
+				<chance min="91" max="100" value="130"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="19" level="2" duration="900" delay="16">
+		<skills chance="100">
+			<skill id="10084" level="2" action_type="MANA" can_attack_door="false">  <!--Кубик - Базовый Разум-->
+				<chance min="60" max="80" value="53"/>
+				<chance min="81" max="90" value="30"/>
+				<chance min="91" max="100" value="130"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="19" level="3" duration="900" delay="16">
+		<skills chance="100">
+			<skill id="10084" level="3" action_type="MANA" can_attack_door="false">  <!--Кубик - Базовый Разум-->
+				<chance min="60" max="80" value="53"/>
+				<chance min="81" max="90" value="30"/>
+				<chance min="91" max="100" value="130"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="19" level="4" duration="900" delay="16">
+		<skills chance="100">
+			<skill id="10084" level="4" action_type="MANA" can_attack_door="false">  <!--Кубик - Базовый Разум-->
+				<chance min="60" max="80" value="53"/>
+				<chance min="81" max="90" value="30"/>
+				<chance min="91" max="100" value="130"/>
+			</skill>
+		</skills>
+	</cubic>
+	<cubic id="20" level="1" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="1" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="20" level="2" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="2" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="20" level="3" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="3" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="20" level="4" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="4" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="20" level="5" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="5" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="20" level="6" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="6" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="20" level="7" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10085" level="7" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Кубик-призрак-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="1" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="1" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="2" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="2" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="3" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="3" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="4" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="4" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="5" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="5" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="6" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="6" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="21" level="7" duration="900" delay="8">
+		<skills chance="50">
+			<skill id="10086" level="7" action_type="DEBUFF" chance="50" can_attack_door="false"/>  <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="22" level="1" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="10093" level="4" action_type="BUFF" chance="30" can_attack_door="false"/> <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="22" level="2" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="10093" level="4" action_type="BUFF" chance="30" can_attack_door="false"/> <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="22" level="3" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="10093" level="4" action_type="BUFF" chance="30" can_attack_door="false"/> <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+	<cubic id="22" level="4" duration="900" delay="8">
+		<skills chance="33">
+			<skill id="10093" level="4" action_type="BUFF" chance="30" can_attack_door="false"/> <!--Сглаз Кубика-->
+		</skills>
+	</cubic>
+</list>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="21" name="Fortress of Resistance" impl="ClanHall">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="4" lease="11000"/>
+	<support level="14" lease="110000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<item_create level="1" npcId="35383" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35383" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35383" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="5" lease="3000"/>
+	<restore_exp level="15" lease="9000"/>
+	<restore_exp level="30" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="140" lease="1750"/>
+	<restore_hp level="200" lease="2500"/>
+	<restore_hp level="260" lease="4250"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="46467 126885 -3720" name="1010035" price="500"/><!--Entrance to the Fortress of Resistance-->
+		<target loc="43534 164260 -2984" name="1010066" price="500"/><!--Entrance to the Tanor Silenos Barracks-->
+		<target loc="5941 125455 -3400" name="1010033" price="500"/><!--Entrance to Cruma Marshlands-->
+		<target loc="37566 148224 -3699" name="1010034" price="500"/><!--Entrance to Execution Grounds-->
+		<target loc="15472 142880 -2699" name="1010006" price="500"/><!--The Town of Dion-->
+		<target loc="17430 170103 -3506" name="1010036" price="500"/><!--Entrance to Floran Village-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="46467 126885 -3720" name="1010035" price="500"/><!--Entrance to the Fortress of Resistance-->
+		<target loc="43534 164260 -2984" name="1010066" price="500"/><!--Entrance to the Tanor Silenos Barracks-->
+		<target loc="5941 125455 -3400" name="1010033" price="500"/><!--Entrance to Cruma Marshlands-->
+		<target loc="37566 148224 -3699" name="1010034" price="500"/><!--Entrance to Execution Grounds-->
+		<target loc="15472 142880 -2699" name="1010006" price="500"/><!--The Town of Dion-->
+		<target loc="17430 170103 -3506" name="1010036" price="500"/><!--Entrance to Floran Village-->
+		<target loc="16050 114176 -3576" name="1010041" price="500"/><!--Entrance to Cruma Tower-->
+		<target loc="69770 126371 -3800" name="1010042" price="500"/><!--Death Pass-->
+		<target loc="-12787 122779 -3114" name="1010005" price="500"/><!--The Town of Gludio-->
+		<target loc="83336 147972 -3404" name="1010007" price="500"/><!--The Town of Giran-->
+	</teleport>
+	<banish_points>
+		<point x="51952" y="111060" z="-1970"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="43370" y="108839" z="-1980"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="51952" y="111060" z="-1970"/>
+	</other_restart_points>
+	<chaos_restart_points></chaos_restart_points>
+</residence>

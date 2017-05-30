@@ -1,0 +1,20 @@
+<list>
+    <skill id="11316" levels="1" name="Призыв Зарядов Души">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill11316"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="17371"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="398"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="60000"/>
+        <set name="skillType" value="RESTORATION"/>
+        <set name="target" value="TARGET_SELF"/>
+        <restoration level="1">
+            <group chance="100.0">
+                <item id="20332" max_count="1900" min_count="1900"/>
+            </group>
+        </restoration>
+    </skill>
+</list>

@@ -1,0 +1,1093 @@
+<list>
+    <skill id="3500" levels="1" name="Комплект Деревянных Легких Доспехов">
+        <set name="icon" value="icon.armor_t06_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="1.02"/>
+            <add order="0x40" stat="maxHp" value="41"/>
+        </for>
+    </skill>
+    <skill id="3501" levels="1" name="Комплект Магических Доспехов Преданности">
+        <set name="icon" value="icon.armor_t55_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+        </for>
+    </skill>
+    <skill id="3502" levels="1" name="Комплект Мифриловых Тяжелых Доспехов">
+        <set name="icon" value="icon.armor_t19_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="poisonResist" value="20"/>
+        </for>
+    </skill>
+    <skill id="3503" levels="1" name="Комплект Укрепленных Кожаных Легких Доспехов">
+        <set name="icon" value="icon.armor_t13_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="80"/>
+        </for>
+    </skill>
+    <skill id="3504" levels="1" name="Комплект Магических Доспехов Знаний">
+        <set name="icon" value="icon.armor_t41_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="regMp" value="0.95"/>
+            <mul order="0x30" stat="mAtk" value="1.10"/>
+        </for>
+    </skill>
+    <skill id="3505" levels="1" name="Комплект Легких Доспехов из Шкуры Мантикоры">
+        <set name="icon" value="icon.armor_t42_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="92"/>
+        </for>
+    </skill>
+    <skill id="3506" levels="1" name="Комплект Панцирных Тяжелых Доспехов">
+        <set name="icon" value="icon.armor_t43_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="1.05"/>
+            <add order="0x40" stat="maxHp" value="153"/>
+        </for>
+    </skill>
+    <skill id="3507" levels="1" name="Комплект Мифриловых Магических Доспехов">
+        <set name="icon" value="icon.armor_t51_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="runSpd" value="7"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <sub order="0x10" stat="INT" value="1"/>
+        </for>
+    </skill>
+    <skill id="3508" levels="1" name="Комплект Мифриловых Легких Доспехов">
+        <set name="icon" value="icon.armor_t47_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="4"/>
+        </for>
+    </skill>
+    <skill id="3509" levels="1" name="Комплект Кольчужных Тяжелых Доспехов">
+        <set name="icon" value="icon.armor_t48_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <sub order="0x40" stat="daggerWpnVuln" value="6"/>
+        </for>
+    </skill>
+    <skill id="3510" levels="1" name="Комплект Магических Доспехов Кармиана">
+        <set name="icon" value="icon.armor_t53_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <mul order="0x30" stat="pDef" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3511" levels="1" name="Комплект Латных Кожаных Легких Доспехов">
+        <set name="icon" value="icon.armor_t47_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="STR" value="4"/>
+            <sub order="0x10" stat="CON" value="1"/>
+        </for>
+    </skill>
+    <skill id="3512" levels="1" name="Комплект Композитных Тяжелых Доспехов">
+        <set name="icon" value="icon.armor_t61_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxNoPenaltyLoad" value="5759"/>
+        </for>
+    </skill>
+    <skill id="3513" levels="1" name="Комплект Магических Доспехов Демона">
+        <set name="icon" value="icon.armor_t54_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <sub order="0x40" stat="maxHp" value="270"/>
+            <add order="0x10" stat="INT" value="4"/>
+            <sub order="0x10" stat="WIT" value="1"/>
+        </for>
+    </skill>
+    <skill id="3514" levels="1" name="Комплект Кожаных Легких Доспехов Тека">
+        <set name="icon" value="icon.armor_t63_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="1.0524"/>
+        </for>
+    </skill>
+    <skill id="3515" levels="1" name="Комплект Кожаных Легких Доспехов Дрейка">
+        <set name="icon" value="icon.armor_t21_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mDef" value="1.0524"/>
+        </for>
+    </skill>
+    <skill id="3516" levels="1" name="Комплект Полных Латных Тяжелых Доспехов">
+        <set name="icon" value="icon.armor_t62_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="270"/>
+        </for>
+    </skill>
+    <skill id="3517" levels="1" name="Комплект Магических Доспехов Святости">
+        <set name="icon" value="icon.armor_t57_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="171"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <sub order="0x10" stat="INT" value="1"/>
+            <mul order="0x30" stat="pDef" value="1.0524"/>
+        </for>
+    </skill>
+    <skill id="3518" levels="1" name="Комплект Тяжелых Доспехов Зубея">
+        <set name="icon" value="icon.armor_t64_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="1.0525"/>
+            <add order="0x40" stat="maxHp" value="294"/>
+        </for>
+    </skill>
+    <skill id="3519" levels="1" name="Комплект Тяжелых Доспехов Авадона">
+        <set name="icon" value="icon.armor_t66_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="294"/>
+        </for>
+    </skill>
+    <skill id="3520" levels="1" name="Комплект Легких Доспехов Зубея">
+        <set name="icon" value="icon.armor_t65_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="4"/>
+        </for>
+    </skill>
+    <skill id="3521" levels="1" name="Комплект Легких Доспехов Авадона">
+        <set name="icon" value="icon.armor_t67_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mDef" value="1.0525"/>
+            <add order="0x40" stat="maxNoPenaltyLoad" value="5795"/>
+        </for>
+    </skill>
+    <skill id="3522" levels="1" name="Комплект Магических Доспехов Зубея">
+        <set name="icon" value="icon.armor_t56_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mAtk" value="1.10"/>
+            <mul order="0x30" stat="regMp" value="0.95"/>
+        </for>
+    </skill>
+    <skill id="3523" levels="1" name="Комплект Магических Доспехов Авадона">
+        <set name="icon" value="icon.armor_t59_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="1.05247"/>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+        </for>
+    </skill>
+    <skill id="3524" levels="1" name="Комплект Тяжелых Доспехов Синего Волка">
+        <set name="icon" value="icon.armor_t68_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="runSpd" value="7"/>
+            <mul order="0x30" stat="regHp" value="1.0524"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <sub order="0x10" stat="CON" value="1"/>
+            <sub order="0x10" stat="DEX" value="2"/>
+        </for>
+    </skill>
+    <skill id="3525" levels="1" name="Комплект Тяжелых Доспехов Рока">
+        <set name="icon" value="icon.armor_t71_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="320"/>
+            <sub order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x40" stat="breath" value="200"/>
+        </for>
+    </skill>
+    <skill id="3526" levels="1" name="Комплект Легких Доспехов Синего Волка">
+        <set name="icon" value="icon.armor_t69_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="1.0524"/>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <sub order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="MEN" value="3"/>
+            <sub order="0x10" stat="WIT" value="1"/>
+        </for>
+    </skill>
+    <skill id="3527" levels="1" name="Комплект Легких Доспехов Рока">
+        <set name="icon" value="icon.armor_t72_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="regMp" value="1.025"/>
+            <add order="0x40" stat="poisonResist" value="20"/>
+            <mul order="0x30" stat="pAtk" value="1.027"/>
+            <sub order="0x10" stat="STR" value="1"/>
+            <sub order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x40" stat="breath" value="200"/>
+        </for>
+    </skill>
+    <skill id="3528" levels="1" name="Комплект Магических Доспехов Синего Волка">
+        <set name="icon" value="icon.armor_t70_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="206"/>
+            <mul order="0x30" stat="regMp" value="1.0524"/>
+            <sub order="0x10" stat="INT" value="2"/>
+            <sub order="0x10" stat="MEN" value="1"/>
+            <add order="0x10" stat="WIT" value="3"/>
+        </for>
+    </skill>
+    <skill id="3529" levels="1" name="Комплект Магических Доспехов Рока">
+        <set name="icon" value="icon.armor_t73_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="runSpd" value="7"/>
+            <mul order="0x30" stat="regMp" value="1.0524"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="MEN" value="1"/>
+            <sub order="0x10" stat="WIT" value="3"/>
+            <add order="0x40" stat="breath" value="200"/>
+        </for>
+    </skill>
+    <skill id="3530" levels="1" name="Комплект Тяжелых Доспехов Кристалла Тьмы">
+        <set name="icon" value="icon.armor_t74_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="hpEff" value="1.04"/>
+            <add order="0x40" stat="paralyzeResist" value="50"/>
+            <sub order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+        </for>
+    </skill>
+    <skill id="3531" levels="1" name="Комплект Тяжелых Доспехов Таллума">
+        <set name="icon" value="icon.armor_t77_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="1.08"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <sub order="0x10" stat="CON" value="2"/>
+            <add order="0x40" stat="poisonResist" value="80"/>
+            <add order="0x40" stat="bleedResist" value="80"/>
+            <add order="0x40" stat="maxNoPenaltyLoad" value="5759"/>
+        </for>
+    </skill>
+    <skill id="3532" levels="1" name="Комплект Легких Доспехов Кристалла Тьмы">
+        <set name="icon" value="icon.armor_t75_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtk" value="1.04"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.04"/>
+            <add order="0x40" stat="paralyzeResist" value="50"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="-1"/>
+        </for>
+    </skill>
+    <skill id="3533" levels="1" name="Комплект Легких Доспехов Таллума">
+        <set name="icon" value="icon.armor_t78_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="222"/>
+            <add order="0x40" stat="poisonResist" value="80"/>
+            <add order="0x40" stat="bleedResist" value="80"/>
+            <mul order="0x30" stat="regMp" value="1.08"/>
+            <add order="0x10" stat="MEN" value="2"/>
+            <sub order="0x10" stat="WIT" value="2"/>
+        </for>
+    </skill>
+    <skill id="3534" levels="1" name="Комплект Магических Доспехов Таллума">
+        <set name="icon" value="icon.armor_t79_u_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mDef" value="1.08"/>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <add order="0x40" stat="poisonResist" value="80"/>
+            <add order="0x40" stat="bleedResist" value="80"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <sub order="0x10" stat="INT" value="2"/>
+        </for>
+    </skill>
+    <skill id="3535" levels="1" name="Комплект Магических Доспехов Кристалла Тьмы">
+        <set name="icon" value="icon.armor_t76_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="runSpd" value="7"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <sub order="0x10" stat="MEN" value="2"/>
+            <add order="0x40" stat="paralyzeResist" value="50"/>
+            <mul order="0x30" stat="concentration" value="0.7"/>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <mul order="0x30" stat="pDef" value="1.08"/>
+        </for>
+    </skill>
+    <skill id="3536" levels="1" name="Комплект Тяжелых Доспехов Кошмаров">
+        <set name="icon" value="icon.armor_t80_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtk" value="1.04"/>
+            <add order="0x40" stat="rootResist" value="70"/>
+            <add order="0x40" stat="sleepResist" value="70"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <sub order="0x10" stat="DEX" value="2"/>
+        </for>
+    </skill>
+    <skill id="3537" levels="1" name="Комплект Тяжелых Доспехов Величия">
+        <set name="icon" value="icon.armor_t83_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtk" value="1.04"/>
+            <add order="0x40" stat="pAccCombat" value="3"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <sub order="0x10" stat="CON" value="2"/>
+            <add order="0x40" stat="stunResist" value="50"/>
+        </for>
+    </skill>
+    <skill id="3538" levels="1" name="Комплект Легких Доспехов Кошмаров">
+        <set name="icon" value="icon.armor_t81_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mDef" value="1.04"/>
+            <add order="0x40" stat="absorbDam" value="3"/>
+            <add order="0x40" stat="absorbPSkillDam" value="3"/>
+            <add order="0x40" stat="absorbMSkillDam" value="3"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <sub order="0x10" stat="CON" value="1"/>
+            <add order="0x40" stat="sleepResist" value="70"/>
+            <add order="0x40" stat="rootResist" value="70"/>
+        </for>
+    </skill>
+    <skill id="3539" levels="1" name="Комплект Легких Доспехов Величия">
+        <set name="icon" value="icon.armor_t84_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtk" value="1.08">
+                <using kind="Bow,Crossbow"/>
+            </mul>
+            <add order="0x40" stat="maxMp" value="240"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <sub order="0x10" stat="CON" value="1"/>
+            <add order="0x40" stat="stunResist" value="50"/>
+            <add order="0x40" stat="maxNoPenaltyLoad" value="5759"/>
+        </for>
+    </skill>
+    <skill id="3540" levels="1" name="Комплект Магических Доспехов Кошмаров">
+        <set name="icon" value="icon.armor_t82_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mAtk" value="1.08"/>
+            <mul order="0x30" stat="regMp" value="1.04"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <sub order="0x10" stat="WIT" value="2"/>
+            <add order="0x40" stat="sleepResist" value="70"/>
+            <add order="0x40" stat="rootResist" value="70"/>
+        </for>
+    </skill>
+    <skill id="3541" levels="1" name="Комплект Магических Доспехов Величия">
+        <set name="icon" value="icon.armor_t85_ul_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="240"/>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <mul order="0x30" stat="regMp" value="1.08"/>
+            <add order="0x10" stat="MEN" value="1"/>
+            <sub order="0x10" stat="INT" value="1"/>
+            <add order="0x40" stat="stunResist" value="50"/>
+        </for>
+    </skill>
+    <skill id="3542" levels="6" name="Особое Свойство: Крит. Урон">
+        <set name="icon" value="icon.skill0193"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pCritDamageStatic" value="#value"/>
+        </for>
+        <table name="#value">203 226 248 269 289 306</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3543" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="126"/>
+        </for>
+    </skill>
+    <skill id="3544" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="20"/>
+        </for>
+    </skill>
+    <skill id="3545" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="198"/>
+        </for>
+    </skill>
+    <skill id="3546" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mDef" value="1.0526"/>
+        </for>
+    </skill>
+    <skill id="3547" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="rShld" value="1.0524"/>
+        </for>
+    </skill>
+    <skill id="3548" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="rShld" value="1.24"/>
+        </for>
+    </skill>
+    <skill id="3549" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="rShld" value="1.24"/>
+        </for>
+    </skill>
+    <skill id="3550" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="rShld" value="1.18"/>
+        </for>
+    </skill>
+    <skill id="3551" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="reflectDam" value="5"/>
+            <add order="0x40" stat="reflectBowDam" value="5"/>
+            <add order="0x40" stat="reflectPSkillDam" value="5"/>
+            <add order="0x40" stat="reflectMSkillDam" value="5"/>
+        </for>
+    </skill>
+    <skill id="3553" levels="1" name="Комплект Тяжелых Доспехов Имперского Крестоносца">
+        <set name="icon" value="icon.armor_t88_u_i00"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <sub order="0x10" stat="DEX" value="2"/>
+            <add order="0x40" stat="maxHp" value="445"/>
+            <mul order="0x30" stat="pDef" value="1.08"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x40" stat="sleepResist" value="70"/>
+            <add order="0x40" stat="rootResist" value="70"/>
+        </for>
+    </skill>
+    <skill id="3554" levels="1" name="Экипировка Щитом">
+        <set name="icon" value="icon.skill0091"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="poisonResist" value="80"/>
+            <add order="0x40" stat="bleedResist" value="80"/>
+        </for>
+    </skill>
+    <skill id="3555" levels="1" name="Комплект Легких Доспехов Драконьей Кожи">
+        <set name="icon" value="icon.armor_t89_ul_i00"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <sub order="0x10" stat="CON" value="2"/>
+            <add order="0x40" stat="maxMp" value="289"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.04"/>
+            <mul order="0x30" stat="pAtk" value="1.04"/>
+            <add order="0x40" stat="maxNoPenaltyLoad" value="5759"/>
+        </for>
+    </skill>
+    <skill id="3556" levels="1" name="Комплект Магических Доспехов Тайн">
+        <set name="icon" value="icon.armor_t90_ul_i00"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <sub order="0x10" stat="MEN" value="2"/>
+            <mul order="0x30" stat="mAtk" value="1.17"/>
+            <add order="0x40" stat="runSpd" value="7"/>
+            <add order="0x40" stat="maxNoPenaltyLoad" value="5759"/>
+            <mul order="0x30" stat="concentration" value="0.5"/>
+            <add order="0x40" stat="stunResist" value="50"/>
+        </for>
+    </skill>
+    <skill id="3557" levels="1" name="Ожерелье Валакаса">
+        <set name="icon" value="icon.accessory_necklace_of_valakas_i00"/>
+        <set name="magicLevel" value="76"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="maxHp" value="445"/>
+            <mul order="0x30" stat="pAtk" value="1.04"/>
+            <mul order="0x30" stat="mAtk" value="1.08"/>
+            <add order="0x40" stat="baseMCritRate" value="10"/>
+            <add order="0x40" stat="defenceFire" value="15"/>
+            <add order="0x40" stat="sleepResist" value="40"/>
+            <add order="0x40" stat="sleepPower" value="40"/>
+            <mul order="0x30" stat="mReuse" value="0.90"/>
+            <mul order="0x30" stat="pReuse" value="0.90"/>
+            <add order="0x40" stat="reflectDam" value="5"/>
+            <add order="0x40" stat="reflectBowDam" value="5"/>
+            <add order="0x40" stat="reflectPSkillDam" value="5"/>
+            <add order="0x40" stat="reflectMSkillDam" value="5"/>
+        </for>
+    </skill>
+    <skill id="3558" levels="1" name="Серьга Антараса">
+        <set name="icon" value="icon.accessory_earring_of_antaras_i00"/>
+        <set name="magicLevel" value="76"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="hpEff" value="1.10"/>
+            <add order="0x40" stat="absorbDam" value="4"/>
+            <add order="0x40" stat="absorbPSkillDam" value="4"/>
+            <add order="0x40" stat="absorbMSkillDam" value="4"/>
+            <add order="0x40" stat="stunResist" value="30"/>
+            <add order="0x40" stat="stunPower" value="30"/>
+            <add order="0x40" stat="bleedResist" value="40"/>
+            <add order="0x40" stat="bleedPower" value="40"/>
+            <add order="0x40" stat="defenceEarth" value="15"/>
+            <add order="0x40" stat="mentalResist" value="30"/>
+            <add order="0x40" stat="mentalPower" value="30"/>
+            <mul order="0x30" stat="mpConsum" value="0.95"/>
+        </for>
+    </skill>
+    <skill id="3559" levels="2" name="Серьга Бессмертного Закена">
+        <set name="icon" value="icon.accessory_earring_of_zaken_i00"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="hpEff" value="#hpEff"/>
+            <add order="0x40" stat="absorbDam" value="4"/>
+            <add order="0x40" stat="absorbPSkillDam" value="4"/>
+            <add order="0x40" stat="absorbMSkillDam" value="4"/>
+            <add order="0x40" stat="bleedResist" value="30"/>
+            <add order="0x40" stat="bleedPower" value="30"/>
+            <add order="0x40" stat="stunResist" value="#power"/>
+            <add order="0x40" stat="stunPower" value="#power"/>
+            <add order="0x40" stat="mentalResist" value="#power"/>
+            <add order="0x40" stat="mentalPower" value="#power"/>
+            <add order="0x40" stat="defenceUnholy" value="#defenceUnholy"/>
+        </for>
+        <table name="#hpEff">1.1 1.15</table>
+        <table name="#power">20 30</table>
+        <table name="#defenceUnholy">0 15</table>
+    </skill>
+    <skill id="3560" levels="3" name="Серьга Орфен">
+        <set name="icon" value="icon.accessory_earring_of_orfen_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="magicLevel" value="1"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x40" stat="rootResist" value="#Power"/>
+            <add order="0x40" stat="rootPower" value="#Power"/>
+            <add order="0x40" stat="mentalResist" value="#Power1"/>
+            <add order="0x40" stat="mentalPower" value="#Power1"/>
+            <mul order="0x30" stat="healPower" value="#healPower"/>
+            <mul order="0x30" stat="mpConsum" value="#Consume"/>
+            <mul order="0x30" stat="mpConsumePhysical" value="#Consume"/>
+            <mul order="0x30" stat="mpDanceConsume" value="#Consume"/>
+            <mul order="0x30" stat="absorbDamMp" value="#abs"/>
+        </for>
+        <table name="#Power">10 15 20</table>
+        <table name="#Power1">5 10 15</table>
+        <table name="#healPower">1.02 1.04 1.06</table>
+        <table name="#Consume">0.98 0.97 0.95</table>
+        <table name="#abs">1 1 1.03</table>
+    </skill>
+    <skill id="3561" levels="3" name="Кольцо Баюма">
+        <set name="icon" value="icon.accessory_ring_of_baium_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="magicLevel" value="1"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x40" stat="stunResist" value="#power"/>
+            <add order="0x40" stat="stunPower" value="#power"/>
+            <add order="0x40" stat="bleedResist" value="#power1"/>
+            <add order="0x40" stat="bleedPower" value="#power1"/>
+            <mul order="0x30" stat="pAtkSpd" value="#spdAtk"/>
+            <mul order="0x30" stat="mAtkSpd" value="#spdAtk"/>
+            <mul order="0x30" stat="pSkillPower" value="#SkillPower"/>
+            <mul order="0x30" stat="mSkillPower" value="#SkillPower"/>
+            <mul order="0x30" stat="pCritDamage" value="#pCritD"/>
+            <mul order="0x30" stat="mCritDamage" value="#mCritD"/>
+        </for>
+        <table name="#power">10 15 20</table>
+        <table name="#power1">5 10 15</table>
+        <table name="#spdAtk">1.02 1.03 1.04</table>
+        <table name="#SkillPower">1.02 1.04 1.06</table>
+        <table name="#pCritD">1 1 1.15</table>
+        <table name="#mCritD">1 1 1.10</table>
+    </skill>
+    <skill id="3562" levels="3" name="Кольцо Королевы Муравьев">
+        <set name="icon" value="icon.accessory_ring_of_queen_ant_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="magicLevel" value="1"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x40" stat="poisonResist" value="#power"/>
+            <add order="0x40" stat="poisonPower" value="#power"/>
+            <add order="0x40" stat="pAccCombat" value="#AccCombat"/>
+            <add order="0x40" stat="mAccCombat" value="#AccCombat"/>
+            <mul order="0x30" stat="pAtk" value="#Atk"/>
+            <mul order="0x30" stat="mAtk" value="#Atk"/>
+            <mul order="0x30" stat="pCritDamage" value="#pCritD"/>
+            <mul order="0x30" stat="mCritDamage" value="#mCritD"/>
+        </for>
+        <table name="#power">10 15 20</table>
+        <table name="#AccCombat">1 2 3</table>
+        <table name="#Atk">1.04 1.06 1.07</table>
+        <table name="#pCritD">1 1 1.10</table>
+        <table name="#mCritD">1 1 1.05</table>
+    </skill>
+    <skill id="3563" levels="3" name="Кольцо Ядра">
+        <set name="icon" value="icon.accessory_ring_of_core_i00"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="magicLevel" value="1"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <add order="0x40" stat="mentalResist" value="#Power"/>
+            <add order="0x40" stat="mentalPower" value="#Power"/>
+            <add order="0x40" stat="mEvasRate" value="#EvasRate"/>
+            <add order="0x40" stat="pEvasRate" value="#EvasRate"/>
+            <mul order="0x30" stat="receive_p_damage_power" value="#receiveDam"/>
+            <mul order="0x30" stat="receive_m_damage_power" value="#receiveDam"/>
+        </for>
+        <table name="#Power">10 15 20</table>
+        <table name="#EvasRate">1 2 3</table>
+        <table name="#receiveDam">1.02 1.04 1.06</table>
+    </skill>
+    <skill id="3571" levels="2" name="Особое Свойство: Крит. Оглушение">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="9"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="STUN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+        <table name="#activateRate">27 25</table>
+        <table name="#magicLevel">75 84</table>
+    </skill>
+    <skill id="3574" levels="3" name="Особое Свойство: Крит. Замедление">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="120"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="activateRate" value="#Rate"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x50" stat="runSpd" value="0.7"/>
+            </effect>
+        </for>
+        <table name="#Rate">16 24 33</table>
+        <table name="#magicLevel">75 84 84</table>
+    </skill>
+    <skill id="3577" levels="3" name="Особое Свойство: Магические Оковы">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill1201"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="ROOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect name="Root"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDmg"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDmg"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDmg"/>
+        </for>
+        <table name="#pvpDmg">1.00 1.05 1.1</table>
+        <table name="#magicLevel">75 84 85</table>
+    </skill>
+    <skill id="3578" levels="1" name="Особое Свойство Меча Вечности">
+        <set name="icon" value="icon.weapon_the_sword_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.1"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>			
+        </for>
+    </skill>
+    <skill id="3579" levels="1" name="Сила Вечности - Отражение">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="hero_reflect_up"/>
+        <!-- <set name="activateRate" value="4"/> -->
+        <set name="icon" value="icon.skill0122"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="reflectDam" value="8"/>
+				<add order="0x40" stat="reflectBowDam" value="8"/>
+				<add order="0x40" stat="reflectPSkillDam" value="8"/>
+				<add order="0x40" stat="reflectMSkillDam" value="8"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="3580" levels="1" name="Особое Свойство Топора Вечности">
+        <set name="icon" value="icon.weapon_the_axe_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.1"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+			<mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>			
+        </for>
+    </skill>
+    <skill id="3581" levels="1" name="Сила Вечности - Живучесть">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="120"/>
+        <set name="abnormal_type" value="hero_reflect_up"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect interval="1" name="RestoreHP" value="460"/>
+			<add order="0x40" stat="reflectDam" value="10"/>
+			<add order="0x40" stat="reflectBowDam" value="10"/>
+			<add order="0x40" stat="reflectPSkillDam" value="10"/>
+			<add order="0x40" stat="reflectMSkillDam" value="10"/>
+        </for>
+    </skill>
+    <skill id="3582" levels="1" name="Особое Свойство Эспадона Вечности">
+        <set name="icon" value="icon.weapon_the_two_handed_sword_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+			<mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.05"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+            <mul order="0x30" stat="pCritDamage" value="1.1"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3584" levels="1" name="Сила Вечности - Защита">
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_kamael1"/>
+		<set name="magicLevel" value="60"/>
+		<set name="operateType" value="OP_ACTIVE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="DebuffImmunity">
+				<def name="max_disabled_debuffs" value="5"/>				
+			</effect>
+		</for>
+    </skill>
+    <skill id="3585" levels="1" name="Особое Свойство Парных Мечей Вечности">
+	<!-- Макс. HP +20%%, Макс. MP +15%%, Макс. CP +30%%, Физ. Атк. +5%%, 
+	Скор. Атк. +5%%, сила Физ. Крит. Атк. +5%%. Наносимый урон в PvP +5%%. -->
+        <set name="icon" value="icon.weapon_the_dualsword_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+			<mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.05"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+            <mul order="0x30" stat="pCritDamage" value="1.05"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3586" levels="1" name="Сила Вечности - Возобновление">
+	<!-- На 5 мин. время перезарядки всех умений -10%% (кроме умений с фиксированной перезарядкой). -->
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="hero_reuse_skill"/>
+        <set name="icon" value="icon.skill1064"/>
+        <set name="magicLevel" value="60"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <mul order="0x30" stat="mReuse" value="0.9"/>
+            <mul order="0x30" stat="pReuse" value="0.9"/>
+            <mul order="0x30" stat="musicReuse" value="0.9"/>
+        </for>
+    </skill>
+    <skill id="3587" levels="1" name="Особое Свойство Воителя Вечности">
+        <set name="icon" value="icon.weapon_the_fist_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.05"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+            <add order="0x40" stat="basePCritRate" value="20"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3589" levels="1" name="Особое Свойство Кинжала Вечности">
+        <set name="icon" value="icon.weapon_the_dagger_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.05"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+            <add order="0x40" stat="basePCritRate" value="20"/>
+			<mul order="0x30" stat="pCritDamage" value="1.2"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3590" levels="1" name="Сила Вечности - Смерть">
+	<!-- На 5 мин шанс успешной атаки в уязвимые места +20%. -->
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="hero_blow_dmg"/>
+        <set name="icon" value="icon.skill1064"/>
+        <set name="magicLevel" value="60"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <mul order="0x30" stat="mReuse" value="1.2"/>          
+        </for>
+    </skill>
+    <skill id="3591" levels="1" name="Особое Свойство Копья Вечности">
+        <set name="icon" value="icon.weapon_the_pole_of_hero_i00"/>
+        <set name="magicLevel" value="60"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.2"/>
+            <mul order="0x30" stat="maxMp" value="1.15"/>
+            <mul order="0x30" stat="maxCp" value="1.3"/>
+            <mul order="0x30" stat="pAtk" value="1.05"/>
+            <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+			<mul order="0x30" stat="pCritDamage" value="1.1"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3593" levels="1" name="Особое Свойство: Лук Вечности">
+        <set name="icon" value="icon.weapon_the_bow_of_hero_i00"/>
+        <set name="magicLevel" value="80"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxMp" value="1.30"/>
+            <mul order="0x30" stat="maxCp" value="1.50"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="3594" levels="1" name="Снизить Скорость">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="120"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="activateRate" value="7"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="runSpd" value="0.5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="3595" levels="1" name="Особое Свойство: Скипетр Вечности">
+        <set name="icon" value="icon.weapon_the_staff_of_hero_i00"/>
+        <set name="magicLevel" value="80"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul order="0x30" stat="maxMp" value="1.30"/>
+            <mul order="0x30" stat="maxCp" value="1.50"/>
+            <add order="0x40" stat="mAtk" value="29.67"/>
+            <add order="0x40" stat="baseMCritRate" value="10"/>
+        </for>
+    </skill>
+    <skill id="3596" levels="1" name="Полное Восстановление">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="HEAL_PERCENT"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect instant="true" name="RestoreHP" value="100">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="3597" levels="1" name="Особое Свойство: Жезл Вечности">
+        <set name="icon" value="icon.weapon_the_mace_of_hero_i00"/>
+        <set name="magicLevel" value="80"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul order="0x30" stat="maxMp" value="1.30"/>
+            <mul order="0x30" stat="maxCp" value="1.50"/>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <add order="0x40" stat="regMp" value="0.51"/>
+        </for>
+    </skill>
+    <skill id="3598" levels="1" name="Полное Восстановление">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="HEAL_PERCENT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect instant="true" name="RestoreHP" value="100">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="3599" levels="1" name="Алебарда Мультиатаки">
+        <set name="icon" value="icon.skill0216"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="poleTargetCount" value="3">
+                <using kind="Pole"/>
+            </add>
+        </for>
+    </skill>
+</list>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <!--based_on_gameserver - премиум аккаунт будет храниться в гейм сервере.-->
+    <!--free_type - тип премиум аккаунта, выдаваемого бесплатно, при создании первого персонажа.-->
+    <!--free_delay - время действия премиум аккаунта, выдаваемого бесплатно, при создании первого персонажа (в часах).-->
+    <!--notify_free - сообщать персонажу о выдаче бесплатного премиум аккаунта.-->
+    <config enabled="true" based_on_gameserver="true" free_type="0" free_delay="0" notify_free="true"/>
+    <account type="1">
+        <name>
+            <en>Rates x1.5</en>
+            <ru>Рейты x1.5</ru>
+        </name>
+        <rates exp="1.5"
+               sp="1.5"
+               adena="1.5"
+               dropChance="1.5"
+               dropCount="1.5"
+               spoilChance="1.5"
+               spoilCount="1.5"
+               raidDropChance="1.5"
+               raidDropCount="1.5"
+               grandRaidDropChance="1.5"
+               grandRaidDropCount="1.5"
+               weight="1.5"
+               epauletteCount="1.5"
+               stoneChance="1.5"
+               stoneCount="1.5"
+               craftChance="1.5"
+               craftChanceX2="1.5"/>
+        <bonus enchant_chance="2"/>
+        <give_items_on_start>
+            <item id="20970" count="1"/>    <!--Браслет Печати Агатиона - Змей Горыныч-->
+        </give_items_on_start>
+        <take_items_on_end>
+            <item id="20970" count="1"/>    <!--Браслет Печати Агатиона - Змей Горыныч-->
+        </take_items_on_end>
+        <fee delay="24">
+            <item id="4037" count="5"/>
+        </fee>
+        <fee delay="168">
+            <item id="4037" count="10"/>
+        </fee>
+        <fee delay="720">
+            <item id="4037" count="20"/>
+        </fee>
+		<fee delay="8760">
+            <item id="4037" count="50"/>
+        </fee>
+    </account>
+</list>

@@ -1,0 +1,69 @@
+<list>
+    <armor id="20662" name="Браслет Печати Агатиона - Утанка">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="freightable" value="true"/>
+        <set name="icon" value="BranchSys.icon.br_aga_uthanka_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="150"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="1507">
+            <player olympiad="false"/>
+        </cond>
+        <equip>
+            <slot id="LEFT_BRACELET"/>
+        </equip>
+        <skills>
+            <skill id="3267" level="1"/>
+            <skill id="21109" level="1"/>
+            <skill id="23087" level="1"/>
+        </skills>
+    </armor>
+    <armor id="20666" name="Головной убор Валькирии">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="freightable" value="true"/>
+        <set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="34"/>
+        <set name="weight" value="10"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="1507">
+            <player olympiad="false"/>
+        </cond>
+        <equip>
+            <slot id="HAIR_ALL"/>
+        </equip>
+    </armor>
+    <armor id="20678" name="Головной Убор Хранителя Портала">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="freightable" value="true"/>
+        <set name="icon" value="BranchSys.icon.br_gatekeeper_of_hat_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="34"/>
+        <set name="weight" value="10"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="1507">
+            <player olympiad="false"/>
+        </cond>
+        <equip>
+            <slot id="HAIR_ALL"/>
+        </equip>
+    </armor>
+</list>

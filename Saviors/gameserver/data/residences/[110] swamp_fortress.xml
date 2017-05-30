@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="110" name="Swamp Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="68692 -63928 -2784" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="70820 -58862 -2784" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="43889 -49101 -792" name="1010671" price="0"/><!--Rune Town Square-->
+		<target loc="27400 -49180 -1320" name="1010672" price="0"/><!--Front of the Rune Castle Gate-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="68692 -63928 -2784" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="70820 -58862 -2784" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="43889 -49101 -792" name="1010671" price="0"/><!--Rune Town Square-->
+		<target loc="27400 -49180 -1320" name="1010672" price="0"/><!--Front of the Rune Castle Gate-->
+		<target loc="52107 -54328 -3158" name="1010592" price="500"/><!--Forest of the Dead-->
+		<target loc="43805 -88010 -2780" name="1010537" price="500"/><!--Wild Beast Pastures-->
+		<target loc="69340 -50203 -3314" name="1010565" price="500"/><!--Swamp of Screams-->
+		<target loc="65307 -71445 -3696" name="1010600" price="500"/><!--Valley of Saints-->
+		<target loc="76911 -55295 -5824" name="1010706" price="500"/><!--Shyeed's Cavern-->
+	</teleport>
+	<skills>
+		<skill id="19107" level="1"/> <!--Рубеж Обители-->
+	</skills>
+	<banish_points>
+		<point x="71814" y="-57054" z="-3088"/>
+		<point x="71637" y="-57039" z="-3096"/>
+		<point x="68153" y="-66112" z="-2744"/>
+		<point x="68039" y="-66247" z="-2736"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="70262" y="-61485" z="-2456"/>
+		<point x="70283" y="-61645" z="-2456"/>
+		<point x="70139" y="-61703" z="-2456"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="38096" y="-46976" z="899"/>
+		<point x="38608" y="-47168" z="899"/>
+		<point x="38752" y="-47792" z="899"/>
+		<point x="38848" y="-48640" z="899"/>
+		<point x="38272" y="-49008" z="899"/>
+		<point x="38112" y="-49792" z="899"/>
+		<point x="43408" y="-51120" z="-800"/>
+		<point x="43536" y="-50416" z="-800"/>
+		<point x="44368" y="-50592" z="-800"/>
+		<point x="44000" y="-49952" z="-800"/>
+		<point x="45072" y="-49936" z="-800"/>
+		<point x="45824" y="-49056" z="-800"/>
+		<point x="45632" y="-47968" z="-800"/>
+		<point x="44864" y="-47824" z="-800"/>
+		<point x="43744" y="-47920" z="-800"/>
+		<point x="43792" y="-48928" z="-800"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="42640" y="-54496" z="-2310"/>
+		<point x="38304" y="-55440" z="-1136"/>
+		<point x="40192" y="-57600" z="-2343"/>
+		<point x="38400" y="-56832" z="-992"/>
+		<point x="35632" y="-54800" z="-1744"/>
+		<point x="36407" y="-54245" z="-1224"/>
+		<point x="43936" y="-56480" z="-3627"/>
+		<point x="39440" y="-60080" z="-2870"/>
+		<point x="41376" y="-55376" z="-1488"/>
+		<point x="41920" y="-57760" z="-2392"/>
+		<point x="41409" y="-58699" z="-2848"/>
+		<point x="40784" y="-59888" z="-2600"/>
+	</chaos_restart_points>
+
+</residence>

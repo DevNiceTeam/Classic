@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="34" name="Devastated Castle" impl="ClanHall">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<support level="7" lease="37000"/>
+	<support level="17" lease="370000"/>
+	<support level="8" lease="52000"/>
+	<support level="18" lease="520000"/>
+	<item_create level="1" npcId="35421" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35421" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35421" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="15" lease="3000"/>
+	<restore_exp level="25" lease="9000"/>
+	<restore_exp level="35" lease="18000"/>
+	<restore_exp level="50" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="120" lease="1500"/>
+	<restore_hp level="180" lease="2250"/>
+	<restore_hp level="240" lease="3750"/>
+	<restore_hp level="300" lease="5166"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="138879 -1860 -4050" name="1010060" price="500"/><!--Blazing Swamp-->
+		<target loc="181737 46469 -4276" name="1010062" price="500"/><!--Entrance to The Giant's Cave-->
+		<target loc="142065 81300 -3000" name="1010585" price="500"/><!--Forest of Mirrors-->
+		<target loc="144635 26664 -2220" name="1010023" price="500"/><!--Town of Aden-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="138879 -1860 -4050" name="1010060" price="500"/><!--Blazing Swamp-->
+		<target loc="181737 46469 -4276" name="1010062" price="500"/><!--Entrance to The Giant's Cave-->
+		<target loc="142065 81300 -3000" name="1010585" price="500"/><!--Forest of Mirrors-->
+		<target loc="144635 26664 -2220" name="1010023" price="500"/><!--Town of Aden-->
+		<target loc="184742 19745 -3168" name="1010604" price="500"/><!--Seal of Shilen-->
+		<target loc="114649 11115 -5120" name="1010144" price="500"/><!--Tower of Insolence-->
+		<target loc="117304 76318 -2670" name="1010020" price="500"/><!--Hunters Village-->
+		<target loc="183985 61424 -3992" name="1010702" price="500"/><!--The Giant's Cave Upper Layer-->
+		<target loc="191754 56760 -7624" name="1010703" price="500"/><!--The Giant's Cave Lower Layer-->
+	</teleport>
+	<banish_points>
+		<point x="178497" y="-13129" z="-2200"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="177930" y="-18629" z="-2240"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="146494" y="30584" z="-2420"/>
+		<point x="146038" y="30519" z="-2420"/>
+		<point x="148112" y="30439" z="-2420"/>
+		<point x="148565" y="30463" z="-2420"/>
+		<point x="150227" y="29104" z="-2420"/>
+		<point x="144626" y="29145" z="-2420"/>
+		<point x="144635" y="26664" z="-2220"/>
+		<point x="144526" y="24661" z="-2100"/>
+		<point x="144559" y="22835" z="-2100"/>
+		<point x="145686" y="21114" z="-2100"/>
+		<point x="148946" y="21121" z="-2070"/>
+		<point x="148010" y="27996" z="-2256"/>
+		<point x="147970" y="27040" z="-2191"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="136398" y="28901" z="-3582"/>
+		<point x="137292" y="28485" z="-3290"/>
+		<point x="155925" y="28554" z="-3164"/>
+		<point x="157608" y="23866" z="-3760"/>
+		<point x="157463" y="28770" z="-3371"/>
+		<point x="159348" y="28561" z="-3400"/>
+		<point x="160236" y="14119" z="-3892"/>
+		<point x="156764" y="13774" z="-3960"/>
+		<point x="161426" y="23055" z="-3670"/>
+		<point x="136380" y="21899" z="-3647"/>
+		<point x="137708" y="15640" z="-3800"/>
+	</chaos_restart_points>
+</residence>

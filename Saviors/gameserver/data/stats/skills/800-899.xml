@@ -1,0 +1,1458 @@
+<list>
+    <skill id="800" levels="3" name="Подкласс - Магическая Защита Мастера">
+        <set name="icon" value="icon.skill0142"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="mDef" value="#mDef"/>
+        </for>
+        <table name="#mDef">50 100 150</table>
+    </skill>
+    <skill id="801" levels="1" name="Навык Воителя - Повышение CP">
+        <set name="icon" value="icon.skill0440"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="maxCp" value="738"/>
+        </for>
+    </skill>
+    <skill id="802" levels="1" name="Навык Чародея - Антимагия">
+        <set name="icon" value="icon.skill0146"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="mDef" value="100"/>
+        </for>
+    </skill>
+    <skill id="803" levels="1" name="Навык Целителя - Божественная Защита">
+        <set name="icon" value="icon.skill1353"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="defenceUnholy" value="5"/>
+            <add order="0x60" stat="defenceHoly" value="5"/>
+        </for>
+    </skill>
+    <skill id="804" levels="1" name="Навык Рыцаря - Критическое Сопротивление">
+        <set name="icon" value="icon.skill0232"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pCritDamRcpt" value="0.95"/>
+        </for>
+    </skill>
+    <skill id="805" levels="1" name="not used">
+        <set name="icon" value="icon.skill0142"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="NOTDONE"/>
+        <set name="target" value="TARGET_NONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="806" levels="1" name="Магическое Препятствие">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="83"/>
+        <set name="mp_consume" value="49"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reflectable" value="false"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_AURA"/>
+        <for>
+            <effect instant="true" name="i_dispel_by_category">
+                <def name="abnormal_category" value="slot_buff"/>
+                <def name="dispel_chance" value="80"/>
+                <def name="max_count" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="807" levels="1" name="Сверхудар">
+        <set name="abnormal_level" value="99"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="pa_up"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_buff"/>
+        <set name="magicLevel" value="83"/>
+        <set name="mp_consume" value="25"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="808" levels="1" name="Удар Голема">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="9"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="50"/>
+        <set name="coolTime" value="660"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="829"/>
+        <set name="icon" value="icon.skill_transform_debuff"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="83"/>
+        <set name="mp_consume" value="53"/>
+        <set name="nextAction" value="attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="11205"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+    </skill>
+    <skill id="809" levels="1" name="Торнадо Голема">
+        <set name="activateRate" value="50"/>
+        <set name="coolTime" value="660"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="829"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="magicLevel" value="83"/>
+        <set name="mp_consume" value="53"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="6199"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+    </skill>
+    <skill id="814" levels="43" name="Полный Размах">
+        <set name="affectLimit" value="6;12"/>
+        <set name="coolTime" value="732"/>
+        <set name="criticalRate" value="10"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1067"/>
+        <set name="icon" value="icon.skill0814"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="shieldignore" value="true"/>
+        <set name="skillRadius" value="100"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <cond msgId="113">
+            <using kind="Big Sword, Big Blunt, Pole"/>
+        </cond>
+        <table name="#power">893 945 998 1054 1112 1172 1234 1298 1365 1433 1503 1575 1649 1725 1803 1882 1963 2045 2129 2214 2301 2388 2476 2565 2655 2745 2836 2927 3018 3108 3198 3288 3376 3464 3551 3636 3720 3801 3881 3959 4034 4107 4176</table>
+        <table name="#magicLevel">43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83</table>
+    </skill>
+    <skill id="815" levels="43" name="Ураган Клинков">
+        <set name="affectLimit" value="6;12"/>
+        <set name="coolTime" value="732"/>
+        <set name="criticalRate" value="10"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1067"/>
+        <set name="icon" value="icon.skill0815"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="shieldignore" value="true"/>
+        <set name="skillRadius" value="100"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <cond msgId="113">
+            <using kind="Dual Sword"/>
+        </cond>
+        <table name="#power">893 945 998 1054 1112 1172 1234 1298 1365 1433 1503 1575 1649 1725 1803 1882 1963 2045 2129 2214 2301 2388 2476 2565 2655 2745 2836 2927 3018 3108 3198 3288 3376 3464 3551 3636 3720 3801 3881 3959 4034 4107 4176</table>
+        <table name="#magicLevel">43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83</table>
+    </skill>
+    <skill id="816" levels="43" name="Раскол">
+        <set name="coolTime" value="1080"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1620"/>
+        <set name="hpConsume" value="1"/>
+        <set name="icon" value="icon.skill0816"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="shieldignore" value="true"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="113">
+            <using kind="Big Sword, Big Blunt"/>
+        </cond>
+        <table name="#power">992 1049 1109 1171 1236 1302 1371 1443 1516 1592 1670 1750 1832 1917 2003 2091 2181 2272 2366 2460 2556 2653 2751 2850 2950 3050 3151 3252 3353 3453 3553 3653 3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640</table>
+        <table name="#magicLevel">43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83</table>
+    </skill>
+    <skill id="817" levels="43" name="Двойная Атака">
+        <set name="coolTime" value="167"/>
+        <set name="criticalRate" value="10"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1733"/>
+        <set name="icon" value="icon.skill0817"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="shieldignore" value="true"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="113">
+            <using kind="Dual Sword"/>
+        </cond>
+        <table name="#power">992 1049 1109 1171 1236 1302 1371 1443 1516 1592 1670 1750 1832 1917 2003 2091 2181 2272 2366 2460 2556 2653 2751 2850 2950 3050 3151 3252 3353 3453 3553 3653 3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640</table>
+        <table name="#magicLevel">43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">41 42 43 44 46 47 48 50 50 51 52 53 55 56 57 58 60 61 61 62 63 65 66 67 68 69 70 71 72 73 74 75 76 77 78 78 79 80 80 81 82 82 83</table>
+    </skill>
+    <skill id="818" levels="1" name="Счетчик Уклонения">
+        <set name="icon" value="icon.skill0818"/>
+        <set name="magicLevel" value="74"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="5" id="5673" level="1" type="UNDER_MISSED_ATTACK"/>
+        </triggers>
+    </skill>
+    <skill id="819" levels="1" name="Шанс Уклонения">
+        <set name="icon" value="icon.skill0819"/>
+        <set name="magicLevel" value="74"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="5" id="5674" level="1" type="UNDER_MISSED_ATTACK"/>
+        </triggers>
+    </skill>
+    <skill id="820" levels="1" name="Ускоренное Уклонение">
+        <set name="icon" value="icon.skill0820"/>
+        <set name="magicLevel" value="74"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="5" id="5675" level="1" type="UNDER_MISSED_ATTACK"/>
+        </triggers>
+    </skill>
+    <skill id="821" levels="1" name="Шаг из Тени">
+        <set name="castRange" value="600"/>
+        <set name="coolTime" value="200"/>
+        <set name="fly_position_degree" value="180"/>
+        <set name="fly_radius" value="600"/>
+        <set name="fly_type" value="DUMMY"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="100"/>
+        <set name="icon" value="icon.skill0821"/>
+        <set name="isOffensive" value="true"/>
+        <set name="magicLevel" value="40"/>
+        <set name="mp_consume" value="50"/>
+        <set name="nextAction" value="none"/>
+		<set name="stopActor" value="false" />
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect instant="true" name="RemoveTarget">
+                <def name="stop_target" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="822" levels="3" name="Починка Голема">
+        <set name="coolTime" value="500"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill0822"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="HEAL_PERCENT"/>
+        <set name="target" value="TARGET_ONE_SUMMON"/>
+        <cond msgId="144">
+            <target race="MagicCreatures"/>
+        </cond>
+        <for>
+            <effect instant="true" name="RestoreHP" value="#power">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">362 467 562</table>
+        <table name="#power">8 12 15</table>
+        <table name="#magicLevel">40 49 55</table>
+        <table name="#mp_consume">61 78 88</table>
+    </skill>
+    <skill id="823" levels="3" name="Усиление Голема">
+        <set name="abnormal_level" value="4"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="pa_up"/>
+        <set name="coolTime" value="500"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0823"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE_SUMMON"/>
+        <cond msgId="144">
+            <target race="MagicCreatures"/>
+        </cond>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="#TabpAtkSpd"/>
+                <mul order="0x30" stat="pAtk" value="#TabpAtk"/>
+            </effect>
+        </for>
+        <table name="#TabpAtk">1.08 1.12 1.15</table>
+        <table name="#TabpAtkSpd">1.03 1.06 1.09</table>
+        <table name="#effectPoint">418 495 572</table>
+        <table name="#magicLevel">43 52 58</table>
+        <table name="#mp_consume">24 36 42</table>
+    </skill>
+    <skill id="824" levels="3" name="Бронепластина">
+        <set name="abnormal_level" value="4"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="pd_up"/>
+        <set name="coolTime" value="500"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0824"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE_SUMMON"/>
+        <cond msgId="144">
+            <target race="MagicCreatures"/>
+        </cond>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxHp" value="#TabmaxHp"/>
+                <mul order="0x30" stat="pDef" value="#TabpDef"/>
+            </effect>
+        </for>
+        <table name="#TabpDef">1.08 1.12 1.15</table>
+        <table name="#TabmaxHp">1.05 1.08 1.1</table>
+        <table name="#effectPoint">362 467 562</table>
+        <table name="#magicLevel">40 49 55</table>
+        <table name="#mp_consume">35 44 44</table>
+    </skill>
+    <skill id="825" levels="1" name="Острое Лезвие">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="dwarf_attack_buff"/>
+        <set name="castRange" value="400"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0825"/>
+        <set name="magicLevel" value="49"/>
+        <set name="mp_consume" value="44"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.05">
+                    <not>
+                        <using kind="Blunt, Big Blunt, Bow, Crossbow"/>
+                    </not>
+                </mul>
+                <add order="0x40" stat="pCritRate" value="20">
+                    <not>
+                        <using kind="Blunt, Big Blunt, Bow, Crossbow"/>
+                    </not>
+                </add>
+            </effect>
+        </for>
+    </skill>
+    <skill id="826" levels="1" name="Шип">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="dwarf_attack_buff"/>
+        <set name="castRange" value="400"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0826"/>
+        <set name="magicLevel" value="49"/>
+        <set name="mp_consume" value="44"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.05">
+                    <using kind="Blunt, Big Blunt"/>
+                </mul>
+                <add order="0x40" stat="stunPower" value="8">
+                    <using kind="Blunt, Big Blunt"/>
+                </add>
+            </effect>
+        </for>
+    </skill>
+    <skill id="827" levels="1" name="Перетяжка">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="dwarf_attack_buff"/>
+        <set name="castRange" value="400"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0827"/>
+        <set name="magicLevel" value="49"/>
+        <set name="mp_consume" value="44"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.05">
+                    <using kind="Bow, Crossbow"/>
+                </mul>
+                <add order="0x10" stat="pAtkRange" value="100">
+                    <using kind="Bow, Crossbow"/>
+                </add>
+            </effect>
+        </for>
+    </skill>
+    <skill id="828" levels="1" name="Закалка">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="dwarf_defence_buff"/>
+        <set name="castRange" value="400"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0828"/>
+        <set name="magicLevel" value="46"/>
+        <set name="mp_consume" value="41"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pDef" value="1.1">
+                    <using armor="Heavy"/>
+                </mul>
+            </effect>
+        </for>
+    </skill>
+    <skill id="829" levels="1" name="Тщательное Дубление">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="dwarf_defence_buff"/>
+        <set name="castRange" value="400"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0829"/>
+        <set name="magicLevel" value="46"/>
+        <set name="mp_consume" value="41"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pDef" value="1.05">
+                    <using armor="Light"/>
+                </mul>
+                <add order="0x40" stat="pEvasRate" value="2">
+                    <using armor="Light"/>
+                </add>
+            </effect>
+        </for>
+    </skill>
+    <skill id="830" levels="1" name="Вышивка">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="dwarf_defence_buff"/>
+        <set name="castRange" value="400"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0830"/>
+        <set name="magicLevel" value="46"/>
+        <set name="mp_consume" value="41"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pDef" value="1.05">
+                    <using armor="Magic"/>
+                </mul>
+                <add order="0x40" stat="regMp" value="2">
+                    <using armor="Magic"/>
+                </add>
+            </effect>
+        </for>
+    </skill>
+    <skill id="832" levels="2" name="Быстрое Восстановление">
+        <set name="icon" value="icon.skill0832"/>
+        <set name="magicLevel" value="43"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="regHp" value="#regHp"/>
+            <mul order="0x30" stat="regMp" value="#regMp"/>
+            <mul order="0x30" stat="regCp" value="#regCp"/>
+        </for>
+        <table name="#regHp">1.6 3.2</table>
+        <table name="#regMp">1.3 2.6</table>
+        <table name="#regCp">1.4 2.8</table>
+    </skill>
+    <skill id="833" levels="1" name="Восстановление Тела">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0833"/>
+        <set name="magicLevel" value="52"/>
+        <set name="mp_consume" value="94"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="900000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="HEAL_PERCENT"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect instant="true" name="RestoreHP" value="100">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="834" levels="1" name="Кровавая Клятва">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="120"/>
+        <set name="abnormal_type" value="blood_constract"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0834"/>
+        <set name="magicLevel" value="55"/>
+        <set name="mp_consume" value="50"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxHp" value="1.1"/>
+                <add order="0x40" stat="regHp" value="10"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">611</table>
+    </skill>
+    <skill id="835" levels="4" name="Посадить Семя Разрушения">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="dark_seed"/>
+        <set name="activateRate" value="80"/>
+        <set name="coolTime" value="720"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1799"/>
+        <set name="icon" value="icon.skill0835"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="10112"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="30"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="1" name="ManaDamOverTime" value="#dmg">
+                <triggers>
+                    <trigger id="5697" level="1" type="ON_FINISH_EFFECT"/>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#dmg">21 34 40 56</table>
+        <table name="#magicLevel">68 70 72 74</table>
+    </skill>
+    <skill id="837" levels="1" name="Обезболивающее">
+        <set name="abnormal_effect" value="INVINCIBILITY"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="8"/>
+        <set name="abnormal_type" value="invincibility"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0837"/>
+        <set name="magicLevel" value="58"/>
+        <set name="mp_consume" value="53"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect cancel_on_action="true" name="Invulnerable"/>
+        </for>
+    </skill>
+    <skill id="838" levels="1" name="Смена Боевой Стойки">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skilltransform2"/>
+        <set name="magicLevel" value="43"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="useSS" value="false"/>
+        <for>
+            <effect instant="true" name="Transformation"/>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="transform"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="839" levels="1" name="Спешиться">
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skilltransform2"/>
+        <set name="magicLevel" value="56"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="useSS" value="false"/>
+        <for>
+            <effect instant="true" name="Transformation"/>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="transform"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="843" levels="1" name="Падающая Звезда">
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0843"/>
+        <set name="magicLevel" value="85"/>
+        <set name="mp_consume" value="60"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="3422"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="844" levels="1" name="Построить Передовую Базу">
+        <set name="flagType" value="OUTPOST"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0247"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="itemConsumeCount" value="120"/>
+        <set name="itemConsumeId" value="2132"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="mp_consume" value="30"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON_FLAG"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="845" levels="1" name="Свернуть Передовую Базу">
+        <set name="flagType" value="DESTROY"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill0247"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="mp_consume" value="30"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON_FLAG"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="846" levels="1" name="Обладание Божественным Покровительством">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="runSpd" value="0.7"/>
+            <mul order="0x30" stat="mDef" value="0.7"/>
+            <mul order="0x30" stat="pDef" value="0.7"/>
+        </for>
+    </skill>
+    <skill id="847" levels="1" name="Получение Божественного Покровительства">
+        <set name="castRange" value="85"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="180000"/>
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="848" levels="1" name="Божественное Покровительство Глудио">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="STR" value="1"/>
+            <add order="0x60" stat="INT" value="1"/>
+        </for>
+    </skill>
+    <skill id="849" levels="1" name="Божественное Покровительство Диона">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="DEX" value="1"/>
+            <add order="0x60" stat="WIT" value="1"/>
+        </for>
+    </skill>
+    <skill id="850" levels="1" name="Божественное Покровительство Гирана">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="STR" value="1"/>
+            <add order="0x60" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="851" levels="1" name="Божественное Покровительство Орена">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="CON" value="1"/>
+            <add order="0x60" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="852" levels="1" name="Божественное Покровительство Адена">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="DEX" value="1"/>
+            <add order="0x60" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="853" levels="1" name="Божественное Покровительство Хейна">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="CON" value="1"/>
+            <add order="0x60" stat="INT" value="1"/>
+        </for>
+    </skill>
+    <skill id="854" levels="1" name="Божественное Покровительство Годдарда">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="DEX" value="1"/>
+            <add order="0x60" stat="INT" value="1"/>
+        </for>
+    </skill>
+    <skill id="855" levels="1" name="Божественное Покровительство Руны">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="STR" value="1"/>
+            <add order="0x60" stat="WIT" value="1"/>
+        </for>
+    </skill>
+    <skill id="856" levels="1" name="Божественное Покровительство Шутгарта">
+        <set name="icon" value="icon.weapon_fort_flag_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="CON" value="1"/>
+            <add order="0x60" stat="WIT" value="1"/>
+        </for>
+    </skill>
+    <skill id="869" levels="9" name="Мощный Удар Наемника">
+        <set name="coolTime" value="720"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1080"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="8"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">2272 3252 4224 4312 4399 4482 4563 4640 4715</table>
+        <table name="#magicLevel">60 70 80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="870" levels="8" name="Мощный Удар Генерала Королевской Стражи">
+        <set name="coolTime" value="720"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1080"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="8"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">3252 4224 4312 4399 4482 4563 4640 4715</table>
+        <table name="#magicLevel">70 80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="871" levels="1" name="Могущество">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="pa_up"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1068"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="35"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="872" levels="8" name="Мощный Выстрел Генерала Лучников">
+        <set name="castRange" value="700"/>
+        <set name="coolTime" value="800"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3200"/>
+        <set name="icon" value="icon.skill0056"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="16"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="6000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">4336 5632 5750 5865 5976 6084 6187 6286</table>
+        <table name="#magicLevel">70 80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="873" levels="1" name="Быстрый Выстрел">
+        <set name="abnormal_level" value="2"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="attack_speed_up_bow"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0099"/>
+        <set name="magicLevel" value="70"/>
+        <set name="mp_consume" value="25"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="1.12">
+                    <using kind="Bow"/>
+                </mul>
+            </effect>
+        </for>
+    </skill>
+    <skill id="874" levels="8" name="Огненный Удар Главного Мага">
+        <set name="affectLimit" value="5;12"/>
+        <set name="castRange" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1181"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="40"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_AREA"/>
+        <set name="skillRadius" value="200"/>
+        <table name="#power">68 78 78 79 80 81 81 82</table>
+        <table name="#magicLevel">70 80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="875" levels="1" name="Воодушевление">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="ma_up"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1059"/>
+        <set name="magicLevel" value="70"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtk" value="1.75"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="876" levels="8" name="Энума Элиш Капитана">
+        <set name="affectLimit" value="5;12"/>
+        <set name="coolTime" value="720"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1080"/>
+        <set name="icon" value="icon.skill0526"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="25"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_MULTIFACE"/>
+        <set name="skillRadius" value="400"/>
+        <table name="#magicLevel">70 80 81 82 83 84 85 86</table>
+        <table name="#power">4878 6335 6468 6598 6723 6844 6960 7072</table>
+    </skill>
+    <skill id="877" levels="8" name="Разоружение Капитана">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="disarm"/>
+        <set name="activateRate" value="30"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0485"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="25"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="STR"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DISARM"/>
+        <table name="#magicLevel">70 80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="878" levels="7" name="Мощный Удар Центуриона">
+        <set name="coolTime" value="720"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1080"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="#power"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">5068 5175 5278 5379 5475 5568 5658</table>
+        <table name="#magicLevel">80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="879" levels="7" name="Проклятие Страха Центуриона">
+        <set name="abnormal_effect" value="TURN_FLEE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="turn_flee"/>
+        <set name="activateRate" value="35"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1169"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Fear"/>
+        </for>
+        <table name="#magicLevel">80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="880" levels="1" name="Центурион: Абсолютная Защита">
+        <set name="abnormal_effect" value="ULTIMATE_DEFENCE"/>
+        <set name="abnormal_level" value="2"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="pd_up_special"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0110"/>
+        <set name="magicLevel" value="80"/>
+        <set name="mp_consume" value="21"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="900000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="pDef" value="3600"/>
+                <add order="0x40" stat="mDef" value="2700"/>
+                <mul order="0x30" stat="runSpd" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="881" levels="7" name="Смерч Командующего">
+        <set name="castRange" value="750"/>
+        <set name="elements" value="wind"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1178"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">116 117 119 120 121 122 123</table>
+        <table name="#elementPower">25 30 35 40 45 50 55</table>
+        <table name="#magicLevel">80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="882" levels="7" name="Вспышка Командующего">
+        <set name="castRange" value="750"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1220"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="elements" value="fire"/>
+        <set name="power" value="#power"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <table name="#elementPower">25 30 35 40 45 50 55</table>
+        <table name="#power">116 117 119 120 121 122 123</table>
+        <table name="#magicLevel">80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="883" levels="7" name="Печать Оков Командующего">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="35"/>
+        <set name="affectLimit" value="10;10"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1208"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="400"/>
+        <set name="skillType" value="ROOT"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect name="Root"/>
+        </for>
+        <table name="#magicLevel">80 81 82 83 84 85 86</table>
+    </skill>
+    <skill id="884" levels="11" name="Атака с Неба">
+        <set name="castRange" value="2500"/>
+        <set name="coolTime" value="200"/>
+        <set name="fly_radius" value="2500"/>
+        <set name="fly_type" value="CHARGE"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="800"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="30"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="3752"/>
+        <set name="reuseDelay" value="23000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillRadius" value="2500"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_TUNNEL"/>
+        <cond msgId="113">
+            <target min_distance="200"/>
+        </cond>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+    </skill>
+    <skill id="886" levels="11" name="Шоковая Бомба">
+        <set name="abnormal_effect" value="AIR_BATTLE_SLOW"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="9"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_debuff"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+        <table name="#power">2251 2310 2367 2424 2480 2534 2588 2639 2690 2738 2784</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="887" levels="11" name="Обездвиживающая Бомба">
+        <set name="abnormal_effect" value="AIR_BATTLE_ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_debuff"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect name="Root"/>
+        </for>
+        <table name="#power">110 111 112 114 115 116 117 119 120 121 122</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="888" levels="11" name="Энергетическое Сияние">
+        <set name="castRange" value="200"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1080"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="889" levels="11" name="Энергетическое Сияние">
+        <set name="castRange" value="200"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1080"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">3752 3849 3945 4040 4133 4224 4312 4399 4482 4563 4640</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="890" levels="11" name="Двойное Сияние">
+        <set name="castRange" value="200"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">5627 5773 5918 6060 6199 6335 6468 6598 6723 6844 6960</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="891" levels="11" name="Выброс Энергии">
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">88 89 90 91 92 93 94 95 96 97 98</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="892" levels="11" name="Выброс Энергии">
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">131 133 135 136 138 139 141 142 144 145 146</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="893" levels="11" name="Направленный Выброс Энергии">
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">197 199 202 204 206 209 211 213 215 217 219</table>
+        <table name="#magicLevel">75 76 77 78 79 80 81 82 83 84 85</table>
+        <table name="#mp_consume">69 70 70 71 72 72 73 74 74 75 75</table>
+    </skill>
+    <skill id="894" levels="1" name="Навык Избавления">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_buff"/>
+        <set name="magicLevel" value="75"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="69"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="pAccCombat" value="4"/>
+                <mul order="0x30" stat="debuffResist" value="0.9"/>
+                <mul order="0x30" stat="maxHp" value="1.2"/>
+                <mul order="0x30" stat="regHp" value="1.2"/>
+                <mul order="0x30" stat="pDef" value="1.2"/>
+                <mul order="0x30" stat="pAtk" value="1.1"/>
+                <mul order="0x30" stat="runSpd" value="0.9"/>
+                <mul order="0x30" stat="pAtkSpd" value="1.2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="895" levels="1" name="Навык Избавления">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill_transform_buff"/>
+        <set name="magicLevel" value="75"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="baseMCritRate" value="20"/>
+                <mul order="0x30" stat="debuffResist" value="0.9"/>
+                <mul order="0x30" stat="regMp" value="1.2"/>
+                <mul order="0x30" stat="mDef" value="1.2"/>
+                <mul order="0x30" stat="mAtk" value="1.2"/>
+                <mul order="0x30" stat="runSpd" value="0.8"/>
+                <mul order="0x30" stat="mAtkSpd" value="1.2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="896" levels="6" name="Вращение">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="nextAction" value="attack"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">9503 9702 9896 10084 10266 10440</table>
+        <table name="#magicLevel">80 81 82 83 84 85</table>
+        <table name="#mp_consume">72 73 74 74 75 75</table>
+    </skill>
+    <skill id="897" levels="6" name="Двойной Заряд">
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">9503 9702 9896 10084 10266 10440</table>
+        <table name="#magicLevel">80 81 82 83 84 85</table>
+        <table name="#mp_consume">72 73 74 74 75 75</table>
+    </skill>
+    <skill id="898" levels="6" name="Режущий Торнадо">
+        <set name="affectLimit" value="6;12"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill_transform_etc"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <table name="#power">5068 5175 5278 5379 5475 5568</table>
+        <table name="#magicLevel">80 81 82 83 84 85</table>
+        <table name="#mp_consume">72 73 74 74 75 75</table>
+    </skill>
+    <skill id="899" levels="6" name="Рев Кота">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="multi_debuff"/>
+        <set name="activateRate" value="50"/>
+        <set name="affectLimit" value="6;12"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill_transform_debuff"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect>
+                <mul order="0x50" stat="pDef" value="0.7"/>
+                <mul order="0x50" stat="mDef" value="0.7"/>
+                <mul order="0x50" stat="runSpd" value="0.7"/>
+                <mul order="0x50" stat="pAtkSpd" value="0.7"/>
+                <mul order="0x50" stat="mAtkSpd" value="0.7"/>
+            </effect>
+        </for>
+        <table name="#power">3168 3234 3299 3362 3422 3480</table>
+        <table name="#magicLevel">80 81 82 83 84 85</table>
+        <table name="#mp_consume">72 73 74 74 75 75</table>
+    </skill>
+</list>

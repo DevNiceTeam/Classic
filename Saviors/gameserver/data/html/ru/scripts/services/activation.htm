@@ -1,0 +1,11 @@
+<html><body>
+Необходимо сменить данные учетной записи перед игрой. Будьте внимательны, повторная смена невозможна! Не используйте свои старые данные, иначе мы не отвечаем за безопасность вашей учетной записи.<br>
+Старый пароль: <edit var="oldpass" width=150 height=10 /><br>
+Новый e-mail:<br1>
+<table width=220><tr><td><edit var="newmail11" width=85 height=10 /></td><td>@</td><td width=50><edit var="newmail12" width=75 height=10 /></td></tr></table><br>
+Еще раз новый e-mail:<br1>
+<table width=220><tr><td><edit var="newmail21" width=85 height=10 /></td><td>@</td><td width=50><edit var="newmail22" width=75 height=10 /></td></tr></table><br>
+Новый пароль (как минимум 8 символов): <edit var="newpass1" width=150 height=10 /><br>
+Еще раз новый пароль: <edit var="newpass2" width=150 height=10 /><br>
+<button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Activation:activation $oldpass $newmail11 $newmail12 $newmail21 $newmail22 $newpass1 $newpass2 conf" value="Ok"><br>
+</body></html>

@@ -1,0 +1,423 @@
+<list>
+    <skill id="6900" levels="1" name="Рейдовый Босс - Уровень 84">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6901" levels="1" name="Рейдовый Босс - Уровень 84">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6902" levels="1" name="Рейдовый Босс - Уровень 84">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6903" levels="1" name="Рейдовый Босс - Уровень 84">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6904" levels="1" name="Рейдовый Босс - Уровень 84">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6905" levels="1" name="Рейдовый Босс - Уровень 85">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6906" levels="1" name="Рейдовый Босс - Уровень 85">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6907" levels="1" name="Рейдовый Босс - Уровень 85">
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="6909" levels="1" name="Зачарование">
+        <set name="hitTime" value="2700"/>
+        <set name="icon" value="icon.skilltransform1"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="6910" levels="1" name="Танец">
+        <set name="hitTime" value="4800"/>
+        <set name="icon" value="icon.skilltransform2"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="6911" levels="1" name="Приветствие">
+        <set name="hitTime" value="3200"/>
+        <set name="icon" value="icon.skilltransform3"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="6912" levels="1" name="Последствия Печати">
+        <set name="abnormal_effect" value="TIME_BOMB"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="time_bomb"/>
+        <set name="castRange" value="1200"/>
+        <set name="icon" value="icon.skill5860"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="skillRadius" value="100"/>
+        <set name="target" value="TARGET_AREA"/>
+        <for>
+            <effect>
+                <sub order="0x30" stat="pAccCombat" value="10"/>
+                <triggers>
+                    <trigger id="10803" level="1" type="ON_EXIT_EFFECT"/>
+                </triggers>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6913" levels="1" name="Вызов Веры">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="knight_shield"/>
+        <set name="icon" value="icon.skill0985"/>
+        <set name="isSaveable" value="false"/>
+        <set name="isTrigger" value="true"/>
+        <set name="magicLevel" value="83"/>
+        <set name="magicType" value="ITEM"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="60000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="1000"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="pDef" value="360"/>
+                <add order="0x40" stat="mDef" value="270"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6914" levels="10" name="Ускорение">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_type" value="attack_time_down"/>
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="1.10"/>
+            </effect>
+        </for>
+        <table name="#power">1.10 1.20 1.30 1.40 1.50 1.60 1.70 1.80 1.90 2.0</table>
+    </skill>
+    <skill id="6915" levels="10" name="Проницательность">
+        <set name="abnormal_level" value="4"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_type" value="casting_time_down"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill1085"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtkSpd" value="1.10"/>
+            </effect>
+        </for>
+        <table name="#power">1.10 1.20 1.30 1.40 1.50 1.60 1.70 1.80 1.90 2.0</table>
+    </skill>
+    <skill id="6916" levels="1" name="Трюк Антараса">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="2292">
+            <player agathion="16077"/>
+        </cond>
+    </skill>
+    <skill id="6917" levels="1" name="Сияние Канны">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="6918" levels="1" name="Сияние Калесина">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="6919" levels="1" name="Принять Вызов">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="morale_up"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.30"/>
+                <mul order="0x30" stat="mAtk" value="1.30"/>
+                <mul order="0x30" stat="pAtkSpd" value="1.15"/>
+                <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6920" levels="1" name="Фортуна Коллекционера">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="patience"/>
+        <set name="icon" value="BranchSys2.icon.skill0952"/>
+        <set name="isTrigger" value="true"/>
+        <set name="magicType" value="ITEM"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.15"/>
+                <add order="0x40" stat="pCritRate" value="10"/>
+                <mul order="0x30" stat="pCritDamage" value="1.1"/>
+                <mul order="0x30" stat="pAtkSpd" value="1.03"/>
+                <add order="0x40" stat="runSpd" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6921" levels="1" name="Прокалывающая Атака">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="pd_down"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="icon" value="icon.skill0122"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pDef" value="0.77"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6922" levels="3" name="Могущество Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1068"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.08 1.12 1.15</table>
+    </skill>
+    <skill id="6923" levels="3" name="Воодушевление Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1059"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtk" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.55 1.65 1.75</table>
+    </skill>
+    <skill id="6924" levels="3" name="Щит Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1040"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pDef" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.08 1.12 1.15</table>
+    </skill>
+    <skill id="6925" levels="2" name="Магический Барьер Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1036"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mDef" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.23 1.3</table>
+    </skill>
+    <skill id="6926" levels="6" name="Благословение Тела Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1045"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxHp" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.1 1.15 1.2 1.25 1.3 1.35</table>
+    </skill>
+    <skill id="6927" levels="6" name="Благословение Духа Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1048"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxMp" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.1 1.15 1.2 1.25 1.3 1.35</table>
+    </skill>
+    <skill id="6928" levels="3" name="Фокусировка Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1077"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pCritRate" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.2 1.25 1.3</table>
+    </skill>
+    <skill id="6929" levels="2" name="Дикая Магия Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1303"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="mCritRate" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1 2</table>
+    </skill>
+    <skill id="6930" levels="2" name="Ускорение Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1086"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.15 1.33</table>
+    </skill>
+    <skill id="6931" levels="3" name="Проницательность Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1085"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtkSpd" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.15 1.23 1.30</table>
+    </skill>
+    <skill id="6932" levels="4" name="Гнев Вампира Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1268"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="absorbDam" value="#TababsorbDam"/>
+                <add order="0x40" stat="absorbPSkillDam" value="#TababsorbDam"/>
+                <add order="0x40" stat="absorbMSkillDam" value="#TababsorbDam"/>
+            </effect>
+        </for>
+        <table name="#TababsorbDam">6 7 8 9</table>
+    </skill>
+    <skill id="6933" levels="2" name="Дух Берсерка Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1062"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtk" value="1.1"/>
+                <mul order="0x30" stat="pAtk" value="1.05"/>
+                <mul order="0x30" stat="pDef" value="0.95"/>
+                <mul order="0x30" stat="mDef" value="0.9"/>
+                <mul order="0x30" stat="mAtkSpd" value="1.05"/>
+                <mul order="0x30" stat="pAtkSpd" value="1.05"/>
+                <add order="0x40" stat="runSpd" value="5"/>
+                <sub order="0x40" stat="pEvasRate" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6934" levels="3" name="Шепот Смерти Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1242"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pCritDamage" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">1.25 1.3 1.35</table>
+    </skill>
+    <skill id="6935" levels="2" name="Легкая Походка Путешественника">
+        <set name="castRange" value="400"/>
+        <set name="icon" value="icon.skill1204"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="runSpd" value="#magic"/>
+            </effect>
+        </for>
+        <table name="#magic">20 33</table>
+    </skill>
+</list>

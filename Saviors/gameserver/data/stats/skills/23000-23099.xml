@@ -1,0 +1,57 @@
+<list>
+    <skill id="23087" levels="1" name="Умение Агатиона Утанка">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="2292">
+            <player agathion="1533"/>
+        </cond>
+    </skill>
+    <skill id="23088" levels="1" name="Особое Умение Агатиона Утанка - Сила души отважного Воина">
+        <set name="abnormal_level" value="26"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill_agathion_special"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pCritDamage" value="1.2"/>
+                <mul order="0x30" stat="pAtk" value="1.1"/>
+                <mul order="0x30" stat="pDef" value="1.2"/>
+                <add order="0x40" stat="absorbDam" value="5"/>
+                <add order="0x40" stat="absorbPSkillDam" value="5"/>
+                <add order="0x40" stat="absorbMSkillDam" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="23089" levels="1" name="Умение Агатиона Бонус В">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="2292">
+            <player agathion="1534"/>
+        </cond>
+    </skill>
+</list>

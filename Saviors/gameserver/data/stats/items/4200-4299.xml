@@ -1,0 +1,1282 @@
+<list>
+    <etcitem id="4200" name="Книга Заклинаний - Пробудить Жизнь">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+        <set name="price" value="3850"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4201" name="Книга Заклинаний - Сопротивление Оглушению">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spell_books_white_i00"/>
+        <set name="price" value="3200"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <weapon id="4202" name="Сувенирная Кифара">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_chrono_cithara_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="1"/>
+            <add order="0x10" stat="mAtk" value="1"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <etcitem id="4203" name="Книга Заклинаний - Кровопийца">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spell_books_defighter_i00"/>
+        <set name="price" value="3200"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4204" name="Амулет: Ритм Паагрио">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_orcish_talisman_i00"/>
+        <set name="price" value="3200"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4205" name="Амулет: Гнев Паагрио">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_orcish_talisman_i00"/>
+        <set name="price" value="3850"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4206" name="Книга Заклинаний - Поделиться Болью">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spell_books_summon_i00"/>
+        <set name="price" value="3200"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4207" name="Книга Заклинаний - Регенерация Маны">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spell_books_assistance_i00"/>
+        <set name="price" value="3200"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4208" name="Книга Заклинаний - Проклятие Мрака">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spell_books_black_i00"/>
+        <set name="price" value="3850"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+    </etcitem>
+    <etcitem id="4209" name="Часть Сердца 1">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i01"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4210" name="Часть Сердца 2">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i02"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4211" name="Часть Сердца 3">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i03"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4212" name="Часть Сердца 4">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i04"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4213" name="Часть Сердца 5">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i05"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4214" name="Часть Сердца 6">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i06"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4215" name="Часть Сердца 7">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i07"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4216" name="Часть Сердца 8">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i08"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4217" name="Часть Сердца 9">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_heart_i09"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="4218" name="Свиток Регенерации Маны">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="120"/>
+        <set name="type" value="SCROLL"/>
+        <cond msgId="1508">
+            <player olympiad="false"/>
+        </cond>
+        <skills>
+            <skill id="2064" level="1"/>
+        </skills>
+    </etcitem>
+    <weapon id="4219" name="Меч Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_knights_sword_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1530"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="31"/>
+            <add order="0x10" stat="mAtk" value="21"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="4220" name="Нож Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_assassin_knife_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="DAGGER"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="27"/>
+            <add order="0x10" stat="mAtk" value="21"/>
+            <set order="0x08" stat="basePAtkSpd" value="433"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+    </weapon>
+    <weapon id="4221" name="Уникальный Топор">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_tomahawk_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1850"/>
+        <set name="type" value="BLUNT"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="31"/>
+            <add order="0x10" stat="mAtk" value="21"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="4222" name="Щит Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.shield_hoplon_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1380"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="sDef" value="90"/>
+            <add order="0x10" stat="rShld" value="20"/>
+            <add order="0x10" stat="pEvasRate" value="-8.0"/>
+        </for>
+    </weapon>
+    <weapon id="4223" name="Уникальный Щит">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.shield_dwarven_chain_shield_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1380"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="sDef" value="90"/>
+            <add order="0x10" stat="rShld" value="20"/>
+            <add order="0x10" stat="pEvasRate" value="-8.0"/>
+        </for>
+    </weapon>
+    <armor id="4224" name="Доспех Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_blast_plate_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="8920"/>
+        <set name="type" value="HEAVY"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="68"/>
+        </for>
+    </armor>
+    <armor id="4225" name="Штаны Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_mithril_gaiters_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="3960"/>
+        <set name="type" value="HEAVY"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="43"/>
+        </for>
+    </armor>
+    <armor id="4226" name="Перчатки Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_gauntlet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="650"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="17"/>
+        </for>
+    </armor>
+    <armor id="4227" name="Сапоги Мечты">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_chain_boots_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1310"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="17"/>
+        </for>
+    </armor>
+    <armor id="4228" name="Уникальный Доспех">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_compound_scale_mail_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="8920"/>
+        <set name="type" value="HEAVY"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="68"/>
+        </for>
+    </armor>
+    <armor id="4229" name="Уникальные Штаны">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_compound_scale_gaiters_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="3960"/>
+        <set name="type" value="HEAVY"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="43"/>
+        </for>
+    </armor>
+    <armor id="4230" name="Уникальные Перчатки">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_manticor_skin_gloves_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="650"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="17"/>
+        </for>
+    </armor>
+    <armor id="4231" name="Уникальные Сапоги">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.armor_iron_boots_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1310"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="17"/>
+        </for>
+    </armor>
+    <etcitem id="4232" name="Кости">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_dice_a_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <weapon id="4233" name="Кастет">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="118"/>
+        <set name="crystal_type" value="C"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_knuckle_dust_i00"/>
+        <set name="price" value="441940"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="2"/>
+        <set name="weight" value="1490"/>
+        <set name="type" value="DUALFIST"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="148"/>
+            <add order="0x10" stat="mAtk" value="68"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+    </weapon>
+    <etcitem id="4239" name="Форма Для Литья Клинков">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_artisans_frame_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4240" name="Счет Тиры">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_paper_gray_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4241" name="Отчет Рейнджера, ч. 1">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_report_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4242" name="Отчет Рейнджера, ч. 2">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_report_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4243" name="Отчет Рейнджера, ч. 3">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_report_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4244" name="Отчет Рейнджера, ч. 4">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_report_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4245" name="Контракт о Торговле Оружием">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_paper_red_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4246" name="Приказ об Атаке">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_roll_of_paper_red_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4247" name="Сертификат Гильдии Серебряных Весов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_crest_yellow_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4248" name="Товары Роленто">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_jewel_box_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4249" name="Череп Капитана Гноллов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_skull_red_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4250" name="Нефритовый Кристалл">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_gem_green_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4251" name="Древняя Статуя Богини">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_statue_of_einhasad_gold_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4252" name="Бюст Гальфредо Ромера">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_holy_statue_silver_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4253" name="Глаз Тени">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_horn_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4254" name="Сертификат на Королевскую Битву">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_paper_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4255" name="Груз">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_pouch_gray_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4256" name="Святой Знак Агнес">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_statue_of_einhasad_bronze_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4257" name="Амулет Агнес">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_evil_necklace_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4258" name="Зловещий Тотем">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_totem_black_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4259" name="Шкура Медведя">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_leather_brown_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4260" name="Череп Орка Энку">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_skull_red_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4261" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4262" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4263" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4264" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4265" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4266" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4267" name="Связка Орочьих Голов">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_flower_bouquet_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4268" name="Коробка Дженнифер">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_jewel_box_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4269" name="Вещи Мертвых Героев">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_squares_gray_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4270" name="Старый Ключ">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_old_key_i03"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4271" name="Старая Рукоять">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_hilt_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4272" name="Амулет">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_totem_necklace_black_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4273" name="Распятие Эйнхасад">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_magic_coin_silver_i01"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4274" name="Кость Руки Жертвы">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_bone_black_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4275" name="Кость Ноги Жертвы">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_bone_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4276" name="Череп Жертвы">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_skull_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4277" name="Ребро Жертвы">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_rib_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4278" name="Позвоночник Жертвы">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_bone_red_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4279" name="Урна с Костями">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_oil_pot_black_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4280" name="Ненужные Кости">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_mithril_ore_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4281" name="Порошок для Вызова Душ">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_powder_black_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4282" name="Мешок Мертвого">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_pouch_brown_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4283" name="Принц Лягушонок">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_q_frog_green_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4284" name="Мушиный Порошок">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_powder_gray_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4285" name="Вычислитель Новой Модели">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_calculator_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4286" name="Кристалл Самоцветного Зверя">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_crystal_ball_silver_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4289" name="Письмо Ханелин">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_paper_gray_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4292" name="Ключ от Ковчега">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_old_key_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4294" name="Белая Ткань">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4295" name="Окровавленная Ткань">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_piece_of_cloth_red_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4296" name="Приказ Госты">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_paper_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4297" name="Клык Ящера">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_molar_white_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+    <etcitem id="4298" name="Бочка Лиги">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="100"/>
+        <set name="icon" value="icon.etc_wine_barrel_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="QUEST"/>
+    </etcitem>
+</list>

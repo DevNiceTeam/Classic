@@ -1,0 +1,84 @@
+<list>
+    <instance id="193" name="Altar of Shilen" maxChannels="25" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+        <collapse on-party-dismiss="true" timer="10"/>
+        <level min="95" max="200"/>
+        <party min="1" max="7"/>
+        <return loc="149368 173640 -945"/>
+        <teleport loc="179368 13720 -7420"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="0"/>
+        <reuse resetReuse="1 15 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<geodata map="25_18"/>
+		<spawns>
+            <spawn mobId="23140" type="point" respawn="0">
+				<coords loc="182072 14680 -7638 38182"/>
+				<coords loc="182072 14680 -7638 38182"/>
+				<coords loc="182200 14312 -7639 55027"/>
+				<coords loc="181736 15224 -7643 19739"/>
+				<coords loc="181832 14584 -7638 62980"/>
+				<coords loc="182872 17816 -7901 19424"/>
+				<coords loc="182104 18248 -7897 30212"/>
+				<coords loc="182024 17448 -7898 48112"/>
+				<coords loc="182632 17544 -7901 58716"/>
+				<coords loc="179128 18776 -8158 32767"/>
+				<coords loc="179192 18680 -8158 55285"/>
+				<coords loc="179288 18584 -8157 57343"/>
+				<coords loc="179560 18200 -8157 55580"/>
+				<coords loc="179688 18008 -8158 55285"/>
+				<coords loc="179848 17800 -8158 55991"/>
+				<coords loc="178728 18088 -8162 26941"/>
+				<coords loc="179544 18936 -8161 14103"/>
+				<coords loc="178584 18296 -8161 22642"/>
+            </spawn>
+			<spawn mobId="23141" type="point" respawn="0">
+				<coords loc="182600 16968 -7901 46393"/>
+				<coords loc="182424 18280 -7901 19739"/>
+				<coords loc="182168 15224 -7643 32431"/>
+				<coords loc="181448 14808 -7643 50019"/>
+				<coords loc="182312 15336 -7643 6039"/>
+				<coords loc="179880 18296 -8162 51929"/>
+			</spawn>
+			<spawn mobId="23142" type="point" respawn="0">
+				<coords loc="182792 17768 -7901 19161"/>
+				<coords loc="182456 15000 -7643 57343"/>
+				<coords loc="181480 15192 -7639 34065"/>
+				<coords loc="181672 14328 -7643 58498"/>
+				<coords loc="182664 15208 -7643 12908"/>
+				<coords loc="182312 18024 -7897 15583"/>
+				<coords loc="179240 18296 -8157 3968"/>
+				<coords loc="179480 18648 -8157 13400"/>
+				<coords loc="179784 18648 -8158 54978"/>
+				<coords loc="179272 17720 -8161 44315"/>
+				<coords loc="181896 15064 -7639 17605"/>
+				<coords loc="179448 18376 -8157 64055"/>
+				<coords loc="178840 18392 -8161 32493"/>
+			</spawn>
+			<spawn mobId="23139" type="point" respawn="0">
+				<coords loc="181928 14808 -7638 36597"/>
+				<coords loc="182328 17448 -7901 0"/>
+				<coords loc="181688 14792 -7638 39084"/>
+				<coords loc="182552 17992 -7896 12309"/>
+				<coords loc="181944 18072 -7901 31863"/>
+				<coords loc="183160 17144 -7901 58716"/>
+				<coords loc="182184 14536 -7643 2902"/>
+				<coords loc="181512 14456 -7639 56398"/>
+				<coords loc="182264 17544 -7898 47629"/>
+				<coords loc="178952 18280 -8160 27813"/>
+				<coords loc="179064 17944 -8161 56324"/>
+				<coords loc="179416 18360 -8156 16383"/>
+				<coords loc="182344 14728 -7643 12266"/>
+				<coords loc="178920 17752 -8161 30804"/>
+			</spawn>
+        </spawns>
+		<doors>
+			<door id="25180001" opened="false"/>
+			<door id="25180002" opened="false"/>
+			<door id="25180003" opened="false"/>
+			<door id="25180004" opened="false"/>
+			<door id="25180005" opened="false"/>
+			<door id="25180006" opened="false"/>
+			<door id="25180007" opened="false"/>
+		</doors>
+    </instance>
+</list>

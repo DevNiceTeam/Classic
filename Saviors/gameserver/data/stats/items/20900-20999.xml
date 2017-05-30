@@ -1,0 +1,37 @@
+<list>
+    <armor id="20900" name="Шапка Седобородого Деда Мороза - 14 дней">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="20160"/>
+        <set name="icon" value="BranchSys.icon.br_xmas_gawibawibo_cap_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="temporal" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="10"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="HAIR_ALL"/>
+        </equip>
+    </armor>
+    <etcitem id="20901" name="Подарок Седобородого Деда Мороза">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.etc_pi_gift_box_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="100"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item chance="100.0" id="20900" max_count="1" min_count="1"/>
+            <capsuled_item chance="100.0" id="14611" max_count="1" min_count="1"/>
+        </capsuled_items>
+    </etcitem>
+</list>

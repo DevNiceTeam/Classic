@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="116" name="Antharas Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="77834 89176 -2880" name="1010656" price="0"/><!--Fortress West Gate-->
+		<target loc="80441 92831 -2880" name="1010657" price="0"/><!--Fortress East Gate-->
+		<target loc="82323 55466 -1480" name="1010681" price="0"/><!--Oren Town Square-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="77834 89176 -2880" name="1010656" price="0"/><!--Fortress West Gate-->
+		<target loc="80441 92831 -2880" name="1010657" price="0"/><!--Fortress East Gate-->
+		<target loc="82323 55466 -1480" name="1010681" price="0"/><!--Oren Town Square-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+		<target loc="64328 26803 -3768" name="1010121" price="500"/><!--Sea of Spores-->
+		<target loc="118509 -4779 -4000" name="1010127" price="500"/><!--Ancient Battleground-->
+		<target loc="73024 118485 -3720" name="1010067" price="500"/><!--Dragon Valley-->
+		<target loc="60374 164301 -2856" name="1010115" price="500"/><!--Tanor Canyon-->
+	</teleport>
+	<skills>
+		<skill id="19104" level="2"/> <!--Война Обители-->
+	</skills>
+	<banish_points>
+		<point x="83157" y="90487" z="-3040"/>
+		<point x="83459" y="90277" z="-3104"/>
+		<point x="75157" y="90170" z="-3224"/>
+		<point x="75113" y="90611" z="-3288"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="79550" y="90718" z="-2560"/>
+		<point x="79396" y="90717" z="-2560"/>
+		<point x="79324" y="90585" z="-2560"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="80304" y="56241" z="-1500"/>
+		<point x="80594" y="55837" z="-1500"/>
+		<point x="79933" y="55752" z="-1500"/>
+		<point x="80267" y="55497" z="-1500"/>
+		<point x="80334" y="54400" z="-1500"/>
+		<point x="82445" y="56012" z="-1480"/>
+		<point x="82323" y="55466" z="-1480"/>
+		<point x="82880" y="55390" z="-1480"/>
+		<point x="82638" y="53885" z="-1440"/>
+		<point x="82552" y="53447" z="-1440"/>
+		<point x="82213" y="53964" z="-1440"/>
+		<point x="80054" y="53209" z="-1500"/>
+		<point x="79706" y="52986" z="-1500"/>
+		<point x="82123" y="53535" z="-1440"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="76576" y="50151" z="-3200"/>
+		<point x="77310" y="50317" z="-3160"/>
+		<point x="77250" y="51285" z="-3160"/>
+		<point x="78811" y="51106" z="-3160"/>
+		<point x="75755" y="51372" z="-3250"/>
+		<point x="75613" y="52504" z="-3200"/>
+		<point x="74459" y="52441" z="-3260"/>
+		<point x="74467" y="53354" z="-3200"/>
+		<point x="73600" y="53918" z="-3170"/>
+		<point x="71102" y="57875" z="-3330"/>
+		<point x="70052" y="59300" z="-3580"/>
+		<point x="70420" y="57480" z="-3480"/>
+		<point x="75474" y="60125" z="-2730"/>
+		<point x="74880" y="60818" z="-2820"/>
+		<point x="88011" y="56589" z="-3560"/>
+		<point x="91239" y="53120" z="-3430"/>
+		<point x="81785" y="46306" z="-3160"/>
+		<point x="80708" y="44609" z="-3120"/>
+		<point x="70139" y="55885" z="-3550"/>
+		<point x="80236" y="45675" z="-3150"/>
+	</chaos_restart_points>
+</residence>

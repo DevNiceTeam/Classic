@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="50" name="Sapphire Hall" impl="ClanHall" grade="50" fee_item_id="57" rental_fee="1000000" min_bid="50000000" deposit="1500000">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<support level="7" lease="37000"/>
+	<support level="17" lease="370000"/>
+	<support level="8" lease="52000"/>
+	<support level="18" lease="520000"/>
+	<item_create level="1" npcId="35467" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35467" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35467" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="15" lease="3000"/>
+	<restore_exp level="25" lease="9000"/>
+	<restore_exp level="35" lease="18000"/>
+	<restore_exp level="50" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="120" lease="1500"/>
+	<restore_hp level="180" lease="2250"/>
+	<restore_hp level="240" lease="3750"/>
+	<restore_hp level="300" lease="5166"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="147728 -56331 -2776" name="1010024" price="0"/><!--Village Square-->
+		<target loc="147731 -58930 -2976" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="150561 -57489 -2976" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="144866 -57464 -2976" name="1010027" price="0"/><!--West Gate Entrance-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="147728 -56331 -2776" name="1010024" price="0"/><!--Village Square-->
+		<target loc="147731 -58930 -2976" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="150561 -57489 -2976" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="144866 -57464 -2976" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="125740 -40864 -3736" name="1010491" price="500"/><!--Varka Silenos Stronghold-->
+		<target loc="146990 -67128 -3640" name="1010492" price="500"/><!--Ketra Orc Outpost-->
+		<target loc="169018 -116303 -2432" name="1010530" price="500"/><!--Entrance to the Forge of the Gods-->
+		<target loc="165054 -47861 -3560" name="1010568" price="500"/><!--Wall of Argos-->
+		<target loc="144880 -113468 -2560" name="1010609" price="500"/><!--Hot Springs-->
+	</teleport>
+	<banish_points>
+		<point x="147712" y="-58432" z="-2979"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="149376" y="-55568" z="-2765"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="147712" y="-58432" z="-2979"/>
+	</other_restart_points>
+	<chaos_restart_points></chaos_restart_points>
+</residence>

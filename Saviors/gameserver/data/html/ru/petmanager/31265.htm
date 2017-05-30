@@ -1,0 +1,22 @@
+<html><head>
+Специалист по Питомцам Аннетт:<br>
+Люди не задумываются о пользе Ездовых Драконов! Подумайте! Благодаря Ездовым Драконов, тактика ведения осад и масштабных боевых действий между Кланами кординально изменилась. Упростился процесс доставки предметов из деревни в деревню, не говоря уже о торговле!<br>
+А.... Может, написать книгу? Под названием "Роль ездовых Драконов в истории"?<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link petmanager/pet_help.htm">Узнать способ выращивания питомцев.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 1">Купить предмет для питомца.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 212">Обменять снаряжение питомца на лучшее.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 221">Обменять снаряжение Дракона/Детеныша Дракона.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link petmanager/pet_evolution.htm">Развитие питомца.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link petmanager/pet_manager_trade_ticket.htm">Обменять билет обмена питомца на питомца.</button>
+#if ($SERVICES_CHANGE_PET_NAME_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showErasePetName">Обнулить имя питомца.</button>
+#end
+#if ($SERVICES_EXCHANGE_BABY_PET_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showBabyPetExchange">Обменять Улучшенного Детеныша питомца.</button>
+#end
+#if ($SERVICES_RIDE_HIRE_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Link scripts/services/ride-prices.htm">Взять на прокат ездовое животное.</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_TerritoryStatus">Посмотреть информацию о местности и установленных налогах.</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Квест</button>
+</body></html>

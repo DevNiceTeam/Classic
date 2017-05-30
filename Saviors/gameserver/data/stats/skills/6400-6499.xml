@@ -1,0 +1,1284 @@
+<list>
+    <skill id="6416" levels="1" name="Тлетворное Дыхание Рептиликона">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="dot_mp"/>
+        <set name="activateRate" value="100"/>
+        <set name="castRange" value="600"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1102"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect interval="1" name="ManaDamOverTime" value="100"/>
+        </for>
+    </skill>
+    <skill id="6417" levels="1" name="Отравляющий Выстрел Рептиликона">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="dot_mp"/>
+        <set name="activateRate" value="100"/>
+        <set name="castRange" value="900"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1102"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_AREA"/>
+        <set name="skillRadius" value="200"/>
+        <for>
+            <effect interval="1" name="ManaDamOverTime" value="100"/>
+        </for>
+    </skill>
+    <skill id="6418" levels="1" name="Бомба Отравляющей Ярости Рептиликона">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="dot_mp"/>
+        <set name="activateRate" value="100"/>
+        <set name="castRange" value="900"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1102"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_AREA"/>
+        <set name="skillRadius" value="200"/>
+        <for>
+            <effect interval="1" name="ManaDamOverTime" value="100"/>
+            <effect interval="5" name="t_hp" value="-287"/>
+        </for>
+    </skill>
+    <skill id="6419" levels="1" name="Свет Разведчика">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="82"/>
+        <set name="mp_consume" value="121"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="6844"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6420" levels="1" name="Удар Ящера">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="83"/>
+        <set name="mp_consume" value="121"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="6844"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6421" levels="1" name="Бешенство Наемника">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="84"/>
+        <set name="mp_consume" value="121"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="6844"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6422" levels="1" name="Праведный Гнев">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="84"/>
+        <set name="mp_consume" value="121"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="6844"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="200"/>
+    </skill>
+    <skill id="6423" levels="1" name="Оглушающий Эффект">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="9"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="castRange" value="900"/>
+        <set name="coolTime" value="1000"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="mp_consume" value="121"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="2738"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect chance="60" name="Stun"/>
+        </for>
+    </skill>
+    <skill id="6424" levels="1" name="Двойной Выстрел">
+        <set name="castRange" value="900"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="84"/>
+        <set name="mp_consume" value="121"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="power" value="6844"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6425" levels="1" name="Беззащитность">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="pd_down"/>
+        <set name="icon" value="icon.skill0122"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="0.8"/>
+                <mul order="0x30" stat="pDef" value="0.8"/>
+                <mul order="0x30" stat="pAtkSpd" value="0.8"/>
+                <mul order="0x30" stat="mAtk" value="0.8"/>
+                <mul order="0x30" stat="mDef" value="0.8"/>
+                <mul order="0x30" stat="mAtkSpd" value="0.8"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6426" levels="1" name="Предупреждение Провидца">
+        <set name="castRange" value="800"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="84"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="power" value="120"/>
+        <set name="target" value="TARGET_AREA"/>
+        <set name="skillRadius" value="200"/>
+    </skill>
+    <skill id="6427" levels="1" name="Эффект Ядовитого Гриба">
+        <set name="coolTime" value="1000"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="300"/>
+    </skill>
+    <skill id="6428" levels="1" name="Восстановление Жизненной Силы">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="2000"/>
+        <set name="icon" value="icon.skill1201"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="84"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect instant="true" name="RestoreHP" value="90">
+                <def name="percent" value="true"/>
+            </effect>
+            <effect name="Root"/>
+        </for>
+    </skill>
+    <skill id="6429" levels="1" name="Живительная Влага">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_type" value="signal_a"/>
+        <set name="castRange" value="2000"/>
+        <set name="icon" value="icon.skill6429"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.15">
+                    <using kind="Bow,Crossbow"/>
+                </mul>
+            </effect>
+            <effect interval="5" name="t_hp" value="60"/>
+        </for>
+    </skill>
+    <skill id="6430" levels="1" name="Целительные Лепестки Роз">
+        <set name="castRange" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="84"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect instant="true" name="RestoreHP" value="30">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6431" levels="1" name="Рев Мощи">
+        <set name="abnormal_level" value="5"/>
+        <set name="abnormal_time" value="315"/>
+        <set name="abnormal_type" value="pa_up"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1068"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="90000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.19"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6432" levels="1" name="Рев Фокусировки">
+        <set name="abnormal_level" value="5"/>
+        <set name="abnormal_time" value="315"/>
+        <set name="abnormal_type" value="critical_prob_up"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1077"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="90000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="pCritRate" value="35"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6433" levels="1" name="Рев Наведения">
+        <set name="abnormal_level" value="5"/>
+        <set name="abnormal_time" value="315"/>
+        <set name="abnormal_type" value="hit_up"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1240"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="90000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="pAccCombat" value="7"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6434" levels="1" name="Рев Ускорения">
+        <set name="abnormal_level" value="4"/>
+        <set name="abnormal_time" value="315"/>
+        <set name="abnormal_type" value="attack_time_down"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="110"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="90000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="1.38"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6435" levels="3" name="Проклятие Бездны">
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="multi_debuff"/>
+        <set name="icon" value="icon.skill6435"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect interval="1" name="DamOverTime" value="#dmg">
+                <def name="percent" value="true"/>
+                <mul order="0x30" stat="pCritDamage" value="#cAtk">
+                    <using kind="Bow,Crossbow"/>
+                </mul>
+                <add order="0x40" stat="pCritRate" value="#pCritRate">
+                    <using kind="Bow,Crossbow"/>
+                </add>
+            </effect>
+        </for>
+        <table name="#cAtk">1.2 1.3 1.4</table>
+        <table name="#pCritRate">20 50 75</table>
+        <table name="#dmg">0.5 1 2</table>
+        <table name="#abnormal_level">7 8 9</table>
+    </skill>
+    <skill id="6436" levels="1" name="Проклятие Черной Бездны">
+        <set name="abnormal_level" value="10"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="multi_debuff"/>
+        <set name="icon" value="icon.skill6435"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect interval="1" name="DamOverTime" value="5">
+                <def name="percent" value="true"/>
+                <mul order="0x30" stat="pCritDamage" value="1.5">
+                    <using kind="Bow,Crossbow"/>
+                </mul>
+                <add order="0x40" stat="pCritRate" value="90">
+                    <using kind="Bow, Crossbow"/>
+                </add>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6437" levels="7" name="Ядро Ледяного Кристалла">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="10"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill1183"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#dmg"/>
+        </for>
+        <table name="#dmg">-30 -60 -90 -150 -250 -350 -500</table>
+    </skill>
+    <skill id="6438" levels="1" name="Зона Штрафа">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="10"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill4036"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-1000"/>
+        </for>
+    </skill>
+    <skill id="6439" levels="1" name="Вдохновение Мудрости">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="signal_e"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill6439"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="swordWpnVuln" value="50"/>
+                <add order="0x40" stat="dualWpnVuln" value="50"/>
+                <add order="0x40" stat="bluntWpnVuln" value="95"/>
+                <add order="0x40" stat="daggerWpnVuln" value="95"/>
+                <add order="0x40" stat="bowWpnVuln" value="99"/>
+                <add order="0x40" stat="poleWpnVuln" value="95"/>
+                <add order="0x40" stat="dualFistWpnVuln" value="95"/>
+                <mul order="0x30" stat="mDef" value="0.70"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6440" levels="1" name="Вдохновение Силы">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="signal_e"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill6440"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mDef" value="1.99"/>
+                <add order="0x40" stat="bowWpnVuln" value="99"/>
+                <sub order="0x40" stat="swordWpnVuln" value="5"/>
+                <sub order="0x40" stat="dualWpnVuln" value="5"/>
+                <sub order="0x40" stat="bluntWpnVuln" value="5"/>
+                <sub order="0x40" stat="daggerWpnVuln" value="5"/>
+                <sub order="0x40" stat="poleWpnVuln" value="5"/>
+                <sub order="0x40" stat="dualFistWpnVuln" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6441" levels="1" name="Вдохновение Ловкости">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="signal_e"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill6441"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="84"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="swordWpnVuln" value="50"/>
+                <add order="0x40" stat="dualWpnVuln" value="50"/>
+                <add order="0x40" stat="bluntWpnVuln" value="95"/>
+                <add order="0x40" stat="daggerWpnVuln" value="95"/>
+                <sub order="0x40" stat="bowWpnVuln" value="100"/>
+                <add order="0x40" stat="poleWpnVuln" value="95"/>
+                <add order="0x40" stat="dualFistWpnVuln" value="95"/>
+                <mul order="0x30" stat="mDef" value="1.99"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6442" levels="1" name="Вдохновение Мудрости">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="signal_e"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill6439"/>
+        <set name="levelModifier" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect/>
+        </for>
+    </skill>
+    <skill id="6443" levels="1" name="Вдохновение Силы">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="signal_e"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill6440"/>
+        <set name="levelModifier" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect/>
+        </for>
+    </skill>
+    <skill id="6444" levels="1" name="Вдохновение Ловкости">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_type" value="signal_e"/>
+        <set name="activateRate" value="80"/>
+        <set name="icon" value="icon.skill6441"/>
+        <set name="levelModifier" value="1"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect/>
+        </for>
+    </skill>
+    <skill id="6445" levels="1" name="Отображение - Сообщение Фреи 1">
+        <set name="hitTime" value="10000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6446" levels="1" name="Отображение - Сообщение Фреи 2">
+        <set name="hitTime" value="8000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6447" levels="1" name="Отображение - Сообщение Фреи 3">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6448" levels="1" name="Отображение - Сообщение Фреи 4">
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6449" levels="1" name="Отображение - Сообщение Фреи 5">
+        <set name="hitTime" value="7000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6450" levels="1" name="Отображение - Новая Фрея">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6451" levels="1" name="Отображение - Передвижение Фреи">
+        <set name="hitTime" value="12000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6452" levels="1" name="Отображение - Изменение Пространства Фреи">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6453" levels="1" name="Отображение - Смерть Фреи">
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6454" levels="1" name="Отображение - Крах Фреи">
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6455" levels="1" name="Отображение - Уничтожение Фреи">
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6456" levels="1" name="Отображение - Вечная Снежная Буря Фреи">
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6457" levels="1" name="Отображение - Поглощение Сирры">
+        <set name="hitTime" value="8000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6458" levels="1" name="Отображение - Перевоплощение Сирры">
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6459" levels="1" name="Отображение - Положительный Эффект Кегора">
+        <set name="hitTime" value="10000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6460" levels="1" name="Отображение - Положительный Эффект Зинии">
+        <set name="hitTime" value="10000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6461" levels="1" name="Отображение - Сообщение Кегора 2">
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6462" levels="1" name="Отображение - Сообщение Кегора 2">
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6463" levels="1" name="Отображение - Получение Профессии">
+        <set name="castRange" value="600"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+    </skill>
+    <skill id="6464" levels="1" name="Шутка Семьи Хэллоуина">
+        <set name="abnormal_effect" value="BIG_HEAD"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="big_head"/>
+        <set name="castRange" value="600"/>
+        <set name="hitTime" value="500"/>
+        <set name="icon" value="icon.ev_rotten_jack_ghost_i00"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="ETC"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxHp" value="1.4"/>
+                <mul order="0x30" stat="maxMp" value="1.4"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="6465" levels="1" name="Карта Джека О'Лантерна">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6466" levels="1" name="Сгнившая Карта Джека О'Лантерна">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6467" levels="1" name="Карта Джека О'Рентона - Умение Поддержки">
+        <set name="castRange" value="500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6468" levels="1" name="Гнилая Карта Джека О'Рентона - Умение Поддержки">
+        <set name="castRange" value="500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6469" levels="1" name="Поражение на Хэллоуине">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6470" levels="1" name="1 Победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6471" levels="1" name="2 Победы подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6472" levels="1" name="3 Победы подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6473" levels="1" name="4 Победы подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6474" levels="1" name="5 Побед подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6475" levels="1" name="6 Побед подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6476" levels="1" name="7 Побед подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6477" levels="1" name="8 Побед подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6478" levels="1" name="9 Побед подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6479" levels="1" name="10 Побед подряд">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6480" levels="1" name="11-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6481" levels="1" name="12-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6482" levels="1" name="13-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6483" levels="1" name="14-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6484" levels="1" name="15-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6485" levels="1" name="16-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6486" levels="1" name="17-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6487" levels="1" name="18-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6488" levels="1" name="19-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6489" levels="1" name="20-я победа">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6490" levels="1" name="Игра Джека - Шкала">
+        <set name="castRange" value="500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6491" levels="1" name="Игра Джека - Цель">
+        <set name="castRange" value="900"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AIEFFECTS"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="6492" levels="28" name="Атака Святости">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6493" levels="28" name="Атака Святости">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6494" levels="28" name="Атака Святости">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6495" levels="28" name="Атака Святости">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="200"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6496" levels="28" name="Атака Святости">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="200"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6497" levels="28" name="Атака Святости">
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="skillRadius" value="200"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6498" levels="28" name="Святой Выстрел">
+        <set name="castRange" value="700"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+    <skill id="6499" levels="28" name="Святой Выстрел">
+        <set name="castRange" value="700"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">46 105 219 417 722 1136 1327 1525 1727 1827 1925 2020 2112 2156 2200 2241 2282 2320 2358 2393 2426 2458 2487 2515 2540 2565 2591 2617</table>
+        <table name="#magicLevel">10 20 30 40 50 60 64 68 72 74 76 78 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95</table>
+        <table name="#mp_consume">13 20 28 38 50 61 65 69 73 75 77 78 80 80 81 82 82 83 83 84 84 84 84 85 85 85 85 85</table>
+    </skill>
+</list>

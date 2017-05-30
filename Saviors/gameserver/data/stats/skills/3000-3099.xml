@@ -1,0 +1,1498 @@
+<list>
+    <skill id="3001" levels="1" name="int_1">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="PASSIVE"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="3002" levels="1" name="int_2">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="PASSIVE"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="3003" levels="1" name="str_2">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="PASSIVE"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="3004" levels="1" name="maxmp_5">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="PASSIVE"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="3005" levels="1" name="Рана">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="5"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="50"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="40"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-44"/>
+        </for>
+    </skill>
+    <skill id="3006" levels="1" name="Облачение в Комплект">
+        <set name="icon" value="icon.skill0042"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+    </skill>
+    <skill id="3007" levels="6" name="Особое Свойство: Наведение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pAccCombat" value="#value"/>
+        </for>
+        <table name="#icon">icon.skill1240 icon.ensoul_big_old icon.ensoul_big_old icon.skill1240 icon.ensoul_big_old icon.skill1240</table>
+        <table name="#value">6.88 6.07 5.72 5.37 5.02 4.68</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3008" levels="6" name="Особое Свойство: Наведение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pAccCombat" value="#value"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.skill1240 icon.ensoul_big_old</table>
+        <table name="#value">5.42 5.12 4.82 4.53 4.24 3.95</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3009" levels="9" name="Особое Свойство: Уклонение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="#value"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.skill0198 icon.ensoul_big_old icon.skill0198 icon.skill0198 icon.skill0198 icon.ensoul_big_old</table>
+        <table name="#value">2.95 2.82 2.68 2.55 2.41 2.28 2.14 5.00</table>
+        <table name="#magicLevel">46 49 52 55 58 61 80 80</table>
+    </skill>
+    <skill id="3010" levels="6" name="Особое Свойство: Фокусировка">
+        <set name="icon" value="icon.ensoul_big_old"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#value"/>
+        </for>
+        <table name="#value">86.7 82.2 77.8 73.3 68.9 64.5</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3011" levels="6" name="Особое Свойство: Фокусировка">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#value"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill1077 icon.ensoul_big_old icon.skill1077 icon.ensoul_big_old icon.skill1077</table>
+        <table name="#value">90.5 85.9 81.2 76.6 71.9 67.3</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3012" levels="6" name="Особое Свойство: Злость">
+        <set name="icon" value="icon.skill1062"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pAtk" value="#pAtk"/>
+            <mul order="0x30" stat="maxHp" value="0.85"/>
+        </for>
+        <table name="#pAtk">20.44 22.64 24.77 26.78 28.59 30.12</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3013" levels="5" name="Особое Свойство: Здоровье">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.25"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+            <add order="0x40" stat="poleTargetCount" value="#Count"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill0211 icon.ensoul_big_old icon.skill0211 icon.skill0211</table>
+        <table name="#pvpDam">1.00 1.00 1.05 1.05 1.05</table>
+        <table name="#Count">0 4 0 4 0</table>
+        <table name="#magicLevel">1 1 64 64 70</table>
+    </skill>
+    <skill id="3014" levels="3" name="Особое Свойство: Добавление Маны">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxMp" value="1.3"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill0213 icon.skill0213</table>
+        <table name="#pvpDam">1 1.05 1.05</table>
+        <table name="#magicLevel">1 64 70</table>
+    </skill>
+    <skill id="3016" levels="6" name="Особое Свойство: Крит. Оглушение">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="9"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="STUN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+        <table name="#activateRate">18 17 16 15 14 13</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3018" levels="6" name="Особое Свойство: Удар в Спину">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#rate">
+                <target direction="behind"/>
+            </add>
+        </for>
+        <table name="#icon">icon.skill1077 icon.ensoul_big_old icon.skill1077 icon.skill1077 icon.ensoul_big_old icon.skill1077</table>
+        <table name="#rate">71 67 63 60 56 53</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3019" levels="6" name="Особое Свойство: Удар в Спину">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#rate">
+                <target direction="behind"/>
+            </add>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill1077 icon.ensoul_big_old icon.skill1077 icon.ensoul_big_old icon.skill1077</table>
+        <table name="#rate">109 97 86 42 40 37</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3020" levels="6" name="Особое Свойство: Крит. Кровопускание">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#dot"/>
+        </for>
+        <table name="#activateRate">12 12 12 12 10 9</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+        <table name="#abnormal_level">5 5 6 6 6 7</table>
+        <table name="#dot">-128 -128 -190 -190 -190 -256</table>
+    </skill>
+    <skill id="3021" levels="6" name="Особое Свойство: Крит. Кровопускание">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="5"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#dot"/>
+        </for>
+        <table name="#activateRate">51 51 42 42 41 35</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+        <table name="#dot">-43 -43 -64 -64 -65 -88</table>
+    </skill>
+    <skill id="3022" levels="6" name="Особое Свойство: Крит. Поглощение HP">
+        <set name="absorbAbs" value="#hp"/>
+        <set name="activateRate" value="#rate"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill0070"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="DRAIN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#hp">9.26 9.33 9.31 9.19 8.97 8.65</table>
+        <table name="#rate">21 23 25 28 31 35</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3023" levels="6" name="Особое Свойство: Крит. Урон">
+        <set name="icon" value="icon.skill0193"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pCritDamageStatic" value="#value"/>
+        </for>
+        <table name="#value">174 194 213 231 247 262</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3024" levels="6" name="Особое Свойство: Крит. Отравление">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill1168"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="12000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="POISON"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#power">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDmg"/>
+            </effect>
+        </for>
+        <table name="#activateRate">15 15 12 12 12 6</table>
+        <table name="#pvpDmg">1.05 1.00 1.00 1.00 1.00 1.05</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+        <table name="#abnormal_level">5 5 6 6 6 7</table>
+        <table name="#power">-191 -191 -291 -291 -291 -403</table>
+    </skill>
+    <skill id="3025" levels="6" name="Особое Свойство: Крит. Злость">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect instant="true" name="DamOverTime" value="#dmg"/>
+        </for>
+        <table name="#dmg">12 13 14 15 16 17</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3026" levels="6" name="Особое Свойство: Крит. Злость">
+        <set name="icon" value="icon.skill1062"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pCritDamageStatic" value="#crit"/>
+        </for>
+        <table name="#crit">248.56 298.04 352.73 411.98 474.82 539.9</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3027" levels="7" name="Особое Свойство: Риск. Фокусировка">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#basePCritRate">
+                <player percentHP="60"/>
+            </add>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpBonus"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpBonus"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpBonus"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill1077 icon.skill1077 icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old</table>
+        <table name="#pvpBonus">1 1 1 1 1 1 1.05</table>
+        <table name="#basePCritRate">138.7 130.9 123.1 115.4 107.7 99.9 164</table>
+        <table name="#magicLevel">46 49 52 55 58 61 80</table>
+    </skill>
+    <skill id="3028" levels="6" name="Особое Свойство: Риск. Уклонение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="#value">
+                <player percentHP="60"/>
+            </add>
+        </for>
+        <table name="#icon">icon.skill0198 icon.ensoul_big_old icon.skill0198 icon.skill0198 icon.skill0198 icon.skill0198</table>
+        <table name="#value">7.63 7.29 6.95 6.6 6.24 5.87</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3029" levels="6" name="Особое Свойство: Риск. Уклонение">
+        <set name="icon" value="icon.skill0198"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="#value">
+                <player percentHP="60"/>
+            </add>
+        </for>
+        <table name="#value">4.44 4.24 4.04 3.84 3.63 3.41</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3030" levels="6" name="Особое Свойство: Риск. Уклонение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="#value">
+                <player percentHP="60"/>
+            </add>
+        </for>
+        <table name="#icon">icon.skill0198 icon.ensoul_big_old icon.ensoul_big_old icon.skill0198 icon.ensoul_big_old icon.skill0198</table>
+        <table name="#value">7.63 7.29 6.95 6.6 6.24 5.87</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3031" levels="6" name="Особое Свойство: Риск. Уклонение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="#value">
+                <player percentHP="60"/>
+            </add>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill0198 icon.ensoul_big_old icon.ensoul_big_old icon.skill0198 icon.skill0198</table>
+        <table name="#value">7.63 7.29 6.95 6.6 6.24 5.87</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3032" levels="6" name="Особое Свойство: Риск. Ускорение">
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#value">
+                <player percentHP="60"/>
+            </mul>
+        </for>
+        <table name="#value">1.13 1.12 1.12 1.11 1.10 1.09</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3033" levels="6" name="Особое Свойство: Риск. Ускорение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#value">
+                <player percentHP="60"/>
+            </mul>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.ensoul_big_old icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086</table>
+        <table name="#value">1.13 1.12 1.12 1.11 1.10 1.09</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3034" levels="7" name="Особое Свойство: Риск. Ускорение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#pAtkSpd">
+                <player percentHP="60"/>
+            </mul>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpBonus"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpBonus"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpBonus"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.skill1086</table>
+        <table name="#pvpBonus">1 1 1 1 1 1 1.05</table>
+        <table name="#pAtkSpd">1.13 1.12 1.12 1.11 1.1 1.09 1.09</table>
+        <table name="#magicLevel">46 49 52 55 58 61 80</table>
+    </skill>
+    <skill id="3035" levels="6" name="Особое Свойство: Смертоносная Сила">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="blowRate" value="#rate">
+                <using kind="Dagger,Dual Dagger"/>
+            </mul>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.ensoul_big_old icon.skill0016 icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old</table>
+        <table name="#rate">1.5 1.48 1.46 1.44 1.42 1.4</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3036" levels="6" name="Особое Свойство: Ускорение">
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#value"/>
+        </for>
+        <table name="#value">1.08 1.07 1.07 1.07 1.06 1.06</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3037" levels="6" name="Особое Свойство: Ускорение">
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#value"/>
+        </for>
+        <table name="#value">1.08 1.07 1.07 1.07 1.06 1.06</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3038" levels="6" name="Особое Свойство: Ускорение">
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#value"/>
+        </for>
+        <table name="#value">1.08 1.07 1.07 1.07 1.06 1.06</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3039" levels="7" name="Особое Свойство: Крит. Поглощение HP">
+        <set name="absorbAbs" value="#hp"/>
+        <set name="activateRate" value="#rate"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="DRAIN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#hp">6.85 7.96 9.26 10.8 12.62 14.82 14.82</table>
+        <table name="#rate">33 31 30 28 26 24 24</table>
+        <table name="#magicLevel">46 49 52 55 58 61 70</table>
+        <table name="#mp_consume">0 0 0 12 0 0 0</table>
+    </skill>
+    <skill id="3040" levels="6" name="Особое Свойство: Крит. Отравление">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill1168"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="POISON"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#power"/>
+        </for>
+        <table name="#activateRate">8 8 7 12 14 6</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+        <table name="#abnormal_level">5 5 6 6 6 7</table>
+        <table name="#power">-168 -168 -249 -249 -249 -336</table>
+    </skill>
+    <skill id="3041" levels="6" name="Особое Свойство: Крит. Отравление">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill1168"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="POISON"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#power">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDmg"/>
+            </effect>
+        </for>
+        <table name="#activateRate">4 4 3 6 7 6</table>
+        <table name="#pvpDmg">1.00 1.00 1.00 1.00 1.00 1.05</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+        <table name="#abnormal_level">5 5 6 6 6 7</table>
+        <table name="#power">-317 -317 -498 -498 -498 -671</table>
+    </skill>
+    <skill id="3042" levels="20" name="Особое Свойство: Крит. Урон">
+        <set name="icon" value="icon.skill0193"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pCritDamageStatic" value="#value"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#value">81.6 61.4 84.14 75.49 66.77 58.01 49.42 84.11 166.26 146.88 127 107.01 133.97 124.79 275.26 267.13 257.98 297.21 331.38 361.06</table>
+        <table name="#pvpDam">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1.05 1.05 1.05 1.05</table>
+        <table name="#magicLevel">48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67</table>
+    </skill>
+    <skill id="3043" levels="6" name="Особое Свойство: Крит. Урон">
+        <set name="icon" value="icon.skill0193"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pCritDamageStatic" value="#value"/>
+        </for>
+        <table name="#value">106.45 118.22 129.81 140.87 151.04 159.93</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3044" levels="20" name="Особое Свойство: Фокусировка">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#basePCritRate"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#icon">icon.skill1077 icon.skill1077 icon.ensoul_big_old icon.skill1077 icon.skill1077 icon.skill1077 icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.ensoul_big_old icon.skill1077 icon.skill1077 icon.skill1077 icon.skill1077 icon.skill1077 icon.skill1077 icon.skill1077</table>
+        <table name="#basePCritRate">53.6 38.5 50.4 43.2 36.5 30.4 24.8 40.4 76.6 65 54 43.7 52.6 47.2 98.7 92.4 86.2 96 103.5 109.2</table>
+        <table name="#pvpDam">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1.05 1.05 1.05 1.05</table>
+        <table name="#magicLevel">48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67</table>
+    </skill>
+    <skill id="3045" levels="20" name="Особое Свойство: Ускорение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#value"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#icon">icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.skill1086 icon.ensoul_big_old icon.skill1086 icon.skill1086 icon.skill1086</table>
+        <table name="#value">1.05 1.04 1.05 1.04 1.03 1.03 1.02 1.04 1.07 1.06 1.05 1.04 1.05 1.04 1.09 1.08 1.08 1.09 1.09 1.1</table>
+        <table name="#pvpDam">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1.05 1.05 1.05 1.05</table>
+        <table name="#magicLevel">48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67</table>
+    </skill>
+    <skill id="3046" levels="20" name="Особое Свойство: Наведение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pAccCombat" value="#value"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#icon">icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.skill1240 icon.ensoul_big_old</table>
+        <table name="#value">3.9 2.8 3.7 3.1 2.6 2.2 1.8 2.9 5.7 4.8 3.9 3.2 3.8 3.4 6.5 6.5 6.5 6.5 6.5 6.5</table>
+        <table name="#pvpDam">1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.05 1.05 1.05 1.05</table>
+        <table name="#magicLevel">48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67</table>
+    </skill>
+    <skill id="3047" levels="3" name="Особое Свойство: Проницательность">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#icon">icon.ensoul_big_old icon.skill1085 icon.skill1085</table>
+        <table name="#pvpDam">1.00 1.05 1.10</table>
+        <table name="#magicLevel">64 64 70</table>
+    </skill>
+    <skill id="3048" levels="3" name="Особое Свойство: Конверсия">
+        <set name="icon" value="icon.ensoul_big_old"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="0.6"/>
+            <mul order="0x30" stat="maxMp" value="1.6"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#pvpDam">1.00 1.05 1.10</table>
+        <table name="#magicLevel">64 64 70</table>
+    </skill>
+    <skill id="3049" levels="2" name="Особое Свойство: Маг. Урон">
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="8"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3052" levels="2" name="Особое Свойство: Крит. Кровопускание">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="#Rate"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-74">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+            </effect>
+        </for>
+        <table name="#Rate">42 41</table>
+        <table name="#pvpDam">1.05 1.00</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3053" levels="2" name="Особое Свойство: Крит. Кровопускание">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="#Rate"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="3" name="t_hp" value="-88">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+            </effect>
+        </for>
+        <table name="#Rate">41 35</table>
+        <table name="#pvpDam">1.00 1.05</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3054" levels="2" name="Особое Свойство: Крит. Кровопускание">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="12"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-256">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+            </effect>
+        </for>
+        <table name="#pvpDam">1.00 1.05</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3055" levels="2" name="Особое Свойство: Крит. Кровопускание">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="24"/>
+        <set name="icon" value="icon.skill0223"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-128">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+            </effect>
+        </for>
+        <table name="#pvpDam">1.00 1.05</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3056" levels="3" name="Особое Свойство: Риск. Ускорение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="1.11">
+                <player percentHP="60"/>
+            </mul>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#icon">icon.skill1086 icon.ensoul_big_old icon.ensoul_big_old</table>
+        <table name="#pvpDam">1.00 1.05 1.10</table>
+        <table name="#magicLevel">64 64 70</table>
+    </skill>
+    <skill id="3059" levels="2" name="Особое Свойство: Крит. Поглощение HP">
+        <set name="absorbAbs" value="#hp"/>
+        <set name="activateRate" value="35"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="DRAIN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+        <table name="#hp">18 19</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3060" levels="2" name="Особое Свойство: Крит. Поглощение HP">
+        <set name="absorbAbs" value="#hp"/>
+        <set name="activateRate" value="35"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="DRAIN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+        <table name="#hp">10 11</table>
+        <table name="#pvpDmg">1.00 1.05</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3061" levels="3" name="Особое Свойство: Крит. Отравление">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="10"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill1168"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="POISON"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#dot">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+            </effect>
+        </for>
+        <table name="#magicLevel">64 67 70</table>
+        <table name="#dot">-403 -403 -439</table>
+    </skill>
+    <skill id="3062" levels="2" name="Особое Свойство: Крит. Отравление">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="7"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="18"/>
+        <set name="castRange" value="600"/>
+        <set name="icon" value="icon.skill1168"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="POISON"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-224">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+            </effect>
+        </for>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3068" levels="3" name="Особое Свойство: Ускорение">
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtkSpd" value="#pAtkSpd"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDam"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDam"/>
+        </for>
+        <table name="#pAtkSpd">1.06 1.06 1.1</table>
+        <table name="#pvpDam">1.00 1.05 1.05</table>
+        <table name="#magicLevel">64 64 70</table>
+    </skill>
+    <skill id="3069" levels="2" name="Особое Свойство: Риск. Уклонение">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="6.8">
+                <player percentHP="60"/>
+            </add>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+        <table name="#icon">icon.skill0198 icon.ensoul_big_old</table>
+    </skill>
+    <skill id="3070" levels="4" name="Особое Свойство: Крит. Оглушение">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="9"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="STUN"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+        <table name="#activateRate">48 43 27 25</table>
+        <table name="#magicLevel">64 67 70 82</table>
+    </skill>
+    <skill id="3071" levels="2" name="Особое Свойство: Риск. Фокусировка">
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="64"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="basePCritRate" value="#value">
+                <player percentHP="60"/>
+            </add>
+            <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+            <mul order="0x30" stat="pvpPhysDmgBonus" value="1.05"/>
+        </for>
+        <table name="#icon">icon.skill1077 icon.ensoul_big_old</table>
+        <table name="#value">130 164</table>
+    </skill>
+    <skill id="3074" levels="2" name="Особое Свойство: Безмолвие">
+        <set name="abnormal_effect" value="SILENCE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="120"/>
+        <set name="abnormal_type" value="silence"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill1064"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="MUTE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Mute">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDmg"/>
+            </effect>
+        </for>
+        <table name="#pvpDmg">1.00 1.05</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3075" levels="2" name="Особое Свойство: Паралич">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="activateRate" value="20"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill1170"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="PARALYZE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="PARALYZE"/>
+        <for>
+            <effect name="Paralyze">
+                <mul order="0x30" stat="pvpMagicSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysSkillDmgBonus" value="#pvpDmg"/>
+                <mul order="0x30" stat="pvpPhysDmgBonus" value="#pvpDmg"/>
+            </effect>
+        </for>
+        <table name="#pvpDmg">1.00 1.05</table>
+        <table name="#magicLevel">64 67</table>
+    </skill>
+    <skill id="3076" levels="6" name="Особое Свойство: Воодушевление">
+        <set name="icon" value="icon.skill1059"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="mAtk" value="#mAtk"/>
+        </for>
+        <table name="#mAtk">20.36 22.51 24.59 26.53 28.27 29.7</table>
+        <table name="#magicLevel">46 49 52 55 28 61</table>
+    </skill>
+    <skill id="3077" levels="6" name="Особое Свойство: Маг. Сила">
+        <set name="icon" value="icon.skill1059"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="mAtk" value="#value"/>
+            <mul order="0x30" stat="mpConsum" value="1.15"/>
+        </for>
+        <table name="#value">75 99 112 139 153 167</table>
+        <table name="#magicLevel">46 49 52 55 58 61</table>
+    </skill>
+    <skill id="3078" levels="6" name="Особое Свойство: Безмолвие">
+        <set name="abnormal_effect" value="SILENCE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="120"/>
+        <set name="abnormal_type" value="silence"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill1064"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="MUTE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Mute"/>
+        </for>
+        <table name="#magicLevel">46 49 52 55 28 61</table>
+    </skill>
+    <skill id="3079" levels="6" name="Особое Свойство: Паралич">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="activateRate" value="20"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill1170"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="PARALYZE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="PARALYZE"/>
+        <for>
+            <effect name="Paralyze"/>
+        </for>
+        <table name="#magicLevel">46 49 52 55 28 61</table>
+    </skill>
+    <skill id="3080" levels="15" name="Предметное Умение: Агрессия">
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AGGRESSION"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#effectPoint">438 467 495 523 549 574 597 617 635 659</table>
+        <table name="#power">438 467 495 523 549 574 597 617 635 659</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3081" levels="15" name="Предметное Умение: Чары (атак. актив.)">
+        <set name="icon" value="icon.skill3080"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="AGGRESSION"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <set name="unaggroing" value="true"/>
+        <table name="#power">219 234 248 262 275 287 299 309 318 330</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3082" levels="10" name="Предметное Умение: Сжигание Маны">
+        <set name="icon" value="icon.skill3080"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MANADAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">49 53 57 61 66 70 74 78 82 88</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3083" levels="15" name="Предметное Умение: Замедление (атак. актив.)">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="activateRate" value="40"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x50" stat="runSpd" value="0.7"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">360 418 477 532 558 582 604 624 641 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3084" levels="10" name="Предметное Умение: Зима (атак. актив.)">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="attack_time_up"/>
+        <set name="activateRate" value="40"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="0.77"/>
+            </effect>
+        </for>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3085" levels="10" name="Предметное Умение: Оглушение">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="40"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+        <table name="#effectPoint">96 104 115 128 136 150 154 164 169 173</table>
+        <table name="#power">30 35 44 55 64 79 84 96 102 109</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3086" levels="15" name="Предметное Умение: Удержание">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="40"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="ROOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect name="Root"/>
+        </for>
+        <table name="#effectPoint">457 495 532 549 566 582 597 611 624 646 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3087" levels="10" name="Предметное Умение: Усыпление">
+        <set name="abnormal_effect" value="SLEEP"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="sleep"/>
+        <set name="activateRate" value="40"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="SLEEP"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SLEEP"/>
+        <for>
+            <effect name="Sleep"/>
+        </for>
+        <table name="#effectPoint">227 285 369 438 495 549 590 624 650 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3088" levels="10" name="Предметное Умение: Паралич">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="activateRate" value="40"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="PARALYZE"/>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger id="6126" level="1" type="ON_FINISH_EFFECT"/>
+                </triggers>
+                <mul order="0x30" stat="runSpd" value="0.5"/>
+                <mul order="0x30" stat="pAtkSpd" value="0.5"/>
+                <mul order="0x30" stat="mAtkSpd" value="0.5"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">457 495 532 549 566 582 597 611 624 646 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3089" levels="10" name="Предметное Умение: Медуза">
+        <set name="abnormal_effect" value="FLESH_STONE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="turn_stone"/>
+        <set name="activateRate" value="20"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="PARALYZE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="Invulnerable"/>
+            <effect name="Petrification">
+                <set order="0x80" stat="regHp" value="0"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">227 285 369 438 495 549 590 624 650 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3090" levels="10" name="Предметное Умение: Страх">
+        <set name="abnormal_effect" value="TURN_FLEE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="turn_flee"/>
+        <set name="activateRate" value="30"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Fear"/>
+        </for>
+        <table name="#effectPoint">227 285 369 438 495 549 590 624 650 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3091" levels="15" name="Предметное Умение: Яд (атак. актив.)">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="poison"/>
+        <set name="activateRate" value="70"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="POISON"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="POISON"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#power"/>
+        </for>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+        <table name="#abnormal_level">5 5 6 6 6 7 7 7 8 8</table>
+        <table name="#power">-41 -41 -50 -50 -50 -58 -58 -58 -63 -63</table>
+    </skill>
+    <skill id="3092" levels="15" name="Предметное Умение: Кровопускание (атак. актив.)">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="activateRate" value="100"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <for>
+            <effect interval="5" name="t_hp" value="#dot"/>
+        </for>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+        <table name="#abnormal_level">5 5 6 6 6 7 7 7 8 8</table>
+        <table name="#dot">-44 -44 -54 -54 -54 -62 -62 -62 -67 -67</table>
+    </skill>
+    <skill id="3093" levels="10" name="Предметное Умение: Безмолвие">
+        <set name="abnormal_effect" value="SILENCE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="silence"/>
+        <set name="activateRate" value="40"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="MUTE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Mute"/>
+        </for>
+        <table name="#effectPoint">457 495 532 549 566 582 597 611 624 646 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3094" levels="10" name="Предметное Умение: Судьба">
+        <set name="abnormal_effect" value="SILENCE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="silence_all"/>
+        <set name="activateRate" value="50"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="MUTE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="MuteAll"/>
+        </for>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3095" levels="10" name="Предметное Умение: Сжигание Маны">
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MANADAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">49 53 57 61 66 70 74 78 82 88</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3096" levels="15" name="Предметное Умение: Замедление (магич. актив.)">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="activateRate" value="40"/>
+        <set name="castRange" value="1000"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x50" stat="runSpd" value="0.7"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">360 418 477 532 558 582 604 624 641 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3097" levels="10" name="Предметное Умение: Зима (магич. актив.)">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="attack_time_up"/>
+        <set name="activateRate" value="40"/>
+        <set name="castRange" value="1000"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtkSpd" value="0.77"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">5 8 11 16 21 26 31 36 41 46</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3098" levels="10" name="Предметное Умение: Оглушение">
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="50"/>
+        <set name="castRange" value="1000"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+        <table name="#effectPoint">96 104 115 128 136 150 154 164 169 173</table>
+        <table name="#power">30 35 44 55 64 79 84 96 102 109</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+    <skill id="3099" levels="15" name="Предметное Умение: Удержание">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="40"/>
+        <set name="castRange" value="1000"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill3080"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="ROOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <for>
+            <effect name="Root"/>
+        </for>
+        <table name="#effectPoint">457 495 532 549 566 582 597 611 624 646 655</table>
+        <table name="#magicLevel">46 49 52 55 58 61 64 67 70 75</table>
+    </skill>
+</list>

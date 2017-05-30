@@ -1,0 +1,1577 @@
+<list>
+    <npc id="27300" name="Смотритель Камня Эзекиэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="76"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="815.37145"/>
+        <set name="baseMAtk" value="556.793"/>
+        <set name="basePDef" value="323.78455"/>
+        <set name="baseMDef" value="236.93149"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+        <skills>
+            <!--Абсолютное Уклонение-->
+            <skill id="4523" level="1"/>
+            <!--Блеф-->
+            <skill id="4524" level="1"/>
+            <!--Глаз Ассасина-->
+            <skill id="4522" level="1"/>
+            <!--Вихрь-->
+            <skill id="4101" level="8"/>
+            <!--Оглушающий Эффект-->
+            <skill id="4072" level="7"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="8"/>
+        </skills>
+    </npc>
+    <npc id="27301" name="Смотритель Камня Эзекиэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="76"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="815.37145"/>
+        <set name="baseMAtk" value="556.793"/>
+        <set name="basePDef" value="323.78455"/>
+        <set name="baseMDef" value="236.93149"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+        <skills>
+            <!--Абсолютное Уклонение-->
+            <skill id="4523" level="1"/>
+            <!--Блеф-->
+            <skill id="4524" level="1"/>
+            <!--Глаз Ассасина-->
+            <skill id="4522" level="1"/>
+            <!--Вихрь-->
+            <skill id="4101" level="8"/>
+            <!--Оглушающий Эффект-->
+            <skill id="4072" level="7"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="8"/>
+        </skills>
+    </npc>
+    <npc id="27302" name="Хранитель Камня Азраэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+    </npc>
+    <npc id="27303" name="Хранитель Камня Азраэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+    </npc>
+    <npc id="27304" name="Хранитель Камня Азраэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+    </npc>
+    <npc id="27305" name="Хранитель Камня Азраэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+    </npc>
+    <npc id="27306" name="Хранитель Камня Азраэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+    </npc>
+    <npc id="27307" name="Хранитель Камня Азраэль" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="80.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="97"/>
+        </equip>
+    </npc>
+    <npc id="27308" name="Ледяной Ассасин" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="DAGGER"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="80"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="23.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="unholy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="7"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="229"/>
+        </equip>
+    </npc>
+    <npc id="27309" name="Минервия Ван Хакен" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="DAGGER"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="80"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="64.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="21.5"/>
+        <set name="collision_radius" value="6.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="unholy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="7"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="229"/>
+        </equip>
+    </npc>
+    <npc id="27310" name="Китанис Ван Хакен" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="15.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="25.8"/>
+        <set name="collision_radius" value="7.5"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="unholy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+    </npc>
+    <npc id="27311" name="Келвас Гончая Правосудия" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="35.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="35.0"/>
+        <set name="collision_radius" value="21.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="3"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+    </npc>
+    <npc id="27312" name="Мистический Служитель" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="78"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2975"/>
+        <set name="baseMpMax" value="1742"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="938.20801458"/>
+        <set name="baseMAtk" value="656.66638089"/>
+        <set name="basePDef" value="354.8183475"/>
+        <set name="baseMDef" value="259.6406685"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="48.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="9"/>
+        <set name="baseHpReg" value="8.721"/>
+        <set name="baseMpReg" value="3.0804"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="33.0"/>
+        <set name="collision_radius" value="7.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="unholy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="9"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="17"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+    </npc>
+    <npc id="27313" name="Шакиэль Хранитель Видений" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="level" value="76"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePAtk" value="815.37145"/>
+        <set name="baseMAtk" value="556.793"/>
+        <set name="basePDef" value="323.78455"/>
+        <set name="baseMDef" value="236.93149"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="20"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="38.5"/>
+        <set name="collision_radius" value="11.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="5"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="161"/>
+        </equip>
+        <skills>
+            <!--Отражение Урона-->
+            <skill id="4532" level="1"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="8"/>
+            <!--Замедление-->
+            <skill id="4076" level="3"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="7"/>
+        </skills>
+    </npc>
+    <npc id="27314" name="Шакиэль Хранитель Видений" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="level" value="76"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePAtk" value="815.37145"/>
+        <set name="baseMAtk" value="556.793"/>
+        <set name="basePDef" value="323.78455"/>
+        <set name="baseMDef" value="236.93149"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="20"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="38.5"/>
+        <set name="collision_radius" value="11.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="5"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="161"/>
+        </equip>
+        <skills>
+            <!--Отражение Урона-->
+            <skill id="4532" level="1"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="8"/>
+            <!--Замедление-->
+            <skill id="4076" level="3"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="7"/>
+        </skills>
+    </npc>
+    <npc id="27315" name="Шакиэль Хранитель Видений" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="level" value="76"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePAtk" value="815.37145"/>
+        <set name="baseMAtk" value="556.793"/>
+        <set name="basePDef" value="323.78455"/>
+        <set name="baseMDef" value="236.93149"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="20"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="38.5"/>
+        <set name="collision_radius" value="11.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="5"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="161"/>
+        </equip>
+        <skills>
+            <!--Отражение Урона-->
+            <skill id="4532" level="1"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="8"/>
+            <!--Замедление-->
+            <skill id="4076" level="3"/>
+            <!--Мощный Замах-->
+            <skill id="4032" level="7"/>
+        </skills>
+    </npc>
+    <npc id="27316" name="Ледяной Монстр" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="20.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="20"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="31.0"/>
+        <set name="collision_radius" value="15.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="6"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="5"/>
+        </skills>
+
+    </npc>
+    <npc id="27317" name="Дух Утопленника" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="70"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="20"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="27.0"/>
+        <set name="collision_radius" value="12.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="53"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="8"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="3"/>
+            <!--Арбалет-->
+            <skill id="4415" level="5"/>
+        </skills>
+    </npc>
+    <npc id="27318" name="Душа Холода" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="46"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="248.0526"/>
+        <set name="baseMAtk" value="169.38777"/>
+        <set name="basePDef" value="182.18816"/>
+        <set name="baseMDef" value="133.31739"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="30.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5.5"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="35.6"/>
+        <set name="collision_radius" value="16.0"/>
+        <set name="aggroRange" value="300"/>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="2"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="14"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="1"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+    </npc>
+    <npc id="27319" name="Призрак Одиночества" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="18"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="37.82932"/>
+        <set name="baseMAtk" value="25.83252"/>
+        <set name="basePDef" value="81.34791"/>
+        <set name="baseMDef" value="59.52687"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="36.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="2.5"/>
+        <set name="baseMpReg" value="1.2"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="25.0"/>
+        <set name="collision_radius" value="12.0"/>
+        <set name="aggroRange" value="0"/>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="3"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="13"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="12"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+    </npc>
+    <npc id="27320" name="Чудище Холода" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="20"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="44.32863"/>
+        <set name="baseMAtk" value="30.2707"/>
+        <set name="basePDef" value="86.87049"/>
+        <set name="baseMDef" value="63.56806"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="2.5"/>
+        <set name="baseMpReg" value="1.2"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="28.0"/>
+        <set name="collision_radius" value="34.0"/>
+        <set name="aggroRange" value="300"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="6"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </skills>
+    </npc>
+    <npc id="27321" name="Дух Холода" title="Квестовый Монстр">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="20"/>
+        <set name="baseSTR" value="79"/>
+        <set name="baseDEX" value="42"/>
+        <set name="baseCON" value="75"/>
+        <set name="baseINT" value="34"/>
+        <set name="baseMEN" value="12"/>
+        <set name="baseWIT" value="66"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2823"/>
+        <set name="baseMpMax" value="1507"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePAtk" value="44.32863"/>
+        <set name="baseMAtk" value="30.2707"/>
+        <set name="basePDef" value="86.87049"/>
+        <set name="baseMDef" value="63.56806"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="30.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="2.5"/>
+        <set name="baseMpReg" value="1.2"/>
+        <set name="baseRandDam" value="20"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="50.0"/>
+        <set name="collision_radius" value="20.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="unsowing" value="true"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="6"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="5"/>
+        </skills>
+        <equip>
+            <slot_rhand item_id="291"/>
+        </equip>
+    </npc>
+</list>

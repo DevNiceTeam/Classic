@@ -1,0 +1,47 @@
+<list>
+    <skill id="14001" levels="3" name="Рассечение Крестом">
+        <set name="castRange" value="150"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2500"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#magicLevel">95 96 97</table>
+        <table name="#mp_consume">85 86 86</table>
+        <table name="#power">132687 138779 64068</table>
+    </skill>
+    <skill id="14002" levels="3" name="Пригвоздить">
+        <set name="castRange" value="400"/>
+        <set name="hitTime" value="100"/>
+        <set name="icon" value="icon.skill0484"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="20"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#magicLevel">95 96 97</table>
+        <table name="#power">132687 138779 168092</table>
+    </skill>
+    <skill id="14055" levels="4" name="Мощный Выстрел">
+        <set name="castRange" value="600"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill0056"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#magicLevel">92 93 94 95</table>
+        <table name="#mp_consume">83 84 84 84</table>
+        <table name="#power">12411 12977 13569 7373</table>
+    </skill>
+</list>

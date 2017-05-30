@@ -1,0 +1,36 @@
+<list>
+    <skill id="9487" levels="1" name="Благословение Кота-Ангела">
+	<!-- Макс. HP / MP +5%%, бонус опыта / SP +20%%. Сохраняется даже в случае смерти персонажа. 
+	Время действия: 60 мин. -->
+		<set name="abnormal_level" value="2"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_type" value="br_event_buf1"/>
+        <set name="buff_slot_type" value="2"/>
+        <set name="cancelable" value="false"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skilltransform4"/>
+        <set name="isHandler" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="35669"/>
+		<set name="isSelfDispellable" value="false"/>
+        <set name="isPreservedOnDeath" value="true"/>
+        <set name="isSaveable" value="true"/>
+        <set name="cancelable" value="false"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxHp" value="1.05"/>
+                <mul order="0x30" stat="maxMp" value="1.05"/>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.2"/>
+                <add order="0x40" stat="sp_rate_multiplier" value="0.2"/>               
+            </effect>
+        </for>
+    </skill>
+</list>

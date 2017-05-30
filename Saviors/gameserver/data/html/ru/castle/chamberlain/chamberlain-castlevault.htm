@@ -1,0 +1,19 @@
+<html><head>
+[Управляющий хранилищем замка]<br>
+<center>
+На данный момент в хранилище замка имеется <br1><font color="CCFF00">%Treasure%</font> <font color="00ffff">Аден</font>.<br>
+Собрано налогов: <font color="CCFF00">%CollectedShops% </font> <font color="00ffff">Аден</font>. <br1>Доход от продажи семян за текущий <br1>период: <font color="CCFF00">%CollectedSeed% </font> <font color="00ffff">Аден</font>.<br>
+Введите сумму, которую Вы желаете вложить или <br1>забрать.</center>
+<center><br>
+<table height=27 width=280 bgColor="cccccc"><tbody><tr>
+<td align=middle width=40>Сумма</td>
+<td align=left width=190><edit width="180" var="amount" type="number"></td>
+<td align=left width=40>Аден</td>
+</tr></tbody></table><br>
+<table><tr>
+<td><button value="Забрать" action="bypass -h npc_%objectId%_TakeTreasure $amount" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Вложить" action="bypass -h npc_%objectId%_PutTreasure $amount" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Отмена" action="bypass -h npc_%objectId%_default" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table>
+</center>
+</body></html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<door id="23180001" name="hubris_3F_001" hp="187500" pdef="476" mdef="518">
+		<pos x="113876" y="16952" z="-1979"/>
+		<shape ax="113832" ay="16890" bx="113937" by="16996" cx="113920" cy="17013" dx="113814" dy="16908" minz="-2156" maxz="-1801"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="open_time" value="120"/>
+		<set name="random_time" value="120"/>
+		<set name="close_time" value="120"/>
+	</door>
+	<door id="23180002" name="hubris_3F_002" hp="187500" pdef="476" mdef="518">
+		<pos x="113771" y="16849" z="-1979"/>
+		<shape ax="113728" ay="16788" bx="113833" by="16893" cx="113815" cy="16910" dx="113710" dy="16806" minz="-2156" maxz="-1801"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="master_door" value="23180001"/>
+	</door>
+	<door id="23180003" name="hubris_8F_001" hp="187500" pdef="476" mdef="518">
+		<pos x="113252" y="15914" z="4114"/>
+		<shape ax="113178" ay="15931" bx="113316" by="15874" cx="113326" cy="15897" dx="113187" dy="15954" minz="3937" maxz="4292"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="open_time" value="120"/>
+		<set name="random_time" value="120"/>
+		<set name="close_time" value="120"/>
+	</door>
+	<door id="23180004" name="hubris_8F_002" hp="187500" pdef="476" mdef="518">
+		<pos x="113117" y="15970" z="4115"/>
+		<shape ax="113043" ay="15987" bx="113181" by="15930" cx="113191" cy="15953" dx="113053" dy="16010" minz="3938" maxz="4293"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="close_time" value="120"/>
+		<set name="master_door" value="23180003"/>
+	</door>
+	<door id="23180005" name="hubris_11F_002" hp="187500" pdef="476" mdef="518">
+		<pos x="113263" y="15764" z="7145"/>
+		<shape ax="113219" ay="15703" bx="113325" by="15808" cx="113307" cy="15826" dx="113201" dy="15720" minz="6968" maxz="7323"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+	</door>
+	<door id="23180006" name="hubris_11F_001" hp="187500" pdef="476" mdef="518">
+		<pos x="113367" y="15868" z="7145"/>
+		<shape ax="113323" ay="15806" bx="113429" by="15912" cx="113411" cy="15930" dx="113305" dy="15824" minz="6968" maxz="7323"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="open_time" value="120"/>
+		<set name="random_time" value="120"/>
+		<set name="close_time" value="120"/>
+		<set name="23180005" value="23180003"/>
+	</door>
+</list>

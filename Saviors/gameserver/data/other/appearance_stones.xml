@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='utf-8'?><!--AUTHOR: Bonux-->
+<list>
+	<!--Shifting types: NORMAL, BLESSED, FIXED, RESTORE-->
+	<!--Target types: WEAPON, ARMOR, ACCESSORY-->
+
+	<!--Weapon Appearance Stones-->
+	<!--Normal-->
+	<stone id="22402" target_type="WEAPON" shifting_type="NORMAL" grade="R,R95,R99" cost="800000"/>    <!--Weapon Appearance Stone (R-grade)-->
+	<stone id="22403" target_type="WEAPON" shifting_type="NORMAL" grade="S,S80,S84" cost="800000"/>    <!--Weapon Appearance Stone (S-grade)-->
+	<stone id="22404" target_type="WEAPON" shifting_type="NORMAL" grade="A" cost="800000"/>    <!--Weapon Appearance Stone (A-grade)-->
+	<stone id="22405" target_type="WEAPON" shifting_type="NORMAL" grade="B" cost="800000"/>    <!--Weapon Appearance Stone (B-grade)-->
+	<stone id="22406" target_type="WEAPON" shifting_type="NORMAL" grade="C" cost="800000"/>    <!--Weapon Appearance Stone (C-grade)-->
+	<stone id="22407" target_type="WEAPON" shifting_type="NORMAL" grade="D" cost="800000"/>    <!--Weapon Appearance Stone (D-grade)-->
+	<!--Blessed-->
+	<stone id="22408" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="22409" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84"/>    <!--Blessed Weapon Appearance Stone (S-grade)-->
+	<stone id="22410" target_type="WEAPON" shifting_type="BLESSED" grade="A"/>    <!--Blessed Weapon Appearance Stone (A-grade)-->
+	<stone id="22411" target_type="WEAPON" shifting_type="BLESSED" grade="B"/>    <!--Blessed Weapon Appearance Stone (B-grade)-->
+	<stone id="22412" target_type="WEAPON" shifting_type="BLESSED" grade="C"/>    <!--Blessed Weapon Appearance Stone (C-grade)-->
+	<stone id="22413" target_type="WEAPON" shifting_type="BLESSED" grade="D"/>    <!--Blessed Weapon Appearance Stone (D-grade)-->
+	<!--Restore-->
+	<stone id="22414" target_type="WEAPON" shifting_type="RESTORE" grade="R,R95,R99"/>    <!--Weapon Restoration Stone (R-grade)-->
+	<stone id="22415" target_type="WEAPON" shifting_type="RESTORE" grade="S,S80,S84"/>    <!--Weapon Restoration Stone (S-grade)-->
+	<stone id="22416" target_type="WEAPON" shifting_type="RESTORE" grade="A"/>    <!--Weapon Restoration Stone (A-grade)-->
+	<stone id="22417" target_type="WEAPON" shifting_type="RESTORE" grade="B"/>    <!--Weapon Restoration Stone (B-grade)-->
+	<stone id="22418" target_type="WEAPON" shifting_type="RESTORE" grade="C"/>    <!--Weapon Restoration Stone (C-grade)-->
+	<stone id="22419" target_type="WEAPON" shifting_type="RESTORE" grade="D"/>    <!--Weapon Restoration Stone (D-grade)-->
+
+    <!--Добавочные-->	
+	<stone id="23351" target_type="WEAPON" shifting_type="NORMAL" grade="R,R95,R99" cost="800000"/>
+	<stone id="23352" target_type="WEAPON" shifting_type="NORMAL" grade="S,S80,S84" cost="250000"/>
+	<stone id="23353" target_type="WEAPON" shifting_type="NORMAL" grade="A" cost="90000"/>
+	<stone id="23354" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23355" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23356" target_type="WEAPON" shifting_type="BLESSED" grade="A"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23357" target_type="WEAPON" shifting_type="RESTORE" grade="R,R95,R99"/>    <!--Weapon Restoration Stone (R-grade)-->
+	<stone id="23358" target_type="WEAPON" shifting_type="RESTORE" grade="S,S80,S84"/>    <!--Weapon Restoration Stone (S-grade)-->
+	<stone id="23359" target_type="WEAPON" shifting_type="RESTORE" grade="A"/>    <!--Weapon Restoration Stone (A-grade)-->
+
+	<stone id="23360" target_type="ARMOR" shifting_type="NORMAL" grade="R,R95,R99" cost="125000"/>
+	<stone id="23361" target_type="ARMOR" shifting_type="NORMAL" grade="S,S80,S84" cost="50000"/>
+	<stone id="23362" target_type="ARMOR" shifting_type="NORMAL" grade="A" cost="24000"/>
+	<stone id="23363" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23364" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23365" target_type="ARMOR" shifting_type="BLESSED" grade="A"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23366" target_type="ARMOR" shifting_type="RESTORE" grade="R,R95,R99"/>    <!--Weapon Restoration Stone (R-grade)-->
+	<stone id="23367" target_type="ARMOR" shifting_type="RESTORE" grade="S,S80,S84"/>    <!--Weapon Restoration Stone (S-grade)-->
+	<stone id="23368" target_type="ARMOR" shifting_type="RESTORE" grade="A"/>    <!--Weapon Restoration Stone (A-grade)-->
+	
+	<stone id="23369" target_type="ACCESSORY" shifting_type="NORMAL" cost="200000"/>    <!--Accessory Appearance Stone-->
+	<stone id="23370" target_type="ACCESSORY" shifting_type="BLESSED"/>    <!--Accessory Appearance Stone-->
+	<stone id="23371" target_type="ACCESSORY" shifting_type="RESTORE"/>    <!--Hair Accessory Appearance Restoration Stone-->
+
+
+	<!--Blessed временное 1 день-->
+	<stone id="23650" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99" period="86400"/>   <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23651" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84" period="86400"/>   <!--Blessed Weapon Appearance Stone (S-grade)-->
+	<stone id="23652" target_type="WEAPON" shifting_type="BLESSED" grade="A" period="86400"/>   <!--Blessed Weapon Appearance Stone (A-grade)-->
+	<stone id="23653" target_type="WEAPON" shifting_type="BLESSED" grade="B" period="86400"/>    <!--Blessed Weapon Appearance Stone (B-grade)-->
+	<stone id="23654" target_type="WEAPON" shifting_type="BLESSED" grade="C" period="86400"/>    <!--Blessed Weapon Appearance Stone (C-grade)-->
+	<stone id="23655" target_type="WEAPON" shifting_type="BLESSED" grade="D" period="86400"/>   <!--Blessed Weapon Appearance Stone (D-grade)-->
+
+	<!--Blessed временное 7 дней-->	
+	<stone id="23656" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99" period="604800"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23657" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84" period="604800"/>    <!--Blessed Weapon Appearance Stone (S-grade)-->
+	<stone id="23658" target_type="WEAPON" shifting_type="BLESSED" grade="A" period="604800"/>    <!--Blessed Weapon Appearance Stone (A-grade)-->
+	<stone id="23659" target_type="WEAPON" shifting_type="BLESSED" grade="B" period="604800"/>    <!--Blessed Weapon Appearance Stone (B-grade)-->
+	<stone id="23660" target_type="WEAPON" shifting_type="BLESSED" grade="C" period="604800"/>    <!--Blessed Weapon Appearance Stone (C-grade)-->
+	<stone id="23661" target_type="WEAPON" shifting_type="BLESSED" grade="D" period="604800"/>    <!--Blessed Weapon Appearance Stone (D-grade)-->
+
+	<!--Blessed временное 30 дней-->	
+	<stone id="23662" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99" period="2592000"/>    <!--Blessed Weapon Appearance Stone (R-grade)-->
+	<stone id="23663" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84" period="2592000"/>    <!--Blessed Weapon Appearance Stone (S-grade)-->
+	<stone id="23664" target_type="WEAPON" shifting_type="BLESSED" grade="A" period="2592000"/>    <!--Blessed Weapon Appearance Stone (A-grade)-->
+	<stone id="23665" target_type="WEAPON" shifting_type="BLESSED" grade="B" period="2592000"/>    <!--Blessed Weapon Appearance Stone (B-grade)-->
+	<stone id="23666" target_type="WEAPON" shifting_type="BLESSED" grade="C" period="2592000"/>   <!--Blessed Weapon Appearance Stone (C-grade)-->
+	<stone id="23667" target_type="WEAPON" shifting_type="BLESSED" grade="D" period="2592000"/>    <!--Blessed Weapon Appearance Stone (D-grade)-->
+	
+	<!--Fixed-->
+	<!--<stone id="22420" target_type="WEAPON" shifting_type="FIXED" extract_id="22361" item_type="SWORD,MAGIC_SWORD"/>-->    <!--(test) Emerald Sword Weapon Appearance Stone-->
+	<!--Light Saber Weapon Stones-->
+	<stone id="22666" target_type="WEAPON" shifting_type="FIXED" extract_id="22650" item_type="SWORD,MAGIC_SWORD"/>    <!--Light Saber Appearance Stone-->
+	<stone id="22667" target_type="WEAPON" shifting_type="FIXED" extract_id="22651" item_type="DAGGER"/>    <!--Light Saber Dagger Appearance Stone-->
+	<stone id="22668" target_type="WEAPON" shifting_type="FIXED" extract_id="22652" item_type="BIG_SWORD"/>    <!--Light Saber Two-handed Sword Appearance Stone-->
+	<stone id="22669" target_type="WEAPON" shifting_type="FIXED" extract_id="22653" item_type="HAND_TO_HAND"/>    <!--Light Saber Fist Weapon Appearance Stone-->
+	<stone id="22670" target_type="WEAPON" shifting_type="FIXED" extract_id="22654" item_type="POLE"/>    <!--Light Saber Spear Appearance Stone-->
+	<stone id="22671" target_type="WEAPON" shifting_type="FIXED" extract_id="22655" item_type="BOW"/>    <!--Light Saber Bow Appearance Stone-->
+	<stone id="22673" target_type="WEAPON" shifting_type="FIXED" extract_id="22657" item_type="BLUNT_WEAPON"/>    <!--Light Saber One-handed Blunt Appearance Stone-->
+	<stone id="22674" target_type="WEAPON" shifting_type="FIXED" extract_id="22658" item_type="BIG_BLUNT_WEAPON"/>    <!--Light Saber Two-handed Blunt Appearance Stone-->
+	<stone id="22675" target_type="WEAPON" shifting_type="FIXED" extract_id="22659" item_type="MAGIC_BLUNT_WEAPON"/>    <!--Light Saber One-handed Magic Blunt Appearance Stone-->
+	<stone id="22676" target_type="WEAPON" shifting_type="FIXED" extract_id="22660" item_type="BIG_MAGIC_BLUNT_WEAPON"/>    <!--Light Saber Two-handed Magic Blunt Appearance Stone-->
+	<stone id="22677" target_type="WEAPON" shifting_type="FIXED" extract_id="22661" item_type="DUAL_SWORD"/>    <!--Light Saber Dualsword Appearance Stone-->
+	<stone id="22678" target_type="WEAPON" shifting_type="FIXED" extract_id="22662" item_type="DUAL_DAGGER"/>    <!--Light Saber Dual Dagger Appearance Stone-->
+	<stone id="22679" target_type="WEAPON" shifting_type="FIXED" extract_id="22663" item_type="DUAL_BLUNT_WEAPON"/>    <!--Light Saber Dual Blunt Appearance Stone-->
+	<!--Japanese Weapon Stones-->
+	<stone id="22727" target_type="WEAPON" shifting_type="FIXED" extract_id="22711" item_type="SWORD,MAGIC_SWORD"/>    <!--Japanese Sword Appearance Stone-->
+	<stone id="22728" target_type="WEAPON" shifting_type="FIXED" extract_id="22712" item_type="DAGGER"/>    <!--Japanese Dagger Appearance Stone-->
+	<stone id="22729" target_type="WEAPON" shifting_type="FIXED" extract_id="22713" item_type="BIG_SWORD"/>    <!--Japanese Long Sword Appearance Stone-->
+	<stone id="22730" target_type="WEAPON" shifting_type="FIXED" extract_id="22714" item_type="HAND_TO_HAND"/>    <!--Japanese Fist Weapon Appearance Stone-->
+	<stone id="22731" target_type="WEAPON" shifting_type="FIXED" extract_id="22715" item_type="POLE"/>    <!--Japanese Great Spear Appearance Stone-->
+	<stone id="22732" target_type="WEAPON" shifting_type="FIXED" extract_id="22716" item_type="BOW"/>    <!--Japanese Bow Appearance Stone-->
+	<stone id="22734" target_type="WEAPON" shifting_type="FIXED" extract_id="22718" item_type="BLUNT_WEAPON"/>    <!--Japanese Blunt Appearance Stone-->
+	<stone id="22735" target_type="WEAPON" shifting_type="FIXED" extract_id="22719" item_type="BIG_BLUNT_WEAPON"/>    <!--Japanese Giant Blunt Appearance Stone-->
+	<stone id="22736" target_type="WEAPON" shifting_type="FIXED" extract_id="22720" item_type="MAGIC_BLUNT_WEAPON"/>    <!--Japanese Magic Blunt Appearance Stone-->
+	<stone id="22737" target_type="WEAPON" shifting_type="FIXED" extract_id="22721" item_type="BIG_MAGIC_BLUNT_WEAPON"/>    <!--Japanese Giant Magic Blunt Appearance Stone-->
+	<stone id="22738" target_type="WEAPON" shifting_type="FIXED" extract_id="22722" item_type="DUAL_SWORD"/>    <!--Japanese Dualsword Appearance Stone-->
+	<stone id="22739" target_type="WEAPON" shifting_type="FIXED" extract_id="22723" item_type="DUAL_DAGGER"/>    <!--Japanese Double Dagger Appearance Stone-->
+	<stone id="22740" target_type="WEAPON" shifting_type="FIXED" extract_id="22724" item_type="DUAL_BLUNT_WEAPON"/>    <!--Japanese Double Blunt Appearance Stone-->
+	<!--Monster Weapon Stones-->
+	<stone id="37067" target_type="WEAPON" shifting_type="FIXED" extract_id="37047" item_type="SWORD,MAGIC_SWORD"/>    <!--Monster Weapon Appearance Stone: Theor's Sword-->
+	<stone id="37068" target_type="WEAPON" shifting_type="FIXED" extract_id="37048" item_type="SWORD,MAGIC_SWORD"/>    <!--Monster Weapon Appearance Stone: Sword of Corruption-->
+	<stone id="37069" target_type="WEAPON" shifting_type="FIXED" extract_id="37049" item_type="SWORD,MAGIC_SWORD"/>    <!--Monster Weapon Appearance Stone: Octavis' Sword-->
+	<stone id="37070" target_type="WEAPON" shifting_type="FIXED" extract_id="37050" item_type="DUAL_SWORD"/>    <!--Monster Weapon Appearance Stone: Tegaffe's Dualsword-->
+	<stone id="37071" target_type="WEAPON" shifting_type="FIXED" extract_id="37051" item_type="MAGIC_SWORD"/>    <!--Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword-->
+	<stone id="37072" target_type="WEAPON" shifting_type="FIXED" extract_id="37052" item_type="BLUNT_WEAPON"/>    <!--Monster Weapon Appearance Stone: Tebot's Axe-->
+	<stone id="37073" target_type="WEAPON" shifting_type="FIXED" extract_id="37053" item_type="BLUNT_WEAPON"/>    <!--Monster Weapon Appearance Stone: Glakias' Hammer-->
+	<stone id="37074" target_type="WEAPON" shifting_type="FIXED" extract_id="37054" item_type="DUAL_BLUNT_WEAPON"/>    <!--Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon-->
+	<stone id="37075" target_type="WEAPON" shifting_type="FIXED" extract_id="37055" item_type="DAGGER"/>    <!--Monster Weapon Appearance Stone: Drakos' Dagger-->
+	<stone id="37076" target_type="WEAPON" shifting_type="FIXED" extract_id="37056" item_type="DUAL_DAGGER"/>    <!--Monster Weapon Appearance Stone: Drakos' Dual Dagger-->
+	<stone id="37077" target_type="WEAPON" shifting_type="FIXED" extract_id="37057" item_type="BIG_SWORD"/>    <!--Monster Weapon Appearance Stone: Guillotine's Greatsword-->
+	<stone id="37078" target_type="WEAPON" shifting_type="FIXED" extract_id="37058" item_type="POLE"/>    <!--Monster Weapon Appearance Stone: Thesakar's Spear-->
+	<stone id="37079" target_type="WEAPON" shifting_type="FIXED" extract_id="37059" item_type="BIG_MAGIC_BLUNT_WEAPON"/>    <!--Monster Weapon Appearance Stone: Mimilead's Staff-->
+	<stone id="37080" target_type="WEAPON" shifting_type="FIXED" extract_id="37060" item_type="BIG_BLUNT_WEAPON"/>    <!--Monster Weapon Appearance Stone: Satyr's Staff-->
+	<stone id="37081" target_type="WEAPON" shifting_type="FIXED" extract_id="37061" item_type="HAND_TO_HAND"/>    <!--Monster Weapon Appearance Stone: Kanadis' Hand-->
+	<stone id="37082" target_type="WEAPON" shifting_type="FIXED" extract_id="37062" item_type="BOW"/>    <!--Monster Weapon Appearance Stone: Kanadis' Bow-->
+	<stone id="37083" target_type="WEAPON" shifting_type="FIXED" extract_id="37063" item_type="BOW"/>    <!--Monster Weapon Appearance Stone: Centaur's Bow-->
+	<!--Emerald Weapon Stones-->
+	<stone id="37416" target_type="WEAPON" shifting_type="FIXED" extract_id="36632" item_type="SWORD,MAGIC_SWORD"/>    <!--Emerald Weapon Appearance Stone: Sword-->
+	<stone id="37417" target_type="WEAPON" shifting_type="FIXED" extract_id="36633" item_type="DAGGER"/>    <!--Emerald Weapon Appearance Stone: Dagger-->
+	<stone id="37418" target_type="WEAPON" shifting_type="FIXED" extract_id="36634" item_type="BIG_SWORD"/>    <!--Emerald Weapon Appearance Stone: Two-handed Sword-->
+	<stone id="37419" target_type="WEAPON" shifting_type="FIXED" extract_id="36635" item_type="HAND_TO_HAND"/>    <!--Emerald Weapon Appearance Stone: Fist Weapon-->
+	<stone id="37420" target_type="WEAPON" shifting_type="FIXED" extract_id="36636" item_type="POLE"/>    <!--Emerald Weapon Appearance Stone: Spear-->
+	<stone id="37421" target_type="WEAPON" shifting_type="FIXED" extract_id="36637" item_type="BOW"/>    <!--Emerald Weapon Appearance Stone: Bow-->
+	<stone id="37423" target_type="WEAPON" shifting_type="FIXED" extract_id="36639" item_type="BLUNT_WEAPON"/>    <!--Emerald Weapon Appearance Stone: One-handed Blunt Weapon-->
+	<stone id="37424" target_type="WEAPON" shifting_type="FIXED" extract_id="36640" item_type="BIG_BLUNT_WEAPON"/>    <!--Emerald Weapon Appearance Stone: Two-handed Blunt Weapon-->
+	<stone id="37425" target_type="WEAPON" shifting_type="FIXED" extract_id="36641" item_type="MAGIC_BLUNT_WEAPON"/>    <!--Emerald Weapon Appearance Stone: One-handed Magic Blunt Weapon-->
+	<stone id="37426" target_type="WEAPON" shifting_type="FIXED" extract_id="36642" item_type="BIG_MAGIC_BLUNT_WEAPON"/>    <!--Emerald Weapon Appearance Stone: Two-handed Magic Blunt Weapon-->
+	<stone id="37427" target_type="WEAPON" shifting_type="FIXED" extract_id="36643" item_type="DUAL_SWORD"/>    <!--Emerald Weapon Appearance Stone: Dualsword-->
+	<stone id="37428" target_type="WEAPON" shifting_type="FIXED" extract_id="36644" item_type="DUAL_DAGGER"/>    <!--Emerald Weapon Appearance Stone: Dual Dagger-->
+	<stone id="37429" target_type="WEAPON" shifting_type="FIXED" extract_id="36645" item_type="DUAL_BLUNT_WEAPON"/>    <!--Emerald Weapon Appearance Stone: Dual Blunt Weapon-->
+	<!--7-day-->
+	<stone id="36648" target_type="WEAPON" shifting_type="FIXED" extract_id="36632" item_type="SWORD,MAGIC_SWORD" period="604800"/>    <!--Emerald Weapon Appearance Stone: Sword - 7-day-->
+	<stone id="36649" target_type="WEAPON" shifting_type="FIXED" extract_id="36633" item_type="DAGGER" period="604800"/>    <!--Emerald Weapon Appearance Stone: Dagger - 7-day-->
+	<stone id="36650" target_type="WEAPON" shifting_type="FIXED" extract_id="36634" item_type="BIG_SWORD" period="604800"/>    <!--Emerald Weapon Appearance Stone: Two-handed Sword - 7-day-->
+	<stone id="36651" target_type="WEAPON" shifting_type="FIXED" extract_id="36635" item_type="HAND_TO_HAND" period="604800"/>    <!--Emerald Weapon Appearance Stone: Fist Weapon - 7-day-->
+	<stone id="36652" target_type="WEAPON" shifting_type="FIXED" extract_id="36636" item_type="POLE" period="604800"/>    <!--Emerald Weapon Appearance Stone: Spear - 7-day-->
+	<stone id="36653" target_type="WEAPON" shifting_type="FIXED" extract_id="36637" item_type="BOW" period="604800"/>    <!--Emerald Weapon Appearance Stone: Bow - 7-day-->
+	<stone id="36655" target_type="WEAPON" shifting_type="FIXED" extract_id="36639" item_type="BLUNT_WEAPON" period="604800"/>    <!--Emerald Weapon Appearance Stone: One-handed Blunt Weapon - 7-day-->
+	<stone id="36656" target_type="WEAPON" shifting_type="FIXED" extract_id="36640" item_type="BIG_BLUNT_WEAPON" period="604800"/>    <!--Emerald Weapon Appearance Stone: Two-handed Blunt Weapon - 7-day-->
+	<stone id="36657" target_type="WEAPON" shifting_type="FIXED" extract_id="36641" item_type="MAGIC_BLUNT_WEAPON" period="604800"/>    <!--Emerald Weapon Appearance Stone: One-handed Magic Blunt Weapon - 7-day-->
+	<stone id="36658" target_type="WEAPON" shifting_type="FIXED" extract_id="36642" item_type="BIG_MAGIC_BLUNT_WEAPON" period="604800"/>    <!--Emerald Weapon Appearance Stone: Two-handed Magic Blunt Weapon - 7-day-->
+	<stone id="36659" target_type="WEAPON" shifting_type="FIXED" extract_id="36643" item_type="DUAL_SWORD" period="604800"/>    <!--Emerald Weapon Appearance Stone: Dualsword - 7-day-->
+	<stone id="36660" target_type="WEAPON" shifting_type="FIXED" extract_id="36644" item_type="DUAL_DAGGER" period="604800"/>    <!--Emerald Weapon Appearance Stone: Dual Dagger - 7-day-->
+	<stone id="36661" target_type="WEAPON" shifting_type="FIXED" extract_id="36645" item_type="DUAL_BLUNT_WEAPON" period="604800"/>    <!--Emerald Weapon Appearance Stone: Dual Blunt Weapon - 7-day-->
+	<!--15-day-->
+	<stone id="37400" target_type="WEAPON" shifting_type="FIXED" extract_id="36632" item_type="SWORD,MAGIC_SWORD" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Sword - 15-day-->
+	<stone id="37401" target_type="WEAPON" shifting_type="FIXED" extract_id="36633" item_type="DAGGER" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Dagger - 15-day-->
+	<stone id="37402" target_type="WEAPON" shifting_type="FIXED" extract_id="36634" item_type="BIG_SWORD" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Two-handed Sword - 15-day-->
+	<stone id="37403" target_type="WEAPON" shifting_type="FIXED" extract_id="36635" item_type="HAND_TO_HAND" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Fist Weapon - 15-day-->
+	<stone id="37404" target_type="WEAPON" shifting_type="FIXED" extract_id="36636" item_type="POLE" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Spear - 15-day-->
+	<stone id="37405" target_type="WEAPON" shifting_type="FIXED" extract_id="36637" item_type="BOW" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Bow - 15-day-->
+	<stone id="37407" target_type="WEAPON" shifting_type="FIXED" extract_id="36639" item_type="BLUNT_WEAPON" period="1296000"/>    <!--Emerald Weapon Appearance Stone: One-handed Blunt Weapon - 15-day-->
+	<stone id="37408" target_type="WEAPON" shifting_type="FIXED" extract_id="36640" item_type="BIG_BLUNT_WEAPON" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Two-handed Blunt Weapon - 15-day-->
+	<stone id="37409" target_type="WEAPON" shifting_type="FIXED" extract_id="36641" item_type="MAGIC_BLUNT_WEAPON" period="1296000"/>    <!--Emerald Weapon Appearance Stone: One-handed Magic Blunt Weapon - 15-day-->
+	<stone id="37410" target_type="WEAPON" shifting_type="FIXED" extract_id="36642" item_type="BIG_MAGIC_BLUNT_WEAPON" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Two-handed Magic Blunt Weapon - 15-day-->
+	<stone id="37411" target_type="WEAPON" shifting_type="FIXED" extract_id="36643" item_type="DUAL_SWORD" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Dualsword - 15-day-->
+	<stone id="37412" target_type="WEAPON" shifting_type="FIXED" extract_id="36644" item_type="DUAL_DAGGER" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Dual Dagger - 15-day-->
+	<stone id="37413" target_type="WEAPON" shifting_type="FIXED" extract_id="36645" item_type="DUAL_BLUNT_WEAPON" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Dual Blunt Weapon - 15-day-->
+
+	<!--Weapon Appearance Scrolls-->
+	<!--Normal-->
+	<stone id="36574" target_type="WEAPON" shifting_type="NORMAL" grade="R,R95,R99" cost="800000"/>    <!--Scroll: Modify Weapon (R-grade)-->
+	<stone id="36575" target_type="WEAPON" shifting_type="NORMAL" grade="S,S80,S84" cost="800000"/>    <!--Scroll: Modify Weapon (S-grade)-->
+	<stone id="36576" target_type="WEAPON" shifting_type="NORMAL" grade="A" cost="800000"/>    <!--Scroll: Modify Weapon (A-grade)-->
+	<stone id="36577" target_type="WEAPON" shifting_type="NORMAL" grade="B" cost="800000"/>    <!--Scroll: Modify Weapon (B-grade)-->
+	<stone id="36578" target_type="WEAPON" shifting_type="NORMAL" grade="C" cost="800000"/>    <!--Scroll: Modify Weapon (C-grade)-->
+	<stone id="36579" target_type="WEAPON" shifting_type="NORMAL" grade="D" cost="800000"/>    <!--Scroll: Modify Weapon (D-grade)-->
+	<!--15-day-->
+	<stone id="36606" target_type="WEAPON" shifting_type="NORMAL" grade="R,R95,R99" cost="800000" period="1296000"/>    <!--Scroll: Modify Weapon (R-grade) - 15-day-->
+	<stone id="36607" target_type="WEAPON" shifting_type="NORMAL" grade="S,S80,S84" cost="800000" period="1296000"/>    <!--Scroll: Modify Weapon (S-grade) - 15-day-->
+	<stone id="36608" target_type="WEAPON" shifting_type="NORMAL" grade="A" cost="800000" period="1296000"/>    <!--Scroll: Modify Weapon (A-grade) - 15-day-->
+	<stone id="36609" target_type="WEAPON" shifting_type="NORMAL" grade="B" cost="800000" period="1296000"/>    <!--Scroll: Modify Weapon (B-grade) - 15-day-->
+	<stone id="36610" target_type="WEAPON" shifting_type="NORMAL" grade="C" cost="800000" period="1296000"/>    <!--Scroll: Modify Weapon (C-grade) - 15-day-->
+	<stone id="36611" target_type="WEAPON" shifting_type="NORMAL" grade="D" cost="800000" period="1296000"/>    <!--Scroll: Modify Weapon (D-grade) - 15-day-->
+	<!--Blessed-->
+	<stone id="36580" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99"/>    <!--Blessed Scroll: Modify Weapon (R-grade)-->
+	<stone id="36581" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84"/>    <!--Blessed Scroll: Modify Weapon (S-grade)-->
+	<stone id="36582" target_type="WEAPON" shifting_type="BLESSED" grade="A"/>    <!--Blessed Scroll: Modify Weapon (A-grade)-->
+	<stone id="36583" target_type="WEAPON" shifting_type="BLESSED" grade="B"/>    <!--Blessed Scroll: Modify Weapon (B-grade)-->
+	<stone id="36584" target_type="WEAPON" shifting_type="BLESSED" grade="C"/>    <!--Blessed Scroll: Modify Weapon (C-grade)-->
+	<stone id="36585" target_type="WEAPON" shifting_type="BLESSED" grade="D"/>    <!--Blessed Scroll: Modify Weapon (D-grade)-->
+	<!--7-day-->
+	<stone id="36612" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99" period="604800"/>    <!--Blessed Scroll: Modify Weapon (R-grade) - 7-day-->
+	<stone id="36613" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84" period="604800"/>    <!--Blessed Scroll: Modify Weapon (S-grade) - 7-day-->
+	<stone id="36614" target_type="WEAPON" shifting_type="BLESSED" grade="A" period="604800"/>    <!--Blessed Scroll: Modify Weapon (A-grade) - 7-day-->
+	<stone id="36615" target_type="WEAPON" shifting_type="BLESSED" grade="B" period="604800"/>    <!--Blessed Scroll: Modify Weapon (B-grade) - 7-day-->
+	<stone id="36616" target_type="WEAPON" shifting_type="BLESSED" grade="C" period="604800"/>    <!--Blessed Scroll: Modify Weapon (C-grade) - 7-day-->
+	<stone id="36617" target_type="WEAPON" shifting_type="BLESSED" grade="D" period="604800"/>    <!--Blessed Scroll: Modify Weapon (D-grade) - 7-day-->
+	<!--30-day-->
+	<stone id="37379" target_type="WEAPON" shifting_type="BLESSED" grade="R,R95,R99" period="2592000"/>    <!--Blessed Scroll: Modify Weapon (R-grade) - 30-day-->
+	<stone id="37380" target_type="WEAPON" shifting_type="BLESSED" grade="S,S80,S84" period="2592000"/>    <!--Blessed Scroll: Modify Weapon (S-grade) - 30-day-->
+	<stone id="37381" target_type="WEAPON" shifting_type="BLESSED" grade="A" period="2592000"/>    <!--Blessed Scroll: Modify Weapon (A-grade) - 30-day-->
+	<stone id="37382" target_type="WEAPON" shifting_type="BLESSED" grade="B" period="2592000"/>    <!--Blessed Scroll: Modify Weapon (B-grade) - 30-day-->
+	<stone id="37383" target_type="WEAPON" shifting_type="BLESSED" grade="C" period="2592000"/>    <!--Blessed Scroll: Modify Weapon (C-grade) - 30-day-->
+	<stone id="37384" target_type="WEAPON" shifting_type="BLESSED" grade="D" period="2592000"/>    <!--Blessed Scroll: Modify Weapon (D-grade) - 30-day-->
+
+	<!--Armor Appearance Stones-->
+	<!--Normal-->
+	<stone id="22682" target_type="ARMOR" shifting_type="NORMAL" grade="R,R95,R99" cost="125000"/>    <!--Armor Appearance Stone (R-grade)-->
+	<stone id="22683" target_type="ARMOR" shifting_type="NORMAL" grade="S,S80,S84" cost="125000"/>    <!--Armor Appearance Stone (S-grade)-->
+	<stone id="22684" target_type="ARMOR" shifting_type="NORMAL" grade="A" cost="125000"/>    <!--Armor Appearance Stone (A-grade)-->
+	<stone id="22685" target_type="ARMOR" shifting_type="NORMAL" grade="B" cost="125000"/>    <!--Armor Appearance Stone (B-grade)-->
+	<stone id="22686" target_type="ARMOR" shifting_type="NORMAL" grade="C" cost="125000"/>    <!--Armor Appearance Stone (C-grade)-->
+	<stone id="22687" target_type="ARMOR" shifting_type="NORMAL" grade="D" cost="125000"/>    <!--Armor Appearance Stone (D-grade)-->
+	<!--Blessed-->
+	<stone id="22688" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99"/>    <!--Blessed Armor Appearance Stone (R-grade)-->
+	<stone id="22689" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84"/>    <!--Blessed Armor Appearance Stone (S-grade)-->
+	<stone id="22690" target_type="ARMOR" shifting_type="BLESSED" grade="A"/>    <!--Blessed Armor Appearance Stone (A-grade)-->
+	<stone id="22691" target_type="ARMOR" shifting_type="BLESSED" grade="B"/>    <!--Blessed Armor Appearance Stone (B-grade)-->
+	<stone id="22692" target_type="ARMOR" shifting_type="BLESSED" grade="C"/>    <!--Blessed Armor Appearance Stone (C-grade)-->
+	<stone id="22693" target_type="ARMOR" shifting_type="BLESSED" grade="D"/>    <!--Blessed Armor Appearance Stone (D-grade)-->
+	
+	<!--Blessed временное 1 день-->
+	<stone id="23668" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99" period="86400"/>   <!--Blessed Armor Appearance Stone (R-grade)-->
+	<stone id="23669" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84" period="86400"/>   <!--Blessed Armor Appearance Stone (S-grade)-->
+	<stone id="23670" target_type="ARMOR" shifting_type="BLESSED" grade="A" period="86400"/>   <!--Blessed Armor Appearance Stone (A-grade)-->
+	<stone id="23671" target_type="ARMOR" shifting_type="BLESSED" grade="B" period="86400"/>    <!--Blessed Armor Appearance Stone (B-grade)-->
+	<stone id="23672" target_type="ARMOR" shifting_type="BLESSED" grade="C" period="86400"/>    <!--Blessed Armor Appearance Stone (C-grade)-->
+	<stone id="23673" target_type="ARMOR" shifting_type="BLESSED" grade="D" period="86400"/>   <!--Blessed Armor Appearance Stone (D-grade)-->
+
+	<!--Blessed временное 7 дней-->	
+	<stone id="23674" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99" period="604800"/>    <!--Blessed Armor Appearance Stone (R-grade)-->
+	<stone id="23675" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84" period="604800"/>    <!--Blessed Armor Appearance Stone (S-grade)-->
+	<stone id="23676" target_type="ARMOR" shifting_type="BLESSED" grade="A" period="604800"/>    <!--Blessed Armor Appearance Stone (A-grade)-->
+	<stone id="23677" target_type="ARMOR" shifting_type="BLESSED" grade="B" period="604800"/>    <!--Blessed Armor Appearance Stone (B-grade)-->
+	<stone id="23678" target_type="ARMOR" shifting_type="BLESSED" grade="C" period="604800"/>    <!--Blessed Armor Appearance Stone (C-grade)-->
+	<stone id="23679" target_type="ARMOR" shifting_type="BLESSED" grade="D" period="604800"/>    <!--Blessed Armor Appearance Stone (D-grade)-->
+
+	<!--Blessed временное 30 дней-->	
+	<stone id="23680" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99" period="2592000"/>    <!--Blessed Armor Appearance Stone (R-grade)-->
+	<stone id="23681" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84" period="2592000"/>    <!--Blessed Armor Appearance Stone (S-grade)-->
+	<stone id="23682" target_type="ARMOR" shifting_type="BLESSED" grade="A" period="2592000"/>    <!--Blessed Armor Appearance Stone (A-grade)-->
+	<stone id="23683" target_type="ARMOR" shifting_type="BLESSED" grade="B" period="2592000"/>    <!--Blessed Armor Appearance Stone (B-grade)-->
+	<stone id="23684" target_type="ARMOR" shifting_type="BLESSED" grade="C" period="2592000"/>   <!--Blessed Armor Appearance Stone (C-grade)-->
+	<stone id="23685" target_type="ARMOR" shifting_type="BLESSED" grade="D" period="2592000"/>    <!--Blessed Armor Appearance Stone (D-grade)-->
+
+	
+	<!--Restore-->
+	<stone id="22694" target_type="ARMOR" shifting_type="RESTORE" grade="R,R95,R99"/>    <!--Armor Restoration Stone (R-grade)-->
+	<stone id="22695" target_type="ARMOR" shifting_type="RESTORE" grade="S,S80,S84"/>    <!--Armor Restoration Stone (S-grade)-->
+	<stone id="22696" target_type="ARMOR" shifting_type="RESTORE" grade="A"/>    <!--Armor Restoration Stone (A-grade)-->
+	<stone id="22697" target_type="ARMOR" shifting_type="RESTORE" grade="B"/>    <!--Armor Restoration Stone (B-grade)-->
+	<stone id="22698" target_type="ARMOR" shifting_type="RESTORE" grade="C"/>    <!--Armor Restoration Stone (C-grade)-->
+	<stone id="22699" target_type="ARMOR" shifting_type="RESTORE" grade="D"/>    <!--Armor Restoration Stone (D-grade)-->
+	<!--Restore-->
+	<stone id="22700" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="R,R95,R99"/>    <!--Equipment Restoration Stone (R-grade)-->
+	<stone id="22701" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="S,S80,S84"/>    <!--Equipment Restoration Stone (S-grade)-->
+	<stone id="22702" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="A"/>    <!--Equipment Restoration Stone (A-grade)-->
+	<stone id="22703" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="B"/>    <!--Equipment Restoration Stone (B-grade)-->
+	<stone id="22704" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="C"/>    <!--Equipment Restoration Stone (C-grade)-->
+	<stone id="22705" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="D"/>    <!--Equipment Restoration Stone (D-grade)-->
+
+	<!--Armor Appearance Scrolls-->
+	<!--Normal-->
+	<stone id="36586" target_type="ARMOR" shifting_type="NORMAL" grade="R,R95,R99" cost="125000"/>    <!--Scroll: Modify Armor (R-grade)-->
+	<stone id="36587" target_type="ARMOR" shifting_type="NORMAL" grade="S,S80,S84" cost="125000"/>    <!--Scroll: Modify Armor (S-grade)-->
+	<stone id="36588" target_type="ARMOR" shifting_type="NORMAL" grade="A" cost="125000"/>    <!--Scroll: Modify Armor (A-grade)-->
+	<stone id="36589" target_type="ARMOR" shifting_type="NORMAL" grade="B" cost="125000"/>    <!--Scroll: Modify Armor (B-grade)-->
+	<stone id="36590" target_type="ARMOR" shifting_type="NORMAL" grade="C" cost="125000"/>    <!--Scroll: Modify Armor (C-grade)-->
+	<stone id="36591" target_type="ARMOR" shifting_type="NORMAL" grade="D" cost="125000"/>    <!--Scroll: Modify Armor (D-grade)-->
+	<!--15-day-->
+	<stone id="36618" target_type="ARMOR" shifting_type="NORMAL" grade="R,R95,R99" cost="125000" period="1296000"/>    <!--Scroll: Modify Armor (R-grade)-->
+	<stone id="36619" target_type="ARMOR" shifting_type="NORMAL" grade="S,S80,S84" cost="125000" period="1296000"/>    <!--Scroll: Modify Armor (S-grade)-->
+	<stone id="36620" target_type="ARMOR" shifting_type="NORMAL" grade="A" cost="125000" period="1296000"/>    <!--Scroll: Modify Armor (A-grade)-->
+	<stone id="36621" target_type="ARMOR" shifting_type="NORMAL" grade="B" cost="125000" period="1296000"/>    <!--Scroll: Modify Armor (B-grade)-->
+	<stone id="36622" target_type="ARMOR" shifting_type="NORMAL" grade="C" cost="125000" period="1296000"/>    <!--Scroll: Modify Armor (C-grade)-->
+	<stone id="36623" target_type="ARMOR" shifting_type="NORMAL" grade="D" cost="125000" period="1296000"/>    <!--Scroll: Modify Armor (D-grade)-->
+	<!--Blessed-->
+	<stone id="36592" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99"/>    <!--Blessed Scroll: Modify Armor (R-grade)-->
+	<stone id="36593" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84"/>    <!--Blessed Scroll: Modify Armor (S-grade)-->
+	<stone id="36594" target_type="ARMOR" shifting_type="BLESSED" grade="A"/>    <!--Blessed Scroll: Modify Armor (A-grade)-->
+	<stone id="36595" target_type="ARMOR" shifting_type="BLESSED" grade="B"/>    <!--Blessed Scroll: Modify Armor (B-grade)-->
+	<stone id="36596" target_type="ARMOR" shifting_type="BLESSED" grade="C"/>    <!--Blessed Scroll: Modify Armor (C-grade)-->
+	<stone id="36597" target_type="ARMOR" shifting_type="BLESSED" grade="D"/>    <!--Blessed Scroll: Modify Armor (D-grade)-->
+	<!--7-day-->
+	<stone id="36624" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99" period="604800"/>    <!--Blessed Scroll: Modify Armor (R-grade) - 7-day-->
+	<stone id="36625" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84" period="604800"/>    <!--Blessed Scroll: Modify Armor (S-grade) - 7-day-->
+	<stone id="36626" target_type="ARMOR" shifting_type="BLESSED" grade="A" period="604800"/>    <!--Blessed Scroll: Modify Armor (A-grade) - 7-day-->
+	<stone id="36627" target_type="ARMOR" shifting_type="BLESSED" grade="B" period="604800"/>    <!--Blessed Scroll: Modify Armor (B-grade) - 7-day-->
+	<stone id="36628" target_type="ARMOR" shifting_type="BLESSED" grade="C" period="604800"/>    <!--Blessed Scroll: Modify Armor (C-grade) - 7-day-->
+	<stone id="36629" target_type="ARMOR" shifting_type="BLESSED" grade="D" period="604800"/>    <!--Blessed Scroll: Modify Armor (D-grade) - 7-day-->
+	<!--30-day-->
+	<stone id="37385" target_type="ARMOR" shifting_type="BLESSED" grade="R,R95,R99" period="2592000"/>    <!--Blessed Scroll: Modify Armor (R-grade) - 30-day-->
+	<stone id="37386" target_type="ARMOR" shifting_type="BLESSED" grade="S,S80,S84" period="2592000"/>    <!--Blessed Scroll: Modify Armor (S-grade) - 30-day-->
+	<stone id="37387" target_type="ARMOR" shifting_type="BLESSED" grade="A" period="2592000"/>    <!--Blessed Scroll: Modify Armor (A-grade) - 30-day-->
+	<stone id="37388" target_type="ARMOR" shifting_type="BLESSED" grade="B" period="2592000"/>    <!--Blessed Scroll: Modify Armor (B-grade) - 30-day-->
+	<stone id="37389" target_type="ARMOR" shifting_type="BLESSED" grade="C" period="2592000"/>    <!--Blessed Scroll: Modify Armor (C-grade) - 30-day-->
+	<stone id="37390" target_type="ARMOR" shifting_type="BLESSED" grade="D" period="2592000"/>    <!--Blessed Scroll: Modify Armor (D-grade) - 30-day-->
+
+	<!--Restore Appearance Scrolls-->
+	<stone id="36598" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="R,R95,R99"/>    <!--Scroll: Restore Equipment (R-grade)-->
+	<stone id="36599" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="S,S80,S84"/>    <!--Scroll: Restore Equipment (S-grade)-->
+	<stone id="36600" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="A"/>    <!--Scroll: Restore Equipment (A-grade)-->
+	<stone id="36601" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="B"/>    <!--Scroll: Restore Equipment (B-grade)-->
+	<stone id="36602" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="C"/>    <!--Scroll: Restore Equipment (C-grade)-->
+	<stone id="36603" target_type="WEAPON,ARMOR" shifting_type="RESTORE" grade="D"/>    <!--Scroll: Restore Equipment (D-grade)-->
+	<stone id="26274" target_type="WEAPON" shifting_type="FIXED" item_type="SHIELD,SIGIL,SWORD,MAGIC_SWORD,DAGGER,BIG_SWORD,HAND_TO_HAND,POLE,BOW,BIG_BLUNT_WEAPON,MAGIC_BLUNT_WEAPON,DUAL_BLUNT_WEAPON,DUAL_DAGGER,DUAL_SWORD,BLUNT_WEAPON,BIG_MAGIC_BLUNT_WEAPON"/>
+
+	<!--Fixed-->
+	<!--<stone id="22706" target_type="ARMOR" shifting_type="FIXED" extract_id="" item_type="UPPER_PIECE,FULL_BODY"/>-->    <!--(Test) Formal Wear Change Appearance Stone-->
+	<!--<stone id="22707" target_type="ARMOR" shifting_type="FIXED" extract_id="" item_type="UPPER_PIECE,FULL_BODY"/>-->    <!--(Test) Immortal Top Appearance Stone-->
+	<!--Light Saber Stones-->
+	<stone id="22680" target_type="ARMOR" shifting_type="FIXED" extract_id="22664" item_type="SHIELD"/>    <!--Light Saber Shield Appearance Stone-->
+	<stone id="22681" target_type="ARMOR" shifting_type="FIXED" extract_id="22665" item_type="SIGIL"/>    <!--Light Saber Sigil Appearance Stone-->
+	<!--Japanese Sigil Stones-->
+	<stone id="22741" target_type="ARMOR" shifting_type="FIXED" extract_id="22725" item_type="SHIELD"/>    <!--Japanese Shield Appearance Stone-->
+	<stone id="22742" target_type="ARMOR" shifting_type="FIXED" extract_id="22726" item_type="SIGIL"/>    <!--Japanese Sigil Appearance Stone-->
+	<stone id="23172" target_type="ARMOR" shifting_type="FIXED" extract_id="23171" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Beach Swimsuit Appearance Stone-->
+	<stone id="23234" target_type="ARMOR" shifting_type="FIXED" extract_id="23173" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Alluring Swimsuit Appearance Stone-->
+	<stone id="23235" target_type="ARMOR" shifting_type="FIXED" extract_id="23226" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Seductive Swimsuit Appearance Stone-->
+	<stone id="23486" target_type="ARMOR" shifting_type="FIXED" extract_id="23485" item_type="UPPER_PIECE,FULL_BODY" period="1209600"/>   <!--Santa Outfit Appearance Stone 14 дней-->
+	<stone id="23487" target_type="ARMOR" shifting_type="FIXED" extract_id="23485" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Santa Outfit Appearance Stone-->
+	<stone id="26273" target_type="ARMOR" shifting_type="FIXED" extract_id="26254" item_type="UPPER_PIECE,FULL_BODY"/>
+	<!--Monster Weapon Stones-->
+	<stone id="37085" target_type="ARMOR" shifting_type="FIXED" extract_id="37065" item_type="SHIELD"/>    <!--Monster Weapon Appearance Stone: Theor's Shield-->
+	<stone id="37086" target_type="ARMOR" shifting_type="FIXED" extract_id="37066" item_type="SHIELD"/>    <!--Monster Weapon Appearance Stone: Shield of Corruption-->
+	<!--Emerald Weapon Stones-->
+	<stone id="37430" target_type="ARMOR" shifting_type="FIXED" extract_id="36646" item_type="SHIELD"/>    <!--Emerald Weapon Appearance Stone: Shield-->
+	<stone id="37431" target_type="ARMOR" shifting_type="FIXED" extract_id="36647" item_type="SHIELD"/>    <!--Emerald Weapon Appearance Stone: Sigil-->
+	<!--7-day-->
+	<stone id="36662" target_type="ARMOR" shifting_type="FIXED" extract_id="36646" item_type="SHIELD" period="604800"/>    <!--Emerald Weapon Appearance Stone: Shield - 7-day-->
+	<stone id="36663" target_type="ARMOR" shifting_type="FIXED" extract_id="36647" item_type="SHIELD" period="604800"/>    <!--Emerald Weapon Appearance Stone: Sigil - 7-day-->
+	<!--15-day-->
+	<stone id="37414" target_type="ARMOR" shifting_type="FIXED" extract_id="36646" item_type="SHIELD" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Shield - 15-day-->
+	<stone id="37415" target_type="ARMOR" shifting_type="FIXED" extract_id="36647" item_type="SHIELD" period="1296000"/>    <!--Emerald Weapon Appearance Stone: Sigil - 15-day-->
+
+	<stone id="23189" target_type="ARMOR" shifting_type="FIXED" extract_id="23179" item_type="UPPER_PIECE"/>    <!--Ninja Top Appearance Stone-->
+	<stone id="23190" target_type="ARMOR" shifting_type="FIXED" extract_id="23180" item_type="LOWER_PIECE"/>    <!--Ninja Pants Appearance Stone-->
+	<stone id="23191" target_type="ARMOR" shifting_type="FIXED" extract_id="23181" item_type="GLOVES"/>    <!--Ninja Gloves Appearance Stone-->
+	<stone id="23192" target_type="ARMOR" shifting_type="FIXED" extract_id="23182" item_type="FEET"/>    <!--Ninja Shoes Appearance Stone-->
+	<stone id="23193" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23183" item_type="HAIR_ACCESSORY"/>    <!--Ninja Hair Accessory Appearance Stone-->
+
+	<stone id="23194" target_type="ARMOR" shifting_type="FIXED" extract_id="23184" item_type="UPPER_PIECE"/>    <!--Traditional Taiwanese Top Appearance Stone-->
+	<stone id="23195" target_type="ARMOR" shifting_type="FIXED" extract_id="23185" item_type="LOWER_PIECE"/>    <!--Traditional Taiwanese Pants Appearance Stone-->
+	<stone id="23196" target_type="ARMOR" shifting_type="FIXED" extract_id="23186" item_type="GLOVES"/>    <!--Traditional Taiwanese Gloves Appearance Stone-->
+	<stone id="23197" target_type="ARMOR" shifting_type="FIXED" extract_id="23187" item_type="FEET"/>    <!--Traditional Taiwanese Shoes Appearance Stone-->
+	<stone id="23198" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23188" item_type="HAIR_ACCESSORY"/>    <!--Traditional Taiwanese Hair Accessory Appearance Stone-->
+
+	<stone id="23493" target_type="ARMOR" shifting_type="FIXED" extract_id="23448" item_type="UPPER_PIECE"/>    <!--Metal Suit Top Appearance Stone-->
+	<stone id="23494" target_type="ARMOR" shifting_type="FIXED" extract_id="23449" item_type="LOWER_PIECE"/>    <!--Metal Suit Pants Appearance Stone-->
+	<stone id="23495" target_type="ARMOR" shifting_type="FIXED" extract_id="23450" item_type="GLOVES"/>    <!--Metal Suit Gloves Appearance Stone-->
+	<stone id="23496" target_type="ARMOR" shifting_type="FIXED" extract_id="23451" item_type="FEET"/>    <!--Metal Suit Shoes Appearance Stone-->
+	<stone id="23497" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23452" item_type="HAIR_ACCESSORY"/>    <!--Metal Suit Hair Accessory Appearance Stone-->
+
+	<stone id="23503" target_type="ARMOR" shifting_type="FIXED" extract_id="23453" item_type="UPPER_PIECE"/>    <!--Military Top Appearance Stone-->
+	<stone id="23504" target_type="ARMOR" shifting_type="FIXED" extract_id="23454" item_type="LOWER_PIECE"/>    <!--Military Pants Appearance Stone-->
+	<stone id="23505" target_type="ARMOR" shifting_type="FIXED" extract_id="23455" item_type="GLOVES"/>    <!--Military Gloves Appearance Stone-->
+	<stone id="23506" target_type="ARMOR" shifting_type="FIXED" extract_id="23456" item_type="FEET"/>    <!--Military Shoes Appearance Stone-->
+	<stone id="23507" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23457" item_type="HAIR_ACCESSORY"/>    <!--Military Hair Accessory Appearance Stone-->
+
+	<stone id="40330" target_type="ARMOR" shifting_type="FIXED" extract_id="37534" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Appearance Stone: Santa Suit-->
+	<stone id="40310" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37535" item_type="HAIR_ACCESSORY"/>    <!--Appearance Stone: Santa Hat-->
+
+	<stone id="46189" target_type="ARMOR" shifting_type="FIXED" extract_id="46192" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Appearance Stone: Santa Suit-->
+	<stone id="46190" target_type="ARMOR" shifting_type="FIXED" extract_id="46192" item_type="UPPER_PIECE,FULL_BODY" period="2592000"/>    <!--Appearance Stone: Santa Suit-->
+
+	<!--Accessory Appearance Stones-->
+	<!--Normal-->
+	<stone id="22708" target_type="ACCESSORY" shifting_type="NORMAL" cost="125000"/>    <!--Accessory Appearance Stone-->
+	<stone id="36604" target_type="ACCESSORY" shifting_type="NORMAL" cost="125000"/>    <!--Hair Accessory Appearance Stone-->
+	<!--15-day-->
+	<stone id="36630" target_type="ACCESSORY" shifting_type="NORMAL" cost="125000" period="1296000"/>    <!--Hair Accessory Appearance Stone-->
+	<!--Blessed-->
+	<stone id="22709" target_type="ACCESSORY" shifting_type="BLESSED"/>    <!--Accessory Appearance Stone-->
+	<stone id="36605" target_type="ACCESSORY" shifting_type="BLESSED"/>    <!--Blessed Hair Accessory Appearance Stone-->
+	<!--7-day-->
+	<stone id="36631" target_type="ACCESSORY" shifting_type="BLESSED" period="604800"/>    <!--Blessed Hair Accessory Appearance Stone-->
+	<!--Restore-->
+	<stone id="22882" target_type="ACCESSORY" shifting_type="RESTORE"/>    <!--Hair Accessory Appearance Restoration Stone-->
+
+	<!--PC POINTS SHOP (15 day)-->
+	<stone id="37919" target_type="WEAPON" shifting_type="FIXED" extract_id="37629" item_type="SWORD"/>
+	<stone id="37920" target_type="WEAPON" shifting_type="FIXED" extract_id="37945" item_type="SWORD"/>
+	<stone id="37921" target_type="WEAPON" shifting_type="FIXED" extract_id="37946" item_type="HAND_TO_HAND"/>
+	<stone id="37922" target_type="WEAPON" shifting_type="FIXED" extract_id="37947" item_type="POLE"/>
+	<stone id="37923" target_type="WEAPON" shifting_type="FIXED" extract_id="37948" item_type="BIG_BLUNT_WEAPON"/>
+	<stone id="37924" target_type="WEAPON" shifting_type="FIXED" extract_id="37949" item_type="DUAL_SWORD"/>
+	<stone id="37925" target_type="WEAPON" shifting_type="FIXED" extract_id="37916" item_type="DAGGER"/>
+	<stone id="37926" target_type="WEAPON" shifting_type="FIXED" extract_id="37917" item_type="DUAL_DAGGER"/>
+	<stone id="37927" target_type="WEAPON" shifting_type="FIXED" extract_id="37918" item_type="MAGIC_SWORD"/>
+
+	<!--PC POINTS SHOP (NORMAL)-->
+	<stone id="37907" target_type="WEAPON" shifting_type="FIXED" extract_id="37629" item_type="SWORD"/>
+	<stone id="37908" target_type="WEAPON" shifting_type="FIXED" extract_id="37945" item_type="SWORD"/>
+	<stone id="37909" target_type="WEAPON" shifting_type="FIXED" extract_id="37946" item_type="HAND_TO_HAND"/>
+	<stone id="37910" target_type="WEAPON" shifting_type="FIXED" extract_id="37947" item_type="POLE"/>
+	<stone id="37911" target_type="WEAPON" shifting_type="FIXED" extract_id="37948" item_type="BIG_BLUNT_WEAPON"/>
+	<stone id="37912" target_type="WEAPON" shifting_type="FIXED" extract_id="37949" item_type="DUAL_SWORD"/>
+	<stone id="37913" target_type="WEAPON" shifting_type="FIXED" extract_id="37916" item_type="DAGGER"/>
+	<stone id="37914" target_type="WEAPON" shifting_type="FIXED" extract_id="37917" item_type="DUAL_DAGGER"/>
+	<stone id="37915" target_type="WEAPON" shifting_type="FIXED" extract_id="37918" item_type="MAGIC_SWORD"/>
+
+	<stone id="37919" target_type="WEAPON" shifting_type="FIXED" extract_id="37629" item_type="SWORD" period="1296000"/>
+	<stone id="37920" target_type="WEAPON" shifting_type="FIXED" extract_id="37945" item_type="SWORD" period="1296000"/>
+	<stone id="37921" target_type="WEAPON" shifting_type="FIXED" extract_id="37946" item_type="HAND_TO_HAND" period="1296000"/>
+	<stone id="37922" target_type="WEAPON" shifting_type="FIXED" extract_id="37947" item_type="POLE" period="1296000"/>
+	<stone id="37923" target_type="WEAPON" shifting_type="FIXED" extract_id="37948" item_type="BIG_BLUNT_WEAPON" period="1296000"/>
+	<stone id="37924" target_type="WEAPON" shifting_type="FIXED" extract_id="37949" item_type="DUAL_SWORD" period="1296000"/>
+	<stone id="37925" target_type="WEAPON" shifting_type="FIXED" extract_id="37916" item_type="DAGGER" period="1296000"/>
+	<stone id="37926" target_type="WEAPON" shifting_type="FIXED" extract_id="37917" item_type="DUAL_DAGGER" period="1296000"/>
+	<stone id="37927" target_type="WEAPON" shifting_type="FIXED" extract_id="37918" item_type="MAGIC_SWORD" period="1296000"/>
+
+	<stone id="46173" target_type="ARMOR" shifting_type="FIXED" extract_id="46179" item_type="UPPER_PIECE,FULL_BODY" period="2592000"/>   <!--Камень Обработки Наряда Анаким-->
+	<stone id="46174" target_type="ARMOR" shifting_type="FIXED" extract_id="46180" item_type="UPPER_PIECE,FULL_BODY" period="2592000"/>     <!--Камень Обработки Наряда Анаким-->
+	<stone id="46175" target_type="ARMOR" shifting_type="FIXED" extract_id="46181" item_type="UPPER_PIECE,FULL_BODY" period="2592000"/>    <!--Камень Обработки Наряда Анаким-->
+	<stone id="46176" target_type="ARMOR" shifting_type="FIXED" extract_id="46182" item_type="UPPER_PIECE,FULL_BODY" period="2592000"/>    <!--Камень Обработки Наряда Анаким-->
+
+	
+	<stone id="23878" target_type="ARMOR" shifting_type="FIXED" extract_id="23877" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Шлема Самурая-->
+	<stone id="23880" target_type="ARMOR" shifting_type="FIXED" extract_id="23879" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+	<stone id="23882" target_type="ARMOR" shifting_type="FIXED" extract_id="23881" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Наряда Анаким-->
+	<stone id="23888" target_type="ARMOR" shifting_type="FIXED" extract_id="23883" item_type="UPPER_PIECE"/>    <!--Камень Обработки Пиджака Вампира-->
+	<stone id="23889" target_type="ARMOR" shifting_type="FIXED" extract_id="23884" item_type="LOWER_PIECE"/>    <!--Камень Обработки Штанов Вампира-->
+	<stone id="23890" target_type="ARMOR" shifting_type="FIXED" extract_id="23885" item_type="GLOVES"/>    <!--Камень Обработки Перчаток Вампира-->
+	<stone id="23891" target_type="ARMOR" shifting_type="FIXED" extract_id="23886" item_type="FEET"/>    <!--Камень Обработки Обуви Вампира-->
+	<stone id="23892" target_type="ARMOR" shifting_type="FIXED" extract_id="23887" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Головного Убора Вампира-->
+
+	<stone id="24134" target_type="ARMOR" shifting_type="FIXED" extract_id="24133" item_type="UPPER_PIECE,FULL_BODY">    <!--Камень Обработки Костюма Темного Ассасина-->
+		<skill id="26130" level="1"/>    <!--Dark Assassin's Move-->
+	</stone>
+	<stone id="24365" target_type="ARMOR" shifting_type="FIXED" extract_id="24364" item_type="UPPER_PIECE,FULL_BODY">    <!--Камень Обработки Костюма Темного Ассасина-->
+		<skill id="26213" level="1"/>    <!--Dark Assassin's Move-->
+	</stone>
+	<stone id="40270" target_type="ARMOR" shifting_type="FIXED" extract_id="40240" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Темного Ассасина-->
+
+
+	<stone id="26252" target_type="ARMOR" shifting_type="FIXED" extract_id="26254" item_type="UPPER_PIECE,FULL_BODY">    <!--Камень Обработки Костюма Темного Ассасина-->
+		<skill id="8371" level="1"/>    <!--Dark Assassin's Move-->
+	</stone>
+	
+	<stone id="26332" target_type="ARMOR" shifting_type="FIXED" extract_id="26326" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+	<stone id="26333" target_type="ARMOR" shifting_type="FIXED" extract_id="26327" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Головного Убора Вампира-->
+	<stone id="26334" target_type="ARMOR" shifting_type="FIXED" extract_id="26328" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+	<stone id="26335" target_type="ARMOR" shifting_type="FIXED" extract_id="26329" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Головного Убора Вампира-->
+	<stone id="26336" target_type="ARMOR" shifting_type="FIXED" extract_id="26330" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+	<stone id="26337" target_type="ARMOR" shifting_type="FIXED" extract_id="26331" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Головного Убора Вампира-->
+
+	<stone id="26357" target_type="ARMOR" shifting_type="FIXED" extract_id="26355" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+	<stone id="26358" target_type="ARMOR" shifting_type="FIXED" extract_id="26356" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+
+	<stone id="27559" target_type="ARMOR" shifting_type="FIXED" extract_id="27557" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Костюма Самурая-->
+	<stone id="27560" target_type="ARMOR" shifting_type="FIXED" extract_id="27558" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Головного Убора Вампира-->
+
+	
+	<!--Monster Weapons-->
+	<stone id="23211" target_type="WEAPON" shifting_type="FIXED" extract_id="22775" item_type="BLUNT_WEAPON"/>    <!--Drake Maul Appearance Stone-->
+	<stone id="23212" target_type="WEAPON" shifting_type="FIXED" extract_id="22791" item_type="BIG_MAGIC_BLUNT_WEAPON"/> <!--Freya's Staff Appearance Stone-->
+	<stone id="23213" target_type="WEAPON" shifting_type="FIXED" extract_id="22807" item_type="HAND_TO_HAND"/>    <!--Spezion's Claw Appearance Stone-->
+	<stone id="23214" target_type="WEAPON" shifting_type="FIXED" extract_id="22814" item_type="POLE"/>    <!--Maliss Stormer Appearance Stone-->
+	<stone id="23215" target_type="WEAPON" shifting_type="FIXED" extract_id="22821" item_type="DAGGER"/> <!--Steregos' Dagger Appearance Stone-->
+	<stone id="23216" target_type="WEAPON" shifting_type="FIXED" extract_id="22828" item_type="DUAL_BLUNT_WEAPON"/> <!--Ron's Dual Blunt Weapon Appearance Stone-->
+	<stone id="23217" target_type="WEAPON" shifting_type="FIXED" extract_id="21919" item_type="SWORD"/> <!--Darion's Hellblade Appearance Stone-->
+	<stone id="23218" target_type="WEAPON" shifting_type="FIXED" extract_id="21935" item_type="DUAL_DAGGER"/>    <!--Doll Blader's Butcher Blades Appearance Stone-->
+	<stone id="23219" target_type="WEAPON" shifting_type="FIXED" extract_id="21939" item_type="BLUNT_WEAPON"/>    <!--Tiat's Claw of Destruction Appearance Stone-->
+	<stone id="23220" target_type="WEAPON" shifting_type="FIXED" extract_id="21955" item_type="DUAL_SWORD"/>    <!--Aenkinel's Blades of Delusion Appearance Stone-->
+	<stone id="23221" target_type="WEAPON" shifting_type="FIXED" extract_id="21961" item_type="BIG_SWORD"/>    <!--Yehan Klanikus' Blood Brother Appearance Stone-->
+	<stone id="23222" target_type="WEAPON" shifting_type="FIXED" extract_id="21973" item_type="MAGIC_SWORD"/>    <!--Mardil's Fan Appearance Stone-->
+
+	<stone id="40296" target_type="WEAPON" shifting_type="FIXED" extract_id="40298" item_type="BLUNT_WEAPON"/>    <!--Turikki's Blunt Weapon-->
+	<stone id="40297" target_type="WEAPON" shifting_type="FIXED" extract_id="40299" item_type="BOW"/>    <!--Tiger Bow-->
+	
+	<!--Monster Weapons-->
+	<stone id="23535" target_type="WEAPON" shifting_type="FIXED" extract_id="21919" item_type="SWORD"/> <!--Darion's Hellblade Appearance Stone-->
+	<stone id="23536" target_type="WEAPON" shifting_type="FIXED" extract_id="21939" item_type="BLUNT_WEAPON"/>    <!--Tiat's Claw of Destruction Appearance Stone-->
+	<stone id="23537" target_type="WEAPON" shifting_type="FIXED" extract_id="21935" item_type="DUAL_DAGGER"/>    <!--Doll Blader's Butcher Blades Appearance Stone-->
+	<stone id="23538" target_type="WEAPON" shifting_type="FIXED" extract_id="21955" item_type="DUAL_SWORD"/>    <!--Aenkinel's Blades of Delusion Appearance Stone-->
+	<stone id="23539" target_type="WEAPON" shifting_type="FIXED" extract_id="21961" item_type="BIG_SWORD"/>    <!--Yehan Klanikus' Blood Brother Appearance Stone-->
+	<stone id="23540" target_type="WEAPON" shifting_type="FIXED" extract_id="21973" item_type="MAGIC_SWORD"/>    <!--Mardil's Fan Appearance Stone-->
+
+
+	<!--Vesper Noble Light Armor Appearance Stone!-->
+	<stone id="23542" target_type="ARMOR" shifting_type="FIXED" extract_id="13436" item_type="UPPER_PIECE"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (верх)-->
+	<stone id="23543" target_type="ARMOR" shifting_type="FIXED" extract_id="13451" item_type="LOWER_PIECE"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (низ)-->
+	<stone id="23544" target_type="ARMOR" shifting_type="FIXED" extract_id="13452" item_type="GLOVES"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (перчатки)-->
+	<stone id="23545" target_type="ARMOR" shifting_type="FIXED" extract_id="13453" item_type="FEET"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (обувь)-->
+	<stone id="23546" target_type="ARMOR" shifting_type="FIXED" extract_id="13436" item_type="UPPER_PIECE" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (верх)-->
+	<stone id="23547" target_type="ARMOR" shifting_type="FIXED" extract_id="13451" item_type="LOWER_PIECE" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (низ)-->
+	<stone id="23548" target_type="ARMOR" shifting_type="FIXED" extract_id="13452" item_type="GLOVES" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (перчатки)-->
+	<stone id="23549" target_type="ARMOR" shifting_type="FIXED" extract_id="13453" item_type="FEET" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (обувь)-->
+	
+	<stone id="23581" target_type="ARMOR" shifting_type="FIXED" extract_id="15593" item_type="UPPER_PIECE"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (верх)-->
+	<stone id="23582" target_type="ARMOR" shifting_type="FIXED" extract_id="15596" item_type="LOWER_PIECE"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (низ)-->
+	<stone id="23583" target_type="ARMOR" shifting_type="FIXED" extract_id="15599" item_type="GLOVES"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (перчатки)-->
+	<stone id="23584" target_type="ARMOR" shifting_type="FIXED" extract_id="15602" item_type="FEET"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (обувь)-->
+	<stone id="23585" target_type="ARMOR" shifting_type="FIXED" extract_id="15593" item_type="UPPER_PIECE" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (верх)-->
+	<stone id="23586" target_type="ARMOR" shifting_type="FIXED" extract_id="15596" item_type="LOWER_PIECE" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (низ)-->
+	<stone id="23587" target_type="ARMOR" shifting_type="FIXED" extract_id="15599" item_type="GLOVES" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (перчатки)-->
+	<stone id="23588" target_type="ARMOR" shifting_type="FIXED" extract_id="15602" item_type="FEET" period="604800"/>    <!--Камень Обработки Красивых Легких Доспехов Венеры (обувь)-->
+
+
+	<stone id="25060" target_type="ARMOR" shifting_type="FIXED" extract_id="24400" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25061" target_type="ARMOR" shifting_type="FIXED" extract_id="24401" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25062" target_type="ARMOR" shifting_type="FIXED" extract_id="24402" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25063" target_type="ARMOR" shifting_type="FIXED" extract_id="24403" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25064" target_type="ARMOR" shifting_type="FIXED" extract_id="24404" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25065" target_type="ARMOR" shifting_type="FIXED" extract_id="24405" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25066" target_type="ARMOR" shifting_type="FIXED" extract_id="24406" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25067" target_type="ARMOR" shifting_type="FIXED" extract_id="24407" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25068" target_type="ARMOR" shifting_type="FIXED" extract_id="24408" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25069" target_type="ARMOR" shifting_type="FIXED" extract_id="24409" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25070" target_type="ARMOR" shifting_type="FIXED" extract_id="24410" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25071" target_type="ARMOR" shifting_type="FIXED" extract_id="24411" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25072" target_type="ARMOR" shifting_type="FIXED" extract_id="24412" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25073" target_type="ARMOR" shifting_type="FIXED" extract_id="24413" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25074" target_type="ARMOR" shifting_type="FIXED" extract_id="24414" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25075" target_type="ARMOR" shifting_type="FIXED" extract_id="24415" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25076" target_type="ARMOR" shifting_type="FIXED" extract_id="24416" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25077" target_type="ARMOR" shifting_type="FIXED" extract_id="24417" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25078" target_type="ARMOR" shifting_type="FIXED" extract_id="24418" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25079" target_type="ARMOR" shifting_type="FIXED" extract_id="24419" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25080" target_type="ARMOR" shifting_type="FIXED" extract_id="24420" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25081" target_type="ARMOR" shifting_type="FIXED" extract_id="24421" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25082" target_type="ARMOR" shifting_type="FIXED" extract_id="24422" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25083" target_type="ARMOR" shifting_type="FIXED" extract_id="24423" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25084" target_type="ARMOR" shifting_type="FIXED" extract_id="24424" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25085" target_type="ARMOR" shifting_type="FIXED" extract_id="24425" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25086" target_type="ARMOR" shifting_type="FIXED" extract_id="24426" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25087" target_type="ARMOR" shifting_type="FIXED" extract_id="24427" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25088" target_type="ARMOR" shifting_type="FIXED" extract_id="24428" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25089" target_type="ARMOR" shifting_type="FIXED" extract_id="24429" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25090" target_type="ARMOR" shifting_type="FIXED" extract_id="24430" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25091" target_type="ARMOR" shifting_type="FIXED" extract_id="24431" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25092" target_type="ARMOR" shifting_type="FIXED" extract_id="24432" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25093" target_type="ARMOR" shifting_type="FIXED" extract_id="24433" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25094" target_type="ARMOR" shifting_type="FIXED" extract_id="24434" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25095" target_type="ARMOR" shifting_type="FIXED" extract_id="24435" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25096" target_type="ARMOR" shifting_type="FIXED" extract_id="24436" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25097" target_type="ARMOR" shifting_type="FIXED" extract_id="24437" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25098" target_type="ARMOR" shifting_type="FIXED" extract_id="24438" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25099" target_type="ARMOR" shifting_type="FIXED" extract_id="24439" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25100" target_type="ARMOR" shifting_type="FIXED" extract_id="24440" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25101" target_type="ARMOR" shifting_type="FIXED" extract_id="24441" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25102" target_type="ARMOR" shifting_type="FIXED" extract_id="24442" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25103" target_type="ARMOR" shifting_type="FIXED" extract_id="24443" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25104" target_type="ARMOR" shifting_type="FIXED" extract_id="24444" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25105" target_type="ARMOR" shifting_type="FIXED" extract_id="24445" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25106" target_type="ARMOR" shifting_type="FIXED" extract_id="24446" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25107" target_type="ARMOR" shifting_type="FIXED" extract_id="24447" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25108" target_type="ARMOR" shifting_type="FIXED" extract_id="24448" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25109" target_type="ARMOR" shifting_type="FIXED" extract_id="24449" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25110" target_type="ARMOR" shifting_type="FIXED" extract_id="24450" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25111" target_type="ARMOR" shifting_type="FIXED" extract_id="24451" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25112" target_type="ARMOR" shifting_type="FIXED" extract_id="24452" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25113" target_type="ARMOR" shifting_type="FIXED" extract_id="24453" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25114" target_type="ARMOR" shifting_type="FIXED" extract_id="24454" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25115" target_type="ARMOR" shifting_type="FIXED" extract_id="24455" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25116" target_type="ARMOR" shifting_type="FIXED" extract_id="24456" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25117" target_type="ARMOR" shifting_type="FIXED" extract_id="24457" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25118" target_type="ARMOR" shifting_type="FIXED" extract_id="24458" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+	<stone id="25119" target_type="ARMOR" shifting_type="FIXED" extract_id="24459" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Свадебного Наряда-->
+
+	<stone id="25120" target_type="ARMOR" shifting_type="FIXED" extract_id="24460" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25121" target_type="ARMOR" shifting_type="FIXED" extract_id="24461" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25122" target_type="ARMOR" shifting_type="FIXED" extract_id="24462" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25123" target_type="ARMOR" shifting_type="FIXED" extract_id="24463" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25124" target_type="ARMOR" shifting_type="FIXED" extract_id="24464" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25125" target_type="ARMOR" shifting_type="FIXED" extract_id="24465" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25126" target_type="ARMOR" shifting_type="FIXED" extract_id="24466" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25127" target_type="ARMOR" shifting_type="FIXED" extract_id="24467" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25128" target_type="ARMOR" shifting_type="FIXED" extract_id="24468" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25129" target_type="ARMOR" shifting_type="FIXED" extract_id="24469" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25130" target_type="ARMOR" shifting_type="FIXED" extract_id="24470" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25131" target_type="ARMOR" shifting_type="FIXED" extract_id="24471" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25132" target_type="ARMOR" shifting_type="FIXED" extract_id="24472" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25133" target_type="ARMOR" shifting_type="FIXED" extract_id="24473" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25134" target_type="ARMOR" shifting_type="FIXED" extract_id="24474" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25135" target_type="ARMOR" shifting_type="FIXED" extract_id="24475" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25136" target_type="ARMOR" shifting_type="FIXED" extract_id="24476" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25137" target_type="ARMOR" shifting_type="FIXED" extract_id="24477" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25138" target_type="ARMOR" shifting_type="FIXED" extract_id="24478" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25139" target_type="ARMOR" shifting_type="FIXED" extract_id="24479" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25140" target_type="ARMOR" shifting_type="FIXED" extract_id="24480" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25141" target_type="ARMOR" shifting_type="FIXED" extract_id="24481" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25142" target_type="ARMOR" shifting_type="FIXED" extract_id="24482" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25143" target_type="ARMOR" shifting_type="FIXED" extract_id="24483" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25144" target_type="ARMOR" shifting_type="FIXED" extract_id="24484" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25145" target_type="ARMOR" shifting_type="FIXED" extract_id="24485" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25146" target_type="ARMOR" shifting_type="FIXED" extract_id="24486" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25147" target_type="ARMOR" shifting_type="FIXED" extract_id="24487" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25148" target_type="ARMOR" shifting_type="FIXED" extract_id="24488" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25149" target_type="ARMOR" shifting_type="FIXED" extract_id="24489" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25150" target_type="ARMOR" shifting_type="FIXED" extract_id="24490" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25151" target_type="ARMOR" shifting_type="FIXED" extract_id="24491" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25152" target_type="ARMOR" shifting_type="FIXED" extract_id="24492" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25153" target_type="ARMOR" shifting_type="FIXED" extract_id="24493" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25154" target_type="ARMOR" shifting_type="FIXED" extract_id="24494" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25155" target_type="ARMOR" shifting_type="FIXED" extract_id="24495" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25156" target_type="ARMOR" shifting_type="FIXED" extract_id="24496" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25157" target_type="ARMOR" shifting_type="FIXED" extract_id="24497" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25158" target_type="ARMOR" shifting_type="FIXED" extract_id="24498" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25159" target_type="ARMOR" shifting_type="FIXED" extract_id="24499" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25160" target_type="ARMOR" shifting_type="FIXED" extract_id="24500" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25161" target_type="ARMOR" shifting_type="FIXED" extract_id="24501" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25162" target_type="ARMOR" shifting_type="FIXED" extract_id="24502" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25163" target_type="ARMOR" shifting_type="FIXED" extract_id="24503" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25164" target_type="ARMOR" shifting_type="FIXED" extract_id="24504" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25165" target_type="ARMOR" shifting_type="FIXED" extract_id="24505" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25166" target_type="ARMOR" shifting_type="FIXED" extract_id="24506" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25167" target_type="ARMOR" shifting_type="FIXED" extract_id="24507" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25168" target_type="ARMOR" shifting_type="FIXED" extract_id="24508" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25169" target_type="ARMOR" shifting_type="FIXED" extract_id="24509" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25170" target_type="ARMOR" shifting_type="FIXED" extract_id="24510" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25171" target_type="ARMOR" shifting_type="FIXED" extract_id="24511" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25172" target_type="ARMOR" shifting_type="FIXED" extract_id="24512" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25173" target_type="ARMOR" shifting_type="FIXED" extract_id="24513" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25174" target_type="ARMOR" shifting_type="FIXED" extract_id="24514" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25175" target_type="ARMOR" shifting_type="FIXED" extract_id="24515" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25176" target_type="ARMOR" shifting_type="FIXED" extract_id="24516" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25177" target_type="ARMOR" shifting_type="FIXED" extract_id="24517" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25178" target_type="ARMOR" shifting_type="FIXED" extract_id="24518" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+	<stone id="25179" target_type="ARMOR" shifting_type="FIXED" extract_id="24519" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.1-->
+
+	<stone id="25180" target_type="ARMOR" shifting_type="FIXED" extract_id="24520" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25181" target_type="ARMOR" shifting_type="FIXED" extract_id="24521" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25182" target_type="ARMOR" shifting_type="FIXED" extract_id="24522" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25183" target_type="ARMOR" shifting_type="FIXED" extract_id="24523" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25184" target_type="ARMOR" shifting_type="FIXED" extract_id="24524" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25185" target_type="ARMOR" shifting_type="FIXED" extract_id="24525" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25186" target_type="ARMOR" shifting_type="FIXED" extract_id="24526" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25187" target_type="ARMOR" shifting_type="FIXED" extract_id="24527" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25188" target_type="ARMOR" shifting_type="FIXED" extract_id="24528" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25189" target_type="ARMOR" shifting_type="FIXED" extract_id="24529" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25190" target_type="ARMOR" shifting_type="FIXED" extract_id="24530" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25191" target_type="ARMOR" shifting_type="FIXED" extract_id="24531" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25192" target_type="ARMOR" shifting_type="FIXED" extract_id="24532" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25193" target_type="ARMOR" shifting_type="FIXED" extract_id="24533" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25194" target_type="ARMOR" shifting_type="FIXED" extract_id="24534" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25195" target_type="ARMOR" shifting_type="FIXED" extract_id="24535" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25196" target_type="ARMOR" shifting_type="FIXED" extract_id="24536" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25197" target_type="ARMOR" shifting_type="FIXED" extract_id="24537" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25198" target_type="ARMOR" shifting_type="FIXED" extract_id="24538" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25199" target_type="ARMOR" shifting_type="FIXED" extract_id="24539" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25200" target_type="ARMOR" shifting_type="FIXED" extract_id="24540" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25201" target_type="ARMOR" shifting_type="FIXED" extract_id="24541" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25202" target_type="ARMOR" shifting_type="FIXED" extract_id="24542" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25203" target_type="ARMOR" shifting_type="FIXED" extract_id="24543" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25204" target_type="ARMOR" shifting_type="FIXED" extract_id="24544" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25205" target_type="ARMOR" shifting_type="FIXED" extract_id="24545" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25206" target_type="ARMOR" shifting_type="FIXED" extract_id="24546" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25207" target_type="ARMOR" shifting_type="FIXED" extract_id="24547" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25208" target_type="ARMOR" shifting_type="FIXED" extract_id="24548" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25209" target_type="ARMOR" shifting_type="FIXED" extract_id="24549" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25210" target_type="ARMOR" shifting_type="FIXED" extract_id="24550" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25211" target_type="ARMOR" shifting_type="FIXED" extract_id="24551" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25212" target_type="ARMOR" shifting_type="FIXED" extract_id="24552" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25213" target_type="ARMOR" shifting_type="FIXED" extract_id="24553" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25214" target_type="ARMOR" shifting_type="FIXED" extract_id="24554" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25215" target_type="ARMOR" shifting_type="FIXED" extract_id="24555" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25216" target_type="ARMOR" shifting_type="FIXED" extract_id="24556" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25217" target_type="ARMOR" shifting_type="FIXED" extract_id="24557" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25218" target_type="ARMOR" shifting_type="FIXED" extract_id="24558" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25219" target_type="ARMOR" shifting_type="FIXED" extract_id="24559" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25220" target_type="ARMOR" shifting_type="FIXED" extract_id="24560" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25221" target_type="ARMOR" shifting_type="FIXED" extract_id="24561" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25222" target_type="ARMOR" shifting_type="FIXED" extract_id="24562" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25223" target_type="ARMOR" shifting_type="FIXED" extract_id="24563" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25224" target_type="ARMOR" shifting_type="FIXED" extract_id="24564" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25225" target_type="ARMOR" shifting_type="FIXED" extract_id="24565" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25226" target_type="ARMOR" shifting_type="FIXED" extract_id="24566" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25227" target_type="ARMOR" shifting_type="FIXED" extract_id="24567" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25228" target_type="ARMOR" shifting_type="FIXED" extract_id="24568" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25229" target_type="ARMOR" shifting_type="FIXED" extract_id="24569" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25230" target_type="ARMOR" shifting_type="FIXED" extract_id="24570" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25231" target_type="ARMOR" shifting_type="FIXED" extract_id="24571" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25232" target_type="ARMOR" shifting_type="FIXED" extract_id="24572" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25233" target_type="ARMOR" shifting_type="FIXED" extract_id="24573" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25234" target_type="ARMOR" shifting_type="FIXED" extract_id="24574" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25235" target_type="ARMOR" shifting_type="FIXED" extract_id="24575" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25236" target_type="ARMOR" shifting_type="FIXED" extract_id="24576" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25237" target_type="ARMOR" shifting_type="FIXED" extract_id="24577" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25238" target_type="ARMOR" shifting_type="FIXED" extract_id="24578" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+	<stone id="25239" target_type="ARMOR" shifting_type="FIXED" extract_id="24579" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Мужского Купального Костюма No.2-->
+
+	<stone id="25240" target_type="ARMOR" shifting_type="FIXED" extract_id="24580" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25241" target_type="ARMOR" shifting_type="FIXED" extract_id="24581" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25242" target_type="ARMOR" shifting_type="FIXED" extract_id="24582" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25243" target_type="ARMOR" shifting_type="FIXED" extract_id="24583" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25244" target_type="ARMOR" shifting_type="FIXED" extract_id="24584" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25245" target_type="ARMOR" shifting_type="FIXED" extract_id="24585" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25246" target_type="ARMOR" shifting_type="FIXED" extract_id="24586" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25247" target_type="ARMOR" shifting_type="FIXED" extract_id="24587" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25248" target_type="ARMOR" shifting_type="FIXED" extract_id="24588" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25249" target_type="ARMOR" shifting_type="FIXED" extract_id="24589" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25250" target_type="ARMOR" shifting_type="FIXED" extract_id="24590" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25251" target_type="ARMOR" shifting_type="FIXED" extract_id="24591" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25252" target_type="ARMOR" shifting_type="FIXED" extract_id="24592" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25253" target_type="ARMOR" shifting_type="FIXED" extract_id="24593" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25254" target_type="ARMOR" shifting_type="FIXED" extract_id="24594" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25255" target_type="ARMOR" shifting_type="FIXED" extract_id="24595" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25256" target_type="ARMOR" shifting_type="FIXED" extract_id="24596" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25257" target_type="ARMOR" shifting_type="FIXED" extract_id="24597" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25258" target_type="ARMOR" shifting_type="FIXED" extract_id="24598" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25259" target_type="ARMOR" shifting_type="FIXED" extract_id="24599" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25260" target_type="ARMOR" shifting_type="FIXED" extract_id="24600" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25261" target_type="ARMOR" shifting_type="FIXED" extract_id="24601" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25262" target_type="ARMOR" shifting_type="FIXED" extract_id="24602" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25263" target_type="ARMOR" shifting_type="FIXED" extract_id="24603" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25264" target_type="ARMOR" shifting_type="FIXED" extract_id="24604" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25265" target_type="ARMOR" shifting_type="FIXED" extract_id="24605" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25266" target_type="ARMOR" shifting_type="FIXED" extract_id="24606" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25267" target_type="ARMOR" shifting_type="FIXED" extract_id="24607" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25268" target_type="ARMOR" shifting_type="FIXED" extract_id="24608" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25269" target_type="ARMOR" shifting_type="FIXED" extract_id="24609" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25270" target_type="ARMOR" shifting_type="FIXED" extract_id="24610" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25271" target_type="ARMOR" shifting_type="FIXED" extract_id="24611" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25272" target_type="ARMOR" shifting_type="FIXED" extract_id="24612" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25273" target_type="ARMOR" shifting_type="FIXED" extract_id="24613" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25274" target_type="ARMOR" shifting_type="FIXED" extract_id="24614" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25275" target_type="ARMOR" shifting_type="FIXED" extract_id="24615" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25276" target_type="ARMOR" shifting_type="FIXED" extract_id="24616" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25277" target_type="ARMOR" shifting_type="FIXED" extract_id="24617" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25278" target_type="ARMOR" shifting_type="FIXED" extract_id="24618" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25279" target_type="ARMOR" shifting_type="FIXED" extract_id="24619" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25280" target_type="ARMOR" shifting_type="FIXED" extract_id="24620" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25281" target_type="ARMOR" shifting_type="FIXED" extract_id="24621" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25282" target_type="ARMOR" shifting_type="FIXED" extract_id="24622" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25283" target_type="ARMOR" shifting_type="FIXED" extract_id="24623" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25284" target_type="ARMOR" shifting_type="FIXED" extract_id="24624" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25285" target_type="ARMOR" shifting_type="FIXED" extract_id="24625" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25286" target_type="ARMOR" shifting_type="FIXED" extract_id="24626" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25287" target_type="ARMOR" shifting_type="FIXED" extract_id="24627" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25288" target_type="ARMOR" shifting_type="FIXED" extract_id="24628" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25289" target_type="ARMOR" shifting_type="FIXED" extract_id="24629" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25290" target_type="ARMOR" shifting_type="FIXED" extract_id="24630" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25291" target_type="ARMOR" shifting_type="FIXED" extract_id="24631" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25292" target_type="ARMOR" shifting_type="FIXED" extract_id="24632" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25293" target_type="ARMOR" shifting_type="FIXED" extract_id="24633" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25294" target_type="ARMOR" shifting_type="FIXED" extract_id="24634" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25295" target_type="ARMOR" shifting_type="FIXED" extract_id="24635" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25296" target_type="ARMOR" shifting_type="FIXED" extract_id="24636" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25297" target_type="ARMOR" shifting_type="FIXED" extract_id="24637" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25298" target_type="ARMOR" shifting_type="FIXED" extract_id="24638" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+	<stone id="25299" target_type="ARMOR" shifting_type="FIXED" extract_id="24639" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.1-->
+
+	<stone id="25300" target_type="ARMOR" shifting_type="FIXED" extract_id="24640" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25301" target_type="ARMOR" shifting_type="FIXED" extract_id="24641" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25302" target_type="ARMOR" shifting_type="FIXED" extract_id="24642" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25303" target_type="ARMOR" shifting_type="FIXED" extract_id="24643" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25304" target_type="ARMOR" shifting_type="FIXED" extract_id="24644" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25305" target_type="ARMOR" shifting_type="FIXED" extract_id="24645" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25306" target_type="ARMOR" shifting_type="FIXED" extract_id="24646" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25307" target_type="ARMOR" shifting_type="FIXED" extract_id="24647" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25308" target_type="ARMOR" shifting_type="FIXED" extract_id="24648" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25309" target_type="ARMOR" shifting_type="FIXED" extract_id="24649" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25310" target_type="ARMOR" shifting_type="FIXED" extract_id="24650" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25311" target_type="ARMOR" shifting_type="FIXED" extract_id="24651" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25312" target_type="ARMOR" shifting_type="FIXED" extract_id="24652" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25313" target_type="ARMOR" shifting_type="FIXED" extract_id="24653" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25314" target_type="ARMOR" shifting_type="FIXED" extract_id="24654" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25315" target_type="ARMOR" shifting_type="FIXED" extract_id="24655" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25316" target_type="ARMOR" shifting_type="FIXED" extract_id="24656" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25317" target_type="ARMOR" shifting_type="FIXED" extract_id="24657" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25318" target_type="ARMOR" shifting_type="FIXED" extract_id="24658" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25319" target_type="ARMOR" shifting_type="FIXED" extract_id="24659" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25320" target_type="ARMOR" shifting_type="FIXED" extract_id="24660" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25321" target_type="ARMOR" shifting_type="FIXED" extract_id="24661" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25322" target_type="ARMOR" shifting_type="FIXED" extract_id="24662" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25323" target_type="ARMOR" shifting_type="FIXED" extract_id="24663" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25324" target_type="ARMOR" shifting_type="FIXED" extract_id="24664" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25325" target_type="ARMOR" shifting_type="FIXED" extract_id="24665" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25326" target_type="ARMOR" shifting_type="FIXED" extract_id="24666" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25327" target_type="ARMOR" shifting_type="FIXED" extract_id="24667" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25328" target_type="ARMOR" shifting_type="FIXED" extract_id="24668" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25329" target_type="ARMOR" shifting_type="FIXED" extract_id="24669" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25330" target_type="ARMOR" shifting_type="FIXED" extract_id="24670" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25331" target_type="ARMOR" shifting_type="FIXED" extract_id="24671" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25332" target_type="ARMOR" shifting_type="FIXED" extract_id="24672" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25333" target_type="ARMOR" shifting_type="FIXED" extract_id="24673" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25334" target_type="ARMOR" shifting_type="FIXED" extract_id="24674" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25335" target_type="ARMOR" shifting_type="FIXED" extract_id="24675" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25336" target_type="ARMOR" shifting_type="FIXED" extract_id="24676" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25337" target_type="ARMOR" shifting_type="FIXED" extract_id="24677" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25338" target_type="ARMOR" shifting_type="FIXED" extract_id="24678" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25339" target_type="ARMOR" shifting_type="FIXED" extract_id="24679" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25340" target_type="ARMOR" shifting_type="FIXED" extract_id="24680" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25341" target_type="ARMOR" shifting_type="FIXED" extract_id="24681" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25342" target_type="ARMOR" shifting_type="FIXED" extract_id="24682" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25343" target_type="ARMOR" shifting_type="FIXED" extract_id="24683" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25344" target_type="ARMOR" shifting_type="FIXED" extract_id="24684" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25345" target_type="ARMOR" shifting_type="FIXED" extract_id="24685" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25346" target_type="ARMOR" shifting_type="FIXED" extract_id="24686" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25347" target_type="ARMOR" shifting_type="FIXED" extract_id="24687" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25348" target_type="ARMOR" shifting_type="FIXED" extract_id="24688" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25349" target_type="ARMOR" shifting_type="FIXED" extract_id="24689" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25350" target_type="ARMOR" shifting_type="FIXED" extract_id="24690" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25351" target_type="ARMOR" shifting_type="FIXED" extract_id="24691" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25352" target_type="ARMOR" shifting_type="FIXED" extract_id="24692" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25353" target_type="ARMOR" shifting_type="FIXED" extract_id="24693" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25354" target_type="ARMOR" shifting_type="FIXED" extract_id="24694" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25355" target_type="ARMOR" shifting_type="FIXED" extract_id="24695" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25356" target_type="ARMOR" shifting_type="FIXED" extract_id="24696" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25357" target_type="ARMOR" shifting_type="FIXED" extract_id="24697" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25358" target_type="ARMOR" shifting_type="FIXED" extract_id="24698" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+	<stone id="25359" target_type="ARMOR" shifting_type="FIXED" extract_id="24699" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Женского Купального Костюма No.2-->
+
+	<stone id="38956" target_type="ARMOR" shifting_type="FIXED" extract_id="39380" item_type="UPPER_PIECE,FULL_BODY" period="8640000"/>    <!--Камень Обработки Формы NC Dinos (100 дней)-->
+	<stone id="38959" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37726" item_type="HAIR_ACCESSORY" period="8640000"/>    <!--Камень Обработки Кепки NC Dinos (100 дней)-->
+
+	<stone id="37826" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37726" item_type="HAIR_ACCESSORY" period="1296000"/>    <!--Камень Обработки Кепки NC Dinos (15 дней)-->
+	<stone id="37827" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37726" item_type="HAIR_ACCESSORY" period="2592000"/>    <!--Камень Обработки Кепки NC Dinos (30 дней)-->
+	<stone id="37828" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37888" item_type="HAIR_ACCESSORY" period="1296000"/>    <!--Камень Обработки Кепки NC Dinos (15 дней)-->
+	<stone id="37829" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37888" item_type="HAIR_ACCESSORY" period="2592000"/>    <!--Камень Обработки Кепки NC Dinos (30 дней)-->
+
+
+	
+	<!--Cursed Weapons-->
+	<stone id="37674" target_type="WEAPON" shifting_type="FIXED" extract_id="8190" item_type="BIG_SWORD"/>    <!--Свиток Обработки Демонического Меча Зарича-->
+	<stone id="37675" target_type="WEAPON" shifting_type="FIXED" extract_id="8689" item_type="DUAL_SWORD"/>    <!--Свиток Обработки Кровавого Меча Акаманаха-->
+
+	<!-- Tears Weapons-->
+	<stone id="23929" target_type="WEAPON" shifting_type="FIXED" extract_id="23913" item_type="SWORD" period="604800"/>    <!-- Tears One-handed Sword-->
+	<stone id="23930" target_type="WEAPON" shifting_type="FIXED" extract_id="23914" item_type="DAGGER" period="604800"/>    <!--Tears Dagger-->
+	<stone id="23931" target_type="WEAPON" shifting_type="FIXED" extract_id="23915" item_type="BIG_SWORD" period="604800"/>    <!-- Tears Two-handed Sword -->
+	<stone id="23932" target_type="WEAPON" shifting_type="FIXED" extract_id="23916" item_type="HAND_TO_HAND" period="604800"/>    <!-- Tears Fist Weapon-->
+	<stone id="23933" target_type="WEAPON" shifting_type="FIXED" extract_id="23917" item_type="POLE" period="604800"/>    <!-- Tears Spear-->
+	<stone id="23934" target_type="WEAPON" shifting_type="FIXED" extract_id="23918" item_type="BOW" period="604800"/>    <!--Tears Bow-->
+	<stone id="23936" target_type="WEAPON" shifting_type="FIXED" extract_id="23920" item_type="BLUNT_WEAPON" period="604800"/>    <!--Tears One-handed Blunt-->
+	<stone id="23937" target_type="WEAPON" shifting_type="FIXED" extract_id="23921" item_type="MAGIC_SWORD" period="604800"/>    <!--Tears Magic Sword-->
+	<stone id="23938" target_type="WEAPON" shifting_type="FIXED" extract_id="23922" item_type="MAGIC_BLUNT_WEAPON" period="604800"/>    <!--Tears One-handed Magic Blunt-->
+	<stone id="23939" target_type="WEAPON" shifting_type="FIXED" extract_id="23923" item_type="BIG_MAGIC_BLUNT_WEAPON" period="604800"/>    <!-- Tears Two-handed Magic Blunt-->
+	<stone id="23940" target_type="WEAPON" shifting_type="FIXED" extract_id="23924" item_type="DUAL_SWORD" period="604800"/>    <!--Tears Dualsword-->
+	<stone id="23941" target_type="WEAPON" shifting_type="FIXED" extract_id="23925" item_type="DUAL_DAGGER" period="604800"/>    <!--Tears Dual Dagger-->
+	<stone id="23942" target_type="WEAPON" shifting_type="FIXED" extract_id="23926" item_type="DUAL_BLUNT_WEAPON" period="604800"/>    <!--Tears Dual Blunt Weapon-->
+	<stone id="23943" target_type="WEAPON" shifting_type="FIXED" extract_id="23927" item_type="SHIELD" period="604800"/>    <!--Tears Shield-->
+	<stone id="23944" target_type="WEAPON" shifting_type="FIXED" extract_id="23928" item_type="SIGIL" period="604800"/>    <!--Tears Sigil-->
+
+	
+	<!-- Tears Weapons-->
+	<stone id="37832" target_type="WEAPON" shifting_type="FIXED" extract_id="37688" item_type="DAGGER" period="1296000"/>    <!-- Tears One-handed Sword-->
+	<stone id="37833" target_type="WEAPON" shifting_type="FIXED" extract_id="37689" item_type="SWORD" period="1296000"/>    <!--Tears Dagger-->
+	<stone id="37834" target_type="WEAPON" shifting_type="FIXED" extract_id="37690" item_type="BIG_SWORD" period="1296000"/>    <!-- Tears Two-handed Sword -->
+	<stone id="37835" target_type="WEAPON" shifting_type="FIXED" extract_id="37691" item_type="BLUNT_WEAPON" period="1296000"/>    <!-- Tears Fist Weapon-->
+	<stone id="37836" target_type="WEAPON" shifting_type="FIXED" extract_id="37692" item_type="HAND_TO_HAND" period="1296000"/>    <!-- Tears Spear-->
+	<stone id="37837" target_type="WEAPON" shifting_type="FIXED" extract_id="37693" item_type="POLE" period="1296000"/>    <!--Tears Bow-->
+	<stone id="37838" target_type="WEAPON" shifting_type="FIXED" extract_id="37694" item_type="BOW" period="1296000"/>    <!--Tears Crossbow-->
+	<stone id="37840" target_type="WEAPON" shifting_type="FIXED" extract_id="37696" item_type="MAGIC_SWORD" period="1296000"/>    <!--Tears Magic Sword-->
+	<stone id="37841" target_type="WEAPON" shifting_type="FIXED" extract_id="37697" item_type="MAGIC_BLUNT_WEAPON" period="1296000"/>    <!--Tears One-handed Magic Blunt-->
+	<stone id="37842" target_type="WEAPON" shifting_type="FIXED" extract_id="37698" item_type="BIG_MAGIC_BLUNT_WEAPON" period="1296000"/>    <!-- Tears Two-handed Magic Blunt-->
+	<stone id="37843" target_type="WEAPON" shifting_type="FIXED" extract_id="37699" item_type="DUAL_SWORD" period="1296000"/>    <!--Tears Dualsword-->
+	<stone id="37844" target_type="WEAPON" shifting_type="FIXED" extract_id="37700" item_type="DUAL_DAGGER" period="1296000"/>    <!--Tears Dual Dagger-->
+	<stone id="37845" target_type="WEAPON" shifting_type="FIXED" extract_id="37701" item_type="DUAL_BLUNT_WEAPON" period="1296000"/>    <!--Tears Dual Blunt Weapon-->
+	<stone id="37846" target_type="WEAPON" shifting_type="FIXED" extract_id="37702" item_type="SHIELD" period="1296000"/>    <!--Tears Shield-->
+	<stone id="37847" target_type="WEAPON" shifting_type="FIXED" extract_id="37703" item_type="SIGIL" period="1296000"/>    <!--Tears Sigil-->
+
+	<stone id="37848" target_type="WEAPON" shifting_type="FIXED" extract_id="37688" item_type="DAGGER" period="2592000"/>    <!-- Tears One-handed Sword-->
+	<stone id="37849" target_type="WEAPON" shifting_type="FIXED" extract_id="37689" item_type="SWORD" period="2592000"/>    <!--Tears Dagger-->
+	<stone id="37850" target_type="WEAPON" shifting_type="FIXED" extract_id="37690" item_type="BIG_SWORD" period="2592000"/>    <!-- Tears Two-handed Sword -->
+	<stone id="37851" target_type="WEAPON" shifting_type="FIXED" extract_id="37691" item_type="BLUNT_WEAPON" period="2592000"/>    <!-- Tears Fist Weapon-->
+	<stone id="37852" target_type="WEAPON" shifting_type="FIXED" extract_id="37692" item_type="HAND_TO_HAND" period="2592000"/>    <!-- Tears Spear-->
+	<stone id="37853" target_type="WEAPON" shifting_type="FIXED" extract_id="37693" item_type="POLE" period="2592000"/>    <!--Tears Bow-->
+	<stone id="37854" target_type="WEAPON" shifting_type="FIXED" extract_id="37694" item_type="BOW" period="2592000"/>    <!--Tears Crossbow-->
+	<stone id="37856" target_type="WEAPON" shifting_type="FIXED" extract_id="37696" item_type="MAGIC_SWORD" period="2592000"/>    <!--Tears Magic Sword-->
+	<stone id="37857" target_type="WEAPON" shifting_type="FIXED" extract_id="37697" item_type="MAGIC_BLUNT_WEAPON" period="2592000"/>    <!--Tears One-handed Magic Blunt-->
+	<stone id="37858" target_type="WEAPON" shifting_type="FIXED" extract_id="37698" item_type="BIG_MAGIC_BLUNT_WEAPON" period="2592000"/>    <!-- Tears Two-handed Magic Blunt-->
+	<stone id="37859" target_type="WEAPON" shifting_type="FIXED" extract_id="37699" item_type="DUAL_SWORD" period="2592000"/>    <!--Tears Dualsword-->
+	<stone id="37860" target_type="WEAPON" shifting_type="FIXED" extract_id="37700" item_type="DUAL_DAGGER" period="2592000"/>    <!--Tears Dual Dagger-->
+	<stone id="37861" target_type="WEAPON" shifting_type="FIXED" extract_id="37701" item_type="DUAL_BLUNT_WEAPON" period="2592000"/>    <!--Tears Dual Blunt Weapon-->
+	<stone id="37862" target_type="WEAPON" shifting_type="FIXED" extract_id="37702" item_type="SHIELD" period="2592000"/>    <!--Tears Shield-->
+	<stone id="37863" target_type="WEAPON" shifting_type="FIXED" extract_id="37703" item_type="SIGIL" period="2592000"/>    <!--Tears Sigil-->
+	
+	<stone id="23513" target_type="ARMOR" shifting_type="FIXED" extract_id="23458" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Миловидного Наряда Горничной-->
+	<stone id="23514" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23459" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Миловидного Головного Убора Горничной-->
+	<stone id="46200" target_type="ARMOR" shifting_type="FIXED" extract_id="26254" item_type="UPPER_PIECE,FULL_BODY" period="7776000"/>    <!--Камень Обработки Костюма для Хэллоуина-->
+	<stone id="46270" target_type="ARMOR" shifting_type="FIXED" extract_id="46260" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Доспехов Рыцаря Тьмы-->
+
+	<stone id="46271" target_type="ARMOR" shifting_type="FIXED" extract_id="46261" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Доспехов Рыцаря Тьмы-->
+	<stone id="46272" target_type="ARMOR" shifting_type="FIXED" extract_id="46262" item_type="UPPER_PIECE,FULL_BODY"/>    <!--Камень Обработки Доспехов Рыцаря Тьмы-->
+
+	
+	<stone id="37674" target_type="WEAPON" shifting_type="FIXED" extract_id="37683" item_type="BIG_SWORD"/>        <!--Modify Demonic Sword Zariche-->
+	<stone id="37675" target_type="WEAPON" shifting_type="FIXED" extract_id="37684" item_type="DUAL_SWORD"/>    <!--Modify Blood Sword Akamanah-->
+
+	<stone id="46278" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23887" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Миловидного Головного Убора Горничной-->
+	<stone id="46279" target_type="ACCESSORY" shifting_type="FIXED" extract_id="23183" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Миловидного Головного Убора Горничной-->
+	<stone id="46280" target_type="ACCESSORY" shifting_type="FIXED" extract_id="37810" item_type="HAIR_ACCESSORY"/>    <!--Камень Обработки Миловидного Головного Убора Горничной-->
+
+	
+	<!--FISHSTONES 1-->
+	<stone id="38174" target_type="WEAPON" shifting_type="FIXED" extract_id="135" item_type="SWORD"/>    <!--Samurai Long Sword Appearance Stone-->
+	<stone id="38175" target_type="WEAPON" shifting_type="FIXED" extract_id="38382" item_type="MAGIC_SWORD"/>    <!--Apprentice\'s Spellbook Appearance Stone-->
+	<stone id="38176" target_type="WEAPON" shifting_type="FIXED" extract_id="14296" item_type="DAGGER"/>    <!--Crystal Dagger Appearance Stone-->
+	<stone id="38177" target_type="WEAPON" shifting_type="FIXED" extract_id="21919" item_type="SWORD" period="2592000"/>    <!--Hellblade Appearance Stone (30 day's)-->
+	<stone id="38178" target_type="WEAPON" shifting_type="FIXED" extract_id="21935" item_type="DUAL_DAGGER" period="2592000"/>    <!--Butcher Blades Appearance Stone (30 day's)-->
+	<stone id="38179" target_type="WEAPON" shifting_type="FIXED" extract_id="21939" item_type="BLUNT_WEAPON" period="2592000"/>    <!--Claw of Destruction Appearance Stone (30 day's)-->
+	<stone id="38180" target_type="WEAPON" shifting_type="FIXED" extract_id="21955" item_type="DUAL_SWORD" period="2592000"/>    <!--Blades of Delusion Appearance Stone (30 day's)-->
+	<stone id="38181" target_type="WEAPON" shifting_type="FIXED" extract_id="21959" item_type="BIG_SWORD" period="2592000"/>    <!--Blood Brother Appearance Stone (30 day's)-->
+	<stone id="38182" target_type="WEAPON" shifting_type="FIXED" extract_id="21973" item_type="MAGIC_SWORD"/>    <!--Mardil\'s Fan Appearance Stone (30 day's)-->
+
+	<!--FISHSTONES 2-->
+	<stone id="38183" target_type="WEAPON" shifting_type="FIXED" extract_id="21919" item_type="SWORD"/>    <!--Hellblade Appearance Stone-->
+	<stone id="38184" target_type="WEAPON" shifting_type="FIXED" extract_id="21935" item_type="DUAL_DAGGER"/>    <!--Butcher Blades Appearance Stone-->
+	<stone id="38185" target_type="WEAPON" shifting_type="FIXED" extract_id="21939" item_type="BLUNT_WEAPON"/>    <!--Claw of Destruction Appearance Stone-->
+	<stone id="38186" target_type="WEAPON" shifting_type="FIXED" extract_id="21955" item_type="DUAL_SWORD"/>    <!--Blades of Delusion Appearance Stone-->
+	<stone id="38187" target_type="WEAPON" shifting_type="FIXED" extract_id="21959" item_type="BIG_SWORD"/>    <!--Blood Brother Appearance Stone-->
+	<stone id="38188" target_type="WEAPON" shifting_type="FIXED" extract_id="21973" item_type="MAGIC_SWORD"/>    <!--Mardil\'s Fan Appearance Stone-->
+
+	<!--FISHSTONES 3-->
+	<stone id="38189" target_type="WEAPON" shifting_type="FIXED" extract_id="38211" item_type="SWORD"/>    <!--Blue Mackerel Appearance Stone: One-handed Sword (30 day's)-->
+	<stone id="38190" target_type="WEAPON" shifting_type="FIXED" extract_id="38212" item_type="DAGGER"/>    <!--Trumpetfish Appearance Stone: Dagger (30 day's)-->
+	<stone id="38191" target_type="WEAPON" shifting_type="FIXED" extract_id="38213" item_type="DUAL_SWORD"/>    <!--Shark Appearance Stone: Two-handed Sword (30 day's)-->
+	<stone id="38192" target_type="WEAPON" shifting_type="FIXED" extract_id="38214" item_type="POLE"/>    <!--Squid Appearance Stone: Spear (30 day's)-->
+	<stone id="38193" target_type="WEAPON" shifting_type="FIXED" extract_id="38215" item_type="BIG_BLUNT_WEAPON"/>    <!--Sea Horse Appearance Stone: Two-handed Magic Blunt Weapon (30 day's)-->
+	<stone id="38194" target_type="WEAPON" shifting_type="FIXED" extract_id="38216" item_type="HAND_TO_HAND"/>    <!--Lobster Appearance Stone: Fist Weapon (30 day's)-->
+	<stone id="38195" target_type="WEAPON" shifting_type="FIXED" extract_id="38217" item_type="BOW"/>    <!--Giant Crab Appearance Stone: Bow (30 day's)-->
+	<stone id="38197" target_type="ARMOR" shifting_type="FIXED" extract_id="38219" item_type="SIGIL"/>    <!--Starfish Appearance Stone: Sigil (30 day's)-->
+	<stone id="38198" target_type="WEAPON" shifting_type="FIXED" extract_id="38220" item_type="SHIELD"/>    <!--Turtle Appearance Stone: Shield (30 day's)-->
+	<stone id="38199" target_type="WEAPON" shifting_type="FIXED" extract_id="38221" item_type="DUAL_SWORD"/>    <!--Blue Mackerel Appearance Stone: Dualsword (30 day's)-->
+
+	<!--FISHSTONES 4-->
+	<stone id="38200" target_type="WEAPON" shifting_type="FIXED" extract_id="38211" item_type="SWORD" period="2592000"/>    <!--Blue Mackerel Appearance Stone: One-handed Sword-->
+	<stone id="38201" target_type="WEAPON" shifting_type="FIXED" extract_id="38212" item_type="DAGGER" period="2592000"/>    <!--Trumpetfish Appearance Stone: Dagger-->
+	<stone id="38202" target_type="WEAPON" shifting_type="FIXED" extract_id="38213" item_type="DUAL_SWORD" period="2592000"/>    <!--Shark Appearance Stone: Two-handed Sword-->
+	<stone id="38203" target_type="WEAPON" shifting_type="FIXED" extract_id="38214" item_type="POLE" period="2592000"/>    <!--Squid Appearance Stone: Spear-->
+	<stone id="38204" target_type="WEAPON" shifting_type="FIXED" extract_id="38215" item_type="BIG_BLUNT_WEAPON" period="2592000"/>    <!--Sea Horse Appearance Stone: Two-handed Magic Blunt Weapon-->
+	<stone id="38205" target_type="WEAPON" shifting_type="FIXED" extract_id="38216" item_type="HAND_TO_HAND" period="2592000"/>    <!--Lobster Appearance Stone: Fist Weapon-->
+	<stone id="38206" target_type="WEAPON" shifting_type="FIXED" extract_id="38217" item_type="BOW" period="2592000"/>    <!--Giant Crab Appearance Stone: Bow-->
+	<stone id="38208" target_type="ARMOR" shifting_type="FIXED" extract_id="38219" item_type="SIGIL" period="2592000"/>    <!--Starfish Appearance Stone: Sigil-->
+	<stone id="38209" target_type="WEAPON" shifting_type="FIXED" extract_id="38220" item_type="SHIELD" period="2592000"/>    <!--Turtle Appearance Stone: Shield-->
+	<stone id="38210" target_type="WEAPON" shifting_type="FIXED" extract_id="38221" item_type="DUAL_SWORD" period="2592000"/>    <!--Blue Mackerel Appearance Stone: Dualsword-->
+
+	<!--FISHSTONES 5-->
+	<stone id="38415" target_type="WEAPON" shifting_type="FIXED" extract_id="38423" item_type="DUAL_BLUNT_WEAPON" period="2592000"/>    <!--Blue Mackerel Appearance Stone: Dual Blunt Weapon (30-day)-->
+	<stone id="38416" target_type="WEAPON" shifting_type="FIXED" extract_id="38422" item_type="DUAL_DAGGER" period="2592000"/>    <!--Trumpetfish Appearance Stone: Dual Dagger (30-day)-->
+	<stone id="38417" target_type="WEAPON" shifting_type="FIXED" extract_id="38423" item_type="DUAL_BLUNT_WEAPON"/>    <!--Blue Mackerel Appearance Stone: Dual Blunt Weapon-->
+	<stone id="38418" target_type="WEAPON" shifting_type="FIXED" extract_id="38422" item_type="DUAL_DAGGER"/>    <!--Trumpetfish Appearance Stone: Dual Dagger-->
+	<stone id="38419" target_type="WEAPON" shifting_type="FIXED" extract_id="38220" item_type="BLUNT_WEAPON" period="2592000"/>    <!--Blue Mackerel Appearance Stone: One-handed Blunt Weapon-->
+	<stone id="38420" target_type="WEAPON" shifting_type="FIXED" extract_id="38421" item_type="BLUNT_WEAPON"/>    <!--Blue Mackerel Appearance Stone: One-handed Blunt Weapon-->
+
+	<!--TAUTI, KELBIM, FREYA-->
+
+	<!--HEAVY-->
+	<stone id="46572" target_type="ARMOR" shifting_type="FIXED" extract_id="46537" item_type="HAIR_ACCESSORY"/> <!--TAUTI-->
+	<stone id="46573" target_type="ARMOR" shifting_type="FIXED" extract_id="46538" item_type="UPPER_PIECE"/> <!--TAUTI-->
+	<stone id="46574" target_type="ARMOR" shifting_type="FIXED" extract_id="46539" item_type="LOWER_PIECE"/> <!--TAUTI-->
+	<stone id="46575" target_type="ARMOR" shifting_type="FIXED" extract_id="46540" item_type="GLOVES"/>    <!--TAUTI-->
+	<stone id="46576" target_type="ARMOR" shifting_type="FIXED" extract_id="46541" item_type="FEET"/> <!--TAUTI-->
+
+	<!--LIGHT-->
+	<stone id="46577" target_type="ARMOR" shifting_type="FIXED" extract_id="46542" item_type="HAIR_ACCESSORY"/> <!--KELBIM-->
+	<stone id="46578" target_type="ARMOR" shifting_type="FIXED" extract_id="46543" item_type="UPPER_PIECE"/> <!--KELBIM-->
+	<stone id="46579" target_type="ARMOR" shifting_type="FIXED" extract_id="46544" item_type="LOWER_PIECE"/> <!--KELBIM-->
+	<stone id="46580" target_type="ARMOR" shifting_type="FIXED" extract_id="46545" item_type="GLOVES"/>    <!--KELBIM-->
+	<stone id="46581" target_type="ARMOR" shifting_type="FIXED" extract_id="46546" item_type="FEET"/> <!--KELBIM-->
+
+	<!--ROBE-->
+	<stone id="46582" target_type="ARMOR" shifting_type="FIXED" extract_id="46547" item_type="HAIR_ACCESSORY"/> <!--FREYA-->
+	<stone id="46583" target_type="ARMOR" shifting_type="FIXED" extract_id="46548" item_type="UPPER_PIECE"/> <!--FREYA-->
+	<stone id="46584" target_type="ARMOR" shifting_type="FIXED" extract_id="46549" item_type="LOWER_PIECE"/> <!--FREYA-->
+	<stone id="46585" target_type="ARMOR" shifting_type="FIXED" extract_id="46550" item_type="GLOVES"/>    <!--FREYA-->
+	<stone id="46586" target_type="ARMOR" shifting_type="FIXED" extract_id="46551" item_type="FEET"/> <!--FREYA-->
+
+	<!--OTHER-->
+	<stone id="38955" target_type="ARMOR" shifting_type="FIXED" extract_id="6408" period="8640000" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Свадебный Наряд-->
+	<stone id="46603" target_type="ARMOR" shifting_type="FIXED" extract_id="46595" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Blue Dynasty-->
+	<stone id="46604" target_type="ARMOR" shifting_type="FIXED" extract_id="46600" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Red Zubei-->
+	<stone id="46605" target_type="ARMOR" shifting_type="FIXED" extract_id="46601" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Костюма Белого Ассасина-->
+
+	<stone id="47363" target_type="ARMOR" shifting_type="FIXED" extract_id="47226" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Красного Костюма Дворянина-->
+	<stone id="47364" target_type="ARMOR" shifting_type="FIXED" extract_id="47227" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Белого Костюма Дворянина-->
+	<stone id="47365" target_type="ARMOR" shifting_type="FIXED" extract_id="47230" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Синего Костюма Мушкетера-->
+	<stone id="47366" target_type="ARMOR" shifting_type="FIXED" extract_id="47231" item_type="UPPER_PIECE,FULL_BODY"/>  <!--Камень Обработки Красного Костюма Мушкетера-->
+	
+	<stone id="47461" target_type="ARMOR" shifting_type="FIXED" extract_id="47220" item_type="UPPER_PIECE,FULL_BODY"/> 
+	<stone id="47462" target_type="ARMOR" shifting_type="FIXED" extract_id="47222" item_type="UPPER_PIECE,FULL_BODY"/>  
+	<stone id="47463" target_type="ARMOR" shifting_type="FIXED" extract_id="47232" item_type="UPPER_PIECE,FULL_BODY"/> 
+	<stone id="47464" target_type="ARMOR" shifting_type="FIXED" extract_id="46601" item_type="UPPER_PIECE,FULL_BODY"/>
+
+	<stone id="47591" target_type="WEAPON" shifting_type="FIXED" extract_id="39717" item_type="HAND_TO_HAND"/>
+	<stone id="47592" target_type="WEAPON" shifting_type="FIXED" extract_id="47600" item_type="HAND_TO_HAND"/>
+	<stone id="47593" target_type="WEAPON" shifting_type="FIXED" extract_id="39718" item_type="HAND_TO_HAND"/>
+	<stone id="47594" target_type="WEAPON" shifting_type="FIXED" extract_id="47598" item_type="BOW"/>
+	<stone id="47595" target_type="WEAPON" shifting_type="FIXED" extract_id="47597" item_type="BLUNT_WEAPON"/>
+	<stone id="47596" target_type="WEAPON" shifting_type="FIXED" extract_id="47599" item_type="DAGGER"/>
+
+	
+
+</list>

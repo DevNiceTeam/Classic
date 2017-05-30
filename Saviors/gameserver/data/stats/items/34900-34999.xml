@@ -1,0 +1,103 @@
+<list>
+    <armor id="34925" name="Плащ Света">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="icon" value="icon.amor_goodness_cloak"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="113">
+            <and>
+                <player min_pledge_rank="MARQUIS"/>
+                <player castle_type="0"/>
+                <or>
+                    <player residence="Castle;1"/>
+                    <player residence="Castle;2"/>
+                    <player residence="Castle;3"/>
+                    <player residence="Castle;4"/>
+                    <player residence="Castle;5"/>
+                    <player residence="Castle;6"/>
+                    <player residence="Castle;7"/>
+                    <player residence="Castle;8"/>
+                    <player residence="Castle;9"/>
+                </or>
+            </and>
+        </cond>
+        <attributes>
+            <attribute element="fire" value="10"/>
+            <attribute element="water" value="10"/>
+            <attribute element="wind" value="10"/>
+            <attribute element="earth" value="10"/>
+            <attribute element="holy" value="10"/>
+            <attribute element="unholy" value="10"/>
+        </attributes>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+        <skills>
+            <skill id="19039" level="1"/>
+            <skill id="19042" level="1"/>
+        </skills>
+    </armor>
+    <armor id="34926" name="Плащ Тьмы">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="icon" value="icon.amor_evilness_cloak"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="113">
+            <and>
+                <player castle_type="1"/>
+                <player min_pledge_rank="MARQUIS"/>
+                <or>
+                    <player residence="Castle;1"/>
+                    <player residence="Castle;2"/>
+                    <player residence="Castle;3"/>
+                    <player residence="Castle;4"/>
+                    <player residence="Castle;5"/>
+                    <player residence="Castle;6"/>
+                    <player residence="Castle;7"/>
+                    <player residence="Castle;8"/>
+                    <player residence="Castle;9"/>
+                </or>
+            </and>
+        </cond>
+        <attributes>
+            <attribute element="fire" value="10"/>
+            <attribute element="water" value="10"/>
+            <attribute element="wind" value="10"/>
+            <attribute element="earth" value="10"/>
+            <attribute element="holy" value="10"/>
+            <attribute element="unholy" value="10"/>
+        </attributes>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+        <skills>
+            <skill id="19040" level="1"/>
+            <skill id="19042" level="1"/>
+        </skills>
+    </armor>
+    <etcitem id="34956" name="Буква M">
+        <set name="commissionable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_alphabet_m_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+</list>

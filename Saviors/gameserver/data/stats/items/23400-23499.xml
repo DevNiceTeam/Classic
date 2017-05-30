@@ -1,0 +1,39 @@
+<list>
+    <armor id="23458" name="Миловидный Наряд Горничной">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="BranchSys3.icon1.g_co_cutie_maid"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="true"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="113">
+            <player sex="FEMALE"/>
+        </cond>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+    </armor>
+    <armor id="23459" name="Миловидный Головной Убор Горничной">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="BranchSys3.icon1.g_co_cutie_maid_hair"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="34"/>
+        <set name="type" value="NONE"/>
+        <cond msgId="113">
+            <player sex="FEMALE"/>
+        </cond>
+        <equip>
+            <slot id="HAIR_ALL"/>
+        </equip>
+    </armor>
+</list>

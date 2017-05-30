@@ -1,0 +1,18 @@
+<list>
+    <skill id="21233" levels="1" name="Призвать Агатиона - Певец и Танцор">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="25"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="npcId" value="1594"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="summonType" value="agathion"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="useSS" value="false"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+</list>

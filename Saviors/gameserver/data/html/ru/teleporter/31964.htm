@@ -1,0 +1,18 @@
+<html><body>Хранитель Портала Билия:<br>
+Здравствуйте! Я Билия, Хранитель Портала Шутгарт. С моей помощью Вы сможете использовать Портал и перемещатся туда, куда нужно. Это удобно, безопасно и быстро - лучший способ путешествовать.<br>
+Только назовите место назначения, и окажетесь там.<br>
+(Персонажи <font color="LEVEL">основного класса</font> не ниже <font color="LEVEL">${GATEKEEPER_FREE}-го уровня</font> могут воспользоваться телепортом бесплатно.)<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_teleport_list_1">Телепортироваться</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 518">Обменять Алмазы Иных Миров</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_noble">(Для Дворян) Телепортироваться</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_mdt_to" msg="811;Monster Racetrack">Переместиться на Арену и Ипподром (Беcплатно)</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_fi_to" msg="811;Fantasy Isle">Переместиться на Остров Грез (Беcплатно)</button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Парнассус">Переместиться в Парнассус (зона без налогов) - ${SERVICES_PARNASSUS_PRICE} Аден]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Гавань Гирана">Переместиться в Гавань Гирана (зона без налогов) - Бесплатно]</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.Birthday:summonAlegria">Призвать Аллегрию</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Квест</button>
+</body></html>

@@ -1,0 +1,16 @@
+<html><head><body>Хранитель Портала Миллия:<br>
+Добро пожаловать! Я Миллия, Хранитель Портала в Башне Слоновой Кости. Изначально моим местом работы был Орен, но недавно меня отправили в командировку. Приятно познакомиться. Что я могу сделать для Вас?<br>
+(Персонажи <font color="LEVEL">основного класса</font> не ниже <font color="LEVEL">${GATEKEEPER_FREE}-го уровня</font> могут воспользоваться телепортом бесплатно.)<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_teleport_list_1">Телепортироваться</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Chat 1">Спросить про Причал Воздушных Кораблей</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 518">Обменять Алмазы Иных Миров</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_noble">[Для Дворян] Телепортироваться</Button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Парнассус">Переместиться в Парнассус (зона без налогов) - ${SERVICES_PARNASSUS_PRICE} Аден]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Гавань Гирана">Переместиться в Гавань Гирана (зона без налогов) - Бесплатно]</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.Birthday:summonAlegria">Призвать Аллегрию</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Квест</Button>
+</body></html>

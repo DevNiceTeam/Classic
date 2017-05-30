@@ -1,0 +1,16 @@
+<html>
+    <br>Введите первое имя Капитана Королевской Гвардии, который Вы хотите изменить:
+    <br>
+    <edit var="master_name1" width=110>
+      <br>
+      <button value="Подвердить" action="bypass -h npc_%objectId%_change_leader 100 $master_name1"width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+      </button>
+      <br>
+      <br>Введите второе имя Капитана Королевской Гвардии, который Вы хотите изменить:
+      <br>
+      <edit var="master_name2" width=110>
+        <br>
+        <button value="Подвердить" action="bypass -h npc_%objectId%_change_leader 200 $master_name2"width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+          <button value="Отмена" action="bypass -h npc_%objectId%_Link pledge/pl001.htm"width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="104" name="Valley Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="126066 120350 -2584" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="126023 125853 -2584" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+		<target loc="107954 145841 -3224" name="1010666" price="0"/><!--Front of the Giran Castle Gate-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="126066 120350 -2584" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="126023 125853 -2584" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="81749 149171 -3464" name="1010665" price="0"/><!--Giran Town Square-->
+		<target loc="107954 145841 -3224" name="1010666" price="0"/><!--Front of the Giran Castle Gate-->
+		<target loc="85546 131328 -3672" name="1010118" price="500"/><!--Breka's Stronghold-->
+		<target loc="43408 206881 -3752" name="1010152" price="500"/><!--Devil's Isle-->
+		<!-- TODO: Наверно удалили в Хи5 <target loc="73024 118485 -3720" name="1010067" price="500"/>--><!--Dragon Valley-->
+		<target loc="60374 164301 -2856" name="1010115" price="500"/><!--Tanor Canyon-->
+	</teleport>
+	<skills>
+		<skill id="19107" level="1"/> <!--Рубеж Обители-->
+	</skills>
+	<banish_points>
+		<point x="125934" y="118277" z="-3080"/>
+		<point x="126115" y="118358" z="-3080"/>
+		<point x="124988" y="128784" z="-3072"/>
+		<point x="124982" y="129012" z="-3048"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="126456" y="123393" z="-2256"/>
+		<point x="126488" y="123259" z="-2256"/>
+		<point x="126530" y="123136" z="-2256"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="82480" y="149087" z="-3350"/>
+		<point x="81440" y="149119" z="-3350"/>
+		<point x="81376" y="148095" z="-3350"/>
+		<point x="82496" y="148095" z="-3350"/>
+		<point x="83473" y="149223" z="-3300"/>
+		<point x="83426" y="148835" z="-3300"/>
+		<point x="83409" y="148578" z="-3300"/>
+		<point x="83415" y="148235" z="-3300"/>
+		<point x="82272" y="147801" z="-3350"/>
+		<point x="81562" y="147782" z="-3350"/>
+		<point x="81062" y="148144" z="-3350"/>
+		<point x="81033" y="148883" z="-3350"/>
+		<point x="81637" y="149427" z="-3350"/>
+		<point x="82292" y="149450" z="-3350"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="74450" y="144238" z="-3730"/>
+		<point x="74209" y="142395" z="-3730"/>
+		<point x="77279" y="145045" z="-3630"/>
+		<point x="74809" y="146119" z="-3600"/>
+		<point x="75006" y="143520" z="-3700"/>
+		<point x="81347" y="140579" z="-3520"/>
+		<point x="79543" y="142050" z="-3500"/>
+		<point x="86223" y="140993" z="-3400"/>
+		<point x="78692" y="154573" z="-3450"/>
+		<point x="77870" y="156209" z="-3430"/>
+		<point x="79832" y="154009" z="-3500"/>
+		<point x="75501" y="147178" z="-3530"/>
+	</chaos_restart_points>
+</residence>

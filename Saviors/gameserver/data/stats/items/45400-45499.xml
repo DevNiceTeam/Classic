@@ -1,0 +1,109 @@
+<list>
+    <etcitem id="45473" name="Скумбрия">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.fish_normal_i04"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item chance="85.0" id="45489" max_count="1" min_count="1"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="45481" name="Свежая Скумбрия">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.fish_normal_i12"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item chance="85.0" id="45490" max_count="1" min_count="1"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="45488" name="Золотой Сундук с Сокровищами">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_treasure_box_i08"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="10"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item chance="15.0" id="45574" max_count="1" min_count="1"/>
+            <capsuled_item chance="10.0" id="45573" max_count="1" min_count="1"/>
+        </capsuled_items>
+    </etcitem>
+    <weapon id="45492" name="Удочка - 1 день">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="durability" value="43200"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_fishing_rod_i03"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="1"/>
+        <set name="sellable" value="false"/>
+        <set name="temporal" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1000"/>
+        <set name="type" value="ROD"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="1"/>
+            <add order="0x10" stat="mAtk" value="1"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+        </for>
+    </weapon>
+    <etcitem id="45493" name="Коробка с Удочкой (1 день)">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+        <set name="price" value="5000000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="100"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item chance="100.0" id="45492" max_count="1" min_count="1"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="45495" name="Обычная Наживка">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_huge_lure"/>
+        <set name="price" value="3000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="type" value="LURE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+    </etcitem>
+</list>

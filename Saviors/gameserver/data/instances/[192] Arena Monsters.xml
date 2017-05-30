@@ -1,0 +1,128 @@
+<!--AUTHOR: Iqman-->
+<list>
+	<!--Freak's world 10301 quest -->
+	<instance id="192" name="Freaks World" maxChannels="20" collapseIfEmpty="1" timelimit="10" dispelBuffs="false" respawn="60">
+		<level min="76" max="200"/>
+		<return loc="147450 27064 -2208"/> <!-- To aden -->
+		<teleport loc="184328 85864 -7672"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="10301"/> <!-- todo multiply quest values [bonux] -->
+		<reuse resetReuse="* * * * *" setUponEntry="true" sharedReuseGroup="0"/>
+		<geodata map="25_20"/>
+		<spawns>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183505 86102 -7752 61780"/>
+			</spawn>
+
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184295 85553 -7752 25024"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184216 86308 -7752 41404"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183492 85726 -7752 5816"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183563 85890 -7752 0"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183706 86310 -7752 54624"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183696 85632 -7752 10920"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183694 86225 -7752 55244"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183500 85824 -7752 1136"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183630 86145 -7752 58280"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183509 85969 -7752 62428"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183866 85592 -7752 15368"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184057 85587 -7752 21700"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183774 85541 -7752 11264"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183968 85632 -7752 18760"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183605 85612 -7752 19568"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183598 86239 -7752 57240"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184144 86224 -7752 40836"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183821 86279 -7752 47032"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184288 86104 -7752 39860"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184042 86297 -7752 46836"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="183952 86273 -7752 46772"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184294 85894 -7752 27796"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184285 86212 -7752 40624"/>
+			</spawn>
+			<spawn mobId="33363" respawn="0" type="point">
+				<coords loc="184283 85973 -7752 37256"/>
+			</spawn>
+			<spawn mobId="33362" respawn="0" type="point">
+				<coords loc="183750 85793 -7752 5416"/>
+			</spawn>
+			<spawn mobId="33362" respawn="0" type="point">
+				<coords loc="184104 85881 -7752 33464"/>
+			</spawn>
+			<spawn mobId="33362" respawn="0" type="point">
+				<coords loc="184025 86080 -7752 44928"/>
+			</spawn>
+			<spawn mobId="33362" respawn="0" type="point">
+				<coords loc="183770 86061 -7752 58220"/>
+			</spawn>
+			<spawn mobId="33377" respawn="0" type="point">
+				<coords loc="183936 85985 -7752 53852"/>
+			</spawn>
+			<spawn mobId="33376" respawn="0" type="point">
+				<coords loc="183888 85889 -7752 50420"/>
+			</spawn>
+			<spawn mobId="33374" respawn="0" type="point">
+				<coords loc="183904 85937 -7752 49200"/>
+			</spawn>
+			<spawn mobId="33373" respawn="0" type="point">
+				<coords loc="183936 85921 -7752 32828"/>
+			</spawn>
+			<spawn mobId="33378" respawn="0" type="point">
+				<coords loc="183712 85824 -7752 0"/>
+			</spawn>
+			<spawn mobId="33378" respawn="0" type="point">
+				<coords loc="183711 85808 -7752 0"/>
+			</spawn>
+			<spawn mobId="33378" respawn="0" type="point">
+				<coords loc="183712 85776 -7752 0"/>
+			</spawn>
+			<spawn mobId="33375" respawn="0" type="point">
+				<coords loc="183872 85937 -7752 12440"/>
+			</spawn>
+		</spawns>
+	</instance>
+</list>

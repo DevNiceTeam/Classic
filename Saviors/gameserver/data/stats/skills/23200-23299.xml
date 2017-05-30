@@ -1,0 +1,40 @@
+<list>
+    <skill id="23234" levels="1" name="Ловкий Трюк Агатиона - Певец и Танцор">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="85"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="23298" levels="1" name="Огненный Ястреб">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="dot_attr"/>
+        <set name="icon" value="icon.skill0771"/>
+        <set name="magicLevel" value="83"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-300"/>
+        </for>
+    </skill>
+    <skill id="23299" levels="1" name="Дождь Стрел">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="dot_attr"/>
+        <set name="icon" value="icon.skill0772"/>
+        <set name="magicLevel" value="83"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect interval="5" name="t_hp" value="-300"/>
+        </for>
+    </skill>
+</list>

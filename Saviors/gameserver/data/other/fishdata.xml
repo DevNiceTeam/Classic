@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?><!--AUTHOR: Bonux-->
+<list>
+	<config only_premium_accounts="false" fish_drop_count_rate="1"/>
+	<lure id="45495" fail_chance="20.2" fail_duration="105">    <!--Обычная Наживка-->
+		<fish id="45473" chance="12.6" duration="105" reward_type="1"/>    <!--Свежая Скумбрия-->
+		<fish id="45474" chance="13.4" duration="105" reward_type="1"/>    <!--Свежий Гольян-->
+		<fish id="45480" chance="5" duration="105" reward_type="2"/>    <!--Свежий Угорь-->
+		<fish id="45476" chance="15.8" duration="105" reward_type="2"/>    <!--Свежий Ерш-->
+		<fish id="45475" chance="14.2" duration="105" reward_type="2"/>    <!--Свежая Камбала-->
+		<fish id="45477" chance="4.2" duration="105" reward_type="3"/>    <!--Свежая Песчанка-->
+		<fish id="45478" chance="5.2" duration="105" reward_type="3"/>    <!--Свежий Карась-->
+		<fish id="45479" chance="3.4" duration="105" reward_type="4"/>    <!--Свежий Лосось-->
+		<fish id="45486" chance="6" duration="105" reward_type="0"/>    <!--Деревянный Сундук с Сокровищами-->
+	</lure>
+	<lure id="45496" fail_chance="22.0" fail_duration="105">    <!--Особая Наживка-->
+		<!--TODO: Check rewards.-->
+		<fish id="45481" chance="17.6" duration="105" reward_type="4"/>    <!--Сверкающий Марлин-->
+		<fish id="45482" chance="16.2" duration="105" reward_type="3"/>    <!--Сверкающий Сом-->
+		<fish id="45483" chance="21.6" duration="105" reward_type="4"/>    <!--Сверкающий Тунец-->
+		<fish id="45484" chance="16.2" duration="105" reward_type="4"/>    <!--Сверкающий Карп-->
+		<fish id="45485" chance="4.5" duration="105" reward_type="6"/>    <!--Сверкающий Кит-->
+		<fish id="45487" chance="1.5" duration="105" reward_type="0"/>    <!--Серебряный Сундук с Сокровищами-->
+		<fish id="45488" chance="0.3" duration="105" reward_type="0"/>    <!--Золотой Сундук с Сокровищами-->
+	</lure>
+	<lure id="46084" fail_chance="22.0" fail_duration="105">    <!--Особая Наживка-->
+		<fish id="46085" chance="15" duration="135" reward_type="5"/>    <!--1-й Обрывок Карты Сокровищ-->
+		<fish id="46086" chance="25" duration="135" reward_type="5"/>    <!--2-й Обрывок Карты Сокровищ-->
+		<fish id="46087" chance="20" duration="135" reward_type="5"/>    <!--3-й Обрывок Карты Сокровищ-->
+		<fish id="46088" chance="15" duration="135" reward_type="5"/>    <!--4-й Обрывок Карты Сокровищ-->
+		<fish id="46089" chance="3" duration="135" reward_type="5"/>    <!--5-й Обрывок Карты Сокровищ-->
+	</lure>
+	<rewards type="0">
+		<reward min_level="1" exp="0" sp="0"/>
+	</rewards>
+	<rewards type="1">
+		<reward min_level="61" max_level="84" exp="96607" sp="23"/>    <!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="1403153" sp="336"/>
+		<reward min_level="88" max_level="89" exp="1514417" sp="363"/>
+		<reward min_level="90" max_level="90" exp="1591172" sp="372"/>
+		<reward min_level="91" max_level="91" exp="1630327" sp="391"/>
+		<reward min_level="92" max_level="92" exp="1670001" sp="400"/>
+		<reward min_level="93" exp="1670001" sp="400"/>    <!--TODO: Check rewards for 93-99 levels.-->
+	</rewards>
+	<rewards type="2">
+		<reward min_level="61" max_level="84" exp="144905" sp="34"/>    <!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="2104643" sp="505"/>
+		<reward min_level="88" max_level="89" exp="2271531" sp="545"/>
+		<reward min_level="90" max_level="90" exp="2386658" sp="572"/>
+		<reward min_level="91" max_level="91" exp="2445388" sp="586"/>
+		<reward min_level="92" max_level="92" exp="2504897" sp="601"/>
+		<reward min_level="93" exp="2445388" sp="586"/>    <!--TODO: Check rewards for 93-99 levels.-->
+	</rewards>
+	<rewards type="3">
+		<reward min_level="61" max_level="84" exp="205286" sp="49"/>    <!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="2981636" sp="715"/>
+		<reward min_level="88" max_level="89" exp="3218065" sp="772"/>
+		<reward min_level="90" max_level="90" exp="3381166" sp="811"/>
+		<reward min_level="91" max_level="91" exp="3464368" sp="831"/>
+		<reward min_level="92" max_level="92" exp="3548675" sp="851"/>
+		<reward min_level="93" exp="3464368" sp="831"/>    <!--TODO: Check rewards for 93-99 levels.-->
+	</rewards>
+	<rewards type="4">
+		<reward min_level="61" max_level="84" exp="289822" sp="69"/>    <!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="87" exp="4209461" sp="1010"/>
+		<reward min_level="88" max_level="89" exp="4543251" sp="1090"/>
+		<reward min_level="90" max_level="90" exp="4773516" sp="1145"/>
+		<reward min_level="91" max_level="91" exp="4890981" sp="1173"/>
+		<reward min_level="92" max_level="92" exp="5010005" sp="1202"/>
+		<reward min_level="93" exp="5010005" sp="1202"/>    <!--TODO: Check rewards for 93-99 levels.-->
+	</rewards>
+	<rewards type="5">
+		<reward min_level="61" max_level="84" exp="309822" sp="72"/>    <!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="89" exp="2839603" sp="681"/>
+		<reward min_level="90" max_level="90" exp="2983522" sp="715"/>
+		<reward min_level="91" max_level="91" exp="3056939" sp="733"/>
+		<reward min_level="92" max_level="92" exp="3131331" sp="751"/>
+		<reward min_level="93" exp="3131331" sp="751"/>    <!--TODO: Check rewards for 93-99 levels.-->
+	</rewards>
+	<rewards type="6">
+		<reward min_level="61" max_level="84" exp="1609822" sp="288"/>    <!--TODO: Check rewards for 62-84 levels.-->
+		<reward min_level="85" max_level="91" exp="20379599" sp="4891"/><!--TODO: Check rewards for 85-90 levels.-->
+		<reward min_level="92" exp="20379599" sp="4891"/>    <!--TODO: Check rewards for 93-99 levels.-->
+	</rewards>
+	<rod id="27632" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>    <!--Элитная Удочка-->
+	<rod id="27633" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>    <!--Элитная Удочка-->
+	<rod id="27635" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>    <!--Элитная Удочка-->
+	<rod id="27637" duration_modifier="0.5" reward_modifier="1.5" shot_consume_count="1"/>    <!--Элитная Удочка-->
+	<rod id="45494" duration_modifier="1" reward_modifier="1" shot_consume_count="1"/>    <!--Крепкая Удочка-->
+	<rod id="46286" duration_modifier="1" reward_modifier="1" shot_consume_count="1"/>    <!--Новогодняя Удочка-->
+	<rod id="45492" duration_modifier="1" reward_modifier="1" shot_consume_count="1"/>    <!--Обычная Удочка-->
+</list>

@@ -1,0 +1,1796 @@
+<list>
+    <npc id="1513" name="Агатион Стая Одноглазых Летучих Мышей" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1514" name="Агатион Пегас" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1523" name="Бог Богатства" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1533" name="Агатион Утанка" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1539" name="Агатион Икен" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1540" name="Агатион Лана" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1541" name="Агатион Гносиан" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1542" name="Агатион Ородриэль" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1543" name="Агатион Ракинос" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1544" name="Агатион Мортия" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1545" name="Агатион Хейнтс" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1546" name="Агатион Мерурил" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1547" name="Агатион Таман це Рафатуй" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1548" name="Агатион Каурин" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1549" name="Агатион Ахертбайн" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1550" name="Агатион Наонин" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1551" name="Агатион Бог Войны" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1552" name="Агатион Богиня Милосердия" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1553" name="Агатион Синий Пекинский Актер" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1554" name="Агатион Красный Пекинский Актер" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1556" name="Агатион Чифао Ян" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1574" name="Феникс" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1586" name="Цветочная Фея" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1592" name="Болельщица Мей" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1594" name="Агатион Певец и Танцор" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="3.75"/>
+        <set name="collision_radius" value="5.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="1595" name="Агатион Меч Закена" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="55"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="1673"/>
+        <set name="baseMpMax" value="889"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="388.11142"/>
+        <set name="baseMAtk" value="265.02979"/>
+        <set name="basePDef" value="223.6362"/>
+        <set name="baseMDef" value="163.64727"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="180.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.0"/>
+        <set name="collision_radius" value="30.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="spiritshot_count" value="2"/>
+            <set name="soulshot_count" value="2"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="19"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+        </client_skills>
+    </npc>
+</list>

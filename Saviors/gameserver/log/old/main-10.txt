@@ -1,0 +1,2462 @@
+<<<<<<< HEAD
+14.04 23:33:03 INFO  =================================================
+14.04 23:33:03 INFO  Authserver host info: IP[127.0.0.1], PORT[9014]
+14.04 23:33:03 INFO  =================================================
+14.04 23:33:03 INFO  Gameserver host info:
+14.04 23:33:03 INFO  ID[1], IP[127.0.0.1], INNER_IP[127.0.0.1], PORT[7777]
+14.04 23:33:03 INFO  =================================================
+14.04 23:33:03 INFO  Abuse: Loaded 18 abuse words.
+14.04 23:33:04 INFO  NpcHolder: loaded 549 npc(s) count.
+14.04 23:33:05 INFO  Scripts: Loading...
+14.04 23:33:11 INFO  Scripts: Loaded 353 classes.
+14.04 23:33:11 ERROR Not found ai class for ai: TotemSummon. NpcId: 143
+14.04 23:33:11 INFO  hfParser: Exception: java.lang.NullPointerException in file: 00100-00199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:11 ERROR Not found ai class for ai: FortuneBug. NpcId: 2501
+14.04 23:33:11 INFO  hfParser: Exception: java.lang.NullPointerException in file: 02500-02599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:11 ERROR Not found ai class for ai: adept.AdeptGludio. NpcId: 4309
+14.04 23:33:11 INFO  hfParser: Exception: java.lang.NullPointerException in file: 04300-04399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: Thomas. NpcId: 13183
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 13100-13199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: custom.FreyaEventAI. NpcId: 13296
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 13200-13299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 16000-16099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18000-18099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18100-18199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: PaganGuard. NpcId: 18200
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18200-18299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: CaughtFighter. NpcId: 18319
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18300-18399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18400-18499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: hellbound.NaiaRoomController. NpcId: 18500
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18500-18599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: KrateisFighter. NpcId: 18600
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18600-18699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: seedofinfinity.AliveTumor. NpcId: 18704
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18700-18799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: fog.GroupAI. NpcId: 18800
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18800-18899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 ERROR Not found ai class for ai: SkyshadowMeadow.SelMahumShef. NpcId: 18908
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 18900-18999.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20000-20099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20100-20199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20200-20299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20300-20399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20400-20499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:12 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20500-20599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20600-20699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20700-20799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20800-20899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 20900-20999.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21000-21099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21100-21199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21200-21299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21300-21399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21400-21499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21500-21599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21600-21699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21700-21799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 21800-21899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22000-22099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22100-22199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22200-22299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22300-22399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22400-22499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 ERROR Not found ai class for ai: custom.LabyrinthLostWatcher. NpcId: 22500
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22500-22599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22600-22699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22700-22799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 22800-22899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 ERROR Not found ai class for ai: Quest024Fighter. NpcId: 25328
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 25300-25399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 25400-25499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:13 INFO  hfParser: Exception: java.lang.NullPointerException in file: 25500-25599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: hellbound.DarionChallenger. NpcId: 25600
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 25600-25699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: freya.IceCaptainKnight. NpcId: 25700
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 25700-25799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 27000-27099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 27100-27199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 27200-27299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: GuardianAngel. NpcId: 27332
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 27300-27399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 27400-27499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 29000-29099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 29100-29199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30039
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30000-30099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30121
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30100-30199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30200
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30200-30299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30331
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30300-30399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30430
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30400-30499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30541
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30500-30599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30707
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30700-30799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30870
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30800-30899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 30917
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 30900-30999.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: CabaleBuffer. NpcId: 31093
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31000-31099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: BlacksmithMammon. NpcId: 31126
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31100-31199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 31292
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31200-31299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 31341
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31300-31399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: GhostOfVonHellmannsPage. NpcId: 31525
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31500-31599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 31671
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31600-31699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: DaimonTheWhiteEyed. NpcId: 31705
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31700-31799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31800-31899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: TalkingGuard. NpcId: 31982
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 31900-31999.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: den_of_evil.HestuiGuard. NpcId: 32026
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32000-32099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: Pterosaur. NpcId: 32108
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32100-32199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: hellbound.RankuScapegoat. NpcId: 32305
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32300-32399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: LeylaDancer. NpcId: 32424
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32400-32499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: GeneralDilios. NpcId: 32549
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32500-32599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: AirshipGuard1. NpcId: 32628
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32600-32699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 ERROR Not found ai class for ai: custom.SSQLilith. NpcId: 32715
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 32700-32799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35000-35099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:14 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35100-35199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35200-35299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35300-35399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35400-35499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35500-35599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35600-35699.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35700-35799.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35800-35899.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 35900-35999.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 ERROR Not found ai class for ai: suspiciousmerchant.SuspiciousMerchantArchaic. NpcId: 36004
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 36000-36099.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 36100-36199.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 36200-36299.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 36300-36399.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.Faction.<init>(Faction.java:22)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:104)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 ERROR Not found ai class for ai: residences.dominion.MercenaryCaptain. NpcId: 36481
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 36400-36499.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 ERROR Not found ai class for ai: residences.dominion.Catapult. NpcId: 36500
+14.04 23:33:15 INFO  hfParser: Exception: java.lang.NullPointerException in file: 36500-36599.xml
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.setAI(NpcTemplate.java:290)
+	at studio.lineage2.gameserver.templates.npc.NpcTemplate.<init>(NpcTemplate.java:119)
+	at studio.lineage2.gameserver.data.xml.parser.hfParser.readData(hfParser.java:94)
+	at studio.lineage2.commons.data.xml.AbstractParser.parseDocument(AbstractParser.java:33)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parseDir(AbstractDirParser.java:62)
+	at studio.lineage2.commons.data.xml.AbstractDirParser.parse(AbstractDirParser.java:32)
+	at studio.lineage2.commons.data.xml.AbstractParser.load(AbstractParser.java:56)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:104)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+14.04 23:33:15 INFO  hfHolder: loaded 3229hf(s) count.
+=======
+07.05 12:16:52 INFO  =================================================
+07.05 12:16:52 INFO  Authserver host info: IP[127.0.0.1], PORT[9014]
+07.05 12:16:52 INFO  =================================================
+07.05 12:16:52 INFO  Gameserver host info:
+07.05 12:16:52 INFO  ID[1], IP[127.0.0.1], INNER_IP[127.0.0.1], PORT[7777]
+07.05 12:16:52 INFO  =================================================
+07.05 12:16:56 INFO  Abuse: Loaded 18 abuse words.
+07.05 12:16:57 INFO  HikariPool-1 - Started.
+07.05 12:16:59 INFO  IdFactory: Clear characters online status.
+07.05 12:17:01 INFO  IdFactory: Cleaned 0 elements from database in 1sec.
+07.05 12:17:01 INFO  IdFactory: Extracted 21 used id's from characters
+07.05 12:17:01 INFO  IdFactory: Extracted 492 used id's from items
+07.05 12:17:01 INFO  IdFactory: Extracted 4 used id's from clan_data
+07.05 12:17:01 INFO  IdFactory: Extracted total 517 used id's.
+07.05 12:17:01 INFO  IdFactory: 102912 id's available.
+07.05 12:17:02 INFO  Hidden items loaded size: 0
+07.05 12:17:03 INFO  CustomHeroDAO: loaded 0 custom heroes.
+07.05 12:17:03 INFO  Scripts: Loading...
+07.05 12:17:15 INFO  Scripts: Loaded 358 classes.
+07.05 12:17:15 INFO  Loaded 418 translit entries.
+07.05 12:17:16 INFO  GameTimeController: initialized. Current time is 7:43 in the day.
+07.05 12:17:16 INFO  World: Creating regions: [256][272][32].
+07.05 12:17:16 INFO  HtmCache: disabled.
+07.05 12:17:16 INFO  StringsHolder: load strings: 677 for lang: RUSSIAN
+07.05 12:17:16 INFO  StringsHolder: load strings: 677 for lang: ENGLISH
+07.05 12:17:16 INFO  SkillEnchantInfoHolder: loaded 30 skill enchant info(s) count.
+07.05 12:17:33 INFO  SkillHolder: loaded 29519 skill(s) count.
+07.05 12:17:37 INFO  OptionDataHolder: loaded 5774 option data(s) count.
+07.05 12:17:47 INFO  VariationDataHolder: loaded 35 variation data(s) count.
+07.05 12:17:53 INFO  ItemHolder: loaded 8541 item(s) count.
+07.05 12:17:54 INFO  EnsoulHolder: loaded 320 ensoul(s) count.
+07.05 12:17:54 INFO  RecipeHolder: loaded 623 recipe(s) count.
+07.05 12:17:54 INFO  CrystallizationDataHolder: loaded 1 crystallization data(s) count.
+07.05 12:17:54 INFO  SynthesisDataHolder: loaded 132 synthesis data(s) count.
+07.05 12:17:54 INFO  BaseStatsBonusHolder: loaded 80 base stats bonus(s) count.
+07.05 12:17:54 INFO  LevelBonusHolder: loaded 80 level bonus(s) count.
+07.05 12:17:54 INFO  KarmaIncreaseDataHolder: loaded 80 karma increase data(s) count.
+07.05 12:17:55 INFO  HitCondBonusHolder: loaded 7 hit cond bonus(s) count.
+07.05 12:17:55 INFO  PlayerTemplateHolder: loaded 18 player template(s) count.
+07.05 12:17:58 INFO  ClassDataHolder: loaded 89 class data(s) count.
+07.05 12:17:58 INFO  TransformTemplateHolder: loaded 26 transform template(s) count.
+07.05 12:17:58 INFO  NpcModificationHolder: loaded 1 npc modification(s) count.
+07.05 12:18:05 INFO  NpcHolder: loaded 4620 npc(s) count.
+07.05 12:18:05 INFO  ChampionHolder: loaded 1 champion(s) count.
+07.05 12:18:08 INFO  PetDataHolder: loaded 55 pet data(s) count.
+07.05 12:18:08 INFO  MapRegionManager: loaded 272 map region manager(s) count.
+07.05 12:18:08 INFO  MapRegionManager: loaded 272 map region manager(s) count.
+07.05 12:18:08 INFO  StaticObjectHolder: loaded 145 static object(s) count.
+07.05 12:18:11 INFO  DoorHolder: loaded 1304 door(s) count.
+07.05 12:18:12 INFO  ZoneHolder: loaded 1091 zone(s) count.
+07.05 12:18:15 INFO  SpawnHolder: loaded 12441 spawn(s) count.
+07.05 12:18:15 INFO  InstantZoneHolder: loaded 8 instant zone(s) count.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 34201 normal learns for 89 classes.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 0 transfer learns for 3 classes.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 89 general skills learns for 89 classes.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 6 transformation learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 0 custom transformation learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 0 fishing learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 0 collection learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 45 pledge learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 0 sub unit learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 6 noblesse skills learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 5 hero skills learns.
+07.05 12:18:20 INFO  SkillAcquireHolder: load 1 GM skills learns.
+07.05 12:18:21 INFO  ResidenceHolder: total size: 79
+07.05 12:18:21 INFO  ResidenceHolder:  - load 20 fortress(s).
+07.05 12:18:21 INFO  ResidenceHolder:  - load 5 castle(s).
+07.05 12:18:21 INFO  ResidenceHolder:  - load 54 clanhall(s).
+07.05 12:18:21 INFO  ShuttleTemplateHolder: loaded 1 shuttle template(s) count.
+07.05 12:18:22 INFO  RaidBossSpawnManager: Loaded 0 Statuses
+07.05 12:18:22 WARN  SpawnExObject: not found spawn group: aden_castle_siege_artefact
+07.05 12:18:22 WARN  SpawnExObject: not found spawn group: aden_castle_siege
+07.05 12:18:22 WARN  SpawnExObject: not found spawn group: aden_castle_mass_gatekeeper
+07.05 12:18:22 INFO  EventParser: Not found impl class: ClanHallTeamBattle; File: [63] wild_beast_reserve.xml
+07.05 12:18:22 INFO  EventHolder: loaded 57 event(s) count.
+07.05 12:18:22 INFO  CubicHolder: loaded 205 cubic(s) count.
+07.05 12:18:25 INFO  BuyListHolder: loaded 193 buy list(s) count.
+07.05 12:18:26 INFO  MultiSellHolder: loaded 14 multi sell(s) count.
+07.05 12:18:26 INFO  ProductDataHolder: loaded 241 product data(s) count.
+07.05 12:18:26 INFO  HennaHolder: loaded 180 henna(s) count.
+07.05 12:18:26 INFO  JumpTracksHolder: loaded 1 jump tracks(s) count.
+07.05 12:18:26 INFO  EnchantItemHolder: loaded 251 enchant item(s) count.
+07.05 12:18:27 INFO  EnchantStoneHolder: loaded 98 enchant stone(s) count.
+07.05 12:18:27 INFO  AppearanceStoneHolder: loaded 813 appearance stone(s) count.
+07.05 12:18:27 INFO  ArmorSetsHolder: loaded 521 armor sets(s) count.
+07.05 12:18:27 INFO  FishDataHolder: load 3 lure(s).
+07.05 12:18:27 INFO  FishDataHolder: load 7 lure reward(s).
+07.05 12:18:27 INFO  FishDataHolder: load 7 rod(s).
+07.05 12:18:27 INFO  LevelUpRewardHolder: loaded 48 level up reward(s) count.
+07.05 12:18:27 INFO  LuckyGameHolder: loaded 2 lucky game(s) count.
+07.05 12:18:27 INFO  PremiumAccountHolder: loaded 1 premium account(s) count.
+07.05 12:18:28 INFO  PetitionGroupHolder: loaded 1 petition group(s) count.
+07.05 12:18:28 INFO  DailyMissionsHolder: loaded 58 daily missions(s) count.
+07.05 12:18:28 INFO  RewardHolder: loaded 788 reward(s) count.
+07.05 12:18:28 INFO  FactionHolder: loaded 1 faction(s) count.
+07.05 12:18:28 INFO  MonsterBookHolder: loaded 1 monster book(s) count.
+07.05 12:18:28 INFO  CommunityTeleportPointsHolder: loaded 309 community teleport points(s) count.
+07.05 12:18:28 INFO  CrestCache: Loaded 0 crests
+07.05 12:18:28 INFO  ImagesCache: Loading images...
+07.05 12:18:28 INFO  ImagesCache: Loaded 0 images
+07.05 12:18:29 INFO  Daily Quests Disable Managed: Loaded 2 quests in total (4).
+07.05 12:18:29 INFO  SubClassTable: Loaded 31 sub-classes variations.
+07.05 12:18:29 INFO  EnchantHPBonusTable: Loaded bonuses for 5 grades.
+07.05 12:18:29 INFO  Initializing ItemAuctionManager
+07.05 12:18:30 INFO  SpawnManager: spawned 1000 npc for group: NONE
+07.05 12:18:30 INFO  SpawnManager: spawned 3000 npc for group: NONE
+07.05 12:18:31 INFO  SpawnManager: spawned 6000 npc for group: NONE
+07.05 12:18:31 INFO  SpawnManager: spawned 7000 npc for group: NONE
+07.05 12:18:31 INFO  SpawnManager: spawned 8000 npc for group: NONE
+07.05 12:18:32 INFO  SpawnManager: spawned 9000 npc for group: NONE
+07.05 12:18:32 INFO  SpawnManager: spawned 10000 npc for group: NONE
+07.05 12:18:33 INFO  SpawnManager: spawned 11000 npc for group: NONE
+07.05 12:18:33 INFO  SpawnManager: spawned 13000 npc for group: NONE
+07.05 12:18:33 INFO  SpawnManager: spawned 14000 npc for group: NONE
+07.05 12:18:33 INFO  SpawnManager: spawned 15000 npc for group: NONE
+07.05 12:18:33 INFO  SpawnManager: spawned 16000 npc for group: NONE
+07.05 12:18:34 INFO  SpawnManager: spawned 20000 npc for group: NONE
+07.05 12:18:39 INFO  SpawnManager: spawned 21000 npc for group: NONE
+07.05 12:18:39 INFO  SpawnManager: spawned 21816 npc; spawns: 11116; group: NONE
+07.05 12:18:39 INFO  StaticObjectHolder: spawned: 145 static object(s).
+07.05 12:18:39 INFO  AntharasManager: State of Antharas is NOTSPAWN.
+07.05 12:18:39 INFO  AntharasManager: Next spawn date of Antharas is 02:00 01.01.1970.
+07.05 12:18:39 INFO  BaiumManager: State of Baium is NOTSPAWN.
+07.05 12:18:39 INFO  BaiumManager: Next spawn date: 02:00 01.01.1970
+07.05 12:18:39 INFO  ValakasManager: State of Valakas is NOTSPAWN.
+07.05 12:18:39 INFO  ValakasManager: Next spawn date of Valakas is 02:00 01.01.1970.
+07.05 12:18:42 INFO  CommunityBoard: service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Clan Community service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Manage Favorites service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Manage Friends service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Private Mail service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Manage Memo service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Region service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Buffer Community service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Manage Career service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Stats service loaded.
+07.05 12:18:42 INFO  CommunityBoard: Teleport Community service loaded.
+07.05 12:18:42 INFO  Olympiad System: Loading Olympiad System....
+07.05 12:18:42 INFO  Olympiad System: Currently in Olympiad Period
+07.05 12:18:42 INFO  Olympiad System: Period Ends....
+07.05 12:18:42 INFO  Olympiad System: In 24 days, 11 hours and 41 mins.
+07.05 12:18:42 INFO  Olympiad System: Next Weekly Change is in....
+07.05 12:18:42 INFO  Olympiad System: In 6 days, 9 hours and 17 mins.
+07.05 12:18:42 INFO  Olympiad System: Loaded 5 Membersses
+07.05 12:18:42 INFO  Olympiad System: Competition Period Starts in 0 days, 5 hours and 41 mins.
+07.05 12:18:42 INFO  Olympiad System: Event starts/started: Sun May 07 18:00:42 EEST 2017
+07.05 12:18:42 INFO  Hero System: Loaded 1 Heroes.
+07.05 12:18:42 INFO  Hero System: Loaded 1 all time Heroes.
+07.05 12:18:42 INFO  Initializing PetitionManager
+07.05 12:18:42 INFO  AdminCommandHandler: loaded 337 admin command handler(s) count.
+07.05 12:18:42 INFO  UserCommandHandler: loaded 16 user command handler(s) count.
+07.05 12:18:42 INFO  VoicedCommandHandler: loaded 23 voiced command handler(s) count.
+07.05 12:18:42 INFO  BypassHolder: loaded 20 bypass(s) count.
+07.05 12:18:42 INFO  OnShiftActionHolder: loaded 6 on shift action(s) count.
+07.05 12:18:49 INFO  ServerPacketOpCodeManager: Loaded 494 active server packet opcodes.
+07.05 12:18:49 INFO  =[Events]=========================================
+07.05 12:18:50 INFO  CastleSiegeEvent: Gludio Castle time - 20:00 07.05.2017
+07.05 12:18:50 INFO  CastleSiegeEvent: Dion Castle time - 20:00 07.05.2017
+07.05 12:18:50 INFO  CastleSiegeEvent: Giran Castle time - 20:00 07.05.2017
+07.05 12:18:50 INFO  CastleSiegeEvent: Oren Castle time - 20:00 07.05.2017
+07.05 12:18:50 INFO  CastleSiegeEvent: Aden Castle time - 20:00 07.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Topaz Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Ruby Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Crystal Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Atramental Barracks time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Scarlet Barracks time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Viridian Barracks time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Golden Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Silver Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Mithril Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Silver Manor time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Gold Manor time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Bronze Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Golden Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Silver Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Mithril Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: The Bronze Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Silver Manor time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Mont Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Astaire Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Aria Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Yiana Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Roien Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Luna Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Traban Chamber time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Eisen Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Heavy Metal Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Molten Ore Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Titan Hall time - 15:00 06.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Crystal Hall time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Aquamarine Hall time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Blue Barracks time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Brown Barracks time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Yellow Barracks time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: White Barracks time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Black Barracks time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ClanHallAuctionEvent: Green Barracks time - 15:00 01.05.2017
+07.05 12:18:50 INFO  ==================================================
+07.05 12:18:50 INFO  BoatHolder: loaded 1 boat(s) count.
+07.05 12:18:50 INFO  BoatHolder: Spawning: CrumaTower_Shuttle
+07.05 12:18:50 INFO  Manor System: Initializing...
+07.05 12:18:50 INFO  IdFactory: Free ObjectID's remaining: 1879022541
+07.05 12:18:50 INFO  Naia Tower Manager: Loaded 12 rooms
+07.05 12:18:50 INFO  Naia Core Manager: Loaded
+07.05 12:18:50 INFO  Seed of Destruction Manager: Loaded
+07.05 12:18:50 INFO  Seed of Infinity Manager: Loaded. Current stage is: 1
+07.05 12:18:50 INFO  Seed of Hellfire Manager: Loaded.
+07.05 12:18:50 INFO  CommissionManager: Loaded 0 items in commission.
+07.05 12:18:50 INFO  ClanSearchManager: Loading clan search data...
+07.05 12:18:50 INFO  ClanSearchManager: Loaded 0 registered clans.
+07.05 12:18:50 INFO  ClanSearchManager: Loaded 0 registered players.
+07.05 12:18:50 INFO  ClanRewardManager: Check new day.
+07.05 12:18:50 INFO  Parnasus Manager: Loaded
+07.05 12:18:50 INFO  Scheduled server restart in 17h 41m 10s.
+07.05 12:18:50 INFO  GameServer Started
+07.05 12:18:50 INFO  Maximum Numbers of Connected Players: 3000
+07.05 12:18:55 INFO  =================================================
+07.05 12:18:55 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:18:56 INFO  AllowedMemory: ........... 4660736 KB
+07.05 12:18:56 INFO       Allocated: .......... 623104 KB (13.3692%)
+07.05 12:18:56 INFO       Non-Allocated: ...... 4037632 KB (86.6308%)
+07.05 12:18:56 INFO  AllocatedMemory: ......... 623104 KB
+07.05 12:18:56 INFO       Used: ............... 399133 KB (8.5637%)
+07.05 12:18:56 INFO       Unused (cached): .... 223970 KB (4.8055%)
+07.05 12:18:56 INFO  UseableMemory: ........... 4261602 KB (91.4363%)
+07.05 12:18:56 INFO  =================================================
+07.05 12:18:56 INFO  Restoring offline traders...
+07.05 12:18:56 INFO  Restored 0 offline traders.
+07.05 12:18:56 INFO  Registered on authserver as 1 [Bartz]
+07.05 12:19:41 INFO  client->  ProtocolVersion
+07.05 12:19:41 INFO  server<- 2E VersionCheckPacket
+07.05 12:19:41 INFO  client->  AuthLogin
+07.05 12:19:41 INFO  server<- A LoginResultPacket
+07.05 12:19:41 INFO  server<- 9 CharacterSelectionInfoPacket
+07.05 12:19:41 INFO  server<- FE:119 ExLoginVitalityEffectInfo
+07.05 12:19:57 INFO  client->  RequestEx2ndPasswordCheck
+07.05 12:19:57 INFO  server<- FE:105 Ex2NDPasswordCheckPacket
+07.05 12:19:57 INFO  client->  CharacterSelected
+07.05 12:19:58 INFO  server<- FE:EA ExSubjobInfo
+07.05 12:19:58 INFO  server<- B CharacterSelectedPacket
+07.05 12:20:10 INFO  client-> D0:1 RequestManorList
+07.05 12:20:10 INFO  server<- FE:22 ExSendManorListPacket
+07.05 12:20:10 INFO  client-> D0:21 RequestKeyMapping
+07.05 12:20:10 INFO  server<- FE:71 ExUISettingPacket
+07.05 12:20:11 INFO  client-> D0:11D RequestTodoList
+07.05 12:20:11 INFO  server<- FE:1A7 ExOneDayReceiveRewardList
+07.05 12:20:13 INFO  client-> 11 EnterWorld
+07.05 12:20:13 INFO  server<- FE:117 ExLightingCandleEvent
+07.05 12:20:13 INFO  server<- FE:164 ExPeriodicHenna
+07.05 12:20:13 INFO  server<- E5 HennaInfoPacket
+07.05 12:20:13 INFO  server<- FE:12D ExCastleState
+07.05 12:20:13 INFO  server<- FE:12D ExCastleState
+07.05 12:20:13 INFO  server<- FE:12D ExCastleState
+07.05 12:20:13 INFO  server<- FE:12D ExCastleState
+07.05 12:20:13 INFO  server<- FE:12D ExCastleState
+07.05 12:20:13 INFO  server<- 5F SkillListPacket
+07.05 12:20:13 INFO  server<- 90 AcquireSkillListPacket
+07.05 12:20:13 INFO  server<- F9 EtcStatusUpdatePacket
+07.05 12:20:13 INFO  server<- 32 UIPacket
+07.05 12:20:13 INFO  server<- FE:166 ExUserInfoInvenWeight
+07.05 12:20:13 INFO  server<- FE:156 ExUserInfoEquipSlot
+07.05 12:20:13 INFO  server<- FE:157 ExUserInfoCubic
+07.05 12:20:13 INFO  server<- FE:158 ExUserInfoAbnormalVisualEffect
+07.05 12:20:13 INFO  server<- 86 QuestListPacket
+07.05 12:20:13 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:13 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:13 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:13 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:13 INFO  server<- FE:85 ExGetBookMarkInfoPacket
+07.05 12:20:13 INFO  server<- 11 ItemListPacket
+07.05 12:20:13 INFO  server<- FE:C7 ExQuestItemListPacket
+07.05 12:20:13 INFO  server<- FE:13E ExAdenaInvenCount
+07.05 12:20:13 INFO  server<- 45 ShortCutInitPacket
+07.05 12:20:13 INFO  server<- FE:60 ExBasicActionList
+07.05 12:20:13 INFO  server<- E8 MacroListPacket
+07.05 12:20:13 INFO  server<- 28 ChangeMoveTypePacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- C NpcInfoPacket
+07.05 12:20:13 INFO  server<- 62 SystemMessagePacket
+07.05 12:20:13 INFO  server<- 11 ItemListPacket
+07.05 12:20:13 INFO  server<- FE:C7 ExQuestItemListPacket
+07.05 12:20:13 INFO  server<- 5F SkillListPacket
+07.05 12:20:13 INFO  server<- 5F SkillListPacket
+07.05 12:20:13 INFO  server<- 90 AcquireSkillListPacket
+07.05 12:20:13 INFO  server<- FE:DA ExBRPremiumStatePacket
+07.05 12:20:13 INFO  server<- FE:33 ExSetCompassZoneCode
+07.05 12:20:13 INFO  server<- 62 SystemMessagePacket
+07.05 12:20:13 INFO  server<- 40 MagicAndSkillList
+07.05 12:20:13 INFO  server<- FE:2F ExStorageMaxCountPacket
+07.05 12:20:13 INFO  server<- FE:CA ExVoteSystemInfoPacket
+07.05 12:20:13 INFO  server<- C7 SkillCoolTimePacket
+07.05 12:20:13 INFO  server<- FE:D4 ExReceiveShowPostFriend
+07.05 12:20:13 INFO  server<- 4A SayPacket2
+07.05 12:20:13 INFO  server<- FE:175 ExWorldChatCnt
+07.05 12:20:13 INFO  server<- 90 AcquireSkillListPacket
+07.05 12:20:13 INFO  server<- FE:13C ExUnReadMailCount
+07.05 12:20:13 INFO  server<- 62 SystemMessagePacket
+07.05 12:20:13 INFO  server<- 5A PledgeShowMemberListAllPacket
+07.05 12:20:13 INFO  server<- 8E PledgeShowInfoUpdatePacket
+07.05 12:20:13 INFO  server<- FE:3A PledgeSkillListPacket
+07.05 12:20:13 INFO  server<- 1F ActionFailPacket
+07.05 12:20:13 INFO  server<- 18 StatusUpdatePacket
+07.05 12:20:13 INFO  server<- FE:166 ExUserInfoInvenWeight
+07.05 12:20:13 INFO  server<- 18 StatusUpdatePacket
+07.05 12:20:13 INFO  server<- FE:2F ExStorageMaxCountPacket
+07.05 12:20:13 INFO  server<- FE:1A8 ExConnectedTimeAndGettableReward
+07.05 12:20:13 INFO  server<- 85 AbnormalStatusUpdatePacket
+07.05 12:20:13 INFO  server<- 32 UIPacket
+07.05 12:20:13 INFO  client-> A6 RequestSkillCoolTime
+07.05 12:20:13 INFO  server<- C7 SkillCoolTimePacket
+07.05 12:20:14 INFO  server<- 27 SocialActionPacket
+07.05 12:20:14 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:14 INFO  server<- 2F MTLPacket
+07.05 12:20:14 INFO  client-> 65 RequestPledgeInfo
+07.05 12:20:14 INFO  server<- 89 PledgeInfoPacket
+07.05 12:20:15 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:15 INFO  server<- 2F MTLPacket
+07.05 12:20:17 INFO  server<- 27 SocialActionPacket
+07.05 12:20:17 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:17 INFO  server<- FE:C2 ExRotation
+07.05 12:20:17 INFO  server<- 27 SocialActionPacket
+07.05 12:20:17 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:17 INFO  server<- FE:C2 ExRotation
+07.05 12:20:19 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:19 INFO  server<- 2F MTLPacket
+07.05 12:20:21 INFO  server<- 27 SocialActionPacket
+07.05 12:20:21 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:21 INFO  server<- 2F MTLPacket
+07.05 12:20:21 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:21 INFO  server<- FE:C2 ExRotation
+07.05 12:20:21 INFO  client-> D0:D RequestAutoSoulShot
+07.05 12:20:21 INFO  client-> D0:D RequestAutoSoulShot
+07.05 12:20:21 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:21 INFO  server<- 21 InventoryUpdatePacket
+07.05 12:20:21 INFO  server<- 48 MagicSkillUse
+07.05 12:20:21 INFO  server<- 54 MagicSkillLaunchedPacket
+07.05 12:20:21 INFO  server<- 62 SystemMessagePacket
+07.05 12:20:21 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:21 INFO  server<- 21 InventoryUpdatePacket
+07.05 12:20:21 INFO  server<- 48 MagicSkillUse
+07.05 12:20:21 INFO  server<- 54 MagicSkillLaunchedPacket
+07.05 12:20:21 INFO  server<- 62 SystemMessagePacket
+07.05 12:20:21 INFO  client-> A6 RequestSkillCoolTime
+07.05 12:20:21 INFO  server<- C7 SkillCoolTimePacket
+07.05 12:20:22 INFO  server<- 48 MagicSkillUse
+07.05 12:20:22 INFO  server<- 27 SocialActionPacket
+07.05 12:20:22 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:22 INFO  server<- FE:C2 ExRotation
+07.05 12:20:23 INFO  server<- 54 MagicSkillLaunchedPacket
+07.05 12:20:23 INFO  server<- 18 StatusUpdatePacket
+07.05 12:20:23 INFO  server<- 4B NpcInfoAbnormalVisualEffect
+07.05 12:20:23 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:23 INFO  server<- 2F MTLPacket
+07.05 12:20:23 INFO  server<- C NpcInfoPacket
+07.05 12:20:24 INFO  client-> D0:D RequestAutoSoulShot
+07.05 12:20:24 INFO  client-> D0:D RequestAutoSoulShot
+07.05 12:20:24 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:24 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:25 INFO  client-> A6 RequestSkillCoolTime
+07.05 12:20:25 INFO  server<- C7 SkillCoolTimePacket
+07.05 12:20:25 INFO  client-> A6 RequestSkillCoolTime
+07.05 12:20:25 INFO  server<- C7 SkillCoolTimePacket
+07.05 12:20:25 INFO  client-> 38 RequestMagicSkillList
+07.05 12:20:25 INFO  server<- 5F SkillListPacket
+07.05 12:20:25 INFO  server<- 90 AcquireSkillListPacket
+07.05 12:20:26 INFO  client-> D0:D RequestAutoSoulShot
+07.05 12:20:26 INFO  server<- FE:C ExAutoSoulShot
+07.05 12:20:27 INFO  client-> A6 RequestSkillCoolTime
+07.05 12:20:27 INFO  server<- C7 SkillCoolTimePacket
+07.05 12:20:27 INFO  server<- 27 SocialActionPacket
+07.05 12:20:27 INFO  client-> D0:60 RequestExSeedPhase
+07.05 12:20:27 INFO  server<- FE:A2 ExShowSeedMapInfo
+07.05 12:20:27 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:27 INFO  server<- FE:C2 ExRotation
+07.05 12:20:29 INFO  server<- 27 SocialActionPacket
+07.05 12:20:29 INFO  server<- 18 StatusUpdatePacket
+07.05 12:20:29 INFO  server<- 27 SocialActionPacket
+07.05 12:20:29 INFO  server<- 27 SocialActionPacket
+07.05 12:20:30 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:30 INFO  server<- 2F MTLPacket
+07.05 12:20:30 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:30 INFO  server<- 2F MTLPacket
+07.05 12:20:30 INFO  client-> 23 RequestBypassToServer
+07.05 12:20:31 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:31 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:31 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:32 INFO  server<- 18 StatusUpdatePacket
+07.05 12:20:32 INFO  server<- 27 SocialActionPacket
+07.05 12:20:33 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:33 INFO  server<- FE:C2 ExRotation
+07.05 12:20:33 INFO  server<- 27 SocialActionPacket
+07.05 12:20:33 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:33 INFO  server<- 2F MTLPacket
+07.05 12:20:33 INFO  client-> 23 RequestBypassToServer
+07.05 12:20:34 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:34 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:34 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:35 INFO  server<- 18 StatusUpdatePacket
+07.05 12:20:35 INFO  server<- 27 SocialActionPacket
+07.05 12:20:35 INFO  client-> 23 RequestBypassToServer
+07.05 12:20:35 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:35 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:35 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:35 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:35 INFO  server<- FE:C2 ExRotation
+07.05 12:20:36 INFO  client-> 23 RequestBypassToServer
+07.05 12:20:36 INFO  server<- 22 TeleportToLocationPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- 8 DeleteObjectPacket
+07.05 12:20:36 INFO  server<- FE:14A ExTeleportToLocationActivate
+07.05 12:20:36 INFO  server<- 21 InventoryUpdatePacket
+07.05 12:20:36 INFO  server<- FE:13E ExAdenaInvenCount
+07.05 12:20:36 INFO  server<- 62 SystemMessagePacket
+07.05 12:20:36 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:36 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:36 INFO  server<- 7B ShowBoardPacket
+07.05 12:20:36 INFO  client-> 59 ValidatePosition
+07.05 12:20:50 INFO  client-> 3A Appearing
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- 9F StaticObjectPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- C NpcInfoPacket
+07.05 12:20:50 INFO  server<- FE:33 ExSetCompassZoneCode
+07.05 12:20:50 INFO  server<- 1F ActionFailPacket
+07.05 12:20:50 INFO  server<- 32 UIPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:52 INFO  server<- 27 SocialActionPacket
+07.05 12:20:54 INFO  client-> D0:60 RequestExSeedPhase
+07.05 12:20:54 INFO  server<- FE:A2 ExShowSeedMapInfo
+07.05 12:20:55 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:55 INFO  server<- 2F MTLPacket
+07.05 12:20:58 INFO  server<- 79 ValidateLocationPacket
+07.05 12:20:58 INFO  server<- FE:C2 ExRotation
+07.05 12:21:03 INFO  server<- 79 ValidateLocationPacket
+07.05 12:21:03 INFO  server<- 2F MTLPacket
+07.05 12:21:10 INFO  server<- 79 ValidateLocationPacket
+07.05 12:21:10 INFO  server<- FE:C2 ExRotation
+07.05 12:21:22 INFO  server<- 27 SocialActionPacket
+07.05 12:21:27 INFO  server<- 27 SocialActionPacket
+07.05 12:21:28 INFO  server<- 79 ValidateLocationPacket
+07.05 12:21:28 INFO  server<- 2F MTLPacket
+07.05 12:21:28 INFO  server<- 27 SocialActionPacket
+07.05 12:21:28 INFO  server<- 27 SocialActionPacket
+07.05 12:21:29 INFO  server<- 27 SocialActionPacket
+07.05 12:21:31 INFO  server<- 79 ValidateLocationPacket
+07.05 12:21:31 INFO  server<- FE:C2 ExRotation
+07.05 12:21:32 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:32 INFO  server<- 2F MTLPacket
+07.05 12:21:32 INFO  client-> 59 ValidatePosition
+07.05 12:21:33 INFO  client-> 59 ValidatePosition
+07.05 12:21:34 INFO  server<- 27 SocialActionPacket
+07.05 12:21:34 INFO  server<- 27 SocialActionPacket
+07.05 12:21:34 INFO  server<- 27 SocialActionPacket
+07.05 12:21:34 INFO  client-> 59 ValidatePosition
+07.05 12:21:34 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:34 INFO  server<- 2F MTLPacket
+07.05 12:21:35 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:35 INFO  server<- 2F MTLPacket
+07.05 12:21:35 INFO  client-> 59 ValidatePosition
+07.05 12:21:36 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:36 INFO  server<- 2F MTLPacket
+07.05 12:21:36 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:36 INFO  server<- 2F MTLPacket
+07.05 12:21:37 INFO  client-> 59 ValidatePosition
+07.05 12:21:37 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:37 INFO  server<- 2F MTLPacket
+07.05 12:21:37 INFO  server<- 79 ValidateLocationPacket
+07.05 12:21:37 INFO  server<- 2F MTLPacket
+07.05 12:21:37 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:37 INFO  server<- 2F MTLPacket
+07.05 12:21:38 INFO  server<- 27 SocialActionPacket
+07.05 12:21:38 INFO  client-> 59 ValidatePosition
+07.05 12:21:39 INFO  server<- 27 SocialActionPacket
+07.05 12:21:39 INFO  client-> 59 ValidatePosition
+07.05 12:21:40 INFO  server<- 27 SocialActionPacket
+07.05 12:21:40 INFO  client-> 59 ValidatePosition
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:40 INFO  server<- 9F StaticObjectPacket
+07.05 12:21:40 INFO  server<- 9F StaticObjectPacket
+07.05 12:21:40 INFO  server<- 9F StaticObjectPacket
+07.05 12:21:40 INFO  server<- 9F StaticObjectPacket
+07.05 12:21:40 INFO  server<- C NpcInfoPacket
+07.05 12:21:40 INFO  server<- C NpcInfoPacket
+07.05 12:21:40 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- 8 DeleteObjectPacket
+07.05 12:21:41 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  server<- C NpcInfoPacket
+07.05 12:21:41 INFO  client-> 65 RequestPledgeInfo
+07.05 12:21:41 INFO  server<- 1F ActionFailPacket
+07.05 12:21:41 INFO  client-> 59 ValidatePosition
+07.05 12:21:42 INFO  server<- 27 SocialActionPacket
+07.05 12:21:42 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  client-> 59 ValidatePosition
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:43 INFO  server<- 27 SocialActionPacket
+07.05 12:21:44 INFO  client-> 59 ValidatePosition
+07.05 12:21:45 INFO  client-> 59 ValidatePosition
+07.05 12:21:46 INFO  server<- 27 SocialActionPacket
+07.05 12:21:46 INFO  server<- 27 SocialActionPacket
+07.05 12:21:46 INFO  client-> 59 ValidatePosition
+07.05 12:21:47 INFO  client-> 59 ValidatePosition
+07.05 12:21:48 INFO  server<- 27 SocialActionPacket
+07.05 12:21:48 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:48 INFO  server<- 2F MTLPacket
+07.05 12:21:49 INFO  client-> 59 ValidatePosition
+07.05 12:21:49 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:49 INFO  server<- 2F MTLPacket
+07.05 12:21:50 INFO  client-> 59 ValidatePosition
+07.05 12:21:50 INFO  client-> 74 SendBypassBuildCmd
+07.05 12:21:51 INFO  client-> 59 ValidatePosition
+07.05 12:21:51 INFO  server<- 48 MagicSkillUse
+07.05 12:21:51 INFO  server<- 62 SystemMessagePacket
+07.05 12:21:51 INFO  server<- 54 MagicSkillLaunchedPacket
+07.05 12:21:51 INFO  server<- 47 StopMovePacket
+07.05 12:21:51 INFO  client-> 59 ValidatePosition
+07.05 12:21:52 INFO  server<- 62 SystemMessagePacket
+07.05 12:21:52 INFO  server<- 85 AbnormalStatusUpdatePacket
+07.05 12:21:52 INFO  server<- 32 UIPacket
+07.05 12:21:52 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:52 INFO  server<- 2F MTLPacket
+07.05 12:21:53 INFO  client-> F MoveBackwardToLocation
+07.05 12:21:53 INFO  server<- 2F MTLPacket
+07.05 12:21:53 INFO  client-> 59 ValidatePosition
+07.05 12:21:53 INFO  client-> 1F Action
+07.05 12:21:53 INFO  server<- B9 MyTargetSelectedPacket
+07.05 12:21:53 INFO  server<- 23 TargetSelectedPacket
+07.05 12:21:53 INFO  server<- FE:E6 ExAbnormalStatusUpdateFromTargetPacket
+07.05 12:21:53 INFO  server<- 18 StatusUpdatePacket
+07.05 12:21:53 INFO  server<- 79 ValidateLocationPacket
+07.05 12:21:53 INFO  server<- 1F ActionFailPacket
+07.05 12:21:54 INFO  client-> 1F Action
+07.05 12:21:54 INFO  client-> 59 ValidatePosition
+07.05 12:21:54 INFO  server<- 2F MTLPacket
+07.05 12:21:54 INFO  client-> 59 ValidatePosition
+07.05 12:21:54 INFO  server<- 1F ActionFailPacket
+07.05 12:21:54 INFO  server<- 72 MoveToPawnPacket
+07.05 12:21:54 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:21:56 INFO  client-> 23 RequestBypassToServer
+07.05 12:21:56 INFO  server<- 27 SocialActionPacket
+07.05 12:21:56 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:02 INFO  server<- 27 SocialActionPacket
+07.05 12:22:02 INFO  server<- 27 SocialActionPacket
+07.05 12:22:03 INFO  server<- 27 SocialActionPacket
+07.05 12:22:03 INFO  server<- 27 SocialActionPacket
+07.05 12:22:04 INFO  server<- 27 SocialActionPacket
+07.05 12:22:04 INFO  server<- 27 SocialActionPacket
+07.05 12:22:04 INFO  server<- 27 SocialActionPacket
+07.05 12:22:06 INFO  server<- 27 SocialActionPacket
+07.05 12:22:11 INFO  server<- 27 SocialActionPacket
+07.05 12:22:17 INFO  server<- 27 SocialActionPacket
+07.05 12:22:18 INFO  server<- 27 SocialActionPacket
+07.05 12:22:21 INFO  server<- 27 SocialActionPacket
+07.05 12:22:22 INFO  server<- 27 SocialActionPacket
+07.05 12:22:24 INFO  client-> 1F Action
+07.05 12:22:24 INFO  server<- 24 TargetUnselectedPacket
+07.05 12:22:24 INFO  server<- B9 MyTargetSelectedPacket
+07.05 12:22:24 INFO  server<- 23 TargetSelectedPacket
+07.05 12:22:24 INFO  server<- FE:E6 ExAbnormalStatusUpdateFromTargetPacket
+07.05 12:22:24 INFO  server<- 18 StatusUpdatePacket
+07.05 12:22:24 INFO  server<- 79 ValidateLocationPacket
+07.05 12:22:24 INFO  server<- 1F ActionFailPacket
+07.05 12:22:24 INFO  server<- 27 SocialActionPacket
+07.05 12:22:24 INFO  client-> 1F Action
+07.05 12:22:24 INFO  server<- 1F ActionFailPacket
+07.05 12:22:24 INFO  server<- 72 MoveToPawnPacket
+07.05 12:22:24 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:25 INFO  client-> 1F Action
+07.05 12:22:25 INFO  server<- 24 TargetUnselectedPacket
+07.05 12:22:25 INFO  server<- B9 MyTargetSelectedPacket
+07.05 12:22:25 INFO  server<- 23 TargetSelectedPacket
+07.05 12:22:25 INFO  server<- FE:E6 ExAbnormalStatusUpdateFromTargetPacket
+07.05 12:22:25 INFO  server<- 18 StatusUpdatePacket
+07.05 12:22:25 INFO  server<- 79 ValidateLocationPacket
+07.05 12:22:25 INFO  server<- 1F ActionFailPacket
+07.05 12:22:26 INFO  server<- 27 SocialActionPacket
+07.05 12:22:26 INFO  client-> 1F Action
+07.05 12:22:26 INFO  server<- 1F ActionFailPacket
+07.05 12:22:26 INFO  server<- 72 MoveToPawnPacket
+07.05 12:22:26 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:27 INFO  client-> 1F Action
+07.05 12:22:28 INFO  server<- 24 TargetUnselectedPacket
+07.05 12:22:28 INFO  server<- B9 MyTargetSelectedPacket
+07.05 12:22:28 INFO  server<- 23 TargetSelectedPacket
+07.05 12:22:28 INFO  server<- FE:E6 ExAbnormalStatusUpdateFromTargetPacket
+07.05 12:22:28 INFO  server<- 18 StatusUpdatePacket
+07.05 12:22:28 INFO  server<- 79 ValidateLocationPacket
+07.05 12:22:28 INFO  server<- 1F ActionFailPacket
+07.05 12:22:28 INFO  server<- 27 SocialActionPacket
+07.05 12:22:28 INFO  client-> 1F Action
+07.05 12:22:28 INFO  server<- 1F ActionFailPacket
+07.05 12:22:28 INFO  server<- 72 MoveToPawnPacket
+07.05 12:22:28 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:28 INFO  client-> F MoveBackwardToLocation
+07.05 12:22:28 INFO  server<- 2F MTLPacket
+07.05 12:22:29 INFO  client-> 59 ValidatePosition
+07.05 12:22:30 INFO  client-> 23 RequestBypassToServer
+07.05 12:22:30 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:30 INFO  server<- 27 SocialActionPacket
+07.05 12:22:31 INFO  client-> 23 RequestBypassToServer
+07.05 12:22:31 ERROR Trying to call script bypass: scripts_services.HeroItems:rendershop list Boobies[268460798]
+07.05 12:22:32 INFO  server<- 27 SocialActionPacket
+07.05 12:22:32 INFO  server<- 27 SocialActionPacket
+07.05 12:22:33 INFO  client-> 1F Action
+07.05 12:22:33 INFO  server<- 24 TargetUnselectedPacket
+07.05 12:22:33 INFO  server<- B9 MyTargetSelectedPacket
+07.05 12:22:33 INFO  server<- 23 TargetSelectedPacket
+07.05 12:22:33 INFO  server<- FE:E6 ExAbnormalStatusUpdateFromTargetPacket
+07.05 12:22:33 INFO  server<- 18 StatusUpdatePacket
+07.05 12:22:33 INFO  server<- 79 ValidateLocationPacket
+07.05 12:22:33 INFO  server<- 1F ActionFailPacket
+07.05 12:22:33 INFO  client-> 1F Action
+07.05 12:22:33 INFO  server<- 1F ActionFailPacket
+07.05 12:22:33 INFO  server<- 72 MoveToPawnPacket
+07.05 12:22:33 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:35 INFO  client-> 23 RequestBypassToServer
+07.05 12:22:35 INFO  server<- 19 NpcHtmlMessagePacket
+07.05 12:22:39 INFO  client-> D0:24 RequestSaveInventoryOrder
+07.05 12:22:39 INFO  client-> 0 Logout
+07.05 12:22:39 INFO  server<- 84 LogOutOkPacket
+07.05 12:23:14 ERROR AuthServer I/O error: Удаленный хост принудительно разорвал существующее подключение
+07.05 12:23:19 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:21 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:23:26 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:27 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:23:32 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:33 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:23:38 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:39 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:23:44 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:45 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:23:50 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:51 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:23:56 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:23:57 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:02 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:03 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:08 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:09 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:14 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:15 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:20 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:21 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:26 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:27 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:32 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:33 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:38 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:39 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:44 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:45 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:50 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:51 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:24:56 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:24:57 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:02 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:03 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:08 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:09 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:14 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:15 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:20 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:21 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:26 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:27 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:32 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:33 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:38 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:39 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:44 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:45 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:50 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:51 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:25:56 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:25:57 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:02 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:03 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:08 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:09 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:14 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:15 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:20 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:21 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:26 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:27 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:32 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:33 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:38 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:39 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:44 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:45 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:50 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:51 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:26:56 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:26:57 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:02 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:03 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:08 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:09 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:14 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:15 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:20 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:21 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:26 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:27 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:32 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:33 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:38 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:39 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:44 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:45 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:50 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:51 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:27:56 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:27:57 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:02 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:03 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:08 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:09 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:14 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:15 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:20 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:21 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:26 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:29 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:34 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:35 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:40 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:41 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:46 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:47 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:52 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:53 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:28:58 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:28:59 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:04 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:05 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:10 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:11 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:16 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:17 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:22 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:23 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:28 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:29 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:34 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:35 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:40 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:41 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:46 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:47 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:52 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:53 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:29:58 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:29:59 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:30:04 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:30:05 ERROR AuthServer I/O error: Connection refused: no further information
+07.05 12:30:10 INFO  Connecting to authserver on 127.0.0.1:9014
+07.05 12:30:11 ERROR AuthServer I/O error: Connection refused: no further information
+>>>>>>> 7908080c59431b1124c3484b4194e1a4f07c5676

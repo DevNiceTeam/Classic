@@ -1,0 +1,197 @@
+<list>
+    <weapon id="15300" name="Теневой Dual для NPC">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="2080"/>
+        <set name="type" value="DUAL"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="282"/>
+            <add order="0x10" stat="mAtk" value="114"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="15301" name="Теневой Pole для NPC">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_long_spear_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="3"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1950"/>
+        <set name="type" value="POLE"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="156"/>
+            <add order="0x10" stat="mAtk" value="83"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+        <skills>
+            <skill id="3599" level="1"/>
+        </skills>
+    </weapon>
+    <weapon id="15302" name="Теневой Bow для NPC">
+        <set name="atk_reuse" value="2300"/>
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_long_bow_i00"/>
+        <set name="mp_consume" value="4"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="6"/>
+        <set name="spiritshots" value="2"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1830"/>
+        <set name="type" value="BOW"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="114"/>
+            <add order="0x10" stat="mAtk" value="35"/>
+            <set order="0x08" stat="basePAtkSpd" value="227"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+    </weapon>
+    <weapon id="15303" name="Теневой Claw для NPC">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_foxs_nail_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1013"/>
+        <set name="type" value="DUALFIST"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="376"/>
+            <add order="0x10" stat="mAtk" value="119"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="15306" name="Теневой Dual Dagger для NPC">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="2150"/>
+        <set name="type" value="DUALDAGGER"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="304"/>
+            <add order="0x10" stat="mAtk" value="157"/>
+            <set order="0x08" stat="basePAtkSpd" value="433"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+    </weapon>
+    <etcitem id="15366" name="Семечко Арбуза">
+        <set name="commissionable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.event_honey_watermelon_seed_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <cond msgId="1508">
+            <player olympiad="false"/>
+        </cond>
+    </etcitem>
+    <etcitem id="15367" name="Семечко Сладкого Арбуза">
+        <set name="commissionable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.event_watermelon_seed_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <cond msgId="1508">
+            <player olympiad="false"/>
+        </cond>
+    </etcitem>
+    <etcitem id="15368" name="Семечко Клонированного Арбуза">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.event_honey_watermelon_seed_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <cond msgId="1508">
+            <player olympiad="false"/>
+        </cond>
+    </etcitem>
+    <etcitem id="15369" name="Семечко Клонированного Сладкого Арбуза">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.event_watermelon_seed_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <cond msgId="1508">
+            <player olympiad="false"/>
+        </cond>
+    </etcitem>
+</list>

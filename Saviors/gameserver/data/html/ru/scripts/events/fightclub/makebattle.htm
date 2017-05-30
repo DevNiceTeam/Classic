@@ -1,0 +1,27 @@
+<html><body>
+<title>Управляющим бойцовским клубом</title><body>
+<body body scroll="no">
+<center><img src="L2UI_CH3.onscrmsg_pattern01_1" width=295 height=32></center>
+Вы выбираете не самый легкий путь, для победы вам понадобится не только ваша сила, ваши навыки, но и удача<br>
+Порой один критический удар определяет победителя и проигравшего<br><br>
+<font color="00ffff">Укажите валюту и её кол-во (ставка на победу)</font>
+<center><img src="L2UI_CH3.herotower_deco" width=256 height=32></center><br>
+<table width="295">
+<tr>
+<td><font color="00ff00">Выберите награду: </font></td>
+<td><combobox var="item" width="100" List="%items%"></td>
+</tr>
+<tr></tr><tr></tr><tr></tr>
+<tr><td><font color="00ff00">Укажите количество: </font></td>
+<td><edit var=count width=100 type=number></td></tr>
+</table><br><br><br>
+<center>
+<table width="420">
+<tr>
+<td><button value="Назад" action="bypass -h npc_%objectId%_index" width=80 height=25 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/></td>
+<td><button value="Добавить" action="bypass -h npc_%objectId%_addbattle $count $item" width=80 height=25 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/></td>
+</tr>
+</table>
+</center>
+<center><img src="L2UI_CH3.onscrmsg_pattern01_2" width=295 height=32></center><br>
+</body></html>

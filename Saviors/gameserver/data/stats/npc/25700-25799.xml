@@ -1,0 +1,235 @@
+<list>
+    <npc id="25735" name="Огромная Золотая Свинья" title="Поборник Кимериана">
+        <set name="type" value="RaidBoss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="90"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="2690116"/>
+        <set name="sp" value="83882"/>
+        <set name="baseHpMax" value="20946193"/>
+        <set name="baseMpMax" value="47100"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="4393.39231302655"/>
+        <set name="baseMAtk" value="784.547871934874"/>
+        <set name="basePDef" value="439.882533785801"/>
+        <set name="baseMDef" value="244.037399253603"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="270.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="120.0"/>
+        <set name="collision_radius" value="77.0"/>
+        <set name="aggroRange" value="0"/>
+        <faction names="b_fairy_clan" range="300"/>
+        <minions>
+            <minion count="3" npc_id="25736"/>
+            <minion count="1" npc_id="25737"/>
+        </minions>
+        <attributes>
+            <attack attribute="earth" value="280"/>
+            <defence attribute="fire" value="200"/>
+            <defence attribute="water" value="200"/>
+            <defence attribute="wind" value="150"/>
+            <defence attribute="earth" value="200"/>
+            <defence attribute="holy" value="200"/>
+            <defence attribute="unholy" value="200"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="13"/>
+            <!--Сопротивление Вампиризму-->
+            <skill id="14765" level="2"/>
+            <!--Свойство Земли-->
+            <skill id="5465" level="1"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </client_skills>
+        <skills>
+            <!--Мощный Замах-->
+            <skill id="14040" level="1"/>
+            <!--Ускорение-->
+            <skill id="6914" level="3"/>
+        </skills>
+    </npc>
+    <npc id="25736" name="Огромная Золотая Свинья" title="Поборник Кимериана">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="90"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="20946193"/>
+        <set name="baseMpMax" value="47100"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="4393.39231302655"/>
+        <set name="baseMAtk" value="784.547871934874"/>
+        <set name="basePDef" value="351.906027028641"/>
+        <set name="baseMDef" value="219.633659328243"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="270.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="120.0"/>
+        <set name="collision_radius" value="77.0"/>
+        <set name="aggroRange" value="0"/>
+        <faction names="b_fairy_clan" range="300"/>
+        <attributes>
+            <attack attribute="earth" value="280"/>
+            <defence attribute="fire" value="200"/>
+            <defence attribute="water" value="200"/>
+            <defence attribute="wind" value="150"/>
+            <defence attribute="earth" value="200"/>
+            <defence attribute="holy" value="200"/>
+            <defence attribute="unholy" value="200"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="13"/>
+            <!--Сопротивление Вампиризму-->
+            <skill id="14765" level="2"/>
+            <!--Свойство Земли-->
+            <skill id="5465" level="1"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </client_skills>
+        <skills>
+            <!--Ускорение-->
+            <skill id="6914" level="3"/>
+            <!--Двойной Удар-->
+            <skill id="14043" level="1"/>
+        </skills>
+    </npc>
+    <npc id="25737" name="Огромная Золотая Свинья" title="Поборник Кимериана">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="level" value="90"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="20946193"/>
+        <set name="baseMpMax" value="47100"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="4393.39231302655"/>
+        <set name="baseMAtk" value="784.547871934874"/>
+        <set name="basePDef" value="439.882533785801"/>
+        <set name="baseMDef" value="244.037399253603"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="60.0"/>
+        <set name="baseRunSpd" value="270.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="120.0"/>
+        <set name="collision_radius" value="77.0"/>
+        <set name="aggroRange" value="0"/>
+        <faction names="b_fairy_clan" range="300"/>
+        <attributes>
+            <attack attribute="earth" value="280"/>
+            <defence attribute="fire" value="200"/>
+            <defence attribute="water" value="200"/>
+            <defence attribute="wind" value="150"/>
+            <defence attribute="earth" value="200"/>
+            <defence attribute="holy" value="200"/>
+            <defence attribute="unholy" value="200"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="13"/>
+            <!--Сопротивление Вампиризму-->
+            <skill id="14765" level="2"/>
+            <!--Свойство Земли-->
+            <skill id="5465" level="1"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+        </client_skills>
+        <skills>
+            <!--Мощный Замах-->
+            <skill id="14040" level="1"/>
+        </skills>
+    </npc>
+</list>

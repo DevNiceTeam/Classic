@@ -1,0 +1,16 @@
+<html><head>
+Хранитель Портала Ангелина:<br>
+Все товары, идущие в город или отправляемые из него, проходят через гавань Giran. Даже хранителям порталов запрещено что-то отсылать без ведома местных властей. Ах, если бы мы могли избежать... Нет... Не стоит даже мечтать об этом...<br>
+Итак, куда Вы хотите попасть? Может, на остров злого Белефа? Ха-ха-ха!<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_teleport_list_1">Телепортация</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 518">Обменять Алмазы Иных Миров</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_noble">Телепортация (Только для Дворян)</button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Парнассус">Переместиться в Парнассус (зона без налогов) - ${SERVICES_PARNASSUS_PRICE} Аден]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Гавань Гирана">Переместиться в Гавань Гирана (зона без налогов) - Бесплатно]</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.Birthday:summonAlegria">Призвать Аллегрию</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Квест</button>
+</body></html>

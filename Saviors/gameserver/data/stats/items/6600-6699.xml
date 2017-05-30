@@ -1,0 +1,545 @@
+<list>
+    <weapon id="6611" name="Меч Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_sword_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="SWORD"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>        
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="301"/>
+            <add order="0x10" stat="mAtk" value="166"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+        <skills>
+            <skill id="3578" level="1"/>
+            <skill id="3579" level="1"/>
+        </skills>
+    </weapon>
+    <weapon id="6612" name="Эспадон Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_two_handed_sword_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="BIGSWORD"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="368"/>
+            <add order="0x10" stat="mAtk" value="166"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+        <skills>
+            <skill id="3582" level="1"/>
+            <skill id="3584" level="1"/>
+        </skills>
+    </weapon>
+    <weapon id="6613" name="Топор Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_axe_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="BLUNT"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="301"/>
+            <add order="0x10" stat="mAtk" value="166"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+        <skills>
+            <skill id="3580" level="1"/>
+            <skill id="3581" level="1"/>
+        </skills>
+    </weapon>
+    <weapon id="6614" name="Жезл Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_mace_of_hero_i00"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="BLUNT"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="255"/>
+            <add order="0x10" stat="mAtk" value="204"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+        <skills>
+            <skill id="3597" level="1"/>
+        </skills>
+        <triggers>
+            <trigger chance="3" id="3598" level="1" type="SUPPORT_MAGICAL_SKILL_USE"/>
+        </triggers>
+    </weapon>
+    <weapon id="6616" name="Скипетр Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_staff_of_hero_i00"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="BIGBLUNT"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="295"/>
+            <add order="0x10" stat="mAtk" value="219"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+        <skills>
+            <skill id="3595" level="1"/>
+        </skills>
+        <triggers>
+            <trigger chance="1" id="3596" level="1" type="CRIT"/>
+        </triggers>
+    </weapon>
+    <weapon id="6617" name="Кинжал Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_dagger_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="DAGGER"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="272"/>
+            <add order="0x10" stat="mAtk" value="166"/>
+            <set order="0x08" stat="basePAtkSpd" value="433"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+        <skills>
+            <skill id="3589" level="1"/>
+        </skills>
+        <triggers>
+            <trigger chance="100" id="3590" level="1" type="CRIT"/>
+        </triggers>
+    </weapon>
+    <weapon id="6618" name="Воитель Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_fist_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="DUALFIST"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="368"/>
+            <add order="0x10" stat="mAtk" value="166"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+        <skills>
+            <skill id="3587" level="1"/>
+        </skills>
+        <triggers>
+            <trigger chance="100" id="3588" level="1" type="CRIT"/>
+        </triggers>
+    </weapon>
+    <weapon id="6619" name="Лук Вечности">
+        <set name="atk_reuse" value="1398"/>
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_bow_of_hero_i00"/>
+        <set name="mp_consume" value="6"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="BOW"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="665"/>
+            <add order="0x10" stat="mAtk" value="177"/>
+            <set order="0x08" stat="basePAtkSpd" value="293"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+        <skills>
+            <skill id="3593" level="1"/>
+        </skills>
+        <triggers>
+            <trigger chance="100" id="3594" level="1" type="CRIT"/>
+        </triggers>
+    </weapon>
+    <weapon id="6620" name="Парные Мечи Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_dualsword_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="DUAL"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <!-- <attributes> -->
+            <!-- <attribute element="holy" value="250"/> -->
+        <!-- </attributes> -->
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="361"/>
+            <add order="0x10" stat="mAtk" value="164"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+        <skills>
+            <skill id="3585" level="1"/>
+        </skills>
+        <!-- <triggers> -->
+            <!-- <trigger chance="100" id="3586" level="1" type="CRIT"/> -->
+        <!-- </triggers> -->
+    </weapon>
+    <weapon id="6621" name="Копье Вечности">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="enchantable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_the_pole_of_hero_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="storeable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1300"/>
+        <set name="type" value="POLE"/>
+        <cond>
+            <and>
+                <player is_hero="true"/>
+                <player olympiad="false"/>
+            </and>
+        </cond>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="301"/>
+            <add order="0x10" stat="mAtk" value="166"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+        <skills>
+            <skill id="3599" level="1"/>
+            <skill id="3591" level="1"/>
+        </skills>
+        <triggers>
+            <trigger chance="10" id="3592" level="1" type="CRIT"/>
+        </triggers>
+    </weapon>
+    <etcitem id="6645" name="Заряд Души Зверя">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.etc_beast_soul_shot_i00"/>
+        <set name="price" value="20"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1"/>
+        <set name="type" value="BEAST_SOULSHOT"/>
+    </etcitem>
+    <etcitem id="6646" name="Заряд Духа Зверя">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.etc_beast_spirit_shot_i00"/>
+        <set name="price" value="40"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1"/>
+        <set name="type" value="BEAST_SPIRITSHOT"/>
+    </etcitem>
+    <etcitem id="6647" name="Благословенный Заряд Духа Зверя">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.etc_blessed_beast_spirit_shot_i00"/>
+        <set name="price" value="100"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1"/>
+        <set name="type" value="BEAST_BLESSED_SPIRITSHOT"/>
+    </etcitem>    
+    <armor id="6660" name="Кольцо Королевы Муравьев">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.accessory_ring_of_queen_ant_i00"/>
+        <set name="price" value="123200"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="35"/>
+        <set name="weight" value="150"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <for>
+            <add order="0x60" stat="maxMp" value="9"/>
+            <add order="0x10" stat="mDef" value="32"/>
+        </for>
+        <skills>
+            <skill id="3562" level="1"/>
+        </skills>
+    </armor>
+    <armor id="6661" name="Серьга Орфен">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="69"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.accessory_earring_of_orfen_i00"/>
+        <set name="price" value="1300000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="35"/>
+        <set name="weight" value="150"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <for>
+            <add order="0x60" stat="maxMp" value="19"/>
+            <add order="0x10" stat="mDef" value="51"/>
+        </for>
+        <skills>
+            <skill id="3560" level="1"/>
+        </skills>
+    </armor>
+    <armor id="6662" name="Кольцо Ядра">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="46"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.accessory_ring_of_core_i00"/>
+        <set name="price" value="870000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="35"/>
+        <set name="weight" value="150"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <for>
+            <add order="0x60" stat="maxMp" value="9"/>
+            <add order="0x10" stat="mDef" value="32"/>
+        </for>
+        <skills>
+            <skill id="3563" level="1"/>
+        </skills>
+    </armor>
+	<etcitem id="6673" name="Карнавал Адены">
+        <set name="commissionable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_coin_of_fair_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+</list>

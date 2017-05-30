@@ -1,0 +1,239 @@
+<list>
+    <weapon id="38211" name="Скумбрия - Одноручный Меч">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing1"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1450"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="79"/>
+            <add order="0x10" stat="mAtk" value="47"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="38212" name="Рыба-Раструб - Кинжал">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing2"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1070"/>
+        <set name="type" value="DAGGER"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="62"/>
+            <add order="0x10" stat="mAtk" value="42"/>
+            <set order="0x08" stat="basePAtkSpd" value="433"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+    </weapon>
+    <weapon id="38213" name="Акула - Двуручный Меч">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing3"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2020"/>
+        <set name="type" value="BIGSWORD"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="96"/>
+            <add order="0x10" stat="mAtk" value="47"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="38214" name="Кальмар - Копье">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing4"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2060"/>
+        <set name="type" value="POLE"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="79"/>
+            <add order="0x10" stat="mAtk" value="47"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="38215" name="Морской Конек - Двуручная Магическая Дубина">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing5"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1000"/>
+        <set name="type" value="BIGBLUNT"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="77"/>
+            <add order="0x10" stat="mAtk" value="69"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="38216" name="Лобстер - Кастет">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing6"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1510"/>
+        <set name="type" value="DUALFIST"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="96"/>
+            <add order="0x10" stat="mAtk" value="47"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="38217" name="Снежный Краб - Лук">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing7"/>
+        <set name="mp_consume" value="2"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1820"/>
+        <set name="type" value="BOW"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="179"/>
+            <add order="0x10" stat="mAtk" value="51"/>
+            <set order="0x08" stat="basePAtkSpd" value="227"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+    </weapon>
+    <weapon id="38220" name="Черепаха - Щит">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing10"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1320"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="sDef" value="142"/>
+            <add order="0x10" stat="rShld" value="20"/>
+            <add order="0x10" stat="pEvasRate" value="-8.0"/>
+        </for>
+    </weapon>
+    <weapon id="38221" name="Скумбрия - Парные Мечи">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.wp_fishing11"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2530"/>
+        <set name="type" value="DUAL"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="96"/>
+            <add order="0x10" stat="mAtk" value="47"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+</list>

@@ -1,0 +1,3330 @@
+<list>
+    <skill id="1400" levels="10" name="Испугать Нежить">
+        <set name="activateRate" value="50"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="holy"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1400"/>
+        <set name="is_self_offensive" value="false"/>
+        <set name="itemConsumeCount" value="#itemConsumeCount"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="lethal2" value="#lethal2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="undeadOnly" value="true"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="10">
+                <table name="#lethal2">31 31 31 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 40 40 40</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="10">
+                <table name="#abnormal_time">21 22 24 25 26 28 29 30 32 33 34 36 37 38 40 41 42 44 45 46 48 49 50 52 53 54 56 57 58 60</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">66 65 63 62 61 60 60 58 57 56 55 53 52 51 50 48 47 47 46 45 43 42 41 40 38 37 36 36 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Attack" type="3">
+            <enchant_tables enchant_levels="30" skill_level="10">
+                <table name="#power">21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Holy Attack" type="4">
+            <enchant_tables enchant_levels="30" skill_level="10">
+                <table name="#elementPower">21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect name="Fear"/>
+        </for>
+        <table name="#lethal2">30</table>
+        <table name="#abnormal_time">20</table>
+        <table name="#power">0</table>
+        <table name="#elementPower">0</table>
+        <table name="#elements">none</table>
+        <table name="#itemConsumeCount">3 3 4 4 4 4 5 5 5 5</table>
+        <table name="#magicLevel">56 58 60 62 64 66 68 70 72 74</table>
+        <table name="#mp_consume">52 54 55 58 60 62 64 65 67 69</table>
+    </skill>
+    <skill id="1401" levels="11" name="Основное Лечение">
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1401"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="11">
+                <table name="#power">958 972 985 999 1012 1026 1039 1053 1067 1080 1094 1107 1121 1134 1148 1162 1175 1189 1202 1216 1229 1243 1257 1270 1284 1297 1311 1324 1338 1352</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="11">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">77 76 75 73 72 71 70 68 67 66 65 63 62 61 60 57 56 55 53 52 51 50 48 47 46 45 43 42 41 40</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect instant="true" name="RestoreHP" value="#power"/>
+        </for>
+        <table name="#power">690 722 753 783 812 840 867 892 915 936 946</table>
+        <table name="#magicLevel">56 58 60 62 64 66 68 70 72 74 75</table>
+        <table name="#mp_consume">60 64 65 67 69 72 74 77 78 80 80</table>
+    </skill>
+    <skill id="1402" levels="5" name="Групповое Основное Лечение">
+        <set name="hitCancelTime" value="200"/>
+        <set name="hitTime" value="7000"/>
+        <set name="icon" value="icon.skill1402"/>
+        <set name="itemConsumeCount" value="4"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="HEAL"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="5">
+                <table name="#power">1183 1196 1209 1222 1235 1248 1261 1274 1287 1300 1313 1326 1339 1352 1365 1378 1391 1404 1417 1430 1443 1456 1469 1482 1495 1508 1521 1534 1547 1561</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="5">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">233 230 225 221 217 213 210 206 201 197 193 190 186 181 177 173 170 166 162 157 153 150 146 142 138 133 130 126 122 118</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cure Poison" type="3">
+            <enchant_tables enchant_levels="30" skill_level="5">
+                <table name="#dispel_ps_max_abnormal_lvl">8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 9</table>
+                <table name="#power">1174 1178 1183 1187 1191 1196 1200 1204 1209 1213 1218 1222 1226 1231 1235 1239 1244 1248 1252 1257 1261 1266 1270 1274 1279 1283 1287 1292 1296 1301</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Heal Bleeding" type="4">
+            <enchant_tables enchant_levels="30" skill_level="5">
+                <table name="#dispel_bl_max_abnormal_lvl">8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 9</table>
+                <table name="#power">1174 1178 1183 1187 1191 1196 1200 1204 1209 1213 1218 1222 1226 1231 1235 1239 1244 1248 1252 1257 1261 1266 1270 1274 1279 1283 1287 1292 1296 1301</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect instant="true" name="RestoreHP" value="#power"/>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="poison"/>
+                <def name="max_abnormal_level" value="#dispel_ps_max_abnormal_lvl"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="bleeding"/>
+                <def name="max_abnormal_level" value="#dispel_bl_max_abnormal_lvl"/>
+            </effect>
+        </for>
+        <table name="#dispel_ps_max_abnormal_lvl">0</table>
+        <table name="#dispel_bl_max_abnormal_lvl">0</table>
+        <table name="#power">902 979 1050 1115 1170</table>
+        <table name="#magicLevel">58 62 66 70 74</table>
+        <table name="#mp_consume">189 199 214 228 239</table>
+    </skill>
+    <skill id="1403" levels="1" name="Призвать Друга">
+        <set name="castRange" value="-1"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1403"/>
+        <set name="magicLevel" value="56"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="180"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="150000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="CALL"/>
+        <set name="target" value="TARGET_PARTY_ONE"/>
+    </skill>
+    <skill id="1404" levels="1" name="Приглашение">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1404"/>
+        <set name="itemConsumeCount" value="3"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="66"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="320"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="900000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="-1"/>
+        <set name="skillType" value="CALL"/>
+        <set name="target" value="TARGET_PARTY"/>
+    </skill>
+    <skill id="1405" levels="6" name="Божественное Вдохновение">
+        <set name="icon" value="icon.skill1405"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x10" stat="buffLimit" value="#add"/>
+        </for>
+        <table name="#add">1 2 3 4 5 6</table>
+        <table name="#magicLevel">52 61 76 76 99 99</table>
+    </skill>
+    <skill id="1406" levels="1" name="Призвать Короля Кошек">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill1406"/>
+        <set name="itemConsumeCount" value="4"/>
+        <set name="itemConsumeCountInTime" value="11"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="itemConsumeIdInTime" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="npcId" value="#npcId"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="target" value="TARGET_SELF"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#npcId">14871 14872 14873 14874 14875 14876 14877 14878 14879 14880 14881 14882 14883 14884 14885</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">145</table>
+            </enchant_tables>
+        </enchant_info>
+        <table name="#npcId">14836</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">144</table>
+    </skill>
+    <skill id="1407" levels="1" name="Призвать Магнуса">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill1407"/>
+        <set name="itemConsumeCount" value="4"/>
+        <set name="itemConsumeCountInTime" value="11"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="itemConsumeIdInTime" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="npcId" value="#npcId"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="target" value="TARGET_SELF"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#npcId">14886 14887 14888 14889 14890 14891 14892 14893 14894 14895 14896 14897 14898 14899 14900</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">145</table>
+            </enchant_tables>
+        </enchant_info>
+        <table name="#npcId">14837</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">144</table>
+    </skill>
+    <skill id="1408" levels="1" name="Призвать Призрачного Лорда">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="6000"/>
+        <set name="icon" value="icon.skill1408"/>
+        <set name="itemConsumeCount" value="4"/>
+        <set name="itemConsumeCountInTime" value="11"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="itemConsumeIdInTime" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="npcId" value="#npcId"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="target" value="TARGET_SELF"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#npcId">14901 14902 14903 14904 14905 14906 14907 14908 14909 14910 14911 14912 14913 14914 14915</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">145</table>
+            </enchant_tables>
+        </enchant_info>
+        <table name="#npcId">14838</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">144</table>
+    </skill>
+    <skill id="1409" levels="1" name="Искупление">
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1409"/>
+        <set name="itemConsumeCount" value="100"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="77"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="58"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect instant="true" name="i_dispel_by_category">
+                <def name="abnormal_category" value="slot_debuff"/>
+                <def name="dispel_chance" value="100"/>
+                <def name="max_count" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1410" levels="1" name="Спасение">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_type" value="resurrection_special"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1410"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="200"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="79"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="87"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="Salvation"/>
+        </for>
+    </skill>
+    <skill id="1411" levels="3" name="Мистический Иммунитет">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="abnormal_invincibility"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1411"/>
+        <set name="magicLevel" value="79"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="73"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="150000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY_ONE"/>
+        <for>
+            <effect name="DebuffImmunity"/>
+        </for>
+    </skill>
+    <skill id="1412" levels="1" name="Отмена Чтения Заклинаний">
+        <set name="castRange" value="150"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="500"/>
+        <set name="icon" value="icon.skill1412"/>
+        <set name="magicLevel" value="79"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="27"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="40"/>
+        <set name="reuseDelay" value="30000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_AREA"/>
+        <for>
+            <effect name="Interrupt"/>
+        </for>
+    </skill>
+    <skill id="1413" levels="1" name="Напев Магнуса">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1413"/>
+        <set name="itemConsumeCount" value="40"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Time" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#abnormal_time">320 340 360 380 400 420 440 460 480 500 520 540 560 580 600</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">281 276 272 267 262 257 252 247 243 238 233 228 223 220 215</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxMp" value="1.15"/>
+                <add order="0x40" stat="regMp" value="1.5">
+                    <or>
+                        <using armor="Heavy"/>
+                        <using armor="Light"/>
+                    </or>
+                </add>
+                <add order="0x40" stat="regMp" value="4">
+                    <using armor="Magic"/>
+                </add>
+                <mul order="0x30" stat="mDef" value="1.3"/>
+                <mul order="0x30" stat="mAtk" value="1.3"/>
+                <mul order="0x30" stat="mAtkSpd" value="1.2"/>
+                <add order="0x40" stat="defenceEarth" value="10"/>
+                <add order="0x40" stat="defenceFire" value="10"/>
+                <add order="0x40" stat="defenceWater" value="10"/>
+                <add order="0x40" stat="defenceWind" value="10"/>
+                <add order="0x40" stat="debuffResist" value="25"/>
+                <add order="0x40" stat="cancelResist" value="40"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">300</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">287</table>
+    </skill>
+    <skill id="1414" levels="2" name="Победа Паагрио">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="300"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="affectLimit" value="50;100"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1414"/>
+        <set name="itemConsumeCount" value="#itemCount"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="76"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="284"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_CLAN"/>        
+        <for>
+            <effect>
+				<mul order="0x30" stat="maxCp" value="#maxCp"/>
+				<add order="0x40" stat="cpEff" value="#cpEff"/>
+				<add order="0x40" stat="pAccCombat" value="#AccEvas"/>
+				<add order="0x40" stat="mAccCombat" value="#AccEvas"/>
+				<add order="0x40" stat="pEvasRate" value="#AccEvas"/>
+				<add order="0x40" stat="mEvasRate" value="#AccEvas"/>
+				<mul order="0x30" stat="pAtk" value="#pAtk"/>
+				<mul order="0x30" stat="mAtk" value="#mAtk"/>
+				<mul order="0x30" stat="pAtkSpd" value="#AtkSpd"/>
+				<mul order="0x30" stat="mAtkSpd" value="#AtkSpd"/>
+				<mul order="0x30" stat="pCritRate" value="#CritRate"/>
+				<mul order="0x30" stat="mCritRate" value="#CritRate"/>
+				<mul order="0x30" stat="pCritDamage" value="#CritDamage"/>
+				<mul order="0x30" stat="mCritDamage" value="#CritDamage"/>
+				<mul order="0x30" stat="maxMp" value="#Mp"/>
+				<mul order="0x30" stat="pDef" value="#Def"/>
+				<mul order="0x30" stat="mDef" value="#Def"/>
+				<mul order="0x30" stat="runSpd" value="#runSpd"/>
+				<add order="0x40" stat="debuffResist" value="#Resist"/>
+			</effect>
+			<effect instant="true" name="RestoreCP" value="#power">
+                <def name="ignore_bonuses" value="true"/>
+                <def name="percent" value="true"/>
+            </effect>			
+        </for>
+        <table name="#power">0 20</table>
+        <table name="#maxCp">1.1 1.2</table>
+        <table name="#cpEff">20 0</table>
+        <table name="#Mp">1 1.2</table>
+        <table name="#pAtk">1.15 1.1</table>
+        <table name="#mAtk">1.15 1.2</table>
+        <table name="#Def">1.15 1.2</table>
+        <table name="#AtkSpd">1.1 1.2</table>
+        <table name="#CritRate">1.15 1.2</table>
+        <table name="#CritDamage">1.15 1.2</table>
+        <table name="#runSpd">1 0.80</table>
+        <table name="#Resist">0 10</table>
+        <table name="#AccEvas">4 0</table>
+        <table name="#itemCount">60 40</table>
+    </skill>
+    <skill id="1415" levels="1" name="Символ Паагрио">
+        <set name="abnormal_level" value="2"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="resist_debuff_dispel"/>
+        <set name="affectLimit" value="50;100"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1415"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_CLAN"/>
+        <enchant_info available="false" name="Time" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#abnormal_time">310 320 330 340 350 360 370 380 390 400 410 420 430 440 450</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">273 265 255 245 236 226 217 207 198 188 178 170 160 151 141</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <add order="0x40" stat="debuffResist" value="20"/>
+                <add order="0x40" stat="cancelResist" value="30"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">300</table>
+        <table name="#magicLevel">78</table>
+        <table name="#mp_consume">284</table>
+    </skill>
+    <skill id="1416" levels="8" name="Кулак Паагрио">
+        <set name="abnormal_level" value="#lvl"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="cp_up"/>
+        <set name="affectLimit" value="50;100"/>
+        <set name="coolTime" value="500"/>
+        <set name="effectPoint" value="800"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="icon" value="icon.skill1416"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_CLAN"/>
+        <enchant_info name="Time" type="1">
+            <table name="#abnormal_time" type="ADD">1 2 3 4 5 6 7 8 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 19 20 20 21</table>
+            <enchant_tables enchant_levels="30" skill_level="6"/>
+            <enchant_tables enchant_levels="30" skill_level="7"/>
+            <enchant_tables enchant_levels="30" skill_level="8"/>
+        </enchant_info>
+        <enchant_info name="Shield" type="2">
+            <table name="#pDef" type="MUL">1.01 1.014 1.018 1.022 1.026 1.03 1.034 1.038 1.042 1.046 1.05 1.054 1.058 1.062 1.066 1.07 1.074 1.078 1.082 1.086 1.09 1.094 1.098 1.102 1.106 1.11 1.114 1.118 1.122 1.126</table>
+            <enchant_tables enchant_levels="30" skill_level="6"/>
+            <enchant_tables enchant_levels="30" skill_level="7"/>
+            <enchant_tables enchant_levels="30" skill_level="8"/>
+        </enchant_info>
+        <enchant_info name="Magic Shield" type="3">
+            <table name="#mDef" type="MUL">1.01 1.014 1.018 1.022 1.026 1.03 1.034 1.038 1.042 1.046 1.05 1.054 1.058 1.062 1.066 1.07 1.074 1.078 1.082 1.086 1.09 1.094 1.098 1.102 1.106 1.11 1.114 1.118 1.122 1.126</table>
+            <enchant_tables enchant_levels="30" skill_level="6"/>
+            <enchant_tables enchant_levels="30" skill_level="7"/>
+            <enchant_tables enchant_levels="30" skill_level="8"/>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="maxCp" value="#power"/>
+                <mul order="0x30" stat="mDef" value="#pDef"/>
+                <mul order="0x30" stat="pDef" value="#mDef"/>
+            </effect>
+            <effect instant="true" name="RestoreCP" value="#power2">
+                <def name="ignore_bonuses" value="true"/>
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+        <table name="#power">1.02 1.03 1.04 1.05 1.06 1.07 1.1 1.15</table>
+        <table name="#power2">2 3 4 5 6 7 10 15</table>
+        <table name="#lvl">1 2 3 4 5 6 7 8</table>
+        <table name="#magicLevel">79 85 90 95 99 101 103 105</table>
+        <table name="#abnormal_time">30</table>
+        <table name="#pDef">1</table>
+        <table name="#mDef">1</table>
+        <table name="#mp_consume">105 112 119 127 139 153 166 179</table>
+        <table name="#hitTime">2500 2299 2099 1899 1700 1500 1299 1299</table>
+    </skill>
+    <skill id="1417" levels="5" name="Вспышка Ауры">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill1417"/>
+        <set name="itemConsumeCount" value="#itemConsumeCount"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="5">
+                <table name="#power">66 67 67 68 69 69 70 71 71 72 73 73 74 75 75 76 77 77 78 79 79 80 81 81 82 83 83 84 85 85</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="5">
+                <table name="#removeTarget">40 41 42 42 43 44 44 45 46 46 47 48 48 49 50 50 51 52 52 53 54 54 55 56 56 57 58 58 59 60</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect chance="#removeTarget" instant="true" name="RemoveTarget"/>
+        </for>
+        <table name="#removeTarget">20 25 30 35 40</table>
+        <table name="#power">49 53 58 61 65</table>
+        <table name="#itemConsumeCount">2 2 3 3 4</table>
+        <table name="#magicLevel">58 62 66 70 74</table>
+        <table name="#mp_consume">54 58 62 65 69</table>
+    </skill>
+    <skill id="1418" levels="1" name="Небесный Щит">
+        <set name="abnormal_effect" value="INVINCIBILITY"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="invincibility"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1418"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="64"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="60"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <cond msgId="113">
+            <target type="PLAYABLE"/>
+        </cond>
+        <for>
+            <effect cancel_on_action="true" name="Invulnerable"/>
+        </for>
+    </skill>
+    <skill id="1419" levels="1" name="Вулкан">
+        <set name="affectLimit" value="15;25"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="fire"/>
+        <set name="elementsPower" value="20"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1419"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume1" value="36"/>
+        <set name="mp_consume_tick" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_GROUND"/>
+        <set name="tick_interval" value="2"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <start_effect instant="true" name="i_dispel_by_slot_myself">
+                <def name="abnormal_type" value="magical_stance"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </start_effect>
+            <tick_effect instant="true" name="i_m_attack" value="500"/>
+        </for>
+    </skill>
+    <skill id="1420" levels="1" name="Циклон">
+        <set name="affectLimit" value="15;25"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="wind"/>
+        <set name="elementsPower" value="20"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1420"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume1" value="36"/>
+        <set name="mp_consume_tick" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_GROUND"/>
+        <set name="tick_interval" value="2"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <start_effect instant="true" name="i_dispel_by_slot_myself">
+                <def name="abnormal_type" value="magical_stance"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </start_effect>
+            <tick_effect instant="true" name="i_m_attack" value="500"/>
+        </for>
+    </skill>
+    <skill id="1421" levels="1" name="Беснующиеся Волны">
+        <set name="affectLimit" value="15;25"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="water"/>
+        <set name="elementsPower" value="20"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1421"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume1" value="36"/>
+        <set name="mp_consume_tick" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_GROUND"/>
+        <set name="tick_interval" value="2"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <start_effect instant="true" name="i_dispel_by_slot_myself">
+                <def name="abnormal_type" value="magical_stance"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </start_effect>
+            <tick_effect instant="true" name="i_m_attack" value="500"/>
+        </for>
+    </skill>
+    <skill id="1422" levels="1" name="Судный День">
+        <set name="castRange" value="900"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1422"/>
+        <set name="isOffensive" value="true"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="73"/>
+        <set name="npcId" value="13028"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="summonType" value="SYMBOL"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="target" value="TARGET_GROUND"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="1423" levels="1" name="Геенна">
+        <set name="affectLimit" value="15;25"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="unholy"/>
+        <set name="elementsPower" value="20"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1423"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume1" value="36"/>
+        <set name="mp_consume_tick" value="80"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_GROUND"/>
+        <set name="tick_interval" value="2"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <start_effect instant="true" name="i_dispel_by_slot_myself">
+                <def name="abnormal_type" value="magical_stance"/>
+                <def name="max_abnormal_level" value="-1"/>
+            </start_effect>
+            <tick_effect instant="true" name="i_m_attack" value="500"/>
+        </for>
+    </skill>
+    <skill id="1424" levels="1" name="Поле Антипризыва">
+        <set name="castRange" value="900"/>
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1424"/>
+        <set name="isOffensive" value="true"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="70"/>
+        <set name="npcId" value="13030"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="SUMMON"/>
+        <set name="summonType" value="SYMBOL"/>
+        <set name="target" value="TARGET_GROUND"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+    </skill>
+    <skill id="1425" levels="1" name="Поле Очищения">
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1425"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="210"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_CLAN_ONLY"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect instant="true" name="i_dispel_by_category">
+                <def name="abnormal_category" value="slot_debuff"/>
+                <def name="dispel_chance" value="100"/>
+                <def name="max_count" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1426" levels="1" name="Чудо">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1426"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="200"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="72"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_CLAN"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect instant="true" name="RestoreHP" value="100">
+                <def name="percent" value="true"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1427" levels="1" name="Пламя Непобедимости">
+        <set name="abnormal_effect" value="INVINCIBILITY"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="invincibility"/>
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1427"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="73"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_CLAN_ONLY"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect cancel_on_action="true" name="Invulnerable"/>
+        </for>
+    </skill>
+    <skill id="1428" levels="1" name="Массовое Восстановление">
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1428"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="8876"/>
+        <set name="magicLevel" value="80"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="73"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <cond msgId="1509">
+            <player olympiad="false"/>
+        </cond>
+        <for>
+            <effect instant="true" name="RestoreMP" value="1500"/>
+        </for>
+    </skill>
+    <skill id="1429" levels="1" name="Напев Врат">
+        <set name="force_call" value="true"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1429"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="itemConsumeCount" value="500"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="78"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="284"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="-1"/>
+        <set name="skillType" value="CALL"/>
+        <set name="target" value="TARGET_PARTY"/>
+    </skill>
+    <skill id="1430" levels="5" name="Медитация">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="force_meditation"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1430"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="600000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect name="Meditation">
+                <mul order="0x30" stat="pDef" value="0.1"/>
+            </effect>
+            <effect interval="1" name="RestoreMP" value="#regMp"/>
+        </for>
+        <table name="#regMp">27 30 34 37 42</table>
+        <table name="#magicLevel">56 60 64 68 72</table>
+        <table name="#mp_consume">27 28 30 33 34</table>
+    </skill>
+    <skill id="1431" levels="6" name="Стрела Порока">
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="elements" value="unholy"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1200"/>
+        <set name="icon" value="icon.skill1431"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#effectPoint">26 28 32 36 40 44</table>
+        <table name="#power">13 14 16 18 20 22</table>
+        <table name="#magicLevel">3 5 8 10 13 15</table>
+        <table name="#mp_consume">9 9 10 14 15 15</table>
+    </skill>
+    <skill id="1432" levels="2" name="Увеличение Силы">
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="pa_up"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1432"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="#pAtk"/>
+            </effect>
+        </for>
+        <table name="#pAtk">1.08 1.12</table>
+        <table name="#abnormal">1 2</table>
+        <table name="#magicLevel">10 28</table>
+        <table name="#abnormal_level">1 2</table>
+        <table name="#mp_consume">13 25</table>
+    </skill>
+    <skill id="1433" levels="10" name="Сияние Бездны">
+        <set name="castRange" value="750"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="elements" value="unholy"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1200"/>
+        <set name="icon" value="icon.skill1433"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#effectPoint">40 42 46 50 52 56 60 64 70 74</table>
+        <table name="#power">24 26 28 31 33 35 38 40 43 46</table>
+        <table name="#magicLevel">18 20 22 24 26 28 30 32 34 36</table>
+        <table name="#mp_consume">15 17 17 18 19 20 22 23 24 25</table>
+    </skill>
+    <skill id="1434" levels="4" name="Темный Взрыв">
+        <set name="affectLimit" value="5;12"/>
+        <set name="castRange" value="500"/>
+        <set name="elements" value="unholy"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1799"/>
+        <set name="icon" value="icon.skill1434"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_AREA"/>
+        <table name="#power">16 18 20 23</table>
+        <table name="#magicLevel">24 28 32 36</table>
+        <table name="#mp_consume">28 33 37 42</table>
+    </skill>
+    <skill id="1435" levels="10" name="Метка Смерти">
+        <set name="abnormal_effect" value="DEATH_MARK"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="death_mark"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="elements" value="unholy"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1200"/>
+        <set name="icon" value="icon.skill1435"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="10">
+                <table name="#dmg">63 63 63 64 64 64 64 64 64 64 64 64 64 65 65 65 65 65 65 65 65 65 65 66 66 66 66 66 66 66</table>
+                <table name="#power">10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 12 12 12 12 12 12 12 12 12 12 12 12 12 12</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_level">3</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="10">
+                <table name="#activateRate">70 71 72 72 73 74 74 75 76 76 77 78 78 79 80 80 81 82 82 83 84 84 85 86 86 87 88 88 89 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_level">3</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect interval="1" name="DamOverTime" value="#dmg">
+                <mul order="0x30" stat="mDef" value="#def"/>
+                <mul order="0x30" stat="pDef" value="#def"/>
+            </effect>
+        </for>
+        <table name="#dmg">24 32 41 41 50 50 58 58 63 63</table>
+        <table name="#activateRate">70 70 70 70 70 70 70 70 70 70</table>
+        <table name="#def">0.8 0.8 0.77</table>
+        <table name="#power">1 2 3 4 5 6 7 8 9 10</table>
+        <table name="#magicLevel">24 32 40 46 52 58 62 66 70 74</table>
+        <table name="#abnormal_level">1 2 3 4 5 6 7 8 9 10</table>
+        <table name="#mp_consume">12 14 18 22 24 28 29 32 33 35</table>
+    </skill>
+    <skill id="1436" levels="30" name="Скорбящая Душа">
+        <set name="castRange" value="700"/>
+        <set name="elements" value="unholy"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1200"/>
+        <set name="icon" value="icon.skill1436"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="powerPvP" value="#powerPvP"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="30">
+                <table name="#power">111 112 112 112 113 113 113 114 114 115 115 115 116 116 116 117 117 117 118 118 119 119 119 120 120 120 121 121 121 122</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="30">
+                <table name="#power">109 109 109 109 110 110 110 110 110 111 111 111 111 111 112 112 112 112 112 113 113 113 113 113 114 114 114 114 114 115</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">44 44 43 43 43 42 42 40 40 39 39 39 38 38 37 37 35 35 35 34 34 33 33 32 32 32 30 30 29 29</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Dark Attack" type="3">
+            <enchant_tables enchant_levels="30" skill_level="30">
+                <table name="#elementPower">21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Duel" type="4">
+            <enchant_tables enchant_levels="30" skill_level="30">
+                <table name="#powerPvP">109 110 111 113 114 115 116 118 119 120 121 123 124 125 127 128 129 130 132 133 134 135 137 138 139 140 142 143 144 146</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect chance="30" instant="true" name="RemoveTarget"/>
+        </for>
+        <table name="#elementPower">20</table>
+        <table name="#powerPvP">0</table>
+        <table name="#power">50 52 55 57 60 61 65 66 70 72 75 77 80 82 84 85 87 89 90 92 94 96 97 99 100 102 104 105 107 108</table>
+        <table name="#magicLevel">39 40 42 43 45 46 48 49 51 52 54 55 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74</table>
+        <table name="#mp_consume">23 23 24 25 27 27 28 29 30 30 32 33 34 35 35 37 37 38 38 39 39 40 40 42 42 43 43 43 44 44</table>
+    </skill>
+    <skill id="1437" levels="26" name="Темное Пламя">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="affectLimit" value="5;12"/>
+        <set name="elements" value="unholy"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1799"/>
+        <set name="icon" value="icon.skill1437"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_MULTIFACE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="26">
+                <table name="#power">78 78 79 79 79 79 80 80 80 80 81 81 81 81 82 82 82 82 83 83 83 83 84 84 84 84 85 85 85 85</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="26">
+                <table name="#power">77 77 77 77 77 77 77 77 77 78 78 78 78 78 78 78 78 78 78 79 79 79 79 79 79 79 79 79 79 80</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">89 88 87 85 84 83 82 80 79 78 77 75 74 73 72 70 69 68 67 67 65 64 63 62 60 59 58 57 55 54</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="3">
+            <enchant_tables enchant_levels="30" skill_level="26">
+                <table name="#activateRate">41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Dark Attack" type="4">
+            <enchant_tables enchant_levels="30" skill_level="26">
+                <table name="#elementPower">21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Weaken Dark" type="5">
+            <enchant_tables enchant_levels="30" skill_level="26">
+                <table name="#unholy">2 4 5 7 9 10 12 14 15 17 18 20 22 23 25 27 28 30 32 33 35 36 38 40 41 43 45 46 48 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x50" stat="runSpd" value="0.7"/>
+            </effect>
+        </for>
+        <table name="#activateRate">40</table>
+        <table name="#elementPower">20</table>
+        <table name="#unholy">0</table>
+        <table name="#power">42 43 45 47 49 50 53 54 56 57 59 60 61 62 63 65 66 67 68 69 70 72 73 74 75 76</table>
+        <table name="#magicLevel">45 46 48 49 51 52 54 55 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74</table>
+        <table name="#mp_consume">52 54 57 58 60 62 64 65 68 69 72 73 74 75 77 78 79 80 82 83 84 85 85 87 88 89</table>
+    </skill>
+    <skill id="1438" levels="9" name="Круг Истребления">
+        <set name="affectLimit" value="5;12"/>
+        <set name="castRange" value="500"/>
+        <set name="elements" value="unholy"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1799"/>
+        <set name="icon" value="icon.skill1438"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="powerPvP" value="#powerPvP"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_AREA"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="9">
+                <table name="#power">111 112 112 112 113 113 113 114 114 115 115 115 116 116 116 117 117 117 118 118 119 119 119 120 120 120 121 121 121 122</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="9">
+                <table name="#power">109 109 109 109 110 110 110 110 110 111 111 111 111 111 112 112 112 112 112 113 113 113 113 113 114 114 114 114 114 115</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">72 70 69 68 68 67 65 64 64 63 62 60 59 59 58 57 55 55 54 53 52 52 50 49 48 47 47 45 44 43</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Dark Attack" type="3">
+            <enchant_tables enchant_levels="30" skill_level="9">
+                <table name="#elementPower">21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Duel" type="4">
+            <enchant_tables enchant_levels="30" skill_level="9">
+                <table name="#powerPvP">109 110 111 113 114 115 116 118 119 120 121 123 124 125 127 128 129 130 132 133 134 135 137 138 139 140 142 143 144 146</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <table name="#elementPower">20</table>
+        <table name="#powerPvP">0</table>
+        <table name="#power">82 85 89 92 96 99 102 105 108</table>
+        <table name="#magicLevel">58 60 62 64 66 68 70 72 74</table>
+        <table name="#mp_consume">55 58 60 63 64 67 68 70 72</table>
+    </skill>
+    <skill id="1439" levels="5" name="Проклятие Божественности">
+        <set name="basedOnTargetDebuff" value="true"/>
+        <set name="castRange" value="600"/>
+        <set name="coolTime" value="200"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1200"/>
+        <set name="icon" value="icon.skill1439"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="900"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#power">96 99 102 105 108</table>
+        <table name="#magicLevel">66 68 70 72 74</table>
+        <table name="#mp_consume">62 64 65 67 69</table>
+    </skill>
+    <skill id="1440" levels="5" name="Кража Божественности">
+        <set name="castRange" value="600"/>
+        <set name="coolTime" value="200"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1200"/>
+        <set name="icon" value="icon.skill1440"/>
+        <set name="isIgnoreInvul" value="true"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reflectable" value="false"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="STEAL_BUFF"/>
+        <set name="stealCount" value="#stealCount"/>
+        <set name="target" value="TARGET_ONE"/>
+        <table name="#stealCount">3 4 5 6 7</table>
+        <table name="#magicLevel">55 60 64 68 72</table>
+        <table name="#mp_consume">50 55 60 64 67</table>
+    </skill>
+    <skill id="1441" levels="3" name="Душа для Воодушевления">
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="ma_up"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1441"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtk" value="#TabmAtk"/>
+            </effect>
+        </for>
+        <table name="#TabmAtk">1.55 1.65 1.75</table>
+        <table name="#magicLevel">43 55 64</table>
+        <table name="#abnormal_level">1 2 3</table>
+        <table name="#mp_consume">38 50 60</table>
+    </skill>
+    <skill id="1442" levels="3" name="Защита Тьмы">
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="armor_unholy"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1442"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#Res">34 38 42 46 50 54 58 62 66 70 74 78 82 86 90 94 98 102 106 110 114 118 122 126 130 134 138 142 146 150</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_level">3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#abnormal_time">1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400</table>
+                <table name="#Res">31 32 32 33 34 34 35 36 36 37 37 38 39 39 40 41 41 42 43 43 44 44 45 46 46 47 48 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <add order="0x40" stat="defenceUnholy" value="#Res"/>
+            </effect>
+        </for>
+        <table name="#Res">15 23 30</table>
+        <table name="#order">1 2 3</table>
+        <table name="#abnormal_time">1200</table>
+        <table name="#magicLevel">58 66 74</table>
+        <table name="#abnormal_level">1 2 3</table>
+        <table name="#mp_consume">54 62 69</table>
+    </skill>
+    <skill id="1443" levels="1" name="Оружие Тьмы">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="holy_attack"/>
+        <set name="castRange" value="400"/>
+        <set name="effectPoint" value="243"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1443"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="42"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="1">
+                <table name="#attackUnholy">30 31 32 32 33 34 34 35 36 36 37 38 38 39 40 40 41 42 43 43 44 44 45 46 46 47 48 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="1">
+                <table name="#abnormal_time">1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800 1840 1880 1920 1960 2000 2040 2080 2120 2160 2200 2240 2280 2320 2360 2400</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <add order="0x40" stat="attackUnholy" value="#attackUnholy"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">1200</table>
+        <table name="#attackUnholy">20</table>
+        <table name="#magicLevel">46</table>
+    </skill>
+    <skill id="1445" levels="18" name="Предание Тьме">
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="armor_unholy"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="#castRange"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill1445"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="18">
+                <table name="#unholy">30 31 31 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 40 40 41 41 42 42 43 43 44 44 45</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_level">4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="18">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="3">
+            <enchant_tables enchant_levels="30" skill_level="18">
+                <table name="#abnormal_time">33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <sub order="0x40" stat="defenceUnholy" value="#unholy"/>
+                <add order="0x40" stat="defenceHoly" value="#holy"/>
+            </effect>
+        </for>
+        <table name="#unholy">25 25 25 30</table>
+        <table name="#holy">12 12 12 15</table>
+        <table name="#effectPoint">243 285 331 379 418 457 495 532 549 566 582 597 611 624 635 646 655</table>
+        <table name="#abnormal_time">30</table>
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">28 32 36 40 43 46 49 52 55 58 60 62 64 66 68 70 72 74</table>
+        <table name="#abnormal_level">3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</table>
+        <table name="#mp_consume">25 28 32 35 38 42 44 48 50 54 55 58 60 62 64 65 67 69</table>
+        <table name="#castRange">750 750 750 900 900 900 900 900 900 900 900 900 900 900 900 900 900 900</table>
+    </skill>
+    <skill id="1446" levels="11" name="Пленение Тени">
+        <set name="abnormal_effect" value="ROOT"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="root_magically"/>
+        <set name="activateRate" value="#activaRate"/>
+        <set name="castRange" value="400"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill1446"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="30"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="ROOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="HOLD"/>
+        <enchant_info available="false" name="Chance" type="1">
+            <enchant_tables enchant_levels="30" skill_level="11">
+                <table name="#activaRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="11">
+                <table name="#abnormal_time">20 26 31 37 42 48 53 59 64 70 75 81 86 92 97 103 108 114 119 125 130 136 141 147 152 158 163 169 174 180</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect name="Root"/>
+        </for>
+        <table name="#activaRate">80</table>
+        <table name="#abnormal_time">15</table>
+        <table name="#effectPoint">549 566 582 597 611 624 635 646 658 672 696</table>
+        <table name="#magicLevel">52 55 58 60 62 64 66 68 70 72 74</table>
+    </skill>
+    <skill id="1447" levels="9" name="Пленение Голоса">
+        <set name="abnormal_effect" value="SILENCE"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="silence"/>
+        <set name="activateRate" value="#activaRate"/>
+        <set name="castRange" value="400"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill1447"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="40"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="8000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="MUTE"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <enchant_info available="false" name="Chance" type="1">
+            <enchant_tables enchant_levels="30" skill_level="9">
+                <table name="#activaRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="9">
+                <table name="#abnormal_time">25 30 36 41 46 52 57 62 68 73 78 84 89 94 100 105 110 116 121 126 132 137 142 148 153 158 164 169 174 180</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect name="Mute"/>
+        </for>
+        <table name="#activaRate">80</table>
+        <table name="#abnormal_time">20</table>
+        <table name="#effectPoint">582 597 611 624 635 646 658 672 696</table>
+        <table name="#magicLevel">58 60 62 64 66 68 70 72 74</table>
+    </skill>
+    <skill id="1450" levels="1" name="Цепь Молний">
+        <set name="affectLimit" value="5;12"/>
+        <set name="castRange" value="500"/>
+        <set name="elements" value="#element"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1450"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="powerPvP" value="#powerPvP"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_AREA"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">202 204 206 208 210 212 214 216 218 220 222 224 226 228 230</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">96 94 92 88 86 84 82 78 76 74 72 68 66 64 62</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Wind Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#elementPower">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#element">wind</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Duel" type="4">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#powerPvP">203 207 211 214 218 222 226 229 233 237 241 244 248 252 256</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <table name="#powerPvP">0</table>
+        <table name="#element">none</table>
+        <table name="#elementPower">0</table>
+        <table name="#power">200</table>
+        <table name="#magicLevel">75</table>
+        <table name="#mp_consume">100</table>
+    </skill>
+    <skill id="1451" levels="1" name="Взрыв Огненного Вихря">
+        <set name="abnormal_time" value="10"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="fire"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1451"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">198 198 199 199 200 201 201 202 202 203 203 204 204 205 206</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">103 100 96 92 90 86 82 78 75 71 67 63 60 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Fire Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#elementPower">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <cond msgId="113">
+            <target hasBuffId="1339"/>
+        </cond>
+        <for>
+            <effect interval="2" name="ManaDamOverTime" value="40">
+                <mul order="0x30" stat="runSpd" value="0.9"/>
+                <mul order="0x30" stat="pAtkSpd" value="0.7"/>
+                <mul order="0x30" stat="mAtkSpd" value="0.9"/>
+                <sub order="0x40" stat="defenceFire" value="50"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="multi_debuff_fire"/>
+                <def name="max_abnormal_level" value="9"/>
+            </effect>
+        </for>
+        <table name="#elementPower">0</table>
+        <table name="#power">195</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">108</table>
+    </skill>
+    <skill id="1452" levels="1" name="Пульсация Огня">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="fire_dot"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="fire"/>
+        <set name="elementsPower" value="#fire"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1452"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">176 187 180 182 183 185 187 189 190 192 194 196 197 199 201</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">105 101 97 93 90 86 82 78 76 72 68 65 61 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Fire Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#fire">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect interval="1" name="DamOverTime" value="#power"/>
+        </for>
+        <table name="#power">173</table>
+        <table name="#fire">0</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">109</table>
+    </skill>
+    <skill id="1453" levels="1" name="Молот Ледяного Вихря">
+        <set name="abnormal_time" value="10"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="water"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1453"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">198 198 199 199 200 201 201 202 202 203 203 204 204 205 206</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">103 100 96 92 90 86 82 78 75 71 67 63 60 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Water Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#elementPower">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <cond msgId="113">
+            <target hasBuffId="1340"/>
+        </cond>
+        <for>
+            <effect interval="2" name="ManaDamOverTime" value="40">
+                <mul order="0x30" stat="runSpd" value="0.9"/>
+                <mul order="0x30" stat="pAtkSpd" value="0.7"/>
+                <mul order="0x30" stat="mAtkSpd" value="0.9"/>
+                <sub order="0x40" stat="defenceWater" value="50"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="multi_debuff_water"/>
+                <def name="max_abnormal_level" value="9"/>
+            </effect>
+        </for>
+        <table name="#elementPower">0</table>
+        <table name="#power">195</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">108</table>
+    </skill>
+    <skill id="1454" levels="1" name="Алмазная Пыль">
+        <set name="abnormal_level" value="3"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="activateRate" value="80"/>
+        <set name="affectLimit" value="6;12"/>
+        <set name="elements" value="water"/>
+        <set name="elementsPower" value="#water"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1454"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">71 73 74 76 77 79 80 82 83 85 86 88 89 91 92</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">105 101 97 93 90 86 82 78 76 72 68 65 61 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Water Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#water">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="runSpd" value="#runSpd"/>
+            </effect>
+        </for>
+        <table name="#runSpd">.6</table>
+        <table name="#water">20</table>
+        <table name="#power">70</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">109</table>
+    </skill>
+    <skill id="1455" levels="1" name="Ледяной Трон">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="water_dot"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="water"/>
+        <set name="elementsPower" value="#water"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1455"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">176 187 180 182 183 185 187 189 190 192 194 196 197 199 201</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">105 101 97 93 90 86 82 78 76 72 68 65 61 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Water Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#water">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect interval="1" name="DamOverTime" value="#power"/>
+        </for>
+        <table name="#power">173</table>
+        <table name="#water">0</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">109</table>
+    </skill>
+    <skill id="1456" levels="1" name="Порыв Воздушного Вихря">
+        <set name="abnormal_time" value="10"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="wind"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1456"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">198 198 199 199 200 201 201 202 202 203 203 204 204 205 206</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">103 100 96 92 90 86 82 78 75 71 67 63 60 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Wind Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#elementPower">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <cond msgId="113">
+            <target hasBuffId="1341"/>
+        </cond>
+        <for>
+            <effect interval="2" name="ManaDamOverTime" value="40">
+                <mul order="0x30" stat="runSpd" value="0.9"/>
+                <mul order="0x30" stat="pAtkSpd" value="0.7"/>
+                <mul order="0x30" stat="mAtkSpd" value="0.9"/>
+                <sub order="0x40" stat="defenceWind" value="50"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="multi_debuff_wind"/>
+                <def name="max_abnormal_level" value="9"/>
+            </effect>
+        </for>
+        <table name="#elementPower">0</table>
+        <table name="#power">195</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">108</table>
+    </skill>
+    <skill id="1457" levels="2" name="Эхо Воодушевления">
+        <set name="abnormal_level" value="#level"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="ma_up_special"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1457"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <enchant_info available="false" name="Time" type="1">
+            <table name="#abnormal_time">1240 1280 1320 1360 1400 1440 1480 1520 1560 1600 1640 1680 1720 1760 1800</table>
+            <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            <enchant_tables enchant_levels="30" skill_level="1"/>
+            <enchant_tables enchant_levels="30" skill_level="2"/>
+        </enchant_info>
+        <enchant_info available="false" name="Acumen" type="2">
+            <table name="#mAtkSpd">1.01 1.014 1.018 1.022 1.026 1.03 1.034 1.038 1.042 1.046 1.05 1.054 1.058 1.062 1.066 1.07 1.074 1.078 1.082 1.086</table>
+            <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            <enchant_tables enchant_levels="30" skill_level="1"/>
+            <enchant_tables enchant_levels="30" skill_level="2"/>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtk" value="1.25"/>
+                <mul order="0x30" stat="mpConsum" value="1.35"/>
+                <mul order="0x30" stat="mAtkSpd" value="#mAtkSpd"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">1200 1800</table>
+        <table name="#level">1 2</table>
+        <table name="#magicLevel">79 85</table>
+        <table name="#mp_consume">145 72</table>
+        <table name="#mAtkSpd">1 1</table>
+    </skill>
+    <skill id="1458" levels="1" name="Трон Ветра">
+        <set name="abnormal_effect" value="DOT_BLEEDING"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="wind_dot"/>
+        <set name="activateRate" value="80"/>
+        <set name="castRange" value="900"/>
+        <set name="elements" value="wind"/>
+        <set name="elementsPower" value="#wind"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1458"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="75000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">176 187 180 182 183 185 187 189 190 192 194 196 197 199 201</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">105 101 97 93 90 86 82 78 76 72 68 65 61 57 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Wind Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#wind">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect interval="1" name="DamOverTime" value="#power"/>
+        </for>
+        <table name="#power">173</table>
+        <table name="#wind">0</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">109</table>
+    </skill>
+    <skill id="1459" levels="3" name="Божественная Сила">
+        <set name="abnormal_level" value="#ablvl"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_type" value="heal_power_up"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill1459"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="reuseDelay" value="900000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="healPower" value="#power"/>
+            </effect>
+        </for>
+        <table name="#ablvl">1 2 3</table>
+        <table name="#power">100 300 500</table>
+        <table name="#magicLevel">51 60 69</table>
+        <table name="#mp_consume">70 88 109</table>
+    </skill>
+    <skill id="1460" levels="1" name="Прирост Маны">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="recharge_up"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1460"/>
+        <set name="magicLevel" value="79"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="180"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="150000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <!-- Уточнить: <cond msgId="113"> -->
+            <!-- <target forbiddenClassIds="29;42;105;112"/> -->
+        <!-- </cond> -->
+        <for>
+            <effect>
+                <add order="0x40" stat="mpEff" value="85"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1461" levels="1" name="Напев Охраны">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="t_crt_dmg_down"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1461"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Time" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#abnormal_time">1280 1360 1440 1520 1600 1680 1760 1840 1920 2000 2080 2160 2240 2320 2400</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">283 278 273 268 263 260 255 250 245 240 235 230 226 221 216</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pCritDamRcpt" value="0.7"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">1200</table>
+        <table name="#magicLevel">79</table>
+        <table name="#mp_consume">289</table>
+    </skill>
+    <skill id="1462" levels="10" name="Печать Блокады">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="normal_attack_block"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="affectLimit" value="10;10"/>
+        <set name="castRange" value="900"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="icon" value="icon.skill1462"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="80"/>
+        <set name="reuseDelay" value="120000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="225"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="trait" value="PHYSICAL_BLOCKADE"/>
+        <enchant_info name="Chance" type="1">
+            <table name="#activateRate" type="ADD">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30</table>
+            <enchant_tables enchant_levels="30" skill_level="6"/>
+            <enchant_tables enchant_levels="30" skill_level="7"/>
+            <enchant_tables enchant_levels="30" skill_level="8"/>
+            <enchant_tables enchant_levels="30" skill_level="9"/>
+            <enchant_tables enchant_levels="30" skill_level="10"/>
+        </enchant_info>
+        <enchant_info name="Hex" type="2">
+            <table name="#Hex">0.99 0.986 0.982 0.978 0.974 0.97 0.966 0.962 0.958 0.954 0.95 0.946 0.942 0.938 0.934 0.93 0.926 0.922 0.918 0.914 0.91 0.906 0.902 0.898 0.894 0.89 0.886 0.882 0.878 0.874</table>
+            <enchant_tables enchant_levels="30" skill_level="6"/>
+            <enchant_tables enchant_levels="30" skill_level="7"/>
+            <enchant_tables enchant_levels="30" skill_level="8"/>
+            <enchant_tables enchant_levels="30" skill_level="9"/>
+            <enchant_tables enchant_levels="30" skill_level="10"/>
+        </enchant_info>
+        <enchant_info name="Mind" type="3">
+            <table name="#Mind">0.99 0.986 0.982 0.978 0.974 0.97 0.966 0.962 0.958 0.954 0.95 0.946 0.942 0.938 0.934 0.93 0.926 0.922 0.918 0.914 0.91 0.906 0.902 0.898 0.894 0.89 0.886 0.882 0.878 0.874</table>
+            <enchant_tables enchant_levels="30" skill_level="6"/>
+            <enchant_tables enchant_levels="30" skill_level="7"/>
+            <enchant_tables enchant_levels="30" skill_level="8"/>
+            <enchant_tables enchant_levels="30" skill_level="9"/>
+            <enchant_tables enchant_levels="30" skill_level="10"/>
+        </enchant_info>
+        <for>
+            <effect name="MuteAttack"/>
+            <mul order="0x30" stat="pDef" value="#Hex"/>
+            <mul order="0x30" stat="mDef" value="#Mind"/>
+        </for>
+        <table name="#Mind">1</table>
+        <table name="#Hex">1</table>
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">79 81 83 85 90 95 99 101 103 105</table>
+        <table name="#mp_consume">100 130 170 252 278 306 332 358 384 410</table>
+        <table name="#hitTime">4000 3700 3400 3099 2799 2500 2200 2500 2500 2200</table>
+    </skill>
+    <skill id="1463" levels="1" name="Огненное Оружие">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="holy_attack"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1463"/>
+        <set name="magicLevel" value="75"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="69"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="attackFire" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1464" levels="1" name="Ледяное оружие">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="holy_attack"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1464"/>
+        <set name="magicLevel" value="75"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="69"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="attackWater" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1465" levels="1" name="Ветряное Оружие">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="holy_attack"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1465"/>
+        <set name="magicLevel" value="75"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="69"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="attackWind" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1466" levels="1" name="Земляное Оружие">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="holy_attack"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1466"/>
+        <set name="magicLevel" value="75"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="69"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="attackEarth" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1467" levels="1" name="Метеор">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="dot_attr"/>
+        <set name="affectLimit" value="10;10"/>
+        <set name="castRange" value="600"/>
+        <set name="elementPower" value="20"/>
+        <set name="elements" value="fire"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1467"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="145"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="117"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_AREA"/>
+        <for>
+            <effect interval="1" name="DamOverTime" value="120"/>
+        </for>
+    </skill>
+    <skill id="1468" levels="1" name="Падение Звезды">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="dot_attr"/>
+        <set name="affectLimit" value="10;10"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1468"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="145"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="117"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_AREA"/>
+        <for>
+            <effect interval="1" name="DamOverTime" value="120"/>
+        </for>
+    </skill>
+    <skill id="1469" levels="1" name="Леопольд">
+        <set name="affectLimit" value="5;12"/>
+        <set name="castRange" value="600"/>
+        <set name="elements" value="fire"/>
+        <set name="elementsPower" value="#elementPower"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1469"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="#power"/>
+        <set name="powerPvP" value="#powerPvP"/>
+        <set name="reuseDelay" value="45000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="soulBoost" value="true"/>
+        <set name="target" value="TARGET_AREA"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#power">235 235 236 237 237 238 238 239 239 240 241 241 242 242 243</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">82 79 77 74 72 68 65 63 60 58 54 52 49 47 44</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Fire Attack" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#elementPower">22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Duel" type="4">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#powerPvP">228 232 236 241 245 249 253 258 262 266 270 275 279 283 288</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <table name="#elementPower">0</table>
+        <table name="#powerPvP">0</table>
+        <table name="#power">224</table>
+        <table name="#magicLevel">78</table>
+        <table name="#mp_consume">85</table>
+    </skill>
+    <skill id="1470" levels="1" name="Прана">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="pd_up_special"/>
+        <set name="effectPoint" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1470"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#mDef">3033 3066 3100 3133 3166 3200 3233 3266 3300 3333 3366 3400 3433 3466 3500</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">103 99 95 92 89 85 82 78 74 72 68 64 60 57 54</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="3">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#abnormal_time">32 34 36 38 40 42 44 46 48 50 52 54 56 58 60</table>
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Recovery" type="4">
+            <enchant_tables enchant_levels="15" skill_level="1">
+                <table name="#magicLevel">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#reuseDelay">290000 280000 270000 260000 250000 240000 230000 220000 210000 200000 190000 180000 170000 160000 150000</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <add order="0x40" stat="mDef" value="#mDef"/>
+            </effect>
+        </for>
+        <table name="#mDef">3000</table>
+        <table name="#abnormal_time">30</table>
+        <table name="#magicLevel">78</table>
+        <table name="#mp_consume">105</table>
+        <table name="#reuseDelay">300000</table>
+    </skill>
+    <skill id="1471" levels="2" name="Луч Смерти">
+        <set name="affectLimit" value="5;12"/>
+        <set name="coolTime" value="#coolTime"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill1471"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="73"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="138"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="300"/>
+        <set name="skillType" value="MDAM"/>
+        <set name="target" value="TARGET_MULTIFACE"/>
+        <table name="#magicLevel">79 85</table>
+        <table name="#coolTime">0 1399</table>
+    </skill>
+    <skill id="1472" levels="1" name="Поглощение Души">
+        <set name="castRange" value="900"/>
+        <set name="elementPower" value="20"/>
+        <set name="elements" value="unholy"/>
+        <set name="hitCancelTime" value="4000"/>
+        <set name="hitTime" value="15000"/>
+        <set name="icon" value="icon.skill1472"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="magicLevel" value="79"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume1" value="36"/>
+        <set name="mp_consume_tick" value="30"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="WIT"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="tick_interval" value="2"/>
+        <for>
+            <tick_effect instant="true" name="i_m_attack" value="30"/>
+        </for>
+    </skill>
+    <skill id="1473" levels="1" name="Конверсия">
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="icon" value="icon.skill1473"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="20"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="29"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="KAMAEL_WEAPON_EXCHANGE"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="1474" levels="1" name="Мощь Бездны">
+        <set name="icon" value="icon.skill1474"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="1">
+                <table name="#mAtk">1.101 1.103 1.105 1.106 1.108 1.11 1.111 1.113 1.115 1.116 1.118 1.12 1.121 1.123 1.125 1.126 1.128 1.13 1.131 1.133 1.135 1.136 1.138 1.14 1.141 1.143 1.145 1.146 1.148 1.15</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <mul order="0x30" stat="mAtk" value="#mAtk"/>
+        </for>
+        <table name="#mAtk">1.1</table>
+        <table name="#magicLevel">43</table>
+    </skill>
+    <skill id="1475" levels="3" name="Стереть Метку">
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1475"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="4000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="death_mark"/>
+                <def name="max_abnormal_level" value="#dispel_max_abnormal_lvl"/>
+            </effect>
+        </for>
+        <table name="#dispel_max_abnormal_lvl">3 7 10</table>
+        <table name="#magicLevel">24 46 66</table>
+        <table name="#mp_consume">15 29 44</table>
+    </skill>
+    <skill id="1476" levels="3" name="Инстинкт разрушения">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="instinct"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1476"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">105 102 101 98 97 95 93 92 90 88 86 85 83 81 80 77 76 75 72 71 68 67 65 63 62 60 58 56 55 53</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#abnormal_time">15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Recovery" type="3">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#reuseDelay">295000 290000 285000 280000 275000 270000 265000 260000 255000 250000 245000 240000 235000 230000 225000 220000 215000 210000 205000 200000 195000 190000 185000 180000 175000 170000 165000 160000 155000 150000</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="#pAtk"/>
+                <mul order="0x30" stat="pCritDamage" value="#cAtk"/>
+                <add order="0x40" stat="pCritRate" value="#pCritRate"/>
+            </effect>
+        </for>
+        <table name="#pAtk">1.3 1.4 1.5</table>
+        <table name="#cAtk">1.3 1.4 1.5</table>
+        <table name="#pCritRate">30 40 50</table>
+        <table name="#abnormal_time">15</table>
+        <table name="#magicLevel">40 49 58</table>
+        <table name="#mp_consume">70 88 107</table>
+        <table name="#reuseDelay">300000</table>
+    </skill>
+    <skill id="1477" levels="3" name="Вампирический Импульс">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="instinct"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1477"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">130 127 126 123 121 118 117 115 112 110 108 106 103 101 100 97 95 92 90 88 86 83 81 80 77 75 72 71 68 66</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Recovery" type="3">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#reuseDelay">295000 290000 285000 280000 275000 270000 265000 260000 255000 250000 245000 240000 235000 230000 225000 220000 215000 210000 205000 200000 195000 190000 185000 180000 175000 170000 165000 160000 155000 150000</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <add order="0x40" stat="absorbDam" value="#absorbDam"/>
+                <add order="0x40" stat="absorbPSkillDam" value="#absorbDam"/>
+                <add order="0x40" stat="absorbMSkillDam" value="#absorbDam"/>
+            </effect>
+        </for>
+        <table name="#absorbDam">60 70 80</table>
+        <table name="#magicLevel">52 64 72</table>
+        <table name="#abnormal_time">15</table>
+        <table name="#mp_consume">94 119 133</table>
+        <table name="#reuseDelay">300000</table>
+    </skill>
+    <skill id="1478" levels="2" name="Инстинкт Защиты">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="instinct"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1478"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="2">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">107 106 103 102 100 98 96 95 92 91 88 87 85 83 82 80 78 76 75 72 71 68 67 65 63 61 60 57 56 55</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="2">
+                <table name="#abnormal_time">15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Recovery" type="3">
+            <enchant_tables enchant_levels="30" skill_level="2">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#reuseDelay">295000 290000 285000 280000 275000 270000 265000 260000 255000 250000 245000 240000 235000 230000 225000 220000 215000 210000 205000 200000 195000 190000 185000 180000 175000 170000 165000 160000 155000 150000</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <add order="0x40" stat="pDef" value="#pDef"/>
+                <add order="0x40" stat="mDef" value="#mDef"/>
+            </effect>
+        </for>
+        <table name="#pDef">1200 1800</table>
+        <table name="#mDef">900 1350</table>
+        <table name="#abnormal_time">15</table>
+        <table name="#magicLevel">46 60</table>
+        <table name="#mp_consume">82 110</table>
+        <table name="#reuseDelay">300000</table>
+    </skill>
+    <skill id="1479" levels="3" name="Магический Импульс">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="instinct"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1479"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">123 121 118 117 115 112 111 108 106 105 102 100 97 96 93 91 90 87 85 83 81 78 77 75 72 71 68 66 65 62</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Recovery" type="3">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#reuseDelay">295000 290000 285000 280000 275000 270000 265000 260000 255000 250000 245000 240000 235000 230000 225000 220000 215000 210000 205000 200000 195000 190000 185000 180000 175000 170000 165000 160000 155000 150000</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <mul order="0x30" stat="mAtk" value="#TabmAtk"/>
+                <mul order="0x30" stat="mAtkSpd" value="1.15"/>
+                <add order="0x40" stat="baseMCritRate" value="#mCrit"/>
+            </effect>
+        </for>
+        <table name="#TabmAtk">1.75 1.85 1.95</table>
+        <table name="#mCrit">30 60 90</table>
+        <table name="#magicLevel">55 62 68</table>
+        <table name="#abnormal_time">15</table>
+        <table name="#mp_consume">100 115 127</table>
+        <table name="#reuseDelay">300000</table>
+    </skill>
+    <skill id="1480" levels="1" name="Гармония Души">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="instinct"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1480"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillRadius" value="1000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="soulsConsume" value="20"/>
+        <set name="target" value="TARGET_PARTY"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="1">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#mp_consume">126 123 122 120 117 115 113 111 108 107 105 102 101 98 96 93 92 90 87 86 83 81 78 77 75 72 71 68 66 65</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Time" type="2">
+            <enchant_tables enchant_levels="30" skill_level="1">
+                <table name="#abnormal_time">15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Recovery" type="3">
+            <enchant_tables enchant_levels="30" skill_level="1">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#reuseDelay">590000 580000 570000 560000 550000 540000 530000 520000 510000 500000 490000 480000 470000 460000 450000 440000 430000 420000 410000 400000 390000 380000 370000 360000 350000 340000 330000 320000 310000 300000</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect interval="1" name="RestoreMP" value="200"/>
+            <effect name="Meditation">
+                <mul order="0x30" stat="pDef" value="0.1"/>
+            </effect>
+        </for>
+        <table name="#abnormal_time">15</table>
+        <table name="#magicLevel">70</table>
+        <table name="#mp_consume">130</table>
+        <table name="#reuseDelay">600000</table>
+    </skill>
+    <skill id="1481" levels="7" name="Забвение">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="oblivion"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1481"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="7">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120</table>
+                <table name="#mp_consume">65 63 62 62 61 60 58 57 56 55 53 53 52 51 50 48 47 46 45 45 43 42 41 40 38 37 36 35 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="7">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger chance="30" id="5448" level="1" type="RECEIVE_DAMAGE">
+                        <player damage="100;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#effectPoint">190 204 219 234 248 262 275</table>
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">43 49 55 60 64 68 72</table>
+        <table name="#abnormal_time">60</table>
+        <table name="#mp_consume">38 44 50 55 60 64 67</table>
+    </skill>
+    <skill id="1482" levels="4" name="Хрупкое Телосложение">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="weak_constitution"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1482"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="4">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120</table>
+                <table name="#mp_consume">66 65 63 62 61 60 60 58 57 56 55 53 52 51 50 48 47 47 46 45 43 42 41 40 38 37 36 36 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="4">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger chance="30" id="5449" level="1" type="RECEIVE_DAMAGE">
+                        <player damage="100;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#effectPoint">234 248 262 275</table>
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">62 66 70 74</table>
+        <table name="#abnormal_time">60</table>
+        <table name="#mp_consume">58 62 65 68</table>
+    </skill>
+    <skill id="1483" levels="7" name="Тонкая Кожа">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="thin_skin"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1483"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="BLEED"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="7">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120</table>
+                <table name="#mp_consume">66 65 63 62 61 60 60 58 57 56 55 53 52 51 50 48 47 47 46 45 43 42 41 40 38 37 36 36 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="7">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger chance="30" id="5450" level="#triggerLevel" type="RECEIVE_DAMAGE">
+                        <player damage="100;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#effectPoint">190 204 219 234 248 262 275</table>
+        <table name="#activateRate">80</table>
+        <table name="#triggerLevel">1 2 3 4 5 6 7</table>
+        <table name="#magicLevel">46 52 58 62 66 70 74</table>
+        <table name="#abnormal_time">60</table>
+        <table name="#mp_consume">42 48 54 58 62 65 68</table>
+    </skill>
+    <skill id="1484" levels="4" name="Бессилие">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="enervation"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1484"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="4">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120</table>
+                <table name="#mp_consume">65 63 62 62 61 60 58 57 56 55 53 53 52 51 50 48 47 46 45 45 43 42 41 40 38 37 36 35 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="4">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger chance="30" id="5451" level="1" type="RECEIVE_DAMAGE">
+                        <player damage="100;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">60 64 68 72</table>
+        <table name="#abnormal_time">60</table>
+        <table name="#mp_consume">55 60 64 67</table>
+    </skill>
+    <skill id="1485" levels="3" name="Злоба">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="spite"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1485"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="CON"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120</table>
+                <table name="#mp_consume">66 65 63 62 61 60 60 58 57 56 55 53 52 51 50 48 47 47 46 45 43 42 41 40 38 37 36 36 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger chance="30" id="5452" level="#triggerLevel" type="RECEIVE_DAMAGE">
+                        <player damage="100;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#activateRate">80</table>
+        <table name="#triggerLevel">1 2 3</table>
+        <table name="#magicLevel">66 70 74</table>
+        <table name="#abnormal_time">60</table>
+        <table name="#mp_consume">62 65 68</table>
+    </skill>
+    <skill id="1486" levels="4" name="Ментальное Истощение">
+        <set name="abnormal_effect" value="DOT_POISON"/>
+        <set name="abnormal_level" value="8"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="mental_impoverish"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1486"/>
+        <set name="levelModifier" value="1"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <enchant_info available="false" name="Cost" type="1">
+            <enchant_tables enchant_levels="30" skill_level="4">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120</table>
+                <table name="#mp_consume">65 63 62 62 61 60 58 57 56 55 53 53 52 51 50 48 47 46 45 45 43 42 41 40 38 37 36 35 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Chance" type="2">
+            <enchant_tables enchant_levels="30" skill_level="4">
+                <table name="#activateRate">81 81 81 82 82 82 83 83 83 84 84 84 85 85 85 86 86 86 87 87 87 88 88 88 89 89 89 90 90 90</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect>
+                <triggers>
+                    <trigger chance="30" id="5453" level="#triggerLevel" type="RECEIVE_DAMAGE">
+                        <player damage="100;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+        <table name="#effectPoint">190 204 219 234</table>
+        <table name="#activateRate">80</table>
+        <table name="#triggerLevel">1 2 3 4</table>
+        <table name="#magicLevel">68 70 72 74</table>
+        <table name="#abnormal_time">60</table>
+        <table name="#mp_consume">64 65 67 68</table>
+    </skill>
+    <skill id="1487" levels="8" name="Обновление">
+        <set name="abnormal_level" value="2"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_type" value="life_force_kamael"/>
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1487"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="HOT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="8">
+                <table name="#hot">33 33 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 47 48 49 50 51 51 52 53 54 55 56</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <enchant_info available="false" name="Cost" type="2">
+            <enchant_tables enchant_levels="30" skill_level="8">
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+                <table name="#abnormal_time">16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45</table>
+                <table name="#mp_consume">66 65 63 62 61 60 60 58 57 56 55 53 52 51 50 48 47 47 46 45 43 42 41 40 38 37 36 36 35 33</table>
+            </enchant_tables>
+        </enchant_info>
+        <for>
+            <effect interval="1" name="RestoreHP" value="#hot"/>
+        </for>
+        <table name="#hot">15 18 22 25 27 29 30 32</table>
+        <table name="#effectPoint">204 243 285 331 379 418 457 495</table>
+        <table name="#magicLevel">40 46 52 58 62 66 70 74</table>
+        <table name="#abnormal_time">15</table>
+        <table name="#mp_consume">70 82 48 54 58 62 65 68</table>
+    </skill>
+    <skill id="1488" levels="3" name="Обновляющий Импульс">
+        <set name="castRange" value="600"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1000"/>
+        <set name="icon" value="icon.skill1488"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="15000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="HEAL_PERCENT"/>
+        <set name="target" value="TARGET_ONE"/>
+        <enchant_info available="false" name="Power" type="1">
+            <enchant_tables enchant_levels="30" skill_level="3">
+                <table name="#power">21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</table>
+                <table name="#magicLevel">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
+            </enchant_tables>
+        </enchant_info>
+        <cond msgId="113">
+            <target hasBuffId="1487"/>
+        </cond>
+        <for>
+            <effect instant="true" name="RestoreHP" value="#power">
+                <def name="percent" value="true"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="life_force_kamael"/>
+                <def name="max_abnormal_level" value="9"/>
+            </effect>
+        </for>
+        <table name="#effectPoint">418 457 495</table>
+        <table name="#power">10 15 20</table>
+        <table name="#magicLevel">49 60 68</table>
+        <table name="#mp_consume">23 28 33</table>
+    </skill>
+    <skill id="1489" levels="1" name="Навык Призывателя - Сопротивление Стихиям">
+        <set name="icon" value="icon.skill0433"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x60" stat="defenceEarth" value="5"/>
+            <add order="0x60" stat="defenceFire" value="5"/>
+            <add order="0x60" stat="defenceWater" value="5"/>
+            <add order="0x60" stat="defenceWind" value="5"/>
+        </for>
+    </skill>
+    <skill id="1490" levels="1" name="Навык Целителя – Лечение">
+        <set name="icon" value="icon.skill1011"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="2" id="5577" level="1" type="RECEIVE_DAMAGE">
+                <player damage="1;0"/>
+            </trigger>
+        </triggers>
+    </skill>
+    <skill id="1491" levels="1" name="Навык Призывателя - Дух">
+        <set name="icon" value="icon.skill1349"/>
+        <set name="magicLevel" value="75"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="2" id="5578" level="1" type="RECEIVE_DAMAGE">
+                <player damage="1;0"/>
+            </trigger>
+        </triggers>
+    </skill>
+    <skill id="1492" levels="1" name="Огненная Броня">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="elemental_armor"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1492"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="37"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="defenceFire" value="60"/>
+                <triggers>
+                    <trigger chance="10" id="5567" level="1" type="RECEIVE_DAMAGE">
+                        <player damage="1;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1493" levels="1" name="Броня Мороза">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="elemental_armor"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1493"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="37"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="defenceWater" value="60"/>
+                <triggers>
+                    <trigger chance="10" id="5568" level="1" type="RECEIVE_DAMAGE">
+                        <player damage="1;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1494" levels="1" name="Броня Урагана">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_type" value="elemental_armor"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="3000"/>
+        <set name="icon" value="icon.skill1494"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="37"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="defenceWind" value="60"/>
+                <triggers>
+                    <trigger chance="10" id="5569" level="1" type="RECEIVE_DAMAGE">
+                        <player damage="1;0"/>
+                    </trigger>
+                </triggers>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1495" levels="1" name="Туман Вампира">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_type" value="ultimate_debuff"/>
+        <set name="absorbPart" value="0.2"/>
+        <set name="activateRate" value="50"/>
+        <set name="affectLimit" value="10;10"/>
+        <set name="elements" value="unholy"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1495"/>
+        <set name="levelModifier" value="2"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="145"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="power" value="117"/>
+        <set name="reuseDelay" value="60000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="saveVs" value="MEN"/>
+        <set name="skillRadius" value="200"/>
+        <set name="skillType" value="DRAIN"/>
+        <set name="target" value="TARGET_AURA"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="runSpd" value="0.5"/>
+                <mul order="0x30" stat="pAtk" value="0.5"/>
+                <mul order="0x30" stat="pAtkSpd" value="0.5"/>
+                <sub order="0x40" stat="pAccCombat" value="12"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="1496" levels="1" name="Барьер Слуги">
+        <set name="abnormal_effect" value="INVINCIBILITY"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="invincibility"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="2500"/>
+        <set name="icon" value="icon.skill1496"/>
+        <set name="itemConsumeCount" value="5"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="73"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="300000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE_SERVITOR"/>
+        <for>
+            <effect cancel_on_action="true" name="Invulnerable"/>
+        </for>
+    </skill>
+    <skill id="1497" levels="1" name="Фанатичная Преданность">
+        <set name="icon" value="icon.skill1497"/>
+        <set name="magicLevel" value="81"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="30" id="5570" level="1" type="RECEIVE_DAMAGE">
+                <player damage="100;0"/>
+            </trigger>
+        </triggers>
+    </skill>
+    <skill id="1498" levels="1" name="Обратная Связь">
+        <set name="icon" value="icon.skill1498"/>
+        <set name="magicLevel" value="81"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <triggers>
+            <trigger chance="40" id="5571" level="1" type="OFFENSIVE_MAGICAL_SKILL_USE">
+                <using skill="1558"/>
+            </trigger>
+        </triggers>
+    </skill>
+    <skill id="1499" levels="1" name="Совершенство в Бою">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="2400"/>
+        <set name="abnormal_type" value="improve_pa_pd_up"/>
+        <set name="castRange" value="400"/>
+        <set name="effectPoint" value="1000"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="1500"/>
+        <set name="icon" value="icon.skill1499"/>
+        <set name="magicLevel" value="70"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="27"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="p_block_buff_slot">
+                <def name="abnormal_types" value="pa_up;pd_up"/>
+                <mul order="0x30" stat="pAtk" value="1.15"/>
+                <mul order="0x30" stat="pDef" value="1.15"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="pa_up"/>
+                <def name="max_abnormal_level" value="9"/>
+            </effect>
+            <effect instant="true" name="i_dispel_by_slot">
+                <def name="abnormal_type" value="pd_up"/>
+                <def name="max_abnormal_level" value="9"/>
+            </effect>
+        </for>
+    </skill>
+</list>

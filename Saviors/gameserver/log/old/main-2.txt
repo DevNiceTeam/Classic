@@ -1,0 +1,710 @@
+13.05 00:08:46 ERROR Unable to get soft information
+File name '/home/developer/dev/lineage-2-classic-2.0-wizarddev/auth/build/classes/main' isn't a valid jar
+java.io.FileNotFoundException: /home/developer/dev/lineage-2-classic-2.0-wizarddev/auth/build/classes/main (Это каталог)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at studio.lineage2.commons.versioning.Version.<init>(Version.java:33)
+	at studio.lineage2.gameserver.GameServer.<init>(GameServer.java:93)
+	at studio.lineage2.gameserver.GameServer.main(GameServer.java:272)
+13.05 00:08:46 INFO  =================================================
+13.05 00:08:46 INFO  Project Name: ........ Nice Team
+13.05 00:08:46 INFO  Project Revision: ........ [20651] Open Compile
+13.05 00:08:46 INFO  Update: .................. Classic 2.0
+13.05 00:08:46 INFO  Build date: .............. 
+13.05 00:08:46 INFO  Compiler version: ........ 
+13.05 00:08:46 INFO  Contact Info: ........ Skype:support_nice_team
+13.05 00:08:46 INFO  =================================================
+13.05 00:08:46 INFO  =================================================
+13.05 00:08:46 INFO  Authserver host info: IP[217.25.225.213], PORT[9014]
+13.05 00:08:46 INFO  =================================================
+13.05 00:08:46 INFO  Gameserver host info:
+13.05 00:08:46 INFO  ID[1], IP[217.25.225.213], INNER_IP[217.25.225.213], PORT[7777]
+13.05 00:08:46 INFO  =================================================
+13.05 00:08:46 INFO  Abuse: Loaded 18 abuse words.
+13.05 00:08:47 INFO  HikariPool-1 - Started.
+13.05 00:08:47 INFO  IdFactory: Clear characters online status.
+13.05 00:08:47 INFO  IdFactory: Cleaned 0 elements from database in 0sec.
+13.05 00:08:47 INFO  IdFactory: Extracted total 0 used id's.
+13.05 00:08:47 INFO  IdFactory: 102912 id's available.
+13.05 00:08:47 INFO  Hidden items loaded size: 0
+13.05 00:08:47 INFO  CustomHeroDAO: loaded 0 custom heroes.
+13.05 00:08:47 INFO  Scripts: Loading...
+13.05 00:08:50 INFO  Scripts: Loaded 358 classes.
+13.05 00:08:50 INFO  Loaded 418 translit entries.
+13.05 00:08:50 INFO  GameTimeController: initialized. Current time is 6:53 in the day.
+13.05 00:08:50 INFO  World: Creating regions: [256][272][32].
+13.05 00:08:50 INFO  HtmCache: disabled.
+13.05 00:08:50 INFO  StringsHolder: load strings: 677 for lang: RUSSIAN
+13.05 00:08:50 INFO  StringsHolder: load strings: 677 for lang: ENGLISH
+13.05 00:08:50 INFO  SkillEnchantInfoHolder: loaded 30 skill enchant info(s) count.
+13.05 00:08:51 INFO  SkillHolder: loaded 29519 skill(s) count.
+13.05 00:08:52 INFO  OptionDataHolder: loaded 5774 option data(s) count.
+13.05 00:08:52 INFO  VariationDataHolder: loaded 35 variation data(s) count.
+13.05 00:08:52 INFO  ItemHolder: loaded 8541 item(s) count.
+13.05 00:08:52 INFO  EnsoulHolder: loaded 320 ensoul(s) count.
+13.05 00:08:52 INFO  RecipeHolder: loaded 623 recipe(s) count.
+13.05 00:08:52 INFO  CrystallizationDataHolder: loaded 1 crystallization data(s) count.
+13.05 00:08:52 INFO  SynthesisDataHolder: loaded 132 synthesis data(s) count.
+13.05 00:08:52 INFO  BaseStatsBonusHolder: loaded 80 base stats bonus(s) count.
+13.05 00:08:52 INFO  LevelBonusHolder: loaded 80 level bonus(s) count.
+13.05 00:08:52 INFO  KarmaIncreaseDataHolder: loaded 80 karma increase data(s) count.
+13.05 00:08:52 INFO  HitCondBonusHolder: loaded 7 hit cond bonus(s) count.
+13.05 00:08:52 INFO  PlayerTemplateHolder: loaded 18 player template(s) count.
+13.05 00:08:52 INFO  ClassDataHolder: loaded 89 class data(s) count.
+13.05 00:08:52 INFO  TransformTemplateHolder: loaded 26 transform template(s) count.
+13.05 00:08:52 INFO  NpcModificationHolder: loaded 1 npc modification(s) count.
+13.05 00:08:53 INFO  NpcHolder: loaded 4620 npc(s) count.
+13.05 00:08:53 INFO  ChampionHolder: loaded 1 champion(s) count.
+13.05 00:08:53 INFO  PetDataHolder: loaded 55 pet data(s) count.
+13.05 00:08:53 INFO  MapRegionManager: loaded 272 map region manager(s) count.
+13.05 00:08:53 INFO  MapRegionManager: loaded 272 map region manager(s) count.
+13.05 00:08:53 INFO  StaticObjectHolder: loaded 145 static object(s) count.
+13.05 00:08:53 INFO  DoorHolder: loaded 1304 door(s) count.
+13.05 00:08:53 INFO  ZoneHolder: loaded 1091 zone(s) count.
+13.05 00:08:53 INFO  SpawnHolder: loaded 12441 spawn(s) count.
+13.05 00:08:53 INFO  InstantZoneHolder: loaded 8 instant zone(s) count.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 34201 normal learns for 89 classes.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 0 transfer learns for 3 classes.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 89 general skills learns for 89 classes.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 6 transformation learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 0 custom transformation learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 0 fishing learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 0 collection learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 45 pledge learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 0 sub unit learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 6 noblesse skills learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 5 hero skills learns.
+13.05 00:08:54 INFO  SkillAcquireHolder: load 1 GM skills learns.
+13.05 00:08:54 INFO  ResidenceHolder: total size: 79
+13.05 00:08:54 INFO  ResidenceHolder:  - load 20 fortress(s).
+13.05 00:08:54 INFO  ResidenceHolder:  - load 54 clanhall(s).
+13.05 00:08:54 INFO  ResidenceHolder:  - load 5 castle(s).
+13.05 00:08:54 INFO  ShuttleTemplateHolder: loaded 1 shuttle template(s) count.
+13.05 00:08:54 INFO  RaidBossSpawnManager: Loaded 0 Statuses
+13.05 00:08:54 WARN  SpawnExObject: not found spawn group: aden_castle_siege_artefact
+13.05 00:08:54 WARN  SpawnExObject: not found spawn group: aden_castle_siege
+13.05 00:08:54 WARN  SpawnExObject: not found spawn group: aden_castle_mass_gatekeeper
+13.05 00:08:54 INFO  EventParser: Not found impl class: ClanHallTeamBattle; File: [63] wild_beast_reserve.xml
+13.05 00:08:54 INFO  EventHolder: loaded 57 event(s) count.
+13.05 00:08:54 INFO  CubicHolder: loaded 205 cubic(s) count.
+13.05 00:08:54 INFO  BuyListHolder: loaded 193 buy list(s) count.
+13.05 00:08:54 INFO  MultiSellHolder: loaded 14 multi sell(s) count.
+13.05 00:08:54 INFO  ProductDataHolder: loaded 241 product data(s) count.
+13.05 00:08:54 INFO  HennaHolder: loaded 180 henna(s) count.
+13.05 00:08:54 INFO  JumpTracksHolder: loaded 1 jump tracks(s) count.
+13.05 00:08:54 INFO  EnchantItemHolder: loaded 251 enchant item(s) count.
+13.05 00:08:54 INFO  EnchantStoneHolder: loaded 98 enchant stone(s) count.
+13.05 00:08:54 INFO  AppearanceStoneHolder: loaded 813 appearance stone(s) count.
+13.05 00:08:54 INFO  ArmorSetsHolder: loaded 521 armor sets(s) count.
+13.05 00:08:54 INFO  FishDataHolder: load 3 lure(s).
+13.05 00:08:54 INFO  FishDataHolder: load 7 lure reward(s).
+13.05 00:08:54 INFO  FishDataHolder: load 7 rod(s).
+13.05 00:08:54 INFO  LevelUpRewardHolder: loaded 48 level up reward(s) count.
+13.05 00:08:54 INFO  LuckyGameHolder: loaded 2 lucky game(s) count.
+13.05 00:08:54 INFO  PremiumAccountHolder: loaded 1 premium account(s) count.
+13.05 00:08:54 INFO  PetitionGroupHolder: loaded 1 petition group(s) count.
+13.05 00:08:54 INFO  DailyMissionsHolder: loaded 58 daily missions(s) count.
+13.05 00:08:54 INFO  RewardHolder: loaded 788 reward(s) count.
+13.05 00:08:54 INFO  FactionHolder: loaded 1 faction(s) count.
+13.05 00:08:54 INFO  MonsterBookHolder: loaded 1 monster book(s) count.
+13.05 00:08:54 INFO  CommunityTeleportPointsHolder: loaded 309 community teleport points(s) count.
+13.05 00:08:54 INFO  CrestCache: Loaded 0 crests
+13.05 00:08:54 INFO  ImagesCache: Loading images...
+13.05 00:08:54 INFO  ImagesCache: Loaded 0 images
+13.05 00:08:54 INFO  Daily Quests Disable Managed: Loaded 2 quests in total (4).
+13.05 00:08:54 INFO  SubClassTable: Loaded 31 sub-classes variations.
+13.05 00:08:54 INFO  EnchantHPBonusTable: Loaded bonuses for 5 grades.
+13.05 00:08:54 INFO  Initializing ItemAuctionManager
+13.05 00:08:55 INFO  SpawnManager: spawned 3000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 5000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 6000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 7000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 8000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 9000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 10000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 11000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 12000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 16000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 18000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 19000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 20000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 21000 npc for group: NONE
+13.05 00:08:55 INFO  SpawnManager: spawned 21816 npc; spawns: 11116; group: NONE
+13.05 00:08:55 INFO  StaticObjectHolder: spawned: 145 static object(s).
+13.05 00:08:55 INFO  AntharasManager: State of Antharas is NOTSPAWN.
+13.05 00:08:55 INFO  AntharasManager: Next spawn date of Antharas is 03:00 01.01.1970.
+13.05 00:08:55 INFO  BaiumManager: State of Baium is NOTSPAWN.
+13.05 00:08:55 INFO  BaiumManager: Next spawn date: 03:00 01.01.1970
+13.05 00:08:55 INFO  ValakasManager: State of Valakas is NOTSPAWN.
+13.05 00:08:55 INFO  ValakasManager: Next spawn date of Valakas is 03:00 01.01.1970.
+13.05 00:08:55 INFO  CommunityBoard: service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Clan Community service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Manage Favorites service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Manage Friends service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Private Mail service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Manage Memo service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Region service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Buffer Community service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Manage Career service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Stats service loaded.
+13.05 00:08:55 INFO  CommunityBoard: Teleport Community service loaded.
+13.05 00:08:55 INFO  Olympiad System: Loading Olympiad System....
+13.05 00:08:55 INFO  Olympiad System: Currently in Olympiad Period
+13.05 00:08:55 INFO  Olympiad System: Period Ends....
+13.05 00:08:55 INFO  Olympiad System: In 18 days, 23 hours and 51 mins.
+13.05 00:08:55 INFO  Olympiad System: Next Weekly Change is in....
+13.05 00:08:55 INFO  Olympiad System: In 6 days, 22 hours and 54 mins.
+13.05 00:08:55 INFO  Olympiad System: Loaded 0 Membersses
+13.05 00:08:55 INFO  Olympiad System: Competition Period Starts in 0 days, 17 hours and 52 mins.
+13.05 00:08:55 INFO  Olympiad System: Event starts/started: Sat May 13 18:00:55 MSK 2017
+13.05 00:08:55 INFO  Hero System: Loaded 0 Heroes.
+13.05 00:08:55 INFO  Hero System: Loaded 0 all time Heroes.
+13.05 00:08:55 INFO  Initializing PetitionManager
+13.05 00:08:55 INFO  AdminCommandHandler: loaded 337 admin command handler(s) count.
+13.05 00:08:55 INFO  UserCommandHandler: loaded 16 user command handler(s) count.
+13.05 00:08:55 INFO  VoicedCommandHandler: loaded 23 voiced command handler(s) count.
+13.05 00:08:55 INFO  BypassHolder: loaded 20 bypass(s) count.
+13.05 00:08:55 INFO  OnShiftActionHolder: loaded 6 on shift action(s) count.
+13.05 00:08:56 INFO  ServerPacketOpCodeManager: Loaded 494 active server packet opcodes.
+13.05 00:08:56 INFO  =[Events]=========================================
+13.05 00:08:56 INFO  CastleSiegeEvent: Gludio Castle time - 20:00 14.05.2017
+13.05 00:08:56 INFO  CastleSiegeEvent: Dion Castle time - 20:00 14.05.2017
+13.05 00:08:56 INFO  CastleSiegeEvent: Giran Castle time - 20:00 14.05.2017
+13.05 00:08:56 INFO  CastleSiegeEvent: Oren Castle time - 20:00 14.05.2017
+13.05 00:08:56 INFO  CastleSiegeEvent: Aden Castle time - 20:00 14.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Topaz Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Ruby Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Crystal Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Atramental Barracks time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Scarlet Barracks time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Viridian Barracks time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Golden Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Silver Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Mithril Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Silver Manor time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Gold Manor time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Bronze Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Golden Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Silver Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Mithril Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: The Bronze Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Silver Manor time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Moonstone Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Onyx Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Mont Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Astaire Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Aria Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Yiana Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Roien Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Luna Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Traban Chamber time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Eisen Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Heavy Metal Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Molten Ore Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Titan Hall time - 15:00 12.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Emerald Hall time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Crystal Hall time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Sapphire Hall time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Aquamarine Hall time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Blue Barracks time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Brown Barracks time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Yellow Barracks time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: White Barracks time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Black Barracks time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ClanHallAuctionEvent: Green Barracks time - 15:00 08.05.2017
+13.05 00:08:56 INFO  ==================================================
+13.05 00:08:56 INFO  BoatHolder: loaded 1 boat(s) count.
+13.05 00:08:56 INFO  BoatHolder: Spawning: CrumaTower_Shuttle
+13.05 00:08:56 INFO  Manor System: Initializing...
+13.05 00:08:56 INFO  IdFactory: Free ObjectID's remaining: 1879024828
+13.05 00:08:56 INFO  Naia Tower Manager: Loaded 12 rooms
+13.05 00:08:56 INFO  Naia Core Manager: Loaded
+13.05 00:08:56 INFO  Seed of Destruction Manager: Loaded
+13.05 00:08:56 INFO  Seed of Infinity Manager: Loaded. Current stage is: 1
+13.05 00:08:56 INFO  Seed of Hellfire Manager: Loaded.
+13.05 00:08:56 INFO  CommissionManager: Loaded 0 items in commission.
+13.05 00:08:56 INFO  ClanSearchManager: Loading clan search data...
+13.05 00:08:56 INFO  ClanSearchManager: Loaded 0 registered clans.
+13.05 00:08:56 INFO  ClanSearchManager: Loaded 0 registered players.
+13.05 00:08:56 INFO  ClanRewardManager: Check new day.
+13.05 00:08:56 INFO  Parnasus Manager: Loaded
+13.05 00:08:56 INFO  Scheduled server restart in 5h 51m 4s.
+13.05 00:08:56 INFO  GameServer Started
+13.05 00:08:56 INFO  Maximum Numbers of Connected Players: 3000
+13.05 00:08:56 INFO  =================================================
+13.05 00:08:56 INFO  Connecting to authserver on 217.25.225.213:9014
+13.05 00:08:56 INFO  AllowedMemory: ........... 3728384 KB
+13.05 00:08:56 INFO       Allocated: .......... 825856 KB (22.1505%)
+13.05 00:08:56 INFO       Non-Allocated: ...... 2902528 KB (77.8495%)
+13.05 00:08:56 INFO  AllocatedMemory: ......... 825856 KB
+13.05 00:08:56 INFO       Used: ............... 571875 KB (15.3384%)
+13.05 00:08:56 INFO       Unused (cached): .... 253980 KB (6.8121%)
+13.05 00:08:56 INFO  UseableMemory: ........... 3156508 KB (84.6616%)
+13.05 00:08:56 INFO  =================================================
+13.05 00:08:56 INFO  Restoring offline traders...
+13.05 00:08:56 INFO  Restored 0 offline traders.
+13.05 00:08:56 INFO  Registered on authserver as 1 [Bartz]
+13.05 00:12:54 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:12:57 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:13:04 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:13:14 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:13:46 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:13:55 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:18:40 ERROR 
+java.lang.NullPointerException: null
+	at studio.lineage2.gameserver.dao.CharacterDAO.insert(CharacterDAO.java:88)
+	at studio.lineage2.gameserver.model.Player.create(Player.java:558)
+	at studio.lineage2.gameserver.network.l2.c2s.CharacterCreate.runImpl(CharacterCreate.java:71)
+	at studio.lineage2.gameserver.network.l2.c2s.L2GameClientPacket.run(L2GameClientPacket.java:56)
+	at studio.lineage2.commons.net.nio.impl.MMOExecutableQueue.run(MMOExecutableQueue.java:56)
+	at studio.lineage2.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13.05 00:19:57 ERROR AuthServer I/O error: End of stream.
+13.05 00:19:58 ERROR Could not store char data: qwe[268460592]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR Could not store char data: Hekp[268460589]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR Could not store char data: Некр[268460593]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR Could not store char data: Hekp123[268460591]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR Could not store char data: Hekp[268460595]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR Could not store char data: Hekp[268460590]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR Could not store char data: 12312aq[268460594]!
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.characters' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.model.Player.store(Player.java:5827)
+	at studio.lineage2.gameserver.model.Player.prepareToLogout2(Player.java:1718)
+	at studio.lineage2.gameserver.model.Player.logout(Player.java:1520)
+	at studio.lineage2.gameserver.Shutdown.disconnectAllPlayers(Shutdown.java:260)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:142)
+13.05 00:19:58 ERROR ClanSearchTask: Failed to update database for clan search system.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.clan_search_registered_clans' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:241)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 00:19:58 ERROR ClanSearchTask: Failed to update database for clan search system.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.clan_search_clan_applicants' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:255)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 00:19:58 ERROR ClanSearchTask: Failed to update database for clan search system.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.clan_search_waiting_players' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5098)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchTask.runImpl(ClanSearchTask.java:269)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager.save(ClanSearchManager.java:518)
+	at studio.lineage2.gameserver.instancemanager.clansearch.ClanSearchManager$ShutdownListener.onShutdown(ClanSearchManager.java:543)
+	at studio.lineage2.gameserver.GameServer$GameServerListenerList.onShutdown(GameServer.java:413)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:147)
+13.05 00:19:58 ERROR 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.server_variables' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.SaveToDB(ServerVariables.java:73)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.set(ServerVariables.java:145)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:259)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+13.05 00:19:58 ERROR 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.server_variables' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.SaveToDB(ServerVariables.java:73)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.set(ServerVariables.java:145)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:260)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+13.05 00:19:58 ERROR 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.server_variables' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.SaveToDB(ServerVariables.java:73)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.set(ServerVariables.java:151)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:261)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+13.05 00:19:58 ERROR 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.server_variables' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.SaveToDB(ServerVariables.java:73)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.set(ServerVariables.java:151)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:262)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)
+13.05 00:19:58 ERROR 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'classic.server_variables' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.SaveToDB(ServerVariables.java:73)
+	at studio.lineage2.gameserver.instancemanager.ServerVariables.set(ServerVariables.java:151)
+	at studio.lineage2.gameserver.model.entity.olympiad.OlympiadDatabase.save(OlympiadDatabase.java:263)
+	at studio.lineage2.gameserver.Shutdown.saveData(Shutdown.java:198)
+	at studio.lineage2.gameserver.Shutdown.run(Shutdown.java:151)

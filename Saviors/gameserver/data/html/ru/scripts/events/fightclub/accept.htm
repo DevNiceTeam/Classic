@@ -1,0 +1,16 @@
+<html><body>
+<title>Управляющий бойцовским клубом</title><body>
+<body body scroll="no">
+<center><img src="L2UI_CH3.onscrmsg_pattern01_1" width=295 height=32></center>
+<br>
+Ник игрока: <font color="LEVEL">%name%</font><br>
+Класс игрока: <font color="LEVEL">%class%</font>, уровень <font color="LEVEL">%level%</font><br>
+Ставка: <font color ="LEVEL">%rate%</font><br><br><br>
+Учтите, что для принятия ставки у игрока, создавшего предложение и у вас - должно быть количество предметов больше или равное ставке.
+<br1>
+После окончания боя - банк (сумма ставок) переходит к победившему игроку.<br>
+<br>
+<center><button value="Принять бой" action="bypass -h npc_%objectId%_accept %storedId%" width=200 height=25 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/>
+<center><button value="Посмотреть другие заявки" action="bypass -h npc_%objectId%_openpage 1" width=200 height=25 back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF"/>
+<center><img src="L2UI_CH3.onscrmsg_pattern01_2" width=295 height=32></center><br>
+</body></html>

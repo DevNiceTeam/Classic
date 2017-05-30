@@ -1,0 +1,56 @@
+<list>
+    <skill id="9985" levels="7" name="Эликсир Жизни Высокого Качества - Ранг R">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="isHandler" value="true"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="120000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="1902">
+            <and>
+                <player minLevel="#levelMin"/>
+                <player max_level="#levelMax"/>
+            </and>
+        </cond>
+        <for>
+            <effect instant="true" name="RestoreHP" value="#power">
+                <def name="ignore_bonuses" value="true"/>
+                <def name="percent" value="#percent"/>
+            </effect>
+        </for>
+        <table name="#levelMin">1 20 40 52 61 76 85</table>
+        <table name="#levelMax">19 39 51 60 75 90 -1</table>
+        <table name="#power">700 1600 2800 3600 4800 5400 35</table>
+        <table name="#percent">false false false false false false true</table>
+    </skill>
+    <skill id="9986" levels="7" name="Эликсир Ментальной Силы Высокого Качества - Ранг R">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="isHandler" value="true"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="120000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <cond msgId="1902">
+            <and>
+                <player minLevel="#levelMin"/>
+                <player max_level="#levelMax"/>
+            </and>
+        </cond>
+        <for>
+            <effect instant="true" name="RestoreMP" value="#power">
+                <def name="ignore_bonuses" value="true"/>
+                <def name="percent" value="#percent"/>
+            </effect>
+        </for>
+        <table name="#levelMin">1 20 40 52 61 76 85</table>
+        <table name="#levelMax">19 39 51 60 75 90 -1</table>
+        <table name="#power">170 350 510 690 830 960 20</table>
+        <table name="#percent">false false false false false false true</table>
+    </skill>
+</list>

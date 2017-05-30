@@ -1,0 +1,964 @@
+<list>
+    <npc id="36721" name="Лейна" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210117;19210118"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36722" name="Вини" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.25"/>
+        <set name="collision_radius" value="9.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210117;19210118"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36723" name="Бубек" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210111;19210112"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36724" name="Балин" title="Привратник Холла Клана">
+        <set name="type" value="Npc"/>
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210111;19210112"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36725" name="Сарина" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210113;19210114"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36726" name="Лорелен" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.25"/>
+        <set name="collision_radius" value="9.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210113;19210114"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36727" name="Аринас" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210115;19210116"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36728" name="Кадиф" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="19210115;19210116"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36729" name="Бремен" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220119;20220120"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36730" name="Паоллин" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.25"/>
+        <set name="collision_radius" value="9.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220119;20220120"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36731" name="Каллейн" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220121;20220122"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36732" name="Корен" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220121;20220122"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36733" name="Уинснон" title="Управляющий Холлом Клана">
+        <set name="type" value="Npc"/>
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220123;20220124"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36734" name="Мурен" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220123;20220124"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36735" name="Юбен" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220125;20220126"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36736" name="Ренин" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20220125;20220126"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36737" name="Гайрин" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.25"/>
+        <set name="collision_radius" value="9.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20230101;20230102"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36738" name="Лутина" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="20.5"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20230101;20230102"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36739" name="Плон" title="Управляющий Холлом Клана">
+        <set name="type" value="residences.clanhall.AuctionedManager"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="120.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="22.25"/>
+        <set name="collision_radius" value="9.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20230103;20230104"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="36740" name="Даниф" title="Привратник Холла Клана">
+        <set name="type" value="residences.clanhall.AuctionedDoorman"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="99"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="50.0"/>
+        <set name="baseRunSpd" value="100.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <ai_params>
+            <set name="doors" value="20230103;20230104"/>
+        </ai_params>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+</list>

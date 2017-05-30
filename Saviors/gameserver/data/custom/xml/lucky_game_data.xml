@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--AUTHOR: BONUX-->
+<!--Example:
+<game id="1" games_limit="1" reuse="30 6 * * *">
+
+id - ID of game. Game ID should not coincide with the other games.
+games_limit - Games limit.
+reuse - Time in CRON format for refresh game limit counter.
+
+unique_reward_games_count - Played games on server for roll unique rewards.
+additional_rewards_games_count - Played games by player for roll additional rewards.
+
+game id = 2 - Is "Premium" game.
+-->
+<list>
+    <config allow="true" unique_reward_games_count="5000" additional_rewards_games_count="10"/>
+    <game id="1">
+        <fee>
+            <item id="23767" count="1"/>
+        </fee>
+        <common_rewards>
+            <item id="23847" min_count="1" max_count="1" chance="5"/>    <!--Купон на Карту Таро-->
+            <item id="23422" min_count="1" max_count="1" chance="4"/>    <!--Благословенный Свиток: Модифицировать Оружие (R)-->
+            <item id="23428" min_count="1" max_count="1" chance="2"/>    <!--Благословенный Свиток: Модифицировать Доспех (R)-->
+            <item id="23410" min_count="1" max_count="1" chance="5"/>    <!--Свиток: Модифицировать Оружие (R)-->
+            <item id="23416" min_count="1" max_count="1" chance="10"/>    <!--Свиток: Модифицировать Доспех (R)-->
+            <item id="23423" min_count="1" max_count="1" chance="20"/>    <!--Благословенный Свиток: Модифицировать Оружие (S)-->
+            <item id="23429" min_count="1" max_count="1" chance="10"/>    <!--Благословенный Свиток: Модифицировать Доспех (S)-->
+            <item id="45931" min_count="1" max_count="1" chance="15"/>    <!--Камень Духа Высокого Ранга-->
+            <item id="45932" min_count="1" max_count="1" chance="8"/>    <!--Камень Духа Высшего Ранга-->
+            <item id="34942" min_count="1" max_count="1" chance="10"/>    <!--Коробка с Краской Гигантов Ур. 2-->
+            <item id="34943" min_count="1" max_count="1" chance="8"/>    <!--Коробка с Легендарной Краской Ур. 2-->
+            <item id="34944" min_count="1" max_count="1" chance="6"/>    <!--Коробка с Древней Краской Ур. 2-->
+            <item id="34945" min_count="1" max_count="1" chance="3"/>    <!--Коробка с Краской Гигантов Ур. 3-->
+            <item id="34946" min_count="1" max_count="1" chance="2"/>    <!--Коробка с Легендарной Краской Ур. 3-->
+            <item id="34947" min_count="1" max_count="1" chance="1"/>    <!--Коробка с Древней Краской Ур. 3-->
+            <item id="3936" min_count="1" max_count="1" chance="30"/>    <!--Свиток Благ. Воскрешения-->
+            <item id="19440" min_count="1" max_count="1" chance="20"/>    <!--Самоцвет: Ранг R-->
+            <item id="9546" min_count="1" max_count="1" chance="15"/>    <!--Руда Огня-->
+            <item id="9547" min_count="1" max_count="1" chance="15"/>    <!--Руда Воды-->
+            <item id="9548" min_count="1" max_count="1" chance="15"/>    <!--Руда Земли-->
+            <item id="9549" min_count="1" max_count="1" chance="15"/>    <!--Руда Ветра-->
+            <item id="9550" min_count="1" max_count="1" chance="15"/>    <!--Руда Тьмы-->
+            <item id="9551" min_count="1" max_count="1" chance="15"/>    <!--Руда Святости-->
+            <item id="9552" min_count="1" max_count="1" chance="5"/>    <!--Кристалл Огня-->
+            <item id="9553" min_count="1" max_count="1" chance="5"/>    <!--Кристалл Воды-->
+            <item id="9554" min_count="1" max_count="1" chance="5"/>    <!--Кристалл Земли-->
+            <item id="9555" min_count="1" max_count="1" chance="5"/>    <!--Кристалл Ветра-->
+            <item id="9556" min_count="1" max_count="1" chance="5"/>    <!--Кристалл Тьмы-->
+            <item id="9557" min_count="1" max_count="1" chance="5"/>    <!--Кристалл Святости-->
+        </common_rewards>
+        <unique_rewards>
+            <item id="34775" min_count="1" max_count="1" chance="20"/>    <!--Свиток Благословения - Ранг R (2)-->
+            <item id="23422" min_count="1" max_count="1" chance="25"/>    <!--Благословенный Свиток: Модифицировать Оружие (R)-->
+            <item id="36163" min_count="1" max_count="1" chance="10"/>    <!--Свиток Гигантов: Модифицировать Оружие (R)-->
+            <item id="36164" min_count="1" max_count="1" chance="20"/>    <!--Свиток Гигантов: Модифицировать Доспех (R)-->
+            <item id="34950" min_count="1" max_count="1" chance="20"/>    <!--Коробка с Краской Гигантов Ур. 4-->
+            <item id="34951" min_count="1" max_count="1" chance="16"/>    <!--Коробка с Легендарной Краской Ур. 4-->
+            <item id="34952" min_count="1" max_count="1" chance="12"/>    <!--Коробка с Древней Краской Ур. 4-->
+            <item id="34953" min_count="1" max_count="1" chance="8"/>    <!--Коробка с Краской Гигантов Ур. 5-->
+            <item id="34954" min_count="1" max_count="1" chance="6"/>    <!--Коробка с Легендарной Краской Ур. 5-->
+            <item id="34955" min_count="1" max_count="1" chance="4"/>    <!--Коробка с Древней Краской Ур. 5-->
+            <item id="34661" min_count="1" max_count="1" chance="10"/>    <!--Руда Огня - Super 60-->
+            <item id="34662" min_count="1" max_count="1" chance="10"/>    <!--Руда Воды - Super 60-->
+            <item id="34663" min_count="1" max_count="1" chance="10"/>    <!--Руда Земли - Super 60-->
+            <item id="34664" min_count="1" max_count="1" chance="10"/>    <!--Руда Ветра - Super 60-->
+            <item id="34665" min_count="1" max_count="1" chance="10"/>    <!--Руда Тьмы - Super 60-->
+            <item id="34666" min_count="1" max_count="1" chance="10"/>    <!--Руда Святости - Super 60-->
+        </unique_rewards>
+    </game>
+    <game id="2">
+        <fee>
+            <item id="23768" count="1"/>
+        </fee>
+        <common_rewards>
+            <item id="36946" min_count="1" max_count="1" chance="1"/>    <!--Серьга Линдвиора-->
+            <item id="17623" min_count="1" max_count="1" chance="1"/>    <!--Кольцо Хемляного Червя-->
+            <item id="46079" min_count="1" max_count="1" chance="1"/>    <!--Осколок Астатина Кельбима-->
+            <item id="36160" min_count="1" max_count="1" chance="15"/>    <!--Свиток: Благословения Ранг R(2)-->
+            <item id="36161" min_count="1" max_count="1" chance="15"/>    <!--Свиток: Благословения Ранг R95-->
+            <item id="36162" min_count="1" max_count="1" chance="15"/>    <!--Свиток: Благословения Ранг R99-->
+            <item id="35570" min_count="1" max_count="1" chance="1"/>    <!--Кольцо Таути-->
+            <item id="35567" min_count="1" max_count="1" chance="5"/>    <!--Усиливающий Камень Темного Айдиоса-->
+            <item id="35566" min_count="1" max_count="1" chance="5"/>    <!--Усиливающий Камень Темного Хелиоса-->
+            <item id="38592" min_count="1" max_count="1" chance="5"/>    <!--Пояс Экимуса-->
+            <item id="35667" min_count="1" max_count="1" chance="5"/>    <!--Осколок Таути-->
+            <item id="37723" min_count="1" max_count="1" chance="15"/>    <!--Камень Обмена Сияющей Футболки Эйнхасад-->
+            <item id="45425" min_count="1" max_count="1" chance="8"/>    <!--Королевский Красный Счастливый Билет R-->
+            <item id="45426" min_count="1" max_count="1" chance="5"/>    <!--Королевский Красный Счастливый Билет R95-->
+            <item id="45427" min_count="1" max_count="1" chance="4"/>    <!--Королевский Красный Счастливый Билет R99-->
+            <!--<item id="39343" min_count="1" max_count="1" chance="3"/>	Сундук Элитного Оружия Хелиоса-->
+            <!--<item id="39351" min_count="1" max_count="1" chance="3"/>	Сундук Элитного Оружия Фантазмы-->
+            <item id="40234" min_count="1" max_count="1" chance="30"/>    <!--Сундук с Силой Гигантов 3 шт.-->
+            <item id="40235" min_count="1" max_count="1" chance="15"/>    <!--Сундук с Силой Гигантов 10 шт.-->
+            <item id="40236" min_count="1" max_count="1" chance="10"/>    <!--Сундук с Силой Гигантов 100 шт.-->
+            <item id="26517" min_count="1" max_count="1" chance="15"/>    <!--Призрачный Камень - Универсальный-->
+            <item id="26511" min_count="1" max_count="1" chance="30"/>    <!--Коробка с Комплектом Анаким-->
+            <item id="40213" min_count="1" max_count="1" chance="5"/>    <!--Сундук с Редкими Аксессуарами Артеи-->
+            <item id="26513" min_count="1" max_count="1" chance="10"/>    <!--Сундук с Легендарной Краской ур.5 (Харизма)-->
+            <item id="26514" min_count="1" max_count="1" chance="10"/>    <!--Сундук с Легендарной Краской ур.5 (Удача)-->
+            <item id="26515" min_count="1" max_count="1" chance="15"/>    <!--Сундук с Легендарной Краской ур.3 (Харизма)-->
+            <item id="26516" min_count="1" max_count="1" chance="15"/>    <!--Сундук с Легендарной Краской ур.3 (Удача)-->
+            <!--<item id="39323" min_count="1" max_count="1" chance="8"/>	Сундук Элитных Доспехов Айдиоса-->
+            <!--<item id="39329" min_count="1" max_count="1" chance="8"/>	Сундук Элитных Доспехов Кадейры-->
+            <item id="24134" min_count="1" max_count="1" chance="20"/>    <!--Камень Обработки Костюма Темного Ассасина-->
+            <item id="45937" min_count="1" max_count="1" chance="8"/>    <!--Камень Духа для головных уборов-->
+            <item id="45932" min_count="1" max_count="1" chance="8"/>    <!--Камень Духа Высшего Ранга-->
+            <item id="26512" min_count="1" max_count="1" chance="8"/>    <!--Коробка со свитком чудестного Ветра Артеи-->
+            <item id="39634" min_count="1" max_count="1" chance="30"/>    <!--Талисман Бенира-->
+            <item id="36514" min_count="2" max_count="2" chance="30"/>    <!--Кристал Эльсиума-->
+            <item id="19440" min_count="15" max_count="15" chance="30"/>    <!--Самоцвет: Ранг R-->
+            <item id="17371" min_count="1000" max_count="1000" chance="30"/>    <!--Кристалл: Ранг R-->
+        </common_rewards>
+        <unique_rewards>
+            <item id="19463" min_count="1" max_count="1" chance="1"/>    <!--Благословенная Серьга Антараса-->
+            <item id="19464" min_count="1" max_count="1" chance="1"/>    <!--Благословенное Ожерье Валакаса-->
+            <item id="37522" min_count="1" max_count="1" chance="1"/>    <!--Ожерелье Души Фринтезы-->
+            <item id="37521" min_count="1" max_count="1" chance="1"/>    <!--Кольцо Души Баюма-->
+            <item id="36254" min_count="1" max_count="1" chance="1"/>    <!--Кольцо Луши Королевы Муравьев-->
+            <item id="21712" min_count="1" max_count="1" chance="5"/>    <!--Серьга Бессмертного Закена-->
+            <item id="36255" min_count="1" max_count="1" chance="5"/>    <!--Серьга Души Орфен-->
+            <item id="10314" min_count="1" max_count="1" chance="5"/>    <!--Кольцо Белефа-->
+            <item id="37507" min_count="1" max_count="1" chance="5"/>    <!--Зачарованное Кольцо Октависа - Воин-->
+            <item id="37508" min_count="1" max_count="1" chance="5"/>    <!--Зачарованная Серьга Октависа - Воин-->
+            <item id="37509" min_count="1" max_count="1" chance="5"/>    <!--Зачарованное Ожерелье Октависа - Воин-->
+            <item id="37516" min_count="1" max_count="1" chance="5"/>    <!--Зачарованное Кольцо Истхины - Маг-->
+            <item id="37517" min_count="1" max_count="1" chance="5"/>    <!--Зачарованная Серьга Истхины - Маг-->
+            <item id="37518" min_count="1" max_count="1" chance="5"/>    <!--Зачарованное Ожерелье Истхины - Маг-->
+            <item id="39638" min_count="1" max_count="1" chance="30"/>    <!--Талисман Бенира-->
+            <item id="36146" min_count="1" max_count="1" chance="10"/>    <!--Сундук с Оружием Кровавого Хелиоса-->
+            <!--<item id="24142" min_count="1" max_count="1" chance="10"/>	Благословенный Сундук Хелиоса-->
+            <!--<item id="24143" min_count="1" max_count="1" chance="10"/>	Благословенный Сундук Айдиоса-->
+            <item id="37904" min_count="1" max_count="1" chance="10"/>    <!--Свиток SP 1ккк-->
+            <item id="46151" min_count="1" max_count="1" chance="5"/>    <!--Кодекс Перерождения - Мастерство Глава 1-->
+            <item id="45422" min_count="1" max_count="1" chance="5"/>    <!--Королевский Синий Счастливый Билет R-->
+            <item id="45423" min_count="1" max_count="1" chance="5"/>    <!--Королевский Синий Счастливый Билет R95-->
+            <item id="45424" min_count="1" max_count="1" chance="5"/>    <!--Королевский Синий Счастливый Билет R99-->
+        </unique_rewards>
+        <additional_rewards>
+            <item id="45931" min_count="1" max_count="1" chance="10"/>    <!--Камень Духа Высокого Ранга-->
+            <item id="3936" min_count="1" max_count="1" chance="30"/>    <!--Свиток Благ. Воскрешения-->
+            <item id="23410" min_count="1" max_count="1" chance="15"/>    <!--Свиток: Модифицировать Оружие (R)-->
+            <item id="35563" min_count="1" max_count="1" chance="5"/>    <!--Сила Гигантов-->
+            <item id="19440" min_count="3" max_count="3" chance="25"/>    <!--Самоцвет: Ранг R-->
+        </additional_rewards>
+    </game>
+</list>

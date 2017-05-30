@@ -1,0 +1,275 @@
+<list>
+	<!-- Скилы клана: Classic Saviors (2.0)	 -->
+	<skill id="370" levels="5" name="Благословение Тела Клана">
+        <set name="icon" value="icon.skill0370"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxHp" value="#maxHp"/>
+        </for>
+        <table name="#maxHp">100 200 400 700 1000</table>
+    </skill>
+    <skill id="371" levels="5" name="Духовность Клана">
+        <set name="icon" value="icon.skill0371"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxCp" value="#maxCp"/>
+        </for>
+        <table name="#maxCp">200 400 600 900 1200</table>
+    </skill>
+    <skill id="372" levels="5" name="Благословение Духа Клана">
+        <set name="icon" value="icon.skill0372"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxMp" value="#maxMp"/>
+        </for>
+        <table name="#maxMp">70 140 280 500 700</table>
+    </skill>
+    <skill id="373" levels="5" name="Здоровье Клана">
+        <set name="icon" value="icon.skill0373"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="HEIR"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="regHp" value="#regHp"/>
+        </for>
+        <table name="#regHp">1.03 1.04 1.05 1.06 1.07</table>
+    </skill>
+    <skill id="374" levels="5" name="Мораль Клана">
+        <set name="icon" value="icon.skill0374"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="regCp" value="#regCp"/>
+        </for>
+        <table name="#regCp">1.06 1.08 1.10 1.12 1.14</table>
+    </skill>
+    <skill id="375" levels="5" name="Чистота Клана">
+        <set name="icon" value="icon.skill0375"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="regMp" value="#regMp"/>
+        </for>
+        <table name="#regMp">1.03 1.04 1.05 1.06 1.07</table>
+    </skill>
+    <skill id="376" levels="5" name="Могущество Клана">
+        <set name="icon" value="icon.skill0376"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="KNIGHT"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pAtk" value="#patak"/>
+        </for>
+        <table name="#patak">1.03 1.04 1.05 1.06 1.07</table>
+    </skill>
+    <skill id="377" levels="5" name="Щит Клана">
+        <set name="icon" value="icon.skill0377"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="KNIGHT"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="pDef" value="#pdef"/>
+        </for>
+        <table name="#pdef">1.03 1.04 1.05 1.06 1.07</table>
+    </skill>
+    <skill id="378" levels="5" name="Воодушевление Клана">
+        <set name="icon" value="icon.skill0378"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mAtk" value="#matak"/>
+        </for>
+        <table name="#matak">1.04 1.05 1.06 1.07 1.08</table>
+    </skill>
+    <skill id="379" levels="5" name="Магический Барьер Клана">
+        <set name="icon" value="icon.skill0379"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="HEIR"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="mDef" value="#mdef"/>
+        </for>
+        <table name="#mdef">1.06 1.08 1.10 1.12 1.14</table>
+    </skill>
+    <skill id="380" levels="5" name="Наведение Клана">
+        <set name="icon" value="icon.skill0380"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="KNIGHT"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pAccCombat" value="#pAccCombat"/>
+        </for>
+        <table name="#pAccCombat">1 2 3 4 5</table>
+    </skill>
+    <skill id="381" levels="5" name="Проворство Клана">
+        <set name="icon" value="icon.skill0381"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="pEvasRate" value="#pEvasRate"/>
+        </for>
+        <table name="#pEvasRate">1 2 3 4 5</table>
+    </skill>
+    <skill id="382" levels="5" name="Блок Щитом Клана">
+        <set name="icon" value="icon.skill0382"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="rShld" value="#rShld"/>
+        </for>
+        <table name="#rShld">1.12 1.16 1.20 1.24 1.28</table>
+    </skill>
+    <skill id="383" levels="5" name="Усиление Щита Клана">
+        <set name="icon" value="icon.skill0383"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <mul order="0x30" stat="sDef" value="#sDef"/>
+        </for>
+        <table name="#sDef">1.24 1.32 1.40 1.48 1.56</table>
+    </skill>
+    <skill id="384" levels="5" name="Сопротивление Тайфуну Клана">
+        <set name="icon" value="icon.skill0384"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="defenceWind" value="#resist"/>
+            <add order="0x40" stat="defenceWater" value="#resist"/>
+        </for>
+        <table name="#resist">3 5 6 7 8</table>
+    </skill>
+    <skill id="385" levels="5" name="Сопротивление Магме Клана">
+        <set name="icon" value="icon.skill0385"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="defenceFire" value="#resist"/>
+            <add order="0x40" stat="defenceEarth" value="#resist"/>
+        </for>
+        <table name="#resist">3 5 6 7 8</table>
+    </skill>
+    <skill id="386" levels="5" name="Стойкость Клана">
+        <set name="icon" value="icon.skill0386"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="stunResist" value="#resist"/>
+        </for>
+        <table name="#resist">12 13 14 15 16</table>
+    </skill>
+    <skill id="387" levels="5" name="Свобода Клана">
+        <set name="icon" value="icon.skill0387"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="WISEMAN"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="rootResist" value="#resist"/>
+        </for>
+        <table name="#resist">12 13 14 15 16</table>
+    </skill>
+    <skill id="388" levels="5" name="Бдительность Клана">
+        <set name="icon" value="icon.skill0388"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="KNIGHT"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="sleepResist" value="#resist"/>
+        </for>
+        <table name="#resist">12 13 14 15 16</table>
+    </skill>
+    <skill id="389" levels="5" name="Движение Клана">
+        <set name="icon" value="icon.skill0389"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="runSpd" value="#TabrunSpd"/>
+        </for>
+        <table name="#TabrunSpd">3 5 6 6 6</table>
+    </skill>
+    <skill id="390" levels="5" name="Посмертная Удача Клана">
+        <set name="icon" value="icon.skill0390"/>
+        <set name="magicLevel" value="1"/>
+        <set name="min_pledge_rank" value="HEIR"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <mul order="0x30" stat="expLost" value="#TabexpLost"/>
+        </for>
+		<!-- info=[Снижает потери опыта и вероятность утраты предметов на $s1 при смерти персонажа в результате действий другого игрока.  -->
+		<!-- Снижает потери опыта и вероятность утраты предметов на $s2 при смерти персонажа в результате действий обычного монстра.  -->
+		<!-- Действие эффекта распространяется на персонажей, имеющих статус не ниже Наследника.] -->
+
+        <table name="#TabexpLost">0.9 0.8 0.7 0.7 0.7</table>
+    </skill>
+    <skill id="391" levels="1" name="Верховная Власть Клана">
+        <set name="icon" value="icon.skill0391"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="HARDCODED"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+	<skill id="392" levels="5" name="Удача Клана">
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+		<for>
+            <add order="0x40" stat="exp_rate_multiplier" value="#luc"/>
+        </for>
+		<table name="#luc">0.03 0.06 0.10 0.04 0.05</table>
+    </skill>
+	<skill id="19113" levels="1" name="Запрет на Возвращение Клана">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="clan_recall_block"/>
+        <set name="castRange" value="600"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill_recall"/>
+        <set name="itemConsumeCount" value="2"/>
+        <set name="itemConsumeId" value="49758"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="TeleportBlock"/>
+        </for>
+    </skill>
+    <skill id="19114" levels="1" name="Запрет на Воскрешение Клана">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_type" value="clan_resurrection_block"/>
+        <set name="castRange" value="600"/>
+        <set name="coolTime" value="500"/>
+        <set name="hitTime" value="2000"/>
+        <set name="icon" value="icon.skill_resurrection"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="itemConsumeId" value="49758"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="1800000"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="ResurrectBlock"/>
+        </for>
+    </skill>
+</list>

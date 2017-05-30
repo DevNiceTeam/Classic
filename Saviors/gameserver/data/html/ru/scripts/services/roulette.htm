@@ -1,0 +1,77 @@
+<html><body>
+Ставки от %min% до %max%
+<table>
+<tr>
+	<td width=140>На число:</td>
+	<td width=60>Число:</td>
+	<td width=60></td>
+	<td width=60></td>
+</tr>
+<tr>
+	<td width=140><edit var="bet1" width=100 height=10 /></td>
+	<td width=60><edit var="number1" width=40 height=10 /></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play StraightUp $number1 $bet1" value="Ok"></td>
+	<td width=60></td>
+</tr><br>
+<tr>
+	<td width=140>На колонку:</td>
+	<td width=60></td>
+	<td width=60></td>
+	<td width=60></td>
+</tr>
+<tr>
+	<td width=140><edit var="bet2" width=100 height=10 /></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play ColumnBet first $bet2" value="Первая"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play ColumnBet second $bet2" value="Вторая"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play ColumnBet third $bet2" value="Третья"></td>
+</tr><br>
+<tr>
+	<td width=140>На дюжину:</td>
+	<td width=60></td>
+	<td width=60></td>
+	<td width=60></td>
+</tr>
+<tr>
+	<td width=140><edit var="bet3" width=100 height=10 /></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play DozenBet first $bet3" value="Первая"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play DozenBet second $bet3" value="Вторая"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play DozenBet third $bet3" value="Третья"></td>
+</tr><br>
+<tr>
+	<td width=140>Красное-черное:</td>
+	<td width=60></td>
+	<td width=60></td>
+	<td width=60></td>
+</tr>
+<tr>
+	<td width=140><edit var="bet4" width=100 height=10 /></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play RedOrBlack red $bet4" value="Красное"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play RedOrBlack black $bet4" value="Черное"></td>
+	<td width=60></td>
+</tr><br>
+<tr>
+	<td width=140>Четное-нечетное:</td>
+	<td width=60></td>
+	<td width=60></td>
+	<td width=60></td>
+</tr>
+<tr>
+	<td width=140><edit var="bet5" width=100 height=10 /></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play EvenOrOdd even $bet5" value="Чет"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play EvenOrOdd odd $bet5" value="Нечет"></td>
+	<td width=60></td>
+</tr><br>
+<tr>
+	<td width=140>Высокое-низкое:</td>
+	<td width=60></td>
+	<td width=60></td>
+	<td width=60></td>
+</tr>
+<tr>
+	<td width=140><edit var="bet6" width=100 height=10 /></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play LowOrHigh low $bet6" value="Низкое"></td>
+	<td width=60><button width=50 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h htmbypass_services.Roulette:play LowOrHigh high $bet6" value="Высокое"></td>
+	<td width=60></td>
+</tr>
+</table><br>
+</body></html>

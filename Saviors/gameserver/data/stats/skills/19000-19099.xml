@@ -1,0 +1,189 @@
+<list>
+    <skill id="19009" levels="1" name="Рождение Клана">
+	<!-- Для членов клана Физ. / Маг. Атк. +2%%. 
+	Эффект срабатывает, когда в игру заходит глава клана. -->
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="clan_advent"/>
+        <set name="buff_slot_type" value="2"/>
+        <set name="cancelable" value="false"/>
+        <set name="icon" value="icon.skill19009"/>
+        <set name="isPreservedOnDeath" value="true"/>
+        <set name="isSaveable" value="false"/>
+        <set name="isSelfDispellable" value="false"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect>
+                <mul order="0x30" stat="pAtk" value="1.02"/>
+                <mul order="0x30" stat="mAtk" value="1.02"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19032" levels="1" name="Способности Света">
+	<!-- Получение Способности Света. Макс. CP +2000. 
+	Эффект недоступен в хаотическом состоянии. -->
+        <set name="icon" value="icon.skill19008"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxCp" value="2000">
+                <player is_chaotic="false"/>
+            </add>            
+        </for>
+    </skill>
+    <skill id="19033" levels="1" name="Способности Тьмы">
+	<!-- Получение Способности Тьмы. Макс. CP +1000. -->
+        <set name="icon" value="icon.skill19008"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="maxCp" value="1000"/>            
+        </for>
+    </skill>
+    <skill id="19034" levels="1" name="Печать Света">
+        <set name="castRange" value="85"/>
+        <set name="castle_side" value="LIGHT"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="120000"/>
+        <set name="icon" value="icon.skill0246"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="magicLevel" value="30"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="mp_consume" value="50"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="skillType" value="TAKECASTLE"/>
+        <set name="target" value="TARGET_HOLY"/>
+    </skill>
+    <skill id="19035" levels="1" name="Печать Тьмы">
+        <set name="castRange" value="85"/>
+        <set name="castle_side" value="DARK"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="120000"/>
+        <set name="icon" value="icon.skill0246"/>
+        <set name="isReuseDelayPermanent" value="true"/>
+        <set name="isSkillTimePermanent" value="true"/>
+        <set name="magicLevel" value="30"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="mp_consume" value="50"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="5000"/>
+        <set name="skillType" value="TAKECASTLE"/>
+        <set name="target" value="TARGET_HOLY"/>
+    </skill>
+    <skill id="19036" levels="1" name="Благословение Света">
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_type" value="brightness_bless"/>
+        <set name="buff_slot_type" value="2"/>
+        <set name="cancelable" value="false"/>
+        <set name="icon" value="icon.etc_pi_gift_box_i04"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect>
+                <add order="0x40" stat="exp_rate_multiplier" value="0.03"/>
+                <add order="0x40" stat="sp_rate_multiplier" value="0.03"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19039" levels="1" name="Плащ Света">
+	<!-- Макс. HP / MP / CP +5%%, Физ. Защ. +3%%, Маг. Защ. +5%%, 
+	сопротивление всем видам оружия +3%%, шанс Физ. / Маг. Крит. Атк. +10, 
+	отражение урона +3%%. Эффект недоступен в хаотическом состоянии. -->
+        <set name="icon" value="icon.amor_goodness_cloak"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.05"/>
+            <mul order="0x30" stat="maxMp" value="1.05"/>
+            <mul order="0x30" stat="maxCp" value="1.05"/>
+            <mul order="0x30" stat="pDef" value="1.03"/>
+            <mul order="0x30" stat="mDef" value="1.05"/>
+			<mul order="0x30" stat="swordWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bigSwordWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bluntWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bigBluntWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualDaggerWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualFistWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualBluntWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="daggerWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bowWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="poleWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="fistWpnVuln" value="1.03"/>
+			<add order="0x40" stat="basePCritRate" value="10"/>
+            <add order="0x40" stat="baseMCritRate" value="10"/>			           
+            <mul order="0x30" stat="reflectDam" value="1.03"/>           
+            <mul order="0x30" stat="reflectBowDam" value="1.03"/>           
+            <mul order="0x30" stat="reflectPSkillDam" value="1.03"/>           
+            <mul order="0x30" stat="reflectMSkillDam" value="1.03"/>
+				<player is_chaotic="false"/>
+        </for>
+    </skill>
+    <skill id="19040" levels="1" name="Плащ Тьмы">
+	<!-- Макс. HP / MP / CP +5%%, Физ. Защ. +3%%, Маг. Защ. +5%%, 
+	сопротивление всем видам оружия +3%%, шанс Физ. / Маг. Крит. Атк. +10, 
+	отражение урона +3%%. -->
+        <set name="icon" value="icon.amor_evilness_cloak"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <mul order="0x30" stat="maxHp" value="1.05"/>
+            <mul order="0x30" stat="maxMp" value="1.05"/>
+            <mul order="0x30" stat="maxCp" value="1.05"/>
+            <mul order="0x30" stat="pDef" value="1.03"/>
+            <mul order="0x30" stat="mDef" value="1.05"/>
+			<mul order="0x30" stat="swordWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bigSwordWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bluntWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bigBluntWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualDaggerWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualFistWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="dualBluntWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="daggerWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="bowWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="poleWpnVuln" value="1.03"/>
+            <mul order="0x30" stat="fistWpnVuln" value="1.03"/>
+			<add order="0x40" stat="basePCritRate" value="10"/>
+            <add order="0x40" stat="baseMCritRate" value="10"/>			           
+            <mul order="0x30" stat="reflectDam" value="1.03"/>           
+            <mul order="0x30" stat="reflectBowDam" value="1.03"/>           
+            <mul order="0x30" stat="reflectPSkillDam" value="1.03"/>           
+            <mul order="0x30" stat="reflectMSkillDam" value="1.03"/>
+        </for>
+    </skill>
+    <skill id="19041" levels="1" name="Возвращение в Замок">
+        <set name="castle" value="true"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="20000"/>
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="skillType" value="RECALL"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+    <skill id="19042" levels="1" name="Благ. Свиток Возвращения в Замок">
+        <set name="castle" value="true"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="200"/>
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="skillType" value="RECALL"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+</list>

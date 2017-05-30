@@ -1,0 +1,26 @@
+<list>
+    <skill id="3322" levels="1" name="Медный Браслет">
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magicLevel" value="20"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="talismansLimit" value="1"/>
+        </for>
+    </skill>
+    <skill id="3323" levels="1" name="Бронзовый Браслет">
+        <set name="icon" value="icon.etc_rbracelet_b_i01"/>
+        <set name="magicLevel" value="40"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="talismansLimit" value="2"/>
+        </for>
+    </skill>
+    <skill id="3324" levels="1" name="Стальной Браслет">
+        <set name="icon" value="icon.etc_rbracelet_a_i02"/>
+        <set name="magicLevel" value="52"/>
+        <set name="operateType" value="OP_PASSIVE"/>
+        <for>
+            <add order="0x40" stat="talismansLimit" value="3"/>
+        </for>
+    </skill>
+</list>

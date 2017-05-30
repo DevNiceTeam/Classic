@@ -1,0 +1,154 @@
+<list>
+    <weapon id="37700" name="Парные Кинжалы Белого Дня ">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.ev_hallowinday_candy_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="500"/>
+        <set name="type" value="DUALDAGGER"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="752"/>
+            <add order="0x10" stat="mAtk" value="414"/>
+            <set order="0x08" stat="basePAtkSpd" value="433"/>
+            <add order="0x60" stat="pAccCombat" value="-3.75"/>
+            <set order="0x08" stat="basePCritRate" value="120"/>
+        </for>
+    </weapon>
+    <weapon id="37701" name="Парные Дубины Воина Белого Дня ">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.ev_hallowinday_candy_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="sellable" value="false"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="500"/>
+        <set name="type" value="DUALBLUNT"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="916"/>
+            <add order="0x10" stat="mAtk" value="414"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <add order="0x60" stat="pAccCombat" value="8.0"/>
+            <set order="0x08" stat="basePCritRate" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="37702" name="Щит Белого Дня">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="true"/>
+        <set name="crystal_count" value="1891"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.ev_hallowinday_candy_i00"/>
+        <set name="price" value="88681000"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="sDef" value="546"/>
+            <add order="0x10" stat="rShld" value="20"/>
+            <add order="0x10" stat="pEvasRate" value="-8.0"/>
+        </for>
+    </weapon>
+    <armor id="37703" name="Символ Белого Дня ">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="true"/>
+        <set name="crystal_count" value="1891"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.ev_hallowinday_candy_i00"/>
+        <set name="price" value="88681000"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="920"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="150"/>
+        </for>
+    </armor>
+    <etcitem id="37704" name="Эликсир Любви">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_whiteday_herb"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="37705" name="Золотой Поплавок">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_spirit_bullet_fish_i05"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="3"/>
+    </etcitem>
+    <armor id="37725" name="Форма NC Dinos">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.london_olympic_bikini"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1000"/>
+        <set name="type" value="HEAVY"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+    </armor>
+    <armor id="37726" name="Кепка Защитника NC Dinos">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.accessory_mining_cap_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="HAIR_ALL"/>
+        </equip>
+    </armor>
+</list>

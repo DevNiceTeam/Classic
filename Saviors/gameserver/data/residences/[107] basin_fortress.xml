@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="107" name="Basin Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="189894 36746 -3408" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="189914 42242 -3408" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="147450 28081 -2294" name="1010678" price="0"/><!--Aden Town Square-->
+		<target loc="147428 20161 -2008" name="1010679" price="0"/><!--Front of the Aden Castle Gate-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="189894 36746 -3408" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="189914 42242 -3408" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="147450 28081 -2294" name="1010678" price="0"/><!--Aden Town Square-->
+		<target loc="147428 20161 -2008" name="1010679" price="0"/><!--Front of the Aden Castle Gate-->
+		<target loc="118509 -4779 -4000" name="1010127" price="500"/><!--Ancient Battleground-->
+		<target loc="124904 61992 -3973" name="1010618" price="500"/><!--Enchanted Valley, Southern Region-->
+		<target loc="104426 33746 -3825" name="1010619" price="500"/><!--Enchanted Valley, Northern Region-->
+		<target loc="155310 -16339 -3320" name="1010060" price="500"/><!--Blazing Swamp-->
+		<target loc="183985 61424 -3992" name="1010702" price="500"/><!--The Giant's Cave Upper Layer-->
+		<target loc="191754 56760 -7624" name="1010703" price="500"/><!--The Giant's Cave Lower Layer-->
+	</teleport>
+	<skills>
+		<skill id="19107" level="1"/> <!--Рубеж Обители-->
+	</skills>
+	<banish_points>
+		<point x="189664" y="46042" z="-4264"/>
+		<point x="189604" y="45813" z="-4264"/>
+		<point x="184749" y="36097" z="-4056"/>
+		<point x="184969" y="36070" z="-4024"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="190377" y="39774" z="-3080"/>
+		<point x="190317" y="39659" z="-3080"/>
+		<point x="190381" y="39554" z="-3080"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="146494" y="30584" z="-2420"/>
+		<point x="146038" y="30519" z="-2420"/>
+		<point x="148112" y="30439" z="-2420"/>
+		<point x="148565" y="30463" z="-2420"/>
+		<point x="150227" y="29104" z="-2420"/>
+		<point x="144626" y="29145" z="-2420"/>
+		<point x="144635" y="26664" z="-2220"/>
+		<point x="144526" y="24661" z="-2100"/>
+		<point x="144559" y="22835" z="-2100"/>
+		<point x="145686" y="21114" z="-2100"/>
+		<point x="148946" y="21121" z="-2070"/>
+		<point x="148010" y="27996" z="-2256"/>
+		<point x="147970" y="27040" z="-2191"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="136398" y="28901" z="-3582"/>
+		<point x="137292" y="28485" z="-3290"/>
+		<point x="155925" y="28554" z="-3164"/>
+		<point x="157608" y="23866" z="-3760"/>
+		<point x="157463" y="28770" z="-3371"/>
+		<point x="159348" y="28561" z="-3400"/>
+		<point x="160236" y="14119" z="-3892"/>
+		<point x="156764" y="13774" z="-3960"/>
+		<point x="161426" y="23055" z="-3670"/>
+		<point x="136380" y="21899" z="-3647"/>
+		<point x="137708" y="15640" z="-3800"/>
+	</chaos_restart_points>
+
+</residence>

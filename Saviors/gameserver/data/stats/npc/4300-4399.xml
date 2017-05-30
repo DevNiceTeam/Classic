@@ -1,0 +1,159 @@
+<list>
+    <npc id="4308" name="Кот-Ангел" title="Посланник Любви">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="70"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="2444"/>
+        <set name="baseMpMax" value="1345"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="48.0"/>
+        <set name="baseRunSpd" value="140.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="16.0"/>
+        <set name="collision_radius" value="6.0"/>
+        <set name="aggroRange" value="0"/>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="7"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="1"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+        </client_skills>
+    </npc>
+    <npc id="4309" name="Маленький Кот-Ангел" title="Мрачной Энергии">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="level" value="70"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="exp" value="0"/>
+        <set name="sp" value="0"/>
+        <set name="baseHpMax" value="8446"/>
+        <set name="baseMpMax" value="2355"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseWalkSpd" value="25.0"/>
+        <set name="baseRunSpd" value="140.0"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="collision_height" value="15.0"/>
+        <set name="collision_radius" value="8.0"/>
+        <set name="aggroRange" value="0"/>
+        <walker_route id="1">
+            <route_point x="-14601" y="121243" z="-2984"/>
+            <route_point x="-14174" y="121266" z="-2984"/>
+            <route_point x="-14551" y="121247" z="-2984"/>
+            <route_point x="-13702" y="121246" z="-2984"/>
+            <route_point x="-14134" y="121250" z="-2984"/>
+            <route_point x="-14145" y="121680" z="-2984"/>
+            <route_point x="-13896" y="122250" z="-2984"/>
+            <route_point x="-13096" y="122259" z="-2984"/>
+            <route_point x="-13885" y="122272" z="-2984"/>
+            <route_point x="-14153" y="121682" z="-2984"/>
+            <route_point x="-14156" y="121261" z="-2984"/>
+            <route_point x="-13683" y="121252" z="-2984"/>
+        </walker_route>
+        <random_actions>
+            <action delay="10" id="1" phrase_id="1010221"/>
+            <action delay="10" id="2" phrase_id="1010222"/>
+            <action delay="10" id="3" phrase_id="1010223"/>
+            <action delay="10" id="4" phrase_id="1010224"/>
+            <action delay="10" id="5" phrase_id="1010225"/>
+            <action delay="10" id="6" phrase_id="1010226"/>
+            <action delay="10" id="7" phrase_id="1010227"/>
+        </random_actions>
+        <attributes>
+            <defence attribute="fire" value="150"/>
+            <defence attribute="water" value="150"/>
+            <defence attribute="wind" value="150"/>
+            <defence attribute="earth" value="150"/>
+            <defence attribute="holy" value="150"/>
+            <defence attribute="unholy" value="150"/>
+        </attributes>
+        <client_skills>
+            <!--Эмбрио-->
+            <skill id="4416" level="14"/>
+            <!--HP увеличены (12x)-->
+            <skill id="4408" level="1"/>
+            <!--MP увеличены (12x)-->
+            <skill id="4409" level="1"/>
+            <!--Сверхсильная Физ. Атк.-->
+            <skill id="4410" level="11"/>
+            <!--Сверхсильная Маг. Атк.-->
+            <skill id="4411" level="11"/>
+            <!--Сверхсильная Физ. Защ.-->
+            <skill id="4412" level="11"/>
+            <!--Сверхсильная Маг. Защ.-->
+            <skill id="4413" level="11"/>
+            <!--Легкая Броня-->
+            <skill id="4414" level="2"/>
+            <!--Арбалет-->
+            <skill id="4415" level="3"/>
+            <!--Устойчивость к Обессиливанию Босса-->
+            <skill id="4045" level="1"/>
+        </client_skills>
+    </npc>
+</list>

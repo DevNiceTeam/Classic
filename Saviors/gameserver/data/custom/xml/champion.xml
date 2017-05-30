@@ -1,0 +1,34 @@
+<list>
+    <champion id="1">
+        <set name="title" value="Залупа Филина"/>
+        <set name="minLevel" value="1"/>
+        <set name="maxLevel" value="127"/>
+        <set name="chance" value="0.0"/><!-- 100.0 = 100%-->
+        <set name="aggresion" value="0"/><!-- -1 (Стандарт), 0 (Выключить) -->
+        <set name="reflectionMonster" value="false"/>
+        <set name="raidBoss" value="false"/>
+        <set name="grandBoss" value="false"/>
+        <set name="minion" value="false"/>
+        <set name="expRate" value="1.0"/>
+        <set name="spRate" value="1.0"/>
+        <set name="dropAdenaRateCount" value="1.0"/>
+        <set name="dropItemRateCount" value="1.0"/>
+        <set name="dropItemRateChance" value="1.0"/>
+        <set name="spoilRateCount" value="1.0"/>
+        <set name="spoilRateChance" value="1.0"/>
+        <set name="raidRateCount" value="1.0"/>
+        <set name="raidRateChance" value="1.0"/>
+        <set name="grandRaidRateCount" value="1.0"/>
+        <set name="grandRaidRateChance" value="1.0"/>
+        <set name="team" value="BLUE"/><!-- NONE, BLUE, RED-->
+        <abnormalEffects>
+            <abnormalEffect name="UNK_32"/>
+        </abnormalEffects>
+        <drops>
+            <drop itemId="57" count="777" chance="100.0"/><!-- 100.0 = 100%-->
+        </drops>
+        <funcs>
+            <func type="mul" order="0x30" name="maxHp" value="300"/>
+        </funcs>
+    </champion>
+</list>

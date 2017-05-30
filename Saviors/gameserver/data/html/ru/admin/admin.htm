@@ -1,0 +1,55 @@
+<html><head><title>Admin Panel</title>
+<center><table width=260><tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Events" action="bypass -h admin_events" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table></center><br>
+<center>Управление:</center><br1>
+<center><table width=260>
+<tr>
+<td><button value="Анонс" action="bypass -h admin_list_announcements" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Телепорт" action="bypass -h admin_show_moves" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Создать" action="bypass -h admin_itemcreate" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Олимп" action="bypass -h admin_show_html olympiad.htm" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Спавн" action="bypass -h admin_show_spawns" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Манор" action="bypass -h admin_manor" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Точка" action="bypass -h admin_enchant" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Атт" action="bypass -h admin_attribute" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Клан" action="bypass -h admin_show_html pledgemanage.htm" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Другая профа" action="bypass -h admin_show_html setclass.htm" width=90 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Подкласс" action="bypass -h admin_show_html charsubclasses.htm" width=90 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Резиденции" action="bypass -h admin_residence_list" width=90 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table></center><br>
+<center>Быстрые команды:</center><br1>
+<center><edit var="menu_command" width=250 height=13></center>
+<center><table>
+<tr>
+<td><button value="Кикнуть" action="bypass -h admin_kick $menu_command" width=52 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Убить" action="bypass -h admin_kill" width=52 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Бан" action="bypass -h admin_ban $menu_command" width=52 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Удалить" action="bypass -h admin_delete" width=52 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Инвиз" action="bypass -h admin_invis" width=52 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Карма" action="bypass -h admin_setkarma $menu_command" width=52 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center><br>
+<center>Двери и все что можно открыть:</center><br1>
+<center>
+<table>
+<tr>
+<td><button value="Открыть" action="bypass -h admin_open" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Закрыть" action="bypass -h admin_close" width=70 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center><br>
+</head></html>

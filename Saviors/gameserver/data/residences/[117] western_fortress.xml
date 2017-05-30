@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="117" name="Western Fortress" impl="Fortress">
+	<support level="7" lease="49000"/>
+	<support level="17" lease="490000"/>
+	<support level="8" lease="120000"/>
+	<support level="18" lease="1200000"/>
+	<restore_exp level="45" lease="63000"/>
+	<restore_exp level="50" lease="70000"/>
+	<restore_hp level="300" lease="12000"/>
+	<restore_hp level="400" lease="20000"/>
+	<restore_mp level="40" lease="45000"/>
+	<restore_mp level="50" lease="65000"/>
+	<teleport level="1" lease="1000">
+		<target loc="112356 -17243 -992" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="110349 -13288 -922" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="147450 28081 -2294" name="1010678" price="0"/><!--Aden Town Square-->
+		<target loc="82323 55466 -1480" name="1010681" price="0"/><!--Oren Town Square-->
+		<target loc="147728 -56331 -2776" name="1010661" price="0"/><!--Goddard Town Square-->
+	</teleport>
+	<teleport level="2" lease="10000">
+		<target loc="112356 -17243 -992" name="1010658" price="0"/><!--Fortress North Gate-->
+		<target loc="110349 -13288 -922" name="1010659" price="0"/><!--Fortress South Gate-->
+		<target loc="147450 28081 -2294" name="1010678" price="0"/><!--Aden Town Square-->
+		<target loc="82323 55466 -1480" name="1010681" price="0"/><!--Oren Town Square-->
+		<target loc="147728 -56331 -2776" name="1010661" price="0"/><!--Goddard Town Square-->
+		<target loc="104426 33746 -3825" name="1010619" price="500"/><!--Enchanted Valley, Northern Region-->
+		<target loc="155310 -16339 -3320" name="1010060" price="500"/><!--Blazing Swamp-->
+		<target loc="118509 -4779 -4000" name="1010127" price="500"/><!--Ancient Battleground-->
+		<target loc="169018 -116303 -2432" name="1010530" price="500"/><!--Entrance to the Forge of the Gods-->
+		<target loc="165054 -47861 -3560" name="1010568" price="500"/><!--Wall of Argos-->
+		<target loc="183985 61424 -3992" name="1010702" price="500"/><!--The Giant's Cave Upper Layer-->
+		<target loc="191754 56760 -7624" name="1010703" price="500"/><!--The Giant's Cave Lower Layer-->
+	</teleport>
+	<skills>
+		<skill id="19104" level="2"/> <!--Война Обители-->
+	</skills>
+	<banish_points>
+		<point x="110696" y="-10301" z="-1952"/>
+		<point x="110404" y="-10093" z="-2032"/>
+		<point x="117990" y="-19966" z="-2512"/>
+		<point x="117684" y="-20048" z="-2504"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="111826" y="-15050" z="-672"/>
+		<point x="111734" y="-15178" z="-672"/>
+		<point x="111820" y="-15324" z="-672"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="148560" y="-55904" z="-2779"/>
+		<point x="150704" y="-55744" z="-2979"/>
+		<point x="150400" y="-56752" z="-2979"/>
+		<point x="149872" y="-57424" z="-2979"/>
+		<point x="149088" y="-56256" z="-2779"/>
+		<point x="147664" y="-56464" z="-2779"/>
+		<point x="147680" y="-56928" z="-2779"/>
+		<point x="146832" y="-55904" z="-2779"/>
+		<point x="146368" y="-56256" z="-2779"/>
+		<point x="149120" y="-58064" z="-2979"/>
+		<point x="148288" y="-58304" z="-2979"/>
+		<point x="147680" y="-58208" z="-2979"/>
+		<point x="147232" y="-58480" z="-2979"/>
+		<point x="146272" y="-58176" z="-2979"/>
+		<point x="145696" y="-57696" z="-2979"/>
+		<point x="145264" y="-57680" z="-2979"/>
+	</other_restart_points>
+	<chaos_restart_points>
+		<point x="142656" y="-55008" z="-3024"/>
+		<point x="142832" y="-55680" z="-3462"/>
+		<point x="143152" y="-56368" z="-3456"/>
+		<point x="145344" y="-59472" z="-3344"/>
+		<point x="145872" y="-59744" z="-3328"/>
+		<point x="150304" y="-59800" z="-3504"/>
+		<point x="145248" y="-60064" z="-3440"/>
+		<point x="144368" y="-59616" z="-3512"/>
+		<point x="149680" y="-59600" z="-3440"/>
+		<point x="149360" y="-60576" z="-3520"/>
+		<point x="152114" y="-57296" z="-3451"/>
+		<point x="150492" y="-59719" z="-3611"/>
+		<point x="148791" y="-60361" z="-3537"/>
+		<point x="146499" y="-60242" z="-3455"/>
+		<point x="143052" y="-56418" z="-3490"/>
+	</chaos_restart_points>
+</residence>

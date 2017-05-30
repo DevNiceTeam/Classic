@@ -1,0 +1,1488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone name="[under_talking_island]" type="dummy">
+		<polygon>
+			<coords loc="-110152 -110456 -6500 -5500"/>
+			<coords loc="-110200 -124840 -6500 -5500"/>
+			<coords loc="-125192 -123688 -6500 -5500"/>
+			<coords loc="-123912 -106920 -6500 -5500"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-114371 256486 -1283"/>
+			<coords loc="-114376 255153 -1523"/>
+			<coords loc="-113576 255907 -1507"/>
+			<coords loc="-114376 254133 -1528"/>
+			<coords loc="-114371 253444 -1541"/>
+			<coords loc="-112526 254795 -1529"/>
+			<coords loc="-111805 256803 -1445"/>
+			<coords loc="-112341 257768 -1512"/>
+			<coords loc="-116364 257779 -1512"/>
+			<coords loc="-116670 255368 -1432"/>
+			<coords loc="-115911 254728 -1507"/>
+			<coords loc="-115942 253558 -1505"/>
+			<coords loc="-114382 252378 -1569"/>
+			<coords loc="-114370 257287 -1138"/>
+		</restart_point>
+	</zone>
+	<zone name="[prison_of_darkness]" type="dummy">
+		<polygon>
+			<coords loc="172255 149956 -12650 -11600"/>
+			<coords loc="178695 139474 -12650 -11600"/>
+			<coords loc="172236 139461 -12650 -11600"/>
+			<coords loc="178709 149982 -12650 -11600"/>
+		</polygon>
+		<restart_point>
+			<coords loc="208360 87560 -1052"/>
+		</restart_point>
+	</zone>
+	<zone name="[giran_harbor_no_trade]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="blocked_actions" val="open_private_store;open_private_workshop"/>
+		<polygon>
+			<coords loc="48148 186514"/>
+			<coords loc="48304 186816"/>
+			<coords loc="47681 187144"/>
+			<coords loc="47506 186839"/>
+		</polygon>
+	</zone>
+	<zone name="[parnassus_no_trade]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="blocked_actions" val="open_private_store;open_private_workshop"/>
+		<polygon>
+			<coords loc="149192 173160 -944 -844"/>
+			<coords loc="149192 172408 -960 -860"/>
+			<coords loc="149544 172424 -960 -860"/>
+			<coords loc="149560 173160 -944 -844"/>
+		</polygon>
+	</zone>
+	<zone name="[giran_non_trade]" type="dummy">
+		<set name="blocked_actions" val="open_private_store;open_private_workshop"/>
+		<polygon>
+			<coords loc="85792 147072"/>
+			<coords loc="83605 147080"/>
+			<coords loc="83560 147537"/>
+			<coords loc="83440 147472"/>
+			<coords loc="80780 147474"/>
+			<coords loc="80692 147543"/>
+			<coords loc="80691 149704"/>
+			<coords loc="80786 149774"/>
+			<coords loc="86445 149877"/>
+		</polygon>
+		<banned_polygon>
+			<coords loc="82725 147884"/>
+			<coords loc="82729 149334"/>
+			<coords loc="81134 149326"/>
+			<coords loc="81137 147887"/>
+			<coords loc="82694 147886"/>
+			<coords loc="82143 148383"/>
+			<coords loc="81692 148378"/>
+			<coords loc="81689 148839"/>
+			<coords loc="82149 148840"/>
+			<coords loc="82150 148396"/>
+			<coords loc="82723 147885"/>
+		</banned_polygon>
+	</zone>
+	<zone name="[dion_non_trade]" type="dummy">
+		<set name="blocked_actions" val="open_private_store;open_private_workshop"/>
+		<polygon>
+			<coords loc="17454 141289"/>
+			<coords loc="14212 141173"/>
+			<coords loc="13653 141785"/>
+			<coords loc="13683 143126"/>
+			<coords loc="14384 144206"/>
+			<coords loc="15657 144696"/>
+			<coords loc="16331 144682"/>
+			<coords loc="17050 144403"/>
+			<coords loc="17036 144066"/>
+			<coords loc="17456 143264"/>
+			<coords loc="18320 142733"/>
+		</polygon>
+	</zone>
+	<zone name="[gludio_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard"/>
+		<rectangle>
+			<coords loc="-17170 109512 -1800 -1700"/>
+			<coords loc="-16292 109209 -1800 -1700"/>
+		</rectangle>
+	</zone>
+	<zone name="[dion_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard"/>
+		<rectangle>
+			<coords loc="20253 160539 -2000 -1900"/>
+			<coords loc="21130 160237 -2000 -1900"/>
+		</rectangle>
+	</zone>
+	<zone name="[giran_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard"/>
+		<rectangle>
+			<coords loc="116712 146916 -1870 -1770"/>
+			<coords loc="116408 146039 -1870 -1770"/>
+		</rectangle>
+	</zone>
+	<zone name="[oren_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard"/>
+		<rectangle>
+			<coords loc="82787 39010 -1600 -1500"/>
+			<coords loc="82484 38135 -1600 -1500"/>
+		</rectangle>
+	</zone>
+	<zone name="[aden_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard"/>
+		<polygon>
+			<coords loc="142431 362 -3184 6816"/>
+			<coords loc="152319 344 -3184 6816"/>
+			<coords loc="152282 15197 -3184 6816"/>
+			<coords loc="142393 15215 -3184 6816"/>
+		</polygon>
+	</zone>
+	<!-- <zone name="[innadrile_no_drop_merchant_guard]" type="dummy"> -->
+		<!-- <set name="blocked_actions" val="drop_merchant_guard"/> -->
+		<!-- <rectangle> -->
+			<!-- <coords loc="115080 249015 -100 0"/> -->
+			<!-- <coords loc="114204 249318 -100 0"/> -->
+		<!-- </rectangle> -->
+	<!-- </zone> -->
+	<!-- <zone name="[goddard_no_drop_merchant_guard]" type="dummy"> -->
+		<!-- <set name="blocked_actions" val="drop_merchant_guard"/> -->
+		<!-- <rectangle> -->
+			<!-- <coords loc="147282 -47190 -1000 -500"/> -->
+			<!-- <coords loc="147667 -46187 -1000 -500"/> -->
+		<!-- </rectangle> -->
+	<!-- </zone> -->
+	<!-- <zone name="[rune_no_drop_merchant_guard]" type="dummy"> -->
+		<!-- <set name="blocked_actions" val="drop_merchant_guard"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="9393 -48601 3850 4000"/> -->
+			<!-- <coords loc="11320 -48971 3850 4000"/> -->
+			<!-- <coords loc="11320 -49313 3850 4000"/> -->
+			<!-- <coords loc="9362 -49714 3850 4000"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[schuttgart_no_drop_merchant_guard]" type="dummy"> -->
+		<!-- <set name="blocked_actions" val="drop_merchant_guard"/> -->
+		<!-- <rectangle> -->
+			<!-- <coords loc="77385 -151240 700 850"/> -->
+			<!-- <coords loc="77742 -150358 700 850"/> -->
+		<!-- </rectangle> -->
+	<!-- </zone> -->
+	<zone name="[tully1]" type="dummy">
+		<set name="enabled" val="false"/>
+		<polygon>
+			<coords loc="-13224 274472 -15350 -15250"/>
+			<coords loc="-13240 273400 -15350 -15250"/>
+			<coords loc="-14040 273384 -15350 -15250"/>
+			<coords loc="-14040 274504 -15350 -15250"/>
+		</polygon>
+	</zone>
+	<zone name="[tully2]" type="dummy">
+		<set name="enabled" val="false"/>
+		<polygon>
+			<coords loc="-12200 273928 -11624 -11524"/>
+			<coords loc="-12504 274264 -11624 -11524"/>
+			<coords loc="-12840 273944 -11624 -11524"/>
+			<coords loc="-12504 273592 -11624 -11524"/>
+		</polygon>
+	</zone>
+	<zone name="[tully3]" type="dummy">
+		<polygon>
+			<coords loc="-11864 274424 -13700 -13600"/>
+			<coords loc="-11544 274408 -13700 -13600"/>
+			<coords loc="-11544 274408 -13700 -13600"/>
+			<coords loc="-11720 274296 -13700 -13600"/>
+		</polygon>
+	</zone>
+	<zone name="[tully4]" type="dummy">
+		<polygon>
+			<coords loc="-11848 274408 -10580 -10490"/>
+			<coords loc="-11544 274408 -10580 -10490"/>
+			<coords loc="-11544 274408 -10580 -10490"/>
+			<coords loc="-11720 274296 -10580 -10490"/>
+		</polygon>
+	</zone>
+	<zone name="[tully5]" type="dummy">
+		<polygon>
+			<coords loc="-13000 279896 -11670 -11600"/>
+			<coords loc="-12712 280184 -11670 -11600"/>
+			<coords loc="-12312 280184 -11670 -11600"/>
+			<coords loc="-12024 279896 -11670 -11600"/>
+			<coords loc="-12024 279480 -11670 -11600"/>
+			<coords loc="-12312 279208 -11670 -11600"/>
+			<coords loc="-12712 279208 -11670 -11600"/>
+		</polygon>
+	</zone>
+	<zone name="[Infinitum_1]" type="dummy">
+		<polygon>
+			<coords loc="-23192 280280 -15140 -14940"/>
+			<coords loc="-21224 280280 -15140 -14940"/>
+			<coords loc="-21224 276904 -15140 -14940"/>
+			<coords loc="-23192 276904 -15140 -14940"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-22204 277056 -15045 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_2]" type="dummy">
+		<polygon>
+			<coords loc="-23192 280280 -13481 -13281"/>
+			<coords loc="-21224 280280 -13481 -13281"/>
+			<coords loc="-21224 276904 -13481 -13281"/>
+			<coords loc="-23192 276904 -13481 -13281"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-22204 277056 -13381 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_3]" type="dummy">
+		<polygon>
+			<coords loc="-23192 280280 -11666 -11466"/>
+			<coords loc="-21224 280280 -11666 -11466"/>
+			<coords loc="-21224 276904 -11666 -11466"/>
+			<coords loc="-23192 276904 -11666 -11466"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-22204 277056 -11566 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_4]" type="dummy">
+		<polygon>
+			<coords loc="-23192 280280 -10020 -9820"/>
+			<coords loc="-21224 280280 -10020 -9820"/>
+			<coords loc="-21224 276904 -10020 -9820"/>
+			<coords loc="-23192 276904 -10020 -9820"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-22204 277056 -9925 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_5]" type="dummy">
+		<polygon>
+			<coords loc="-23192 280280 -8315 -8115"/>
+			<coords loc="-21224 280280 -8315 -8115"/>
+			<coords loc="-21224 276904 -8315 -8115"/>
+			<coords loc="-23192 276904 -8315 -8115"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-22204 277056 -8215 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_6]" type="dummy">
+		<polygon>
+			<coords loc="-20008 280280 -8356 -8156"/>
+			<coords loc="-18040 280280 -8356 -8156"/>
+			<coords loc="-18040 276904 -8356 -8156"/>
+			<coords loc="-20008 276904 -8356 -8156"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-19017 277056 -8256 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_7]" type="dummy">
+		<polygon>
+			<coords loc="-20008 280280 -10020 -9820"/>
+			<coords loc="-18040 280280 -10020 -9820"/>
+			<coords loc="-18040 276904 -10020 -9820"/>
+			<coords loc="-20008 276904 -10020 -9820"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-19017 277056 -9924 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_8]" type="dummy">
+		<polygon>
+			<coords loc="-20008 280280 -11748 -11548"/>
+			<coords loc="-18040 280280 -11748 -11548"/>
+			<coords loc="-18040 276904 -11748 -11548"/>
+			<coords loc="-20008 276904 -11748 -11548"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-19017 277056 -11648 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_9]" type="dummy">
+		<polygon>
+			<coords loc="-20008 280280 -13476 -13276"/>
+			<coords loc="-18040 280280 -13476 -13276"/>
+			<coords loc="-18040 276904 -13476 -13276"/>
+			<coords loc="-20008 276904 -13476 -13276"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-19017 277056 -13376 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[Infinitum_10]" type="dummy">
+		<polygon>
+			<coords loc="-20008 280280 -15140 -14940"/>
+			<coords loc="-18040 280280 -15140 -14940"/>
+			<coords loc="-18040 276904 -15140 -14940"/>
+			<coords loc="-20008 276904 -15140 -14940"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-19017 277056 -15040 0"/>
+		</restart_point>
+	</zone>
+	<zone name="[soi_hos_attack_1]" type="dummy">
+		<polygon>
+			<coords loc="-186593 207997 -9600 -9300"/>
+			<coords loc="-186045 207997 -9600 -9300"/>
+			<coords loc="-186045 208585 -9600 -9300"/>
+			<coords loc="-186593 208585 -9600 -9300"/>
+		</polygon>
+	</zone>
+	<zone name="[soi_hos_attack_2]" type="dummy">
+		<polygon>
+			<coords loc="-184757 210866 -9600 -9300"/>
+			<coords loc="-184209 210866 -9600 -9300"/>
+			<coords loc="-184209 211454 -9600 -9300"/>
+			<coords loc="-184757 211454 -9600 -9300"/>
+		</polygon>
+	</zone>
+	<zone name="[soi_hos_attack_3]" type="dummy">
+		<polygon>
+			<coords loc="-183070 213607 -9600 -9300"/>
+			<coords loc="-182522 213607 -9600 -9300"/>
+			<coords loc="-182522 214195 -9600 -9300"/>
+			<coords loc="-183070 214195 -9600 -9300"/>
+		</polygon>
+	</zone>
+	<zone name="[soi_hos_attack_4]" type="dummy">
+		<polygon>
+			<coords loc="-181201 216483 -9600 -9300"/>
+			<coords loc="-180653 216483 -9600 -9300"/>
+			<coords loc="-180653 217071 -9600 -9300"/>
+			<coords loc="-181201 217071 -9600 -9300"/>
+		</polygon>
+	</zone>
+	<zone name="[soi_hos_attack_5]" type="dummy">
+		<polygon>
+			<coords loc="-177507 217560 -9600 -9300"/>
+			<coords loc="-176959 217560 -9600 -9300"/>
+			<coords loc="-176959 218148 -9600 -9300"/>
+			<coords loc="-177507 218148 -9600 -9300"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_telzone_to_cocracon]" type="dummy">
+		<polygon>
+			<coords loc="-182178 186223 -10593 -10293"/>
+			<coords loc="-182164 187182 -10593 -10293"/>
+			<coords loc="-183010 188068 -10593 -10293"/>
+			<coords loc="-183541 187026 -10593 -10293"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_telzone_to_raptilicon]" type="dummy">
+		<polygon>
+			<coords loc="-177056 187568 -10769 -10469"/>
+			<coords loc="-177186 188192 -10769 -10469"/>
+			<coords loc="-179236 188534 -10769 -10469"/>
+			<coords loc="-178760 187618 -10769 -10469"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_telzone_from_cocracon]" type="dummy">
+		<polygon>
+			<coords loc="-213281 183864 -11042 -10842"/>
+			<coords loc="-211849 183297 -11042 -10842"/>
+			<coords loc="-213016 185336 -11042 -10842"/>
+			<coords loc="-213377 185350 -11042 -10842"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_telzone_from_raptilicon]" type="dummy">
+		<polygon>
+			<coords loc="-180517 184547 -15206 -15006"/>
+			<coords loc="-179616 184158 -15206 -15006"/>
+			<coords loc="-179308 184501 -15206 -15006"/>
+			<coords loc="-180340 185599 -15206 -15006"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_cocracon_for_melee]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6440;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-221685 172976 -13000 -4000"/>
+			<coords loc="-205845 172982 -13000 -4000"/>
+			<coords loc="-204997 187005 -13000 -4000"/>
+			<coords loc="-212959 182829 -13000 -4000"/>
+			<coords loc="-213397 182804 -13000 -4000"/>
+			<coords loc="-216745 187021 -13000 -4000"/>
+			<coords loc="-220549 187614 -13000 -4000"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_cocracon_for_archer]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6441;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-221685 172976 -13000 -4000"/>
+			<coords loc="-205845 172982 -13000 -4000"/>
+			<coords loc="-204997 187005 -13000 -4000"/>
+			<coords loc="-212959 182829 -13000 -4000"/>
+			<coords loc="-213397 182804 -13000 -4000"/>
+			<coords loc="-216745 187021 -13000 -4000"/>
+			<coords loc="-220549 187614 -13000 -4000"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_cocracon_for_mage]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6439;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-221685 172976 -13000 -4000"/>
+			<coords loc="-205845 172982 -13000 -4000"/>
+			<coords loc="-204997 187005 -13000 -4000"/>
+			<coords loc="-212959 182829 -13000 -4000"/>
+			<coords loc="-213397 182804 -13000 -4000"/>
+			<coords loc="-216745 187021 -13000 -4000"/>
+			<coords loc="-220549 187614 -13000 -4000"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_raptilicon_for_melee]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6440;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-175341 176261 -16312 -11528"/>
+			<coords loc="-170711 188069 -16312 -11528"/>
+			<coords loc="-177158 188527 -16312 -11528"/>
+			<coords loc="-179830 183055 -16312 -11528"/>
+			<coords loc="-180681 183067 -16312 -11528"/>
+			<coords loc="-184522 188504 -16312 -11528"/>
+			<coords loc="-188752 184597 -16312 -11528"/>
+			<coords loc="-186625 174239 -16312 -11528"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_raptilicon_for_archer]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6441;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-175341 176261 -16312 -11528"/>
+			<coords loc="-170711 188069 -16312 -11528"/>
+			<coords loc="-177158 188527 -16312 -11528"/>
+			<coords loc="-179830 183055 -16312 -11528"/>
+			<coords loc="-180681 183067 -16312 -11528"/>
+			<coords loc="-184522 188504 -16312 -11528"/>
+			<coords loc="-188752 184597 -16312 -11528"/>
+			<coords loc="-186625 174239 -16312 -11528"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_raptilicon_for_mage]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6439;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-175341 176261 -16312 -11528"/>
+			<coords loc="-170711 188069 -16312 -11528"/>
+			<coords loc="-177158 188527 -16312 -11528"/>
+			<coords loc="-179830 183055 -16312 -11528"/>
+			<coords loc="-180681 183067 -16312 -11528"/>
+			<coords loc="-184522 188504 -16312 -11528"/>
+			<coords loc="-188752 184597 -16312 -11528"/>
+			<coords loc="-186625 174239 -16312 -11528"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_beastacon_for_melee]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6440;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-186850 174532 -10936 -6024"/>
+			<coords loc="-170363 173029 -10936 -6024"/>
+			<coords loc="-172598 183028 -10936 -6024"/>
+			<coords loc="-176043 186755 -10936 -6024"/>
+			<coords loc="-180214 182878 -10936 -6024"/>
+			<coords loc="-186767 186465 -10936 -6024"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_beastacon_for_archer]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6441;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-186850 174532 -10936 -6024"/>
+			<coords loc="-170363 173029 -10936 -6024"/>
+			<coords loc="-172598 183028 -10936 -6024"/>
+			<coords loc="-176043 186755 -10936 -6024"/>
+			<coords loc="-180214 182878 -10936 -6024"/>
+			<coords loc="-186767 186465 -10936 -6024"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_beastacon_for_mage]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="npc"/>
+		<set name="skill_name" val="6439;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="45"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-186850 174532 -10936 -6024"/>
+			<coords loc="-170363 173029 -10936 -6024"/>
+			<coords loc="-172598 183028 -10936 -6024"/>
+			<coords loc="-176043 186755 -10936 -6024"/>
+			<coords loc="-180214 182878 -10936 -6024"/>
+			<coords loc="-186767 186465 -10936 -6024"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_cocracon_for_melee_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6443;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-221685 172976 -13000 -4000"/>
+			<coords loc="-205845 172982 -13000 -4000"/>
+			<coords loc="-204997 187005 -13000 -4000"/>
+			<coords loc="-212959 182829 -13000 -4000"/>
+			<coords loc="-213397 182804 -13000 -4000"/>
+			<coords loc="-216745 187021 -13000 -4000"/>
+			<coords loc="-220549 187614 -13000 -4000"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_cocracon_for_archer_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6444;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-221685 172976 -13000 -4000"/>
+			<coords loc="-205845 172982 -13000 -4000"/>
+			<coords loc="-204997 187005 -13000 -4000"/>
+			<coords loc="-212959 182829 -13000 -4000"/>
+			<coords loc="-213397 182804 -13000 -4000"/>
+			<coords loc="-216745 187021 -13000 -4000"/>
+			<coords loc="-220549 187614 -13000 -4000"/>
+		</polygon>
+	</zone>
+	<zone name="[13_23_cocracon_for_mage_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6442;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-221685 172976 -13000 -4000"/>
+			<coords loc="-205845 172982 -13000 -4000"/>
+			<coords loc="-204997 187005 -13000 -4000"/>
+			<coords loc="-212959 182829 -13000 -4000"/>
+			<coords loc="-213397 182804 -13000 -4000"/>
+			<coords loc="-216745 187021 -13000 -4000"/>
+			<coords loc="-220549 187614 -13000 -4000"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_raptilicon_for_melee_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6443;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-175341 176261 -16312 -11528"/>
+			<coords loc="-170711 188069 -16312 -11528"/>
+			<coords loc="-177158 188527 -16312 -11528"/>
+			<coords loc="-179830 183055 -16312 -11528"/>
+			<coords loc="-180681 183067 -16312 -11528"/>
+			<coords loc="-184522 188504 -16312 -11528"/>
+			<coords loc="-188752 184597 -16312 -11528"/>
+			<coords loc="-186625 174239 -16312 -11528"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_raptilicon_for_archer_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6444;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-175341 176261 -16312 -11528"/>
+			<coords loc="-170711 188069 -16312 -11528"/>
+			<coords loc="-177158 188527 -16312 -11528"/>
+			<coords loc="-179830 183055 -16312 -11528"/>
+			<coords loc="-180681 183067 -16312 -11528"/>
+			<coords loc="-184522 188504 -16312 -11528"/>
+			<coords loc="-188752 184597 -16312 -11528"/>
+			<coords loc="-186625 174239 -16312 -11528"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_raptilicon_for_mage_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6442;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-175341 176261 -16312 -11528"/>
+			<coords loc="-170711 188069 -16312 -11528"/>
+			<coords loc="-177158 188527 -16312 -11528"/>
+			<coords loc="-179830 183055 -16312 -11528"/>
+			<coords loc="-180681 183067 -16312 -11528"/>
+			<coords loc="-184522 188504 -16312 -11528"/>
+			<coords loc="-188752 184597 -16312 -11528"/>
+			<coords loc="-186625 174239 -16312 -11528"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_beastacon_for_melee_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6443;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-186850 174532 -10936 -6024"/>
+			<coords loc="-170363 173029 -10936 -6024"/>
+			<coords loc="-172598 183028 -10936 -6024"/>
+			<coords loc="-176043 186755 -10936 -6024"/>
+			<coords loc="-180214 182878 -10936 -6024"/>
+			<coords loc="-186767 186465 -10936 -6024"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_beastacon_for_archer_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6444;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-186850 174532 -10936 -6024"/>
+			<coords loc="-170363 173029 -10936 -6024"/>
+			<coords loc="-172598 183028 -10936 -6024"/>
+			<coords loc="-176043 186755 -10936 -6024"/>
+			<coords loc="-180214 182878 -10936 -6024"/>
+			<coords loc="-186767 186465 -10936 -6024"/>
+		</polygon>
+	</zone>
+	<zone name="[14_23_beastacon_for_mage_for_pc]" type="dummy">
+		<set name="enabled" val="false"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="6442;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="90"/>
+		<set name="initial_delay" val="1"/>
+		<set name="on_time" val="120"/>
+		<set name="off_time" val="5"/>
+		<set name="random_time" val="15"/>
+		<polygon>
+			<coords loc="-186850 174532 -10936 -6024"/>
+			<coords loc="-170363 173029 -10936 -6024"/>
+			<coords loc="-172598 183028 -10936 -6024"/>
+			<coords loc="-176043 186755 -10936 -6024"/>
+			<coords loc="-180214 182878 -10936 -6024"/>
+			<coords loc="-186767 186465 -10936 -6024"/>
+		</polygon>
+	</zone>
+	<zone name="[inner_annihilation01]" type="dummy">
+		<polygon>
+			<coords loc="-189927 170995 -17000 -7000"/>
+			<coords loc="-169927 170995 -17000 -7000"/>
+			<coords loc="-169927 190995 -17000 -7000"/>
+			<coords loc="-189927 190995 -17000 -7000"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-178256 153397 2472 0"/>
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="-178256 153397 2472 0"/>
+		</PKrestart_point>
+	</zone>
+	<zone name="[inner_annihilation02]" type="dummy">
+		<polygon>
+			<coords loc="-220965 172057 -15000 -7000"/>
+			<coords loc="-204965 172057 -15000 -7000"/>
+			<coords loc="-204965 188057 -15000 -7000"/>
+			<coords loc="-220965 188057 -15000 -7000"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-178256 153397 2472 0"/>
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="-178256 153397 2472 0"/>
+		</PKrestart_point>
+	</zone>
+	<zone name="[inner_destruction01]" type="dummy">
+		<polygon>
+			<coords loc="-253983 204764 -13600 -5600"/>
+			<coords loc="-237481 204721 -13600 -5600"/>
+			<coords loc="-237521 221261 -13600 -5600"/>
+			<coords loc="-253986 221221 -13600 -5600"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-248373 250442 4318 0"/>
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="-248373 250442 4318 0"/>
+		</PKrestart_point>
+	</zone>
+	<zone name="[inner_hellfire01]" type="dummy">
+		<polygon>
+			<coords loc="-253983 204764 -13600 -5600"/>
+			<coords loc="-237481 204721 -13600 -5600"/>
+			<coords loc="-237521 221261 -13600 -5600"/>
+			<coords loc="-253986 221221 -13600 -5600"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-248373 250442 4318 0"/>
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="-248373 250442 4318 0"/>
+		</PKrestart_point>
+	</zone>
+	<zone name="[inner_undying01]" type="dummy">
+		<polygon>
+			<coords loc="-182265 204880 -16233 -6233"/>
+			<coords loc="-171874 204865 -16233 -6233"/>
+			<coords loc="-171884 220348 -16233 -6233"/>
+			<coords loc="-188714 220333 -16233 -6233"/>
+			<coords loc="-188581 204678 -16233 -6233"/>
+			<coords loc="-184537 204665 -16233 -6233"/>
+			<coords loc="-184536 206967 -16233 -6233"/>
+			<coords loc="-182259 206962 -16233 -6233"/>
+		</polygon>
+		<restart_point>
+			<coords loc="-183285 205996 -12896 0"/>
+		</restart_point>
+		<PKrestart_point>
+			<coords loc="-183285 205996 -12896 0"/>
+		</PKrestart_point>
+	</zone>
+	<zone name="[dragon_valley]" type="dummy">
+		<polygon>
+			<coords loc="78936 115176"/>
+			<coords loc="78216 110424"/>
+			<coords loc="88472 104248"/>
+			<coords loc="97992 104088"/>
+			<coords loc="100920 106808"/>
+			<coords loc="124872 105304"/>
+			<coords loc="130952 111576"/>
+			<coords loc="126520 119112"/>
+			<coords loc="119512 122840"/>
+			<coords loc="109496 127752"/>
+			<coords loc="99464 124408"/>
+			<coords loc="98792 112856"/>
+			<coords loc="96408 114264"/>
+			<coords loc="94984 120696"/>
+			<coords loc="83784 112680"/>
+			<coords loc="80312 117819"/>
+			<coords loc="73704 119032"/>
+		</polygon>
+	</zone>
+	<zone name="[ssq_holy_burial_ground]" type="dummy">
+		<polygon>
+			<coords loc="85512 -249912 -8500 -8100"/>
+			<coords loc="85512 -249336 -8500 -8100"/>
+			<coords loc="86120 -249336 -8500 -8100"/>
+			<coords loc="86120 -249912 -8500 -8100"/>
+		</polygon>
+	</zone>
+	<zone name="[ssq_holy_seal]" type="dummy">
+		<polygon>
+			<coords loc="45704 -249320 -6800 -6600"/>
+			<coords loc="45080 -249336 -6800 -6600"/>
+			<coords loc="45080 -249944 -6800 -6600"/>
+			<coords loc="45704 -249944 -6800 -6600"/>
+		</polygon>
+	</zone>
+	<zone name="[soi_hoi_attack_echmusroom]" type="dummy">
+		<polygon>
+			<coords loc="-177965 208655 -15590 -15090"/>
+			<coords loc="-177964 210478 -15590 -15090"/>
+			<coords loc="-178652 211086 -15590 -15090"/>
+			<coords loc="-180438 211085 -15590 -15090"/>
+			<coords loc="-181117 210460 -15590 -15090"/>
+			<coords loc="-181116 208656 -15590 -15090"/>
+			<coords loc="-180437 208028 -15590 -15090"/>
+			<coords loc="-178666 208025 -15590 -15090"/>
+		</polygon>
+	</zone>
+	<zone name="[ti_presentation_video]" type="dummy">
+		<polygon>
+			<coords loc="-114216 257496 -1250 -1100"/>
+			<coords loc="-114216 257336 -1250 -1100"/>
+			<coords loc="-114536 257336 -1250 -1100"/>
+			<coords loc="-114520 257496 -1250 -1100"/>
+		</polygon>
+	</zone>
+	<zone name="[roe_presentation_video]" type="dummy">
+		<set name="present_scene_movie" val="SINEMA_ILLUSION_03_QUE"/>
+		<polygon>
+			<coords loc="-113896 229640 -1800 1550"/>
+			<coords loc="-113896 229960 -1800 1550"/>
+			<coords loc="-114248 230536 -1800 1550"/>
+			<coords loc="-115080 230888 -1800 1550"/>
+			<coords loc="-115528 229992 -1800 1550"/>
+			<coords loc="-115208 229688 -1800 1550"/>
+		</polygon>
+	</zone>
+	<zone name="[25_20_telzone_to_magmeld]" type="dummy">
+		<polygon>
+			<coords loc="175064 90840 -2320 -2150"/>
+			<coords loc="174952 90920 -2320 -2150"/>
+			<coords loc="174680 90888 -2320 -2150"/>
+			<coords loc="174808 90328 -2320 -2150"/>
+			<coords loc="175032 90344 -2320 -2150"/>
+			<coords loc="175128 90360 -2320 -2150"/>
+		</polygon>
+	</zone>
+	<zone name="[aweke_presentation_video]" type="dummy">
+		<set name="present_scene_movie" val="SCENE_AWEKENING_VIEW"/>
+		<polygon>
+			<coords loc="-115240 226520 -2950 -2800"/>
+			<coords loc="-114168 225560 -2950 -2800"/>
+			<coords loc="-113752 225528 -2950 -2800"/>
+			<coords loc="-113224 226088 -2950 -2800"/>
+			<coords loc="-113320 227688 -2950 -2800"/>
+			<coords loc="-113752 228264 -2950 -2800"/>
+			<coords loc="-115608 228280 -2950 -2800"/>
+			<coords loc="-116072 227768 -2950 -2800"/>
+			<coords loc="-116120 227256 -2950 -2800"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_to_1st]" type="dummy">
+		<polygon>
+			<coords loc="198120 90504 -445 -390"/>
+			<coords loc="198152 90680 -445 -390"/>
+			<coords loc="198280 90664 -445 -390"/>
+			<coords loc="198280 90504 -445 -390"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_to_enter]" type="dummy">
+		<polygon>
+			<coords loc="214904 52952 -7999 -7900"/>
+			<coords loc="215304 52952 -7999 -7900"/>
+			<coords loc="215272 52744 -7999 -7900"/>
+			<coords loc="215064 52760 -7999 -7900"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_1st_to_2nd]" type="dummy">
+		<polygon>
+			<coords loc="215752 52056 -8880 -8760"/>
+			<coords loc="215736 52472 -8880 -8760"/>
+			<coords loc="215960 52440 -8880 -8760"/>
+			<coords loc="215960 52088 -8880 -8760"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_2nd_to_1st]" type="dummy">
+		<polygon>
+			<coords loc="214904 52952 -14260 -14080"/>
+			<coords loc="215256 52920 -14260 -14080"/>
+			<coords loc="215272 52744 -14260 -14080"/>
+			<coords loc="215080 52760 -14260 -14080"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_2nd_to_3rd]" type="dummy">
+		<polygon>
+			<coords loc="210328 48968 -15040 15000"/>
+			<coords loc="210312 48760 -15040 15000"/>
+			<coords loc="210344 48552 -15040 15000"/>
+			<coords loc="210088 48584 -15040 15000"/>
+			<coords loc="210088 48936 -15040 15000"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_3rd_to_2nd]" type="dummy">
+		<polygon>
+			<coords loc="211272 114968 -12695 -12600"/>
+			<coords loc="211752 114984 -12695 -12600"/>
+			<coords loc="211720 114664 -12695 -12600"/>
+			<coords loc="211320 114664 -12695 -12600"/>
+		</polygon>
+	</zone>
+	<zone name="[harnak_underground_4pf_1]" type="dummy">
+		<circle loc="-107926 208860 850"/>
+	</zone>
+	<zone name="[harnak_underground_4pf_2]" type="dummy">
+		<circle loc="-107926 211416 850"/>
+	</zone>
+	<zone name="[green_zone_rune]" type="dummy">
+		<circle loc="22104 -49800 150 -1400 -1200"/>
+	</zone>
+	<zone name="[green_zone_aden]" type="dummy">
+		<circle loc="148232 14856 150 -1400 -1200"/>
+	</zone>
+	<zone name="[400061]" type="dummy">
+		<rectangle>
+			<coords loc="-110532 -10223 -12000 -11500"/>
+			<coords loc="-110862 -10685 -12000 -11500"/>
+		</rectangle>
+	</zone>
+	<zone name="[400062]" type="dummy">
+		<rectangle>
+			<coords loc="-120100 -10223 -12000 -11500"/>
+			<coords loc="-120430 -10685 -12000 -11500"/>
+		</rectangle>
+	</zone>
+	<zone name="[4600071]" type="dummy">
+		<polygon>
+			<coords loc="-116616 -10872 -12000 -11500"/>
+			<coords loc="-116616 -10024 -12000 -11500"/>
+			<coords loc="-117368 -10024 -12000 -11500"/>
+			<coords loc="-117368 -10280 -12000 -11500"/>
+			<coords loc="-117336 -10280 -12000 -11500"/>
+			<coords loc="-117336 -10344 -12000 -11500"/>
+			<coords loc="-117384 -10344 -12000 -11500"/>
+			<coords loc="-117384 -10312 -12000 -11500"/>
+			<coords loc="-117592 -10312 -12000 -11500"/>
+			<coords loc="-117592 -10344 -12000 -11500"/>
+			<coords loc="-117640 -10344 -12000 -11500"/>
+			<coords loc="-117640 -10312 -12000 -11500"/>
+			<coords loc="-118312 -9624 -12000 -11500"/>
+			<coords loc="-121272 -9624 -12000 -11500"/>
+			<coords loc="-121272 -11272 -12000 -11500"/>
+			<coords loc="-121000 -11272 -12000 -11500"/>
+			<coords loc="-121000 -11848 -12000 -11500"/>
+			<coords loc="-121640 -11848 -12000 -11500"/>
+			<coords loc="-121640 -13256 -12000 -11500"/>
+			<coords loc="-120984 -13256 -12000 -11500"/>
+			<coords loc="-120984 -13928 -12000 -11500"/>
+			<coords loc="-121960 -13912 -12000 -11500"/>
+			<coords loc="-121960 -16024 -12000 -11500"/>
+			<coords loc="-119800 -16024 -12000 -11500"/>
+			<coords loc="-119800 -13912 -12000 -11500"/>
+			<coords loc="-120712 -13912 -12000 -11500"/>
+			<coords loc="-120712 -13256 -12000 -11500"/>
+			<coords loc="-120136 -13256 -12000 -11500"/>
+			<coords loc="-120136 -11848 -12000 -11500"/>
+			<coords loc="-120728 -11848 -12000 -11500"/>
+			<coords loc="-120728 -11272 -12000 -11500"/>
+			<coords loc="-120152 -11272 -12000 -11500"/>
+			<coords loc="-120024 -11128 -12000 -11500"/>
+			<coords loc="-120056 -11192 -12000 -11500"/>
+			<coords loc="-118312 -11208 -12000 -11500"/>
+			<coords loc="-118312 -10600 -12000 -11500"/>
+			<coords loc="-117384 -10600 -12000 -11500"/>
+			<coords loc="-117400 -10856 -12000 -11500"/>
+		</polygon>
+	</zone>
+	<zone name="[4600072]" type="dummy">
+		<polygon>
+			<coords loc="-107048 -10872 -12500 -11000"/>
+			<coords loc="-107048 -10024 -12500 -11000"/>
+			<coords loc="-107800 -10024 -12500 -11000"/>
+			<coords loc="-107800 -10280 -12500 -11000"/>
+			<coords loc="-107768 -10280 -12500 -11000"/>
+			<coords loc="-107768 -10344 -12500 -11000"/>
+			<coords loc="-107816 -10344 -12500 -11000"/>
+			<coords loc="-107816 -10312 -12500 -11000"/>
+			<coords loc="-108024 -10312 -12500 -11000"/>
+			<coords loc="-108024 -10344 -12500 -11000"/>
+			<coords loc="-108072 -10344 -12500 -11000"/>
+			<coords loc="-108072 -10312 -12500 -11000"/>
+			<coords loc="-108744 -9624 -12500 -11000"/>
+			<coords loc="-111704 -9624 -12500 -11000"/>
+			<coords loc="-111704 -11272 -12500 -11000"/>
+			<coords loc="-111432 -11272 -12500 -11000"/>
+			<coords loc="-111432 -11848 -12500 -11000"/>
+			<coords loc="-112072 -11848 -12500 -11000"/>
+			<coords loc="-112072 -13256 -12500 -11000"/>
+			<coords loc="-111416 -13256 -12500 -11000"/>
+			<coords loc="-111416 -13928 -12500 -11000"/>
+			<coords loc="-112392 -13912 -12500 -11000"/>
+			<coords loc="-112392 -16024 -12500 -11000"/>
+			<coords loc="-110232 -16024 -12500 -11000"/>
+			<coords loc="-110232 -13912 -12500 -11000"/>
+			<coords loc="-111144 -13912 -12500 -11000"/>
+			<coords loc="-111144 -13256 -12500 -11000"/>
+			<coords loc="-110568 -13256 -12500 -11000"/>
+			<coords loc="-110568 -11848 -12500 -11000"/>
+			<coords loc="-111160 -11848 -12500 -11000"/>
+			<coords loc="-111160 -11272 -12500 -11000"/>
+			<coords loc="-110584 -11272 -12500 -11000"/>
+			<coords loc="-110456 -11128 -12500 -11000"/>
+			<coords loc="-110488 -11192 -12500 -11000"/>
+			<coords loc="-108744 -11208 -12500 -11000"/>
+			<coords loc="-108744 -10600 -12500 -11000"/>
+			<coords loc="-107816 -10600 -12500 -11000"/>
+			<coords loc="-107832 -10856 -12500 -11000"/>
+		</polygon>
+	</zone>
+	<zone name="[400051]" type="dummy">
+		<circle loc="207193 120570 -8000"/>
+	</zone>
+	<!-- <zone name="[SOA_3]" type="dummy"> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-186051 147493 -15290 -15320"/> -->
+			<!-- <coords loc="-186199 147732 -15290 -15320"/> -->
+			<!-- <coords loc="-186222 147884 -15290 -15320"/> -->
+			<!-- <coords loc="-186215 148031 -15290 -15320"/> -->
+			<!-- <coords loc="-186123 148124 -15290 -15320"/> -->
+			<!-- <coords loc="-186007 148193 -15290 -15320"/> -->
+			<!-- <coords loc="-185852 148217 -15290 -15320"/> -->
+			<!-- <coords loc="-185699 148193 -15290 -15320"/> -->
+			<!-- <coords loc="-185588 148128 -15290 -15320"/> -->
+			<!-- <coords loc="-185494 148028 -15290 -15320"/> -->
+			<!-- <coords loc="-185478 147888 -15290 -15320"/> -->
+			<!-- <coords loc="-185511 147723 -15290 -15320"/> -->
+			<!-- <coords loc="-185638 147526 -15290 -15320"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[aphros_zone]" type="dummy"> -->
+		<!-- <set name="enabled" val="false"/> -->
+		<!-- <set name="target" val="pc"/> -->
+		<!-- <set name="skill_prob" val="50"/> -->
+		<!-- <set name="unit_tick" val="45"/> -->
+		<!-- <set name="initial_delay" val="1"/> -->
+		<!-- <set name="on_time" val="120"/> -->
+		<!-- <set name="off_time" val="5"/> -->
+		<!-- <set name="random_time" val="15"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="214349 114604 -1000 -900"/> -->
+			<!-- <coords loc="214336 115920 -1000 -900"/> -->
+			<!-- <coords loc="213024 115920 -1000 -900"/> -->
+			<!-- <coords loc="213040 114592 -1000 -900"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[Birthing_room_0]" type="dummy"> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-177352 153272 2600 2734"/> -->
+			<!-- <coords loc="-177352 153416 2600 2752"/> -->
+			<!-- <coords loc="-177208 153432 2600 2754"/> -->
+			<!-- <coords loc="-177192 153240 2600 2733"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[Birthing_room_1]" type="dummy"> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-179736 153256 2534 2700"/> -->
+			<!-- <coords loc="-179720 153448 2555 2700"/> -->
+			<!-- <coords loc="-179544 153448 2553 2700"/> -->
+			<!-- <coords loc="-179560 153256 2529 2700"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[hellbound]" type="dummy"> -->
+		<!-- <map value="19_25"/> -->
+		<!-- <map value="19_26"/> -->
+		<!-- <map value="20_25"/> -->
+		<!-- <map value="20_26"/> -->
+	<!-- </zone> -->
+	<!-- <zone name="[baylor_zone]" type="dummy"> -->
+		<!-- <circle loc="-107926 208860 8000 -10000 -14000"/> -->
+		<!-- <restart_point> -->
+			<!-- <coords loc="149368 173624 -945"/> -->
+		<!-- </restart_point> -->
+	<!-- </zone> -->
+	<!-- <zone name="[20_14_telzone_to_tavern_1]" type="dummy"> -->
+		<!-- <circle loc="18232 -114088 200 -679 -479"/> -->
+	<!-- </zone> -->
+	<!-- <zone name="[20_14_telzone_to_tavern_2]" type="dummy"> -->
+		<!-- <circle loc="19272 -116104 200 -616 -416"/> -->
+	<!-- </zone> -->
+	<!-- <zone name="[18_13_telzone_from_tavern_1]" type="dummy"> -->
+		<!-- <circle loc="-48200 -150728 300 -14293 -14093"/> -->
+	<!-- </zone> -->
+	<!-- <zone name="[18_13_telzone_from_tavern_2]" type="dummy"> -->
+		<!-- <circle loc="-46648 -150664 300 -14106 -13906"/> -->
+	<!-- </zone> -->
+
+	<!-- <zone name="[dimensional_warp_floor_1]" type="dummy"> -->
+		<!-- <set name="floor" val="1"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-206696 241560 340 590"/> -->
+			<!-- <coords loc="-207160 242008 340 590"/> -->
+			<!-- <coords loc="-207960 241224 340 590"/> -->
+			<!-- <coords loc="-207528 240808 340 590"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_2]" type="dummy"> -->
+		<!-- <set name="floor" val="2"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-210200 238584 1020 1270"/> -->
+			<!-- <coords loc="-210136 239528 1020 1270"/> -->
+			<!-- <coords loc="-210984 240104 1020 1270"/> -->
+			<!-- <coords loc="-211864 239736 1020 1270"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_3]" type="dummy"> -->
+		<!-- <set name="floor" val="3"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-214904 238744 1530 1780"/> -->
+			<!-- <coords loc="-214648 239336 1530 1780"/> -->
+			<!-- <coords loc="-215672 239816 1530 1780"/> -->
+			<!-- <coords loc="-215960 239112 1530 1780"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_4]" type="dummy"> -->
+		<!-- <set name="floor" val="4"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-218408 241976 2130 2380"/> -->
+			<!-- <coords loc="-219144 242408 2130 2380"/> -->
+			<!-- <coords loc="-219336 240504 2130 2380"/> -->
+			<!-- <coords loc="-218488 240920 2130 2380"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_5]" type="dummy"> -->
+		<!-- <set name="floor" val="5"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-218536 245960 2720 2970"/> -->
+			<!-- <coords loc="-218536 244728 2720 2970"/> -->
+			<!-- <coords loc="-219688 244728 2720 2970"/> -->
+			<!-- <coords loc="-219688 245976 2720 2970"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_6]" type="dummy"> -->
+		<!-- <set name="floor" val="6"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-219640 249192 3310 3560"/> -->
+			<!-- <coords loc="-219112 248664 3310 3560"/> -->
+			<!-- <coords loc="-218296 249464 3310 3560"/> -->
+			<!-- <coords loc="-218840 250008 3310 3560"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_7]" type="dummy"> -->
+		<!-- <set name="floor" val="7"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-216168 251240 3990 4240"/> -->
+			<!-- <coords loc="-216120 252152 3990 4240"/> -->
+			<!-- <coords loc="-214424 251000 3990 4240"/> -->
+			<!-- <coords loc="-215384 250680 3990 4240"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_8]" type="dummy"> -->
+		<!-- <set name="floor" val="8"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-211432 252104 4500 4750"/> -->
+			<!-- <coords loc="-211736 251368 4500 4750"/> -->
+			<!-- <coords loc="-210616 250904 4500 4750"/> -->
+			<!-- <coords loc="-210328 251640 4500 4750"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_9]" type="dummy"> -->
+		<!-- <set name="floor" val="9"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-207784 249912 5100 5350"/> -->
+			<!-- <coords loc="-206968 250248 5100 5350"/> -->
+			<!-- <coords loc="-207176 248296 5100 5350"/> -->
+			<!-- <coords loc="-207912 248952 5100 5350"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_10]" type="dummy"> -->
+		<!-- <set name="floor" val="10"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-206376 245992 5680 5930"/> -->
+			<!-- <coords loc="-207576 245992 5680 5930"/> -->
+			<!-- <coords loc="-207576 244760 5680 5930"/> -->
+			<!-- <coords loc="-206328 244760 5680 5930"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_11]" type="dummy"> -->
+		<!-- <set name="floor" val="11"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-206664 241576 6530 6780"/> -->
+			<!-- <coords loc="-207208 242120 6530 6780"/> -->
+			<!-- <coords loc="-208072 241256 6530 6780"/> -->
+			<!-- <coords loc="-207496 240728 6530 6780"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_12]" type="dummy"> -->
+		<!-- <set name="floor" val="12"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-210168 239480 7220 7470"/> -->
+			<!-- <coords loc="-210184 238600 7220 7470"/> -->
+			<!-- <coords loc="-211864 239736 7220 7470"/> -->
+			<!-- <coords loc="-210936 240088 7220 7470"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_13]" type="dummy"> -->
+		<!-- <set name="floor" val="13"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-214920 238664 7720 7970"/> -->
+			<!-- <coords loc="-214616 239368 7720 7970"/> -->
+			<!-- <coords loc="-215720 239832 7720 7970"/> -->
+			<!-- <coords loc="-215992 239112 7720 7970"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_14]" type="dummy"> -->
+		<!-- <set name="floor" val="14"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-218568 240856 8330 8580"/> -->
+			<!-- <coords loc="-219368 240488 8330 8580"/> -->
+			<!-- <coords loc="-219160 242456 8330 8580"/> -->
+			<!-- <coords loc="-218408 241800 8330 8580"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_15]" type="dummy"> -->
+		<!-- <set name="floor" val="15"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-219736 244728 8910 9160"/> -->
+			<!-- <coords loc="-218472 244728 8910 9160"/> -->
+			<!-- <coords loc="-218472 245960 8910 9160"/> -->
+			<!-- <coords loc="-219752 245960 8910 9160"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_16]" type="dummy"> -->
+		<!-- <set name="floor" val="16"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-219128 248648 9830 10080"/> -->
+			<!-- <coords loc="-219672 249192 9830 10080"/> -->
+			<!-- <coords loc="-218808 250040 9830 10080"/> -->
+			<!-- <coords loc="-218280 249480 9830 10080"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_17]" type="dummy"> -->
+		<!-- <set name="floor" val="17"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-216120 251176 10510 10760"/> -->
+			<!-- <coords loc="-216104 252104 10510 10760"/> -->
+			<!-- <coords loc="-214504 251032 10510 10760"/> -->
+			<!-- <coords loc="-215464 250680 10510 10760"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_18]" type="dummy"> -->
+		<!-- <set name="floor" val="18"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-211736 251384 11020 11270"/> -->
+			<!-- <coords loc="-211448 252120 11020 11270"/> -->
+			<!-- <coords loc="-210328 251624 11020 11270"/> -->
+			<!-- <coords loc="-210632 250920 11020 11270"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_19]" type="dummy"> -->
+		<!-- <set name="floor" val="19"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-207864 249784 11620 11870"/> -->
+			<!-- <coords loc="-206984 250248 11620 11870"/> -->
+			<!-- <coords loc="-207176 248296 11620 11870"/> -->
+			<!-- <coords loc="-207928 249016 11620 11870"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_20]" type="dummy"> -->
+		<!-- <set name="floor" val="20"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-206312 245976 12200 12450"/> -->
+			<!-- <coords loc="-207608 245976 12200 12450"/> -->
+			<!-- <coords loc="-207592 244760 12200 12450"/> -->
+			<!-- <coords loc="-206296 244760 12200 12450"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_21]" type="dummy"> -->
+		<!-- <set name="floor" val="21"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-76968 -216488 3960 4210"/> -->
+			<!-- <coords loc="-76424 -217048 3960 4210"/> -->
+			<!-- <coords loc="-77304 -217928 3960 4210"/> -->
+			<!-- <coords loc="-77848 -217368 3960 4210"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_22]" type="dummy"> -->
+		<!-- <set name="floor" val="22"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-79560 -218328 4650 4900"/> -->
+			<!-- <coords loc="-79624 -219176 4650 4900"/> -->
+			<!-- <coords loc="-81288 -218040 4650 4900"/> -->
+			<!-- <coords loc="-80280 -217736 4650 4900"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_23]" type="dummy"> -->
+		<!-- <set name="floor" val="23"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-83528 -219096 5150 5400"/> -->
+			<!-- <coords loc="-83224 -218376 5150 5400"/> -->
+			<!-- <coords loc="-84376 -217896 5150 5400"/> -->
+			<!-- <coords loc="-84680 -218616 5150 5400"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_24]" type="dummy"> -->
+		<!-- <set name="floor" val="24"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-86616 -217624 5750 6000"/> -->
+			<!-- <coords loc="-87512 -218168 5750 6000"/> -->
+			<!-- <coords loc="-87272 -216120 5750 6000"/> -->
+			<!-- <coords loc="-86456 -216936 5750 6000"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_25]" type="dummy"> -->
+		<!-- <set name="floor" val="25"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-87224 -214120 6330 6580"/> -->
+			<!-- <coords loc="-85960 -214120 6330 6580"/> -->
+			<!-- <coords loc="-85960 -212888 6330 6580"/> -->
+			<!-- <coords loc="-87208 -212888 6330 6580"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_26]" type="dummy"> -->
+		<!-- <set name="floor" val="26"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-87304 -209704 6930 7180"/> -->
+			<!-- <coords loc="-86760 -210232 6930 7180"/> -->
+			<!-- <coords loc="-85896 -209384 6930 7180"/> -->
+			<!-- <coords loc="-86424 -208840 6930 7180"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_27]" type="dummy"> -->
+		<!-- <set name="floor" val="27"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-84040 -207880 7620 7870"/> -->
+			<!-- <coords loc="-84088 -206792 7620 7870"/> -->
+			<!-- <coords loc="-82440 -207928 7620 7870"/> -->
+			<!-- <coords loc="-83496 -208344 7620 7870"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_28]" type="dummy"> -->
+		<!-- <set name="floor" val="28"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-80264 -207000 8120 8370"/> -->
+			<!-- <coords loc="-80552 -207704 8120 8370"/> -->
+			<!-- <coords loc="-79400 -208184 8120 8370"/> -->
+			<!-- <coords loc="-79112 -207480 8120 8370"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_29]" type="dummy"> -->
+		<!-- <set name="floor" val="29"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-77272 -209320 8720 8970"/> -->
+			<!-- <coords loc="-76296 -208792 8720 8970"/> -->
+			<!-- <coords loc="-76520 -210824 8720 8970"/> -->
+			<!-- <coords loc="-77384 -209992 8720 8970"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_30]" type="dummy"> -->
+		<!-- <set name="floor" val="30"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-76600 -212840 9300 9550"/> -->
+			<!-- <coords loc="-77896 -212824 9300 9550"/> -->
+			<!-- <coords loc="-77880 -214072 9300 9550"/> -->
+			<!-- <coords loc="-76584 -214072 9300 9550"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_31]" type="dummy"> -->
+		<!-- <set name="floor" val="31"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-76424 -217048 10150 10400"/> -->
+			<!-- <coords loc="-76968 -216488 10150 10400"/> -->
+			<!-- <coords loc="-77848 -217384 10150 10400"/> -->
+			<!-- <coords loc="-77320 -217928 10150 10400"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_32]" type="dummy"> -->
+		<!-- <set name="floor" val="32"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-79640 -218168 10830 11080"/> -->
+			<!-- <coords loc="-79608 -219288 10830 11080"/> -->
+			<!-- <coords loc="-81352 -218120 10830 11080"/> -->
+			<!-- <coords loc="-80216 -217768 10830 11080"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_33]" type="dummy"> -->
+		<!-- <set name="floor" val="33"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-83512 -219112 11340 11590"/> -->
+			<!-- <coords loc="-83208 -218392 11340 11590"/> -->
+			<!-- <coords loc="-84376 -217912 11340 11590"/> -->
+			<!-- <coords loc="-84680 -218616 11340 11590"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_34]" type="dummy"> -->
+		<!-- <set name="floor" val="34"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-86552 -217608 11940 12190"/> -->
+			<!-- <coords loc="-87576 -218200 11940 12190"/> -->
+			<!-- <coords loc="-87352 -216104 11940 12190"/> -->
+			<!-- <coords loc="-86456 -216856 11940 12190"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[dimensional_warp_floor_35]" type="dummy"> -->
+		<!-- <set name="floor" val="35"/> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-87224 -214120 12530 12780"/> -->
+			<!-- <coords loc="-85928 -214120 12530 12780"/> -->
+			<!-- <coords loc="-85944 -212888 12530 12780"/> -->
+			<!-- <coords loc="-87240 -212888 12530 12780"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[trasken]" type="dummy"> -->
+		<!-- <circle loc="82584 -180744 1000 -9972 -9772"/> -->
+	<!-- </zone> -->
+	<!-- <zone name="[штаб_легиона_эмбрио_этаж_1]" type="dummy"> -->
+		<!-- <polygon> -->
+			<!-- <coords loc="-44088 43400 -8800 -8815"/> -->
+			<!-- <coords loc="-44168 43320 -8800 -8815"/> -->
+			<!-- <coords loc="-44184 43208 -8800 -8815"/> -->
+			<!-- <coords loc="-44088 43128 -8800 -8815"/> -->
+			<!-- <coords loc="-43976 43144 -8800 -8815"/> -->
+			<!-- <coords loc="-43896 43208 -8800 -8815"/> -->
+			<!-- <coords loc="043896 43320 -8800 -8815"/> -->
+			<!-- <coords loc="043976 43400 -8800 -8815"/> -->
+		<!-- </polygon> -->
+	<!-- </zone> -->
+	<!-- <zone name="[байлор]" type="dummy"> -->
+		<!-- <circle loc="153576 142072 380 -12836 -12636"/> -->
+	<!-- </zone> -->
+</list>

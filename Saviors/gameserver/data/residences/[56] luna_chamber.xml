@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="56" name="Luna Chamber" impl="ClanHall" grade="50" fee_item_id="57" rental_fee="1000000" min_bid="50000000" deposit="1500000">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<support level="7" lease="37000"/>
+	<support level="17" lease="370000"/>
+	<support level="8" lease="52000"/>
+	<support level="18" lease="520000"/>
+	<item_create level="1" npcId="35576" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35576" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35576" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="15" lease="3000"/>
+	<restore_exp level="25" lease="9000"/>
+	<restore_exp level="35" lease="18000"/>
+	<restore_exp level="50" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="120" lease="1500"/>
+	<restore_hp level="180" lease="2250"/>
+	<restore_hp level="240" lease="3750"/>
+	<restore_hp level="300" lease="5166"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="43889 -49101 -792" name="1010024" price="0"/><!--Village Square-->
+		<target loc="43307 -46563 -816" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="40909 -52670 -896" name="1010025" price="0"/><!--North Gate Entrance-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="43889 -49101 -792" name="1010024" price="0"/><!--Village Square-->
+		<target loc="43307 -46563 -816" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="40909 -52670 -896" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="52107 -54328 -3158" name="1010592" price="500"/><!--Forest of the Dead-->
+		<target loc="43805 -88010 -2780" name="1010537" price="500"/><!--Wild Beast Pastures-->
+		<target loc="69340 -50203 -3314" name="1010565" price="500"/><!--Swamp of Screams-->
+		<target loc="65307 -71445 -3696" name="1010600" price="500"/><!--Valley of Saints-->
+		<target loc="106414 -87799 -2949" name="1010575" price="500"/><!--Monastery of Silence-->
+		<target loc="76911 -55295 -5824" name="1010706" price="500"/><!--Shyeed's Cavern-->
+	</teleport>
+	<banish_points>
+		<point x="43858" y="-48126" z="-792"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="38712" y="-46042" z="950"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="43858" y="-48126" z="-792"/>
+	</other_restart_points>
+	<chaos_restart_points></chaos_restart_points>
+</residence>

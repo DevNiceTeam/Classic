@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<residence id="36" name="The Golden Chamber" impl="ClanHall" grade="50" fee_item_id="57" rental_fee="1000000" min_bid="50000000" deposit="1500000">
+	<support level="3" lease="7000"/>
+	<support level="13" lease="70000"/>
+	<support level="5" lease="21000"/>
+	<support level="15" lease="210000"/>
+	<support level="7" lease="37000"/>
+	<support level="17" lease="370000"/>
+	<support level="8" lease="52000"/>
+	<support level="18" lease="520000"/>
+	<item_create level="1" npcId="35439" listId="1" lease="30000"/>
+	<item_create level="2" npcId="35439" listId="2" lease="70000"/>
+	<item_create level="3" npcId="35439" listId="3" lease="140000"/>
+	<curtain level="1" lease="286"/>
+	<curtain level="2" lease="375"/>
+	<platform level="1" lease="433"/>
+	<platform level="2" lease="1333"/>
+	<restore_exp level="15" lease="3000"/>
+	<restore_exp level="25" lease="9000"/>
+	<restore_exp level="35" lease="18000"/>
+	<restore_exp level="50" lease="18000"/>
+	<restore_hp level="80" lease="1000"/>
+	<restore_hp level="120" lease="1500"/>
+	<restore_hp level="180" lease="2250"/>
+	<restore_hp level="240" lease="3750"/>
+	<restore_hp level="300" lease="5166"/>
+	<restore_mp level="5" lease="2000"/>
+	<restore_mp level="15" lease="6500"/>
+	<restore_mp level="30" lease="13750"/>
+	<restore_mp level="40" lease="20000"/>
+	<teleport level="1" lease="1000">
+		<target loc="147450 28081 -2294" name="1010024" price="0"/><!--Village Square-->
+		<target loc="151950 25094 -2172" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="142593 26344 -2425" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="147503 32299 -2501" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="147465 20737 -2130" name="1010025" price="0"/><!--North Gate Entrance-->
+	</teleport>
+	<teleport level="2" lease="2000">
+		<target loc="147450 28081 -2294" name="1010024" price="0"/><!--Village Square-->
+		<target loc="151950 25094 -2172" name="1010026" price="0"/><!--East Gate Entrance-->
+		<target loc="142593 26344 -2425" name="1010027" price="0"/><!--West Gate Entrance-->
+		<target loc="147503 32299 -2501" name="1010028" price="0"/><!--South Gate Entrance-->
+		<target loc="147465 20737 -2130" name="1010025" price="0"/><!--North Gate Entrance-->
+		<target loc="106517 -2871 -3454" name="1010127" price="500"/><!--Ancient Battleground-->
+		<target loc="124904 61992 -3973" name="1010618" price="500"/><!--Enchanted Valley, Southern Region-->
+		<target loc="104426 33746 -3825" name="1010619" price="500"/><!--Enchanted Valley, Northern Region-->
+		<target loc="155310 -16339 -3320" name="1010060" price="500"/><!--Blazing Swamp-->
+		<target loc="142065 81300 -3000" name="1010585" price="500"/><!--Forest of Mirrors-->
+		<target loc="166182 91560 -3168" name="1010607" price="500"/><!--Anghel Waterfall-->
+		<target loc="181726 -7524 -3464" name="1010137" price="500"/><!--South Entrance of Devastated Castle-->
+		<target loc="168779 -18790 -3184" name="1010192" price="500"/><!--West Area of the Devastated Castle-->
+		<target loc="184742 19745 -3168" name="1010604" price="500"/><!--Seal of Shilen-->
+		<target loc="168217 37990 -4072" name="1010143" price="500"/><!--Forsaken Plains-->
+		<target loc="114649 11115 -5120" name="1010144" price="500"/><!--Tower of Insolence-->
+		<target loc="183985 61424 -3992" name="1010702" price="500"/><!--The Giant's Cave Upper Layer-->
+		<target loc="191754 56760 -7624" name="1010703" price="500"/><!--The Giant's Cave Lower Layer-->
+	</teleport>
+	<banish_points>
+		<point x="149568" y="23024" z="-2128"/>
+	</banish_points>
+	<owner_restart_points>
+		<point x="149134" y="23140" z="-2160"/>
+	</owner_restart_points>
+	<other_restart_points>
+		<point x="149568" y="23024" z="-2128"/>
+	</other_restart_points>
+	<chaos_restart_points></chaos_restart_points>
+</residence>

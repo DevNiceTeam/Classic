@@ -1,0 +1,12 @@
+<list>
+    <skill id="90001" levels="1" name="Зелье Восстановления Маны">
+        <set name="isHandler" value="true"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuse_delay" value="10000"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_SELF"/>
+        <for>
+            <effect instant="true" name="RestoreMP" value="1000"/>
+        </for>
+    </skill>
+</list>

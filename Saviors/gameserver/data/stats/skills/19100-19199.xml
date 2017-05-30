@@ -1,0 +1,27 @@
+<list>
+    <skill id="19119" levels="1" name="Милость Дворянства">
+	<!-- В случае смерти не исчезают положительные / отрицательные эффекты. 
+	Однако исчезают Амулет удачи и Милость Дворянства. 
+	Расход Безоара: 1000 шт. -->
+		<set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_type" value="preserve_abnormal"/>
+        <set name="castRange" value="400"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="hitTime" value="4000"/>
+        <set name="icon" value="icon.skill1323"/>
+        <set name="itemConsumeCount" value="1000"/>
+        <set name="itemConsumeId" value="3031"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="mp_consume" value="500"/>
+        <set name="operateType" value="OP_ACTIVE"/>
+        <set name="reuseDelay" value="2000"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target" value="TARGET_ONE"/>
+        <for>
+            <effect name="BlessNoblesse"/>
+        </for>
+    </skill>
+</list>

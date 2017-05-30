@@ -1,0 +1,1388 @@
+<list>
+    <etcitem id="5703" name="Амулет Удачи (Без Ранга)">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_charm_of_luck_i00"/>
+        <set name="price" value="4000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="reuse_delay" value="10000"/>
+        <set name="sellable" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="10"/>
+        <set name="type" value="SCROLL"/>
+        <cond msgId="1508">
+            <player olympiad="false"/>
+        </cond>
+        <skills>
+            <skill id="2168" level="1"/>
+        </skills>
+    </etcitem>
+    <weapon id="5705" name="Кешанберк*Дамаскус">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="990"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="price" value="18567400"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="8"/>
+        <set name="weight" value="2080"/>
+        <set name="type" value="DUAL"/>
+        <enchant4_skill id="3013" level="3"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="275"/>
+            <add order="0x10" stat="mAtk" value="112"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5706" name="Дамаскус*Дамаскус">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="price" value="20741000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="variation_group_id" value="8"/>
+        <set name="weight" value="2080"/>
+        <set name="type" value="DUAL"/>
+        <enchant4_skill id="3046" level="20"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="282"/>
+            <add order="0x10" stat="mAtk" value="114"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <etcitem id="5707" name="Записи Семи Печатей">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="handler" value="Books"/>
+        <set name="icon" value="icon.etc_ssq_scroll_i00"/>
+        <set name="price" value="500"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <etcitem id="5708" name="Сертификат Лорда">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.etc_permit_card_i00"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+    </etcitem>
+    <armor id="5710" name="Рукавицы Зубея - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t64_g_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5711" name="Рукавицы Зубея - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t65_g_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5712" name="Рукавицы Зубея - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t56_g_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5714" name="Перчатки Авадона - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t66_g_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5715" name="Перчатки Авадона - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t67_g_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5716" name="Перчатки Авадона - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t59_g_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5718" name="Перчатки Синего Волка - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t68_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5719" name="Перчатки Синего Волка - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t69_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5720" name="Перчатки Синего Волка - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t70_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="590"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5722" name="Перчатки Рока - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t71_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5723" name="Перчатки Рока - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t72_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5724" name="Перчатки Рока - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t73_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5726" name="Сапоги Зубея - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t64_b_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1180"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5727" name="Сапоги Зубея - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t65_b_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1180"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5728" name="Сапоги Зубея - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t56_b_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1180"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5730" name="Сапоги Авадона - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t66_b_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1180"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5731" name="Сапоги Авадона - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t67_b_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1180"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5732" name="Сапоги Авадона - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="8"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t59_b_i00"/>
+        <set name="price" value="79820"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1180"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="41"/>
+        </for>
+    </armor>
+    <armor id="5734" name="Сапоги Синего Волка - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t68_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5735" name="Сапоги Синего Волка - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t69_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5736" name="Сапоги Синего Волка - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t70_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5738" name="Сапоги Рока - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t71_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5739" name="Сапоги Рока - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t72_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5740" name="Сапоги Рока - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t73_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="44"/>
+        </for>
+    </armor>
+    <armor id="5765" name="Перчатки Кристалла Тьмы - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t74_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5766" name="Перчатки Кристалла Тьмы - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t75_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5767" name="Перчатки Кристалла Тьмы - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t76_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5768" name="Перчатки Таллума - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t77_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5769" name="Перчатки Таллума - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t78_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5770" name="Перчатки Таллума - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t79_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="580"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5771" name="Рукавицы Кошмаров - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t80_g_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="550"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5772" name="Рукавицы Кошмаров - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t81_g_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="550"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5773" name="Рукавицы Кошмаров - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t82_g_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="550"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5774" name="Рукавицы Величия - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t83_g_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="540"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5775" name="Рукавицы Величия - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t84_g_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="540"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5776" name="Рукавицы Величия - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t85_g_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="540"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5777" name="Сапоги Кристалла Тьмы - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t74_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5778" name="Сапоги Кристалла Тьмы - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t75_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5779" name="Сапоги Кристалла Тьмы - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t76_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5780" name="Сапоги Таллума - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t77_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5781" name="Сапоги Таллума - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t78_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5782" name="Сапоги Таллума - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t79_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1130"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="46"/>
+        </for>
+    </armor>
+    <armor id="5783" name="Сапоги Кошмаров - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t80_b_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5784" name="Сапоги Кошмаров - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t81_b_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5785" name="Сапоги Кошмаров - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t82_b_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5786" name="Сапоги Величия - Тяжелый">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t83_b_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5787" name="Сапоги Величия - Легкий">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t84_b_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <armor id="5788" name="Сапоги Величия - Магический">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="A"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="icon" value="icon.armor_t85_b_i00"/>
+        <set name="price" value="1355000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1110"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pDef" value="49"/>
+        </for>
+    </armor>
+    <etcitem id="5789" name="Заряд Души: Без Ранга для Новичков">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.etc_soulshot_none_for_rookie_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1"/>
+        <set name="type" value="SOULSHOT"/>
+    </etcitem>
+    <etcitem id="5790" name="Заряд Духа: Без Ранга для Новичков">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="false"/>
+        <set name="icon" value="icon.etc_spiritshot_none_for_rookie_i00"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="tradeable" value="false"/>
+        <set name="weight" value="1"/>
+        <set name="type" value="SPIRITSHOT"/>
+    </etcitem>
+    <weapon id="5791" name="Только для Монстров (Страж Гробниц A)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="D"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="193400"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2180"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="78"/>
+            <add order="0x10" stat="mAtk" value="39"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5792" name="Только для Монстров (Страж Гробниц B)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="D"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="193400"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2180"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="78"/>
+            <add order="0x10" stat="mAtk" value="39"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5793" name="Только для Монстров (Ученый Гробниц A)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="C"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="1226000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1380"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="156"/>
+            <add order="0x10" stat="mAtk" value="83"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5794" name="Только для Монстров (Ученый Гробниц B)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="C"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="1226000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1380"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="156"/>
+            <add order="0x10" stat="mAtk" value="83"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5795" name="Только для Монстров (Страж Гробниц A)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="D"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="193400"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2180"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="78"/>
+            <add order="0x10" stat="mAtk" value="39"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5796" name="Только для Монстров (Страж Гробниц B)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="D"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="193400"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="2180"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="78"/>
+            <add order="0x10" stat="mAtk" value="39"/>
+            <set order="0x08" stat="basePAtkSpd" value="325"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5797" name="Только для Монстров (Ученый Гробниц A)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="C"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="1226000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1380"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="156"/>
+            <add order="0x10" stat="mAtk" value="83"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5798" name="Только для Монстров (Ученый Гробниц B)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="C"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="true"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="1226000"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="sellable" value="true"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1380"/>
+        <set name="ensoul_slot_count" value="1"/>
+        <set name="type" value="SWORD"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="pAtk" value="156"/>
+            <add order="0x10" stat="mAtk" value="83"/>
+            <set order="0x08" stat="basePAtkSpd" value="379"/>
+            <set order="0x08" stat="basePCritRate" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="5799" name="Только для Монстров (Лорд Нефилим)">
+        <set name="attributable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="D"/>
+        <set name="destroyable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="ensoulable" value="false"/>
+        <set name="icon" value="icon.weapon_monster_i00"/>
+        <set name="price" value="15680"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="weight" value="1320"/>
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="sDef" value="142"/>
+            <add order="0x10" stat="rShld" value="20"/>
+            <add order="0x10" stat="pEvasRate" value="-8.0"/>
+        </for>
+    </weapon>
+</list>

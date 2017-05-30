@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<event id="63" name="Wild Beast Reserve" impl="ClanHallTeamBattle">
+		<parameter name="day_of_weak" value="6"/><!--Пятница-->
+		<parameter name="hour_of_day" value="21"/><!--21:00-->
+		<on_init>
+			<spawn name="clan_hall_npcs"/>
+			<stop name="registration"/>
+			<init name="first_doors"/>
+			<init name="second_doors"/>
+			<init name="pet_doors"/>
+			<open name="pet_doors"/>
+			<init name="siege_zones"/>
+		</on_init>
+		<on_start>
+			<stop name="registration"/>
+			<open name="first_doors"/>
+			<close name="second_doors"/>
+			<spawn name="mass_teleporters"/>
+			<spawn name="tryout_part"/>
+		</on_start>
+		<on_stop>
+			<close name="first_doors"/>
+			<if name="owner">
+				<open name="second_doors"/>
+			</if>
+			<despawn name="tryout_part"/>
+			<despawn name="mass_teleporters"/>
+			<teleport_players id="spectators"/>
+			<deactive name="siege_zones"/>
+			<open name="pet_doors"/>
+		</on_stop>
+		<on_time>
+			<on time="-3600">
+				<start name="registration"/>
+			</on>
+			<on time="0">
+				<start name="event"/>
+			</on>
+			<on time="540">
+				<announce val="60"/>
+			</on>
+			<on time="570">
+				<announce val="30"/>
+			</on>
+			<on time="571">
+				<announce val="29"/>
+			</on>
+			<on time="572">
+				<announce val="28"/>
+			</on>
+			<on time="573">
+				<announce val="27"/>
+			</on>
+			<on time="574">
+				<announce val="26"/>
+			</on>
+			<on time="575">
+				<announce val="25"/>
+			</on>
+			<on time="576">
+				<announce val="24"/>
+			</on>
+			<on time="577">
+				<announce val="23"/>
+			</on>
+			<on time="578">
+				<announce val="22"/>
+			</on>
+			<on time="579">
+				<announce val="21"/>
+			</on>
+			<on time="580">
+				<announce val="20"/>
+			</on>
+			<on time="581">
+				<announce val="19"/>
+			</on>
+			<on time="582">
+				<announce val="18"/>
+			</on>
+			<on time="583">
+				<announce val="17"/>
+			</on>
+			<on time="584">
+				<announce val="16"/>
+			</on>
+			<on time="585">
+				<announce val="15"/>
+			</on>
+			<on time="586">
+				<announce val="14"/>
+			</on>
+			<on time="587">
+				<announce val="13"/>
+			</on>
+			<on time="588">
+				<announce val="12"/>
+			</on>
+			<on time="589">
+				<announce val="11"/>
+			</on>
+			<on time="590">
+				<announce val="10"/>
+			</on>
+			<on time="591">
+				<announce val="9"/>
+			</on>
+			<on time="592">
+				<announce val="8"/>
+			</on>
+			<on time="593">
+				<announce val="7"/>
+			</on>
+			<on time="594">
+				<announce val="6"/>
+			</on>
+			<on time="595">
+				<announce val="5"/>
+			</on>
+			<on time="596">
+				<announce val="4"/>
+			</on>
+			<on time="597">
+				<announce val="3"/>
+			</on>
+			<on time="598">
+				<announce val="2"/>
+			</on>
+			<on time="599">
+				<announce val="1"/>
+			</on>
+			<on time="600">
+				<close name="first_doors"/>
+				<close name="second_doors"/>
+				<close name="pet_doors"/>
+				<active name="siege_zones"/>
+				<teleport_players id="owner"/>
+				<teleport_players id="spectators"/>
+				<start name="next_step"/>
+				<spawn name="tryout_part"/>
+			</on>
+			<on time="900">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="1200">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="1500">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="1800">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="2100">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="2400">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="2700">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="3000">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="3300">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="3600">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="3900">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="4200">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="4500">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="4800">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="5100">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="5400">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="5700">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="6000">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="6300">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="6600">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="6900">
+				<give_item id="-300" count="750"/>
+			</on>
+			<on time="7200">
+				<stop name="event"/>
+			</on>
+		</on_time>
+		<objects name="clan_hall_npcs">
+			<spawn name="wild_beast_reserve_63"/>
+		</objects>
+		<objects name="tryout_part">
+		</objects>
+		<objects name="challenger_restart_points">
+			<point x="56019" y="-91918" z="-1360"/>
+			<point x="58971" y="-94265" z="-1360"/>
+			<point x="59860" y="-92133" z="-1360"/>
+			<point x="57965" y="-90683" z="-1360"/>
+			<point x="56788" y="-94219" z="-1360"/>
+		</objects>
+		<objects name="mass_teleporters">
+			<spawn_ex name="wild_beast_reserve_mass_teleporters"/>
+		</objects>
+		<objects name="first_doors">
+			<door id="21150003"/>
+			<door id="21150004"/>
+		</objects>
+		<objects name="second_doors">
+			<door id="21150001"/>
+			<door id="21150002"/>
+		</objects>
+		<objects name="pet_doors">
+			<door id="21150005"/>
+			<door id="21150006"/>
+			<door id="21150007"/>
+			<door id="21150008"/>
+			<door id="21150009"/>
+		</objects>
+		<objects name="siege_zones">
+			<zone name="[beast_farm_guildhall_siege]"/>
+		</objects>
+	</event>
+</list>
